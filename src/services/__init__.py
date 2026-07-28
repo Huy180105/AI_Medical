@@ -1,0 +1,1 @@
+"""External medical terminology services."""

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "GL-URI-001",
+    "title": "Respiratory infection initial guidance",
+    "category": "guideline",
+    "text": "For fever with cough, assess duration, respiratory rate, oxygen saturation, chest pain, shortness of breath, dehydration, and high risk conditions. Supportive care can include hydration, rest, fever control, and clinical follow up. Urgent evaluation is recommended for dyspnea, persistent high fever, confusion, cyanosis, severe chest pain, or oxygen saturation below local safety threshold.",
+    "keywords": ["fever", "cough", "respiratory infection", "paracetamol"]
+  },
+  {
+    "id": "GL-MED-001",
+    "title": "Paracetamol safety guidance",
+    "category": "guideline",
+    "text": "Paracetamol can reduce fever and mild pain. Avoid duplicate acetaminophen products and review liver disease, heavy alcohol use, age, weight, pregnancy status, and total daily dose before recommending a regimen.",
+    "keywords": ["paracetamol", "acetaminophen", "fever", "pain"]
+  },
+  {
+    "id": "GL-ABX-001",
+    "title": "Antibiotic stewardship",
+    "category": "guideline",
+    "text": "Antibiotics should not be recommended for uncomplicated viral upper respiratory infection. Consider bacterial infection only when clinical evidence supports it and local guideline criteria are met.",
+    "keywords": ["antibiotic", "respiratory infection", "bacterial infection"]
+  }
+]

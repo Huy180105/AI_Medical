@@ -1,0 +1,5 @@
+code,name,description,category,keywords
+RX-PARA,Paracetamol,Analgesic and antipyretic medicine used for fever and mild pain. Check dose interval liver disease and total daily dose,medicine,"paracetamol;acetaminophen;fever;pain"
+RX-IBU,Ibuprofen,Nonsteroidal anti inflammatory medicine used for fever pain and inflammation. Avoid in renal disease gastric ulcer and some pregnancy stages,medicine,"ibuprofen;fever;pain;inflammation"
+RX-AMOX,Amoxicillin,Beta lactam antibiotic used for selected bacterial infections only when clinically indicated,medicine,"amoxicillin;antibiotic;bacterial infection"
+RX-ORS,Oral rehydration salts,Rehydration therapy for diarrhea vomiting or dehydration risk,medicine,"ors;dehydration;diarrhea;vomiting"

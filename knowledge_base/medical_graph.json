@@ -1,0 +1,1059 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "name": "fever",
+      "type": "Symptom",
+      "aliases": [
+        "fever",
+        "sot",
+        "high temperature"
+      ],
+      "source": "ontology",
+      "id": "Symptom:fever"
+    },
+    {
+      "name": "cough",
+      "type": "Symptom",
+      "aliases": [
+        "cough",
+        "ho"
+      ],
+      "source": "ontology",
+      "id": "Symptom:cough"
+    },
+    {
+      "name": "sore throat",
+      "type": "Symptom",
+      "aliases": [
+        "sore throat",
+        "dau hong"
+      ],
+      "source": "ontology",
+      "id": "Symptom:sore_throat"
+    },
+    {
+      "name": "runny nose",
+      "type": "Symptom",
+      "aliases": [
+        "runny nose",
+        "so mui"
+      ],
+      "source": "ontology",
+      "id": "Symptom:runny_nose"
+    },
+    {
+      "name": "chest pain",
+      "type": "Symptom",
+      "aliases": [
+        "chest pain",
+        "dau nguc"
+      ],
+      "source": "ontology",
+      "id": "Symptom:chest_pain"
+    },
+    {
+      "name": "shortness of breath",
+      "type": "Symptom",
+      "aliases": [
+        "shortness of breath",
+        "dyspnea",
+        "kho tho"
+      ],
+      "source": "ontology",
+      "id": "Symptom:shortness_of_breath"
+    },
+    {
+      "name": "headache",
+      "type": "Symptom",
+      "aliases": [
+        "headache",
+        "dau dau"
+      ],
+      "source": "ontology",
+      "id": "Symptom:headache"
+    },
+    {
+      "name": "nausea",
+      "type": "Symptom",
+      "aliases": [
+        "nausea",
+        "buon non"
+      ],
+      "source": "ontology",
+      "id": "Symptom:nausea"
+    },
+    {
+      "name": "vomiting",
+      "type": "Symptom",
+      "aliases": [
+        "vomiting",
+        "non"
+      ],
+      "source": "ontology",
+      "id": "Symptom:vomiting"
+    },
+    {
+      "name": "diarrhea",
+      "type": "Symptom",
+      "aliases": [
+        "diarrhea",
+        "tieu chay"
+      ],
+      "source": "ontology",
+      "id": "Symptom:diarrhea"
+    },
+    {
+      "name": "pain",
+      "type": "Symptom",
+      "aliases": [
+        "pain",
+        "dau"
+      ],
+      "source": "ontology",
+      "id": "Symptom:pain"
+    },
+    {
+      "name": "Acute upper respiratory infection",
+      "type": "Disease",
+      "aliases": [
+        "respiratory infection",
+        "upper respiratory infection",
+        "viral infection"
+      ],
+      "source": "icd10.csv",
+      "code": "J06.9",
+      "category": "respiratory",
+      "description": "Acute upper respiratory tract infection with fever cough sore throat runny nose and fatigue",
+      "id": "Disease:acute_upper_respiratory_infection"
+    },
+    {
+      "name": "Pneumonia unspecified",
+      "type": "Disease",
+      "aliases": [
+        "pneumonia",
+        "lower respiratory infection"
+      ],
+      "source": "icd10.csv",
+      "code": "J18.9",
+      "category": "respiratory",
+      "description": "Lower respiratory infection with cough fever chest pain shortness of breath and abnormal lung findings",
+      "id": "Disease:pneumonia_unspecified"
+    },
+    {
+      "name": "Fever unspecified",
+      "type": "Disease",
+      "aliases": [
+        "febrile illness",
+        "fever"
+      ],
+      "source": "icd10.csv",
+      "code": "R50.9",
+      "category": "symptom",
+      "description": "Elevated body temperature that requires assessment of infection and warning signs",
+      "id": "Disease:fever_unspecified"
+    },
+    {
+      "name": "Cough",
+      "type": "Disease",
+      "aliases": [
+        "cough"
+      ],
+      "source": "icd10.csv",
+      "code": "R05",
+      "category": "symptom",
+      "description": "Cough symptom associated with upper respiratory infection allergy asthma or pneumonia",
+      "id": "Disease:cough"
+    },
+    {
+      "name": "Migraine unspecified",
+      "type": "Disease",
+      "aliases": [
+        "migraine",
+        "headache"
+      ],
+      "source": "icd10.csv",
+      "code": "G43.9",
+      "category": "neurology",
+      "description": "Recurrent headache often with nausea light sensitivity or vomiting",
+      "id": "Disease:migraine_unspecified"
+    },
+    {
+      "name": "Kidney disease",
+      "type": "Disease",
+      "aliases": [
+        "kidney disease",
+        "renal disease"
+      ],
+      "source": "ontology",
+      "id": "Disease:kidney_disease"
+    },
+    {
+      "name": "Liver disease",
+      "type": "Disease",
+      "aliases": [
+        "liver disease"
+      ],
+      "source": "ontology",
+      "id": "Disease:liver_disease"
+    },
+    {
+      "name": "Pregnancy",
+      "type": "Disease",
+      "aliases": [
+        "pregnancy",
+        "pregnant"
+      ],
+      "source": "ontology",
+      "id": "Disease:pregnancy"
+    },
+    {
+      "name": "Gastric ulcer",
+      "type": "Disease",
+      "aliases": [
+        "gastric ulcer",
+        "ulcer"
+      ],
+      "source": "ontology",
+      "id": "Disease:gastric_ulcer"
+    },
+    {
+      "name": "Dehydration",
+      "type": "Disease",
+      "aliases": [
+        "dehydration"
+      ],
+      "source": "ontology",
+      "id": "Disease:dehydration"
+    },
+    {
+      "name": "Bacterial infection",
+      "type": "Disease",
+      "aliases": [
+        "bacterial infection"
+      ],
+      "source": "ontology",
+      "id": "Disease:bacterial_infection"
+    },
+    {
+      "name": "Oxygen saturation",
+      "type": "Lab",
+      "aliases": [
+        "oxygen saturation",
+        "spo2"
+      ],
+      "source": "ontology",
+      "id": "Lab:oxygen_saturation"
+    },
+    {
+      "name": "Respiratory rate",
+      "type": "Lab",
+      "aliases": [
+        "respiratory rate"
+      ],
+      "source": "ontology",
+      "id": "Lab:respiratory_rate"
+    },
+    {
+      "name": "Chest X-ray",
+      "type": "Lab",
+      "aliases": [
+        "chest x-ray",
+        "xray",
+        "abnormal lung findings"
+      ],
+      "source": "ontology",
+      "id": "Lab:chest_x-ray"
+    },
+    {
+      "name": "Complete blood count",
+      "type": "Lab",
+      "aliases": [
+        "complete blood count",
+        "cbc"
+      ],
+      "source": "ontology",
+      "id": "Lab:complete_blood_count"
+    },
+    {
+      "name": "Liver function test",
+      "type": "Lab",
+      "aliases": [
+        "liver disease",
+        "liver function"
+      ],
+      "source": "ontology",
+      "id": "Lab:liver_function_test"
+    },
+    {
+      "name": "Renal function test",
+      "type": "Lab",
+      "aliases": [
+        "renal disease",
+        "kidney disease",
+        "renal function"
+      ],
+      "source": "ontology",
+      "id": "Lab:renal_function_test"
+    },
+    {
+      "name": "Clinical follow up",
+      "type": "Procedure",
+      "aliases": [
+        "clinical follow up",
+        "follow up"
+      ],
+      "source": "ontology",
+      "id": "Procedure:clinical_follow_up"
+    },
+    {
+      "name": "Hydration assessment",
+      "type": "Procedure",
+      "aliases": [
+        "hydration",
+        "dehydration"
+      ],
+      "source": "ontology",
+      "id": "Procedure:hydration_assessment"
+    },
+    {
+      "name": "Dyspnea",
+      "type": "Complication",
+      "aliases": [
+        "dyspnea",
+        "shortness of breath"
+      ],
+      "source": "ontology",
+      "id": "Complication:dyspnea"
+    },
+    {
+      "name": "Hypoxemia",
+      "type": "Complication",
+      "aliases": [
+        "oxygen saturation below",
+        "low oxygen"
+      ],
+      "source": "ontology",
+      "id": "Complication:hypoxemia"
+    },
+    {
+      "name": "Dehydration",
+      "type": "Complication",
+      "aliases": [
+        "dehydration"
+      ],
+      "source": "ontology",
+      "id": "Complication:dehydration"
+    },
+    {
+      "name": "J06.9",
+      "type": "ICD10",
+      "title": "Acute upper respiratory infection",
+      "source": "icd10.csv",
+      "id": "ICD10:j06.9"
+    },
+    {
+      "name": "J18.9",
+      "type": "ICD10",
+      "title": "Pneumonia unspecified",
+      "source": "icd10.csv",
+      "id": "ICD10:j18.9"
+    },
+    {
+      "name": "R50.9",
+      "type": "ICD10",
+      "title": "Fever unspecified",
+      "source": "icd10.csv",
+      "id": "ICD10:r50.9"
+    },
+    {
+      "name": "R05",
+      "type": "ICD10",
+      "title": "Cough",
+      "source": "icd10.csv",
+      "id": "ICD10:r05"
+    },
+    {
+      "name": "G43.9",
+      "type": "ICD10",
+      "title": "Migraine unspecified",
+      "source": "icd10.csv",
+      "id": "ICD10:g43.9"
+    },
+    {
+      "name": "Paracetamol",
+      "type": "Drug",
+      "code": "RX-PARA",
+      "category": "medicine",
+      "description": "Analgesic and antipyretic medicine used for fever and mild pain. Check dose interval liver disease and total daily dose",
+      "source": "rxnorm.csv",
+      "id": "Drug:paracetamol"
+    },
+    {
+      "name": "Ibuprofen",
+      "type": "Drug",
+      "code": "RX-IBU",
+      "category": "medicine",
+      "description": "Nonsteroidal anti inflammatory medicine used for fever pain and inflammation. Avoid in renal disease gastric ulcer and some pregnancy stages",
+      "source": "rxnorm.csv",
+      "id": "Drug:ibuprofen"
+    },
+    {
+      "name": "Amoxicillin",
+      "type": "Drug",
+      "code": "RX-AMOX",
+      "category": "medicine",
+      "description": "Beta lactam antibiotic used for selected bacterial infections only when clinically indicated",
+      "source": "rxnorm.csv",
+      "id": "Drug:amoxicillin"
+    },
+    {
+      "name": "Oral rehydration salts",
+      "type": "Drug",
+      "code": "RX-ORS",
+      "category": "medicine",
+      "description": "Rehydration therapy for diarrhea vomiting or dehydration risk",
+      "source": "rxnorm.csv",
+      "id": "Drug:oral_rehydration_salts"
+    },
+    {
+      "name": "Respiratory infection initial guidance",
+      "type": "Guideline",
+      "code": "GL-URI-001",
+      "category": "guideline",
+      "description": "For fever with cough, assess duration, respiratory rate, oxygen saturation, chest pain, shortness of breath, dehydration, and high risk conditions. Supportive care can include hydration, rest, fever control, and clinical follow up. Urgent evaluation is recommended for dyspnea, persistent high fever, confusion, cyanosis, severe chest pain, or oxygen saturation below local safety threshold.",
+      "source": "medical_guideline.json",
+      "id": "Guideline:respiratory_infection_initial_guidance"
+    },
+    {
+      "name": "Paracetamol safety guidance",
+      "type": "Guideline",
+      "code": "GL-MED-001",
+      "category": "guideline",
+      "description": "Paracetamol can reduce fever and mild pain. Avoid duplicate acetaminophen products and review liver disease, heavy alcohol use, age, weight, pregnancy status, and total daily dose before recommending a regimen.",
+      "source": "medical_guideline.json",
+      "id": "Guideline:paracetamol_safety_guidance"
+    },
+    {
+      "name": "Antibiotic stewardship",
+      "type": "Guideline",
+      "code": "GL-ABX-001",
+      "category": "guideline",
+      "description": "Antibiotics should not be recommended for uncomplicated viral upper respiratory infection. Consider bacterial infection only when clinical evidence supports it and local guideline criteria are met.",
+      "source": "medical_guideline.json",
+      "id": "Guideline:antibiotic_stewardship"
+    }
+  ],
+  "edges": [
+    {
+      "type": "mapped_to",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "ICD10:j06.9",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "Disease:fever_unspecified",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "shared_symptoms": [
+        "Symptom:fever"
+      ],
+      "target": "Disease:fever_unspecified",
+      "key": 1
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "Disease:cough",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "shared_symptoms": [
+        "Symptom:cough"
+      ],
+      "target": "Disease:cough",
+      "key": 1
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "Symptom:fever",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "Symptom:cough",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "Symptom:sore_throat",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "Symptom:runny_nose",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "Guideline:respiratory_infection_initial_guidance",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "target": "Guideline:antibiotic_stewardship",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:acute_upper_respiratory_infection",
+      "shared_symptoms": [
+        "Symptom:fever",
+        "Symptom:cough"
+      ],
+      "target": "Disease:pneumonia_unspecified",
+      "key": 0
+    },
+    {
+      "type": "mapped_to",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "ICD10:j18.9",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Disease:acute_upper_respiratory_infection",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:pneumonia_unspecified",
+      "shared_symptoms": [
+        "Symptom:fever",
+        "Symptom:cough"
+      ],
+      "target": "Disease:acute_upper_respiratory_infection",
+      "key": 1
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Disease:fever_unspecified",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:pneumonia_unspecified",
+      "shared_symptoms": [
+        "Symptom:fever"
+      ],
+      "target": "Disease:fever_unspecified",
+      "key": 1
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Disease:cough",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:pneumonia_unspecified",
+      "shared_symptoms": [
+        "Symptom:cough"
+      ],
+      "target": "Disease:cough",
+      "key": 1
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Symptom:fever",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Symptom:cough",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Symptom:chest_pain",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Symptom:shortness_of_breath",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Symptom:pain",
+      "key": 0
+    },
+    {
+      "type": "requires_test",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Lab:chest_x-ray",
+      "key": 0
+    },
+    {
+      "type": "has_complication",
+      "source": "Disease:pneumonia_unspecified",
+      "target": "Complication:dyspnea",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:pneumonia_unspecified",
+      "shared_symptoms": [
+        "Symptom:pain"
+      ],
+      "target": "Disease:migraine_unspecified",
+      "key": 0
+    },
+    {
+      "type": "mapped_to",
+      "source": "Disease:fever_unspecified",
+      "target": "ICD10:r50.9",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:fever_unspecified",
+      "target": "Symptom:fever",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:fever_unspecified",
+      "target": "Guideline:respiratory_infection_initial_guidance",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:fever_unspecified",
+      "target": "Guideline:paracetamol_safety_guidance",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:fever_unspecified",
+      "shared_symptoms": [
+        "Symptom:fever"
+      ],
+      "target": "Disease:acute_upper_respiratory_infection",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:fever_unspecified",
+      "shared_symptoms": [
+        "Symptom:fever"
+      ],
+      "target": "Disease:pneumonia_unspecified",
+      "key": 0
+    },
+    {
+      "type": "mapped_to",
+      "source": "Disease:cough",
+      "target": "ICD10:r05",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:cough",
+      "target": "Disease:acute_upper_respiratory_infection",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:cough",
+      "shared_symptoms": [
+        "Symptom:cough"
+      ],
+      "target": "Disease:acute_upper_respiratory_infection",
+      "key": 1
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:cough",
+      "target": "Disease:pneumonia_unspecified",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:cough",
+      "shared_symptoms": [
+        "Symptom:cough"
+      ],
+      "target": "Disease:pneumonia_unspecified",
+      "key": 1
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:cough",
+      "target": "Symptom:cough",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:cough",
+      "target": "Guideline:respiratory_infection_initial_guidance",
+      "key": 0
+    },
+    {
+      "type": "mapped_to",
+      "source": "Disease:migraine_unspecified",
+      "target": "ICD10:g43.9",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:migraine_unspecified",
+      "target": "Symptom:headache",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:migraine_unspecified",
+      "target": "Symptom:nausea",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:migraine_unspecified",
+      "target": "Symptom:vomiting",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Disease:migraine_unspecified",
+      "target": "Symptom:pain",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Disease:migraine_unspecified",
+      "shared_symptoms": [
+        "Symptom:pain"
+      ],
+      "target": "Disease:pneumonia_unspecified",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:liver_disease",
+      "target": "Guideline:paracetamol_safety_guidance",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:pregnancy",
+      "target": "Guideline:paracetamol_safety_guidance",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:dehydration",
+      "target": "Guideline:respiratory_infection_initial_guidance",
+      "key": 0
+    },
+    {
+      "type": "guided_by",
+      "source": "Disease:bacterial_infection",
+      "target": "Guideline:antibiotic_stewardship",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:paracetamol",
+      "target": "Disease:fever_unspecified",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:paracetamol",
+      "target": "Disease:liver_disease",
+      "key": 0
+    },
+    {
+      "type": "contraindicated_for",
+      "source": "Drug:paracetamol",
+      "target": "Disease:liver_disease",
+      "key": 1
+    },
+    {
+      "type": "treats",
+      "source": "Drug:paracetamol",
+      "target": "Symptom:fever",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:paracetamol",
+      "target": "Symptom:pain",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:ibuprofen",
+      "target": "Disease:fever_unspecified",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:ibuprofen",
+      "target": "Disease:kidney_disease",
+      "key": 0
+    },
+    {
+      "type": "contraindicated_for",
+      "source": "Drug:ibuprofen",
+      "target": "Disease:kidney_disease",
+      "key": 1
+    },
+    {
+      "type": "treats",
+      "source": "Drug:ibuprofen",
+      "target": "Disease:pregnancy",
+      "key": 0
+    },
+    {
+      "type": "contraindicated_for",
+      "source": "Drug:ibuprofen",
+      "target": "Disease:pregnancy",
+      "key": 1
+    },
+    {
+      "type": "treats",
+      "source": "Drug:ibuprofen",
+      "target": "Disease:gastric_ulcer",
+      "key": 0
+    },
+    {
+      "type": "contraindicated_for",
+      "source": "Drug:ibuprofen",
+      "target": "Disease:gastric_ulcer",
+      "key": 1
+    },
+    {
+      "type": "treats",
+      "source": "Drug:ibuprofen",
+      "target": "Symptom:fever",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:ibuprofen",
+      "target": "Symptom:vomiting",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:ibuprofen",
+      "target": "Symptom:pain",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:amoxicillin",
+      "target": "Disease:bacterial_infection",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:oral_rehydration_salts",
+      "target": "Disease:dehydration",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:oral_rehydration_salts",
+      "target": "Symptom:vomiting",
+      "key": 0
+    },
+    {
+      "type": "treats",
+      "source": "Drug:oral_rehydration_salts",
+      "target": "Symptom:diarrhea",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Disease:acute_upper_respiratory_infection",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Disease:fever_unspecified",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Disease:cough",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Disease:dehydration",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Symptom:fever",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Symptom:cough",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Symptom:chest_pain",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Symptom:shortness_of_breath",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Symptom:pain",
+      "key": 0
+    },
+    {
+      "type": "requires_test",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Lab:oxygen_saturation",
+      "key": 0
+    },
+    {
+      "type": "requires_test",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Lab:respiratory_rate",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Procedure:clinical_follow_up",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Procedure:hydration_assessment",
+      "key": 0
+    },
+    {
+      "type": "has_complication",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Complication:dyspnea",
+      "key": 0
+    },
+    {
+      "type": "has_complication",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Complication:hypoxemia",
+      "key": 0
+    },
+    {
+      "type": "has_complication",
+      "source": "Guideline:respiratory_infection_initial_guidance",
+      "target": "Complication:dehydration",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:paracetamol_safety_guidance",
+      "target": "Disease:fever_unspecified",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:paracetamol_safety_guidance",
+      "target": "Disease:liver_disease",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:paracetamol_safety_guidance",
+      "target": "Disease:pregnancy",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:paracetamol_safety_guidance",
+      "target": "Symptom:fever",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:paracetamol_safety_guidance",
+      "target": "Symptom:cough",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:paracetamol_safety_guidance",
+      "target": "Symptom:pain",
+      "key": 0
+    },
+    {
+      "type": "requires_test",
+      "source": "Guideline:paracetamol_safety_guidance",
+      "target": "Lab:liver_function_test",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:antibiotic_stewardship",
+      "target": "Disease:acute_upper_respiratory_infection",
+      "key": 0
+    },
+    {
+      "type": "related_to",
+      "source": "Guideline:antibiotic_stewardship",
+      "target": "Disease:bacterial_infection",
+      "key": 0
+    },
+    {
+      "type": "has_symptom",
+      "source": "Guideline:antibiotic_stewardship",
+      "target": "Symptom:cough",
+      "key": 0
+    }
+  ]
+}
