@@ -1,0 +1,12087 @@
+{
+  "THIẾU MEN G6PD": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "Thiếu men": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "1.txt",
+      "1.txt"
+    ]
+  },
+  "G6PD": {
+    "type": "MEDICINE",
+    "count": 5,
+    "samples": [
+      "1.txt",
+      "1.txt",
+      "1.txt"
+    ]
+  },
+  "Glucose-6-Phosphate Dehydrogenase": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "bệnh": {
+    "type": "DISEASE",
+    "count": 29,
+    "samples": [
+      "1.txt",
+      "2.txt",
+      "13.txt"
+    ]
+  },
+  "di truyền lặn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "nhiễm sắc thể X. Trẻ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "gen lặn": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "nhiễm sắc thể giới tính": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "nhiễm sắc thể X": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "đột biến gen": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "vị trí": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "1.txt",
+      "1.txt"
+    ]
+  },
+  "Xq28": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "đột biến": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "1.txt",
+      "1.txt",
+      "81.txt"
+    ]
+  },
+  "thiếu hụt": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "1.txt",
+      "39.txt"
+    ]
+  },
+  "men": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "1.txt",
+      "1.txt",
+      "1.txt"
+    ]
+  },
+  "hoạt tính": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "chuyển hóa": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "tác nhân": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "oxy hóa": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "1.txt",
+      "1.txt"
+    ]
+  },
+  "này": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "mong manh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "phá hủy": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "hóa chất": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "thiếu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "men G6PD": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "1.txt"
+    ]
+  },
+  "Kawasaki": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "2.txt",
+      "2.txt",
+      "2.txt"
+    ]
+  },
+  "sốt cấp": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "phát ban toàn thân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "viêm": {
+    "type": "DISEASE",
+    "count": 16,
+    "samples": [
+      "2.txt",
+      "17.txt",
+      "27.txt"
+    ]
+  },
+  "động mạch vành": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "Tomisaku Kawasaki": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "viêm tim": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "phình giãn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "đột tử": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "2.txt",
+      "26.txt"
+    ]
+  },
+  "nhồi máu cơ tim": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "hẹp tắc mạch vành": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "suy tim": {
+    "type": "DISEASE",
+    "count": 9,
+    "samples": [
+      "2.txt",
+      "26.txt",
+      "33.txt"
+    ]
+  },
+  "viêm mạch máu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "Nhiễm khuẩn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "nhiễm virus": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "độc tố vi khuẩn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "nhạy cảm": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "2.txt",
+      "96.txt"
+    ]
+  },
+  "chất độc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "2.txt"
+    ]
+  },
+  "run tay": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "3.txt",
+      "3.txt",
+      "64.txt"
+    ]
+  },
+  "thuốc": {
+    "type": "MEDICINE",
+    "count": 22,
+    "samples": [
+      "3.txt",
+      "3.txt",
+      "3.txt"
+    ]
+  },
+  "Nitralmyl": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "thuốcVastarel": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "trimetazidin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "run tay chân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "mất thăng bằng khi đi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "run rấy toàn thân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "đau thắt ngực": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "3.txt",
+      "26.txt",
+      "64.txt"
+    ]
+  },
+  "ổn địnhkhi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "chóng mặt": {
+    "type": "SYMPTOM",
+    "count": 11,
+    "samples": [
+      "3.txt",
+      "8.txt",
+      "8.txt"
+    ]
+  },
+  "ù tai": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "rối loạn thị lực": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "Parkinson": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "yếu sức nửa người": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "tri giác": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "giảm sút": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "nhìn song thị": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "3.txt"
+    ]
+  },
+  "buồn nôn": {
+    "type": "SYMPTOM",
+    "count": 21,
+    "samples": [
+      "4.txt",
+      "4.txt",
+      "4.txt"
+    ]
+  },
+  "tiêu chảy": {
+    "type": "SYMPTOM",
+    "count": 9,
+    "samples": [
+      "4.txt",
+      "4.txt",
+      "4.txt"
+    ]
+  },
+  "Nôn ra máu": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "4.txt",
+      "4.txt",
+      "4.txt"
+    ]
+  },
+  "hội chứng ruột kích thích": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "4.txt",
+      "4.txt"
+    ]
+  },
+  "Nội soi": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "4.txt",
+      "4.txt"
+    ]
+  },
+  "loét tá tràng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "4.txt",
+      "4.txt"
+    ]
+  },
+  "hồi tràng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "4.txt",
+      "4.txt"
+    ]
+  },
+  "nội soi": {
+    "type": "TEST",
+    "count": 9,
+    "samples": [
+      "4.txt",
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "Viêm thực quản độ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  "loét thực quản": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  "6 mm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  "điểm sắc tố": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  "loét": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  "omeprazole": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "4.txt",
+      "31.txt",
+      "82.txt"
+    ]
+  },
+  "làm": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "4.txt",
+      "55.txt"
+    ]
+  },
+  "test hơi": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  ".": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  "pylori": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  "ăn uống": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "4.txt",
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "đau bụng": {
+    "type": "SYMPTOM",
+    "count": 17,
+    "samples": [
+      "4.txt",
+      "18.txt",
+      "19.txt"
+    ]
+  },
+  "nôn ra máu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "4.txt"
+    ]
+  },
+  "nội khoa": {
+    "type": "DISEASE",
+    "count": 13,
+    "samples": [
+      "5.txt",
+      "18.txt",
+      "38.txt"
+    ]
+  },
+  "ống dẫn": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "5.txt",
+      "5.txt"
+    ]
+  },
+  "thùy gan": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "nối mật": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "RNY hepaticojejunostomy": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "ung thư biểu mô tế bào mật": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "xét nghiệm": {
+    "type": "TEST",
+    "count": 9,
+    "samples": [
+      "5.txt",
+      "5.txt",
+      "53.txt"
+    ]
+  },
+  "vô sinh": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "5.txt",
+      "5.txt",
+      "25.txt"
+    ]
+  },
+  "có thai": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "khám": {
+    "type": "TEST",
+    "count": 18,
+    "samples": [
+      "5.txt",
+      "5.txt",
+      "5.txt"
+    ]
+  },
+  "xét nghiệm tinh dịch đồ": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "xét nghiệm cận lâm sàng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "siêu âm": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "bất thường về giải phẫu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "chụp tử cung vòi trứng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "đánh giá hình thái buồng tử cung": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "thông": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "xét nghiệm nội tiết": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "đánh giá chức năng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "Kinh nguyệt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "thưa": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "tránh": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "5.txt",
+      "61.txt"
+    ]
+  },
+  "kinh nguyệt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "Hội chứng buồng trứng đa nang": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "rậm lông": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "béo phì": {
+    "type": "SYMPTOM",
+    "count": 7,
+    "samples": [
+      "5.txt",
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "siêu âm buồng trứng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "nhiều nang": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "5.txt"
+    ]
+  },
+  "khỏe": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "5.txt",
+      "31.txt",
+      "60.txt"
+    ]
+  },
+  "nôn": {
+    "type": "SYMPTOM",
+    "count": 20,
+    "samples": [
+      "5.txt",
+      "20.txt",
+      "22.txt"
+    ]
+  },
+  "sốt": {
+    "type": "SYMPTOM",
+    "count": 32,
+    "samples": [
+      "5.txt",
+      "24.txt",
+      "24.txt"
+    ]
+  },
+  "ớn lạnh": {
+    "type": "SYMPTOM",
+    "count": 6,
+    "samples": [
+      "5.txt",
+      "30.txt",
+      "30.txt"
+    ]
+  },
+  "xơ vữa động mạch": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "ăng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "Rối loạn": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "rối loạn ý thức": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "co giật": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "ngã": {
+    "type": "SYMPTOM",
+    "count": 11,
+    "samples": [
+      "6.txt",
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "xuất huyết": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "6.txt",
+      "11.txt",
+      "87.txt"
+    ]
+  },
+  "Chụp cắt lớp vi tính sọ não": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "xuất huyết dưới nhện": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "bầm dập": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "trán phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "trán - thái dương phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "dịch dưới màng cứng mỏng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "thùy trán phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "nang màng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "tụ dịch": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "tụ": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "chụp CT": {
+    "type": "TEST",
+    "count": 4,
+    "samples": [
+      "6.txt",
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "đau đầu kéo dài": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "6.txt",
+      "11.txt",
+      "23.txt"
+    ]
+  },
+  "Chụp": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "tụ máu": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "tổn thương mạn tính": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "kiểm tra": {
+    "type": "TEST",
+    "count": 5,
+    "samples": [
+      "6.txt",
+      "11.txt",
+      "23.txt"
+    ]
+  },
+  "đau đầu vùng thái dương phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "đỉnh đầu": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "tê bì nửa mặt phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "6.txt",
+      "11.txt"
+    ]
+  },
+  "da đầu": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "6.txt",
+      "11.txt",
+      "49.txt"
+    ]
+  },
+  "! Em": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "đau bao tử": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "đau": {
+    "type": "SYMPTOM",
+    "count": 28,
+    "samples": [
+      "7.txt",
+      "7.txt",
+      "7.txt"
+    ]
+  },
+  "thất thường": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "đau lại": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "tinh bột": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "7.txt",
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "nghệ tách": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "tinh dầu": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "khỏe lên": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "bôt nghệ": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "ói": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "rau": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "chuối": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "Yakult": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "đau bụng râm ran": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "dồn đạp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "7.txt",
+      "9.txt"
+    ]
+  },
+  "ho": {
+    "type": "DISEASE",
+    "count": 12,
+    "samples": [
+      "8.txt",
+      "29.txt",
+      "29.txt"
+    ]
+  },
+  "Rối loạn cảm xúc": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "8.txt",
+      "72.txt",
+      "98.txt"
+    ]
+  },
+  "trầm cảm": {
+    "type": "DISEASE",
+    "count": 9,
+    "samples": [
+      "8.txt",
+      "8.txt",
+      "23.txt"
+    ]
+  },
+  "nghiện rượu": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "8.txt",
+      "8.txt"
+    ]
+  },
+  "seroquel": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "lú": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "khó nhìn gần": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "tự tử": {
+    "type": "SYMPTOM",
+    "count": 12,
+    "samples": [
+      "8.txt",
+      "8.txt",
+      "8.txt"
+    ]
+  },
+  "Lú lẫn": {
+    "type": "SYMPTOM",
+    "count": 9,
+    "samples": [
+      "8.txt",
+      "8.txt",
+      "14.txt"
+    ]
+  },
+  "khó khăn": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "8.txt",
+      "39.txt",
+      "61.txt"
+    ]
+  },
+  "nhìn gần": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "rối loạn thị giác": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "8.txt",
+      "8.txt"
+    ]
+  },
+  "nhìn": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "8.txt",
+      "8.txt",
+      "37.txt"
+    ]
+  },
+  "con cái": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "góc mắt": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "8.txt",
+      "8.txt"
+    ]
+  },
+  "ảo giác thị giác": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "8.txt",
+      "8.txt",
+      "8.txt"
+    ]
+  },
+  "Ảo thanh": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "8.txt",
+      "8.txt"
+    ]
+  },
+  "AH": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "8.txt",
+      "8.txt"
+    ]
+  },
+  "ảo giác thính giác": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "chết": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "Khó khăn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "ảo giác": {
+    "type": "SYMPTOM",
+    "count": 17,
+    "samples": [
+      "8.txt",
+      "14.txt",
+      "14.txt"
+    ]
+  },
+  "ảo ảnh thực sự": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "bán trú": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "chụp ct sọ": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "chất trắng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "chọc dò dịch não": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "8.txt"
+    ]
+  },
+  "metoprolol": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "25": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "mg": {
+    "type": "MEDICINE",
+    "count": 5,
+    "samples": [
+      "10.txt",
+      "68.txt",
+      "68.txt"
+    ]
+  },
+  "po": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "bid": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "doxycycline": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "10.txt",
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "viêm tuyến mồ hôi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "atenolol": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "Mất việc làm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "cà phê": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "10.txt",
+      "10.txt",
+      "23.txt"
+    ]
+  },
+  "caffeine": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "10.txt",
+      "10.txt"
+    ]
+  },
+  "đánh trống ngực": {
+    "type": "SYMPTOM",
+    "count": 8,
+    "samples": [
+      "10.txt",
+      "10.txt",
+      "10.txt"
+    ]
+  },
+  "Khó thở": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "10.txt",
+      "29.txt",
+      "68.txt"
+    ]
+  },
+  "khó thở": {
+    "type": "SYMPTOM",
+    "count": 43,
+    "samples": [
+      "10.txt",
+      "10.txt",
+      "10.txt"
+    ]
+  },
+  "thắt chặt ngực vùng trước tim": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "mệt mỏi nhiều": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "10.txt",
+      "24.txt",
+      "97.txt"
+    ]
+  },
+  "gắng sức": {
+    "type": "SYMPTOM",
+    "count": 14,
+    "samples": [
+      "10.txt",
+      "18.txt",
+      "18.txt"
+    ]
+  },
+  "mệt mỏi": {
+    "type": "SYMPTOM",
+    "count": 23,
+    "samples": [
+      "10.txt",
+      "24.txt",
+      "24.txt"
+    ]
+  },
+  "luyện tập thể dục": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "thắt chặt ngực": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "10.txt"
+    ]
+  },
+  "khó chịu vùng ngực": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "10.txt",
+      "35.txt",
+      "89.txt"
+    ]
+  },
+  "Bệnh": {
+    "type": "DISEASE",
+    "count": 6,
+    "samples": [
+      "12.txt",
+      "14.txt",
+      "15.txt"
+    ]
+  },
+  "phổi kẽ": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "corticoid": {
+    "type": "MEDICINE",
+    "count": 6,
+    "samples": [
+      "12.txt",
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "liều": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "Thở oxy": {
+    "type": "TEST",
+    "count": 4,
+    "samples": [
+      "12.txt",
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "kháng enzym tổng hợp protein": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "Tăng huyết áp nguyên phát": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "phẫu thuật": {
+    "type": "TEST",
+    "count": 9,
+    "samples": [
+      "12.txt",
+      "15.txt",
+      "18.txt"
+    ]
+  },
+  "thủ thuật": {
+    "type": "TEST",
+    "count": 8,
+    "samples": [
+      "12.txt",
+      "15.txt",
+      "23.txt"
+    ]
+  },
+  "Sinh thiết": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "Corticoid liều": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "bactrim": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "12.txt",
+      "15.txt",
+      "92.txt"
+    ]
+  },
+  "Suy giảm miễn dịch": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "tổn thương vùng âm hộ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "mông bên phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "tổn thương vùng âm hộ phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "mông phải": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "12.txt",
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "tổn thương đơn độc": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "cotrimoxazol": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "doxycyclin": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "viêm mô tế bào": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "ban đỏ": {
+    "type": "SYMPTOM",
+    "count": 8,
+    "samples": [
+      "12.txt",
+      "15.txt",
+      "30.txt"
+    ]
+  },
+  "tổn thương": {
+    "type": "SYMPTOM",
+    "count": 8,
+    "samples": [
+      "12.txt",
+      "15.txt",
+      "18.txt"
+    ]
+  },
+  "bọng nước": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "đau nhiều": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "rỉ dịch": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "vàng đục": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "12.txt",
+      "15.txt"
+    ]
+  },
+  "mủ": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "12.txt",
+      "15.txt",
+      "17.txt"
+    ]
+  },
+  "chảy máu": {
+    "type": "SYMPTOM",
+    "count": 7,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "chó": {
+    "type": "DISEASE",
+    "count": 9,
+    "samples": [
+      "13.txt",
+      "13.txt",
+      "13.txt"
+    ]
+  },
+  "tiêm dại": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "nước dãi": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "nước": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "dại": {
+    "type": "DISEASE",
+    "count": 26,
+    "samples": [
+      "13.txt",
+      "13.txt",
+      "13.txt"
+    ]
+  },
+  "cắn": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "nước bọt": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "mèo": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "cào": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "liếm": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "trầy xước": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "Lyssavirus": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "Lyssaviridae": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "tủy": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "trung khu thần kinh": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "13.txt",
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "điên dạiở": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "13.txt"
+    ]
+  },
+  "đe dọa": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "13.txt",
+      "16.txt"
+    ]
+  },
+  "nổi": {
+    "type": "SYMPTOM",
+    "count": 16,
+    "samples": [
+      "14.txt",
+      "14.txt",
+      "14.txt"
+    ]
+  },
+  "dấu mề đay": {
+    "type": "SYMPTOM",
+    "count": 8,
+    "samples": [
+      "14.txt",
+      "14.txt",
+      "19.txt"
+    ]
+  },
+  "ngứa khắp người": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "14.txt",
+      "19.txt",
+      "28.txt"
+    ]
+  },
+  "khó chịu": {
+    "type": "SYMPTOM",
+    "count": 7,
+    "samples": [
+      "14.txt",
+      "19.txt",
+      "22.txt"
+    ]
+  },
+  "ngứa": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "14.txt",
+      "19.txt",
+      "28.txt"
+    ]
+  },
+  "dị ứng": {
+    "type": "DISEASE",
+    "count": 5,
+    "samples": [
+      "14.txt",
+      "19.txt",
+      "28.txt"
+    ]
+  },
+  "thời tiết": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "14.txt",
+      "19.txt",
+      "28.txt"
+    ]
+  },
+  "thức ăn": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "14.txt",
+      "19.txt",
+      "28.txt"
+    ]
+  },
+  "nổi lên": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "14.txt",
+      "19.txt",
+      "28.txt"
+    ]
+  },
+  "mạn tính": {
+    "type": "DISEASE",
+    "count": 13,
+    "samples": [
+      "14.txt",
+      "29.txt",
+      "33.txt"
+    ]
+  },
+  "bạch cầu dòng tủy mãn tính": {
+    "type": "DISEASE",
+    "count": 6,
+    "samples": [
+      "14.txt",
+      "32.txt",
+      "38.txt"
+    ]
+  },
+  "gleevec": {
+    "type": "MEDICINE",
+    "count": 11,
+    "samples": [
+      "14.txt",
+      "14.txt",
+      "32.txt"
+    ]
+  },
+  "Tăng huyết áp": {
+    "type": "DISEASE",
+    "count": 11,
+    "samples": [
+      "14.txt",
+      "26.txt",
+      "29.txt"
+    ]
+  },
+  "tăng lipid máu": {
+    "type": "DISEASE",
+    "count": 5,
+    "samples": [
+      "14.txt",
+      "32.txt",
+      "38.txt"
+    ]
+  },
+  "Đái tháo đường típ 2": {
+    "type": "DISEASE",
+    "count": 5,
+    "samples": [
+      "14.txt",
+      "29.txt",
+      "32.txt"
+    ]
+  },
+  "hẹp ống sống": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "14.txt",
+      "32.txt",
+      "38.txt"
+    ]
+  },
+  "Giả gout": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "14.txt",
+      "32.txt",
+      "38.txt"
+    ]
+  },
+  "thận mạn": {
+    "type": "DISEASE",
+    "count": 5,
+    "samples": [
+      "14.txt",
+      "29.txt",
+      "32.txt"
+    ]
+  },
+  "tăng sản tuyến tiền liệt": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "14.txt"
+    ]
+  },
+  "Toàn trạng": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "14.txt",
+      "38.txt",
+      "54.txt"
+    ]
+  },
+  "suy kiệt": {
+    "type": "SYMPTOM",
+    "count": 7,
+    "samples": [
+      "14.txt",
+      "38.txt",
+      "38.txt"
+    ]
+  },
+  "dính": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "16.txt",
+      "20.txt"
+    ]
+  },
+  "điên dại": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "16.txt"
+    ]
+  },
+  "đánh răng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "chảy máu chân răng": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "17.txt",
+      "17.txt",
+      "17.txt"
+    ]
+  },
+  "hơi thở": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "mùi khó chịu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "mảng bám quanh răng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "Vệ sinh răng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "hôi miệng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "17.txt",
+      "17.txt"
+    ]
+  },
+  "vệ sinh răng miệng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "vi khuẩn": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "17.txt",
+      "85.txt",
+      "90.txt"
+    ]
+  },
+  "tổn thương nướu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "mùi hôi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "Viêm": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "17.txt",
+      "41.txt",
+      "41.txt"
+    ]
+  },
+  "sưng": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "17.txt",
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "nhiễm vi khuẩn": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "17.txt",
+      "27.txt"
+    ]
+  },
+  "Viêm nha chu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "nhiễm trùng lợi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "đau khi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "nhai": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "răng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "lung lay": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "sưng nướu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "chảy máu răng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "Viêm nha chu nếu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "chân răng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "hư hại": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "mất răng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "viêm khớp dạng thấp": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "hô hấp": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "17.txt",
+      "29.txt",
+      "29.txt"
+    ]
+  },
+  "đột quỵ": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "17.txt",
+      "34.txt"
+    ]
+  },
+  "Thiếu canxi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "vitamin": {
+    "type": "MEDICINE",
+    "count": 5,
+    "samples": [
+      "17.txt",
+      "17.txt",
+      "66.txt"
+    ]
+  },
+  "canxi": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "loãng xương": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "sâu răng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "viêm nha chu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "Hôi miệng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "17.txt"
+    ]
+  },
+  "Tiểu đường": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "17.txt",
+      "85.txt"
+    ]
+  },
+  "Cận lâm sàng\n\nĐiện tâm đồ": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "ECG": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "chênh lên": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "chênh xuống": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "• Q": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "Men tim": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "Troponin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "T ↑": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "nhồi máu": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "18.txt",
+      "18.txt",
+      "26.txt"
+    ]
+  },
+  "CK-MB ↑": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "Siêu âm tim": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "18.txt",
+      "94.txt"
+    ]
+  },
+  "Rối loạn vận động vùng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "Đánh giá chức năng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "thất trái": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "• Phát hiện": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "thiếu máu cơ tim": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "18.txt",
+      "57.txt",
+      "58.txt"
+    ]
+  },
+  "hẹp •": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "• Ngăn": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "tưới máu tim": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "• Giảm": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "tử vong": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "18.txt",
+      "21.txt",
+      "32.txt"
+    ]
+  },
+  "Thuốc": {
+    "type": "MEDICINE",
+    "count": 5,
+    "samples": [
+      "18.txt",
+      "43.txt",
+      "43.txt"
+    ]
+  },
+  "ổn định": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "mảng xơ vữa": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "18.txt",
+      "26.txt"
+    ]
+  },
+  "Can thiệp": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "• Nong": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "Đặt stent": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "Phẫu thuật": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "CABG": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "nhiều nhánh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "mạch vành": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "18.txt",
+      "64.txt"
+    ]
+  },
+  "tiên phát": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "mỡ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "ít muối": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "18.txt"
+    ]
+  },
+  "PCP": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "19.txt",
+      "57.txt"
+    ]
+  },
+  "PCP khuyên": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "19.txt"
+    ]
+  },
+  "tylenol": {
+    "type": "MEDICINE",
+    "count": 6,
+    "samples": [
+      "19.txt",
+      "19.txt",
+      "19.txt"
+    ]
+  },
+  "táo bón": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "19.txt",
+      "47.txt"
+    ]
+  },
+  "đau hố chậu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "19.txt"
+    ]
+  },
+  "quả": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "19.txt"
+    ]
+  },
+  "mận": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "19.txt"
+    ]
+  },
+  "PCP Như": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "19.txt"
+    ]
+  },
+  "hồngi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "20.txt"
+    ]
+  },
+  "bụng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "20.txt"
+    ]
+  },
+  "hạ sườn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "20.txt"
+    ]
+  },
+  "Buồn nôn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "20.txt"
+    ]
+  },
+  "Rối loạn chuyển hóa tinh bột": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "21.txt",
+      "32.txt",
+      "79.txt"
+    ]
+  },
+  "amyloidosis": {
+    "type": "DISEASE",
+    "count": 11,
+    "samples": [
+      "21.txt",
+      "21.txt",
+      "21.txt"
+    ]
+  },
+  "da liễu trung ương": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "21.txt",
+      "32.txt",
+      "79.txt"
+    ]
+  },
+  "thoái hóa tinh bột": {
+    "type": "DISEASE",
+    "count": 8,
+    "samples": [
+      "21.txt",
+      "21.txt",
+      "21.txt"
+    ]
+  },
+  "lắng đọng protein": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "21.txt",
+      "32.txt",
+      "79.txt"
+    ]
+  },
+  "amyloid": {
+    "type": "MEDICINE",
+    "count": 11,
+    "samples": [
+      "21.txt",
+      "21.txt",
+      "21.txt"
+    ]
+  },
+  "protein": {
+    "type": "MEDICINE",
+    "count": 7,
+    "samples": [
+      "21.txt",
+      "21.txt",
+      "21.txt"
+    ]
+  },
+  "lắng đọng": {
+    "type": "SYMPTOM",
+    "count": 8,
+    "samples": [
+      "21.txt",
+      "21.txt",
+      "21.txt"
+    ]
+  },
+  "suy": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "21.txt",
+      "32.txt",
+      "79.txt"
+    ]
+  },
+  "da": {
+    "type": "SYMPTOM",
+    "count": 6,
+    "samples": [
+      "21.txt",
+      "33.txt",
+      "59.txt"
+    ]
+  },
+  "bàng quang": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "21.txt",
+      "79.txt"
+    ]
+  },
+  "ung thư": {
+    "type": "DISEASE",
+    "count": 5,
+    "samples": [
+      "21.txt",
+      "49.txt",
+      "66.txt"
+    ]
+  },
+  "ung thư máu": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "21.txt",
+      "79.txt"
+    ]
+  },
+  "đa u tủy": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "21.txt",
+      "79.txt"
+    ]
+  },
+  "cao": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "22.txt",
+      "22.txt"
+    ]
+  },
+  "acetaminophen": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "22.txt",
+      "44.txt"
+    ]
+  },
+  "500mg": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  ",": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "taking": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "10": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "pills": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "at": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "a time": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "đau dữ dội": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "22.txt",
+      "34.txt"
+    ]
+  },
+  "chai": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "an thần": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "đau bụng liên tục": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "22.txt",
+      "22.txt"
+    ]
+  },
+  "tăng men": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "22.txt",
+      "44.txt"
+    ]
+  },
+  "mệt mỏi toàn thân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "yếu sức": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "ngứa toàn thân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "tiểu ra máu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "Đau vùng gan phải": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "RUQ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "thượng vị": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "đại tiện": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "phân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "máu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "đen": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "acetaminophen 500mg": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "22.txt"
+    ]
+  },
+  "chè": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "23.txt"
+    ]
+  },
+  "thuốc lá": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "23.txt",
+      "94.txt"
+    ]
+  },
+  "chu kỳ kinh nguyệt": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "23.txt"
+    ]
+  },
+  "mãn kinh": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "23.txt",
+      "23.txt"
+    ]
+  },
+  "đổ mồ hôi đêm": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "23.txt",
+      "42.txt",
+      "62.txt"
+    ]
+  },
+  "bốc hỏa": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "23.txt"
+    ]
+  },
+  "gián đoạn giấc ngủ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "23.txt"
+    ]
+  },
+  "Mất ngủ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "23.txt"
+    ]
+  },
+  "thai kỳ": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "23.txt",
+      "54.txt"
+    ]
+  },
+  "chấn tâm lý": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "23.txt"
+    ]
+  },
+  "rối loạn lo âu": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "23.txt",
+      "69.txt"
+    ]
+  },
+  "stress": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "23.txt"
+    ]
+  },
+  "làm việc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "23.txt"
+    ]
+  },
+  "chất": {
+    "type": "MEDICINE",
+    "count": 5,
+    "samples": [
+      "23.txt",
+      "72.txt",
+      "72.txt"
+    ]
+  },
+  "đặt": {
+    "type": "TEST",
+    "count": 7,
+    "samples": [
+      "23.txt",
+      "23.txt",
+      "45.txt"
+    ]
+  },
+  "chứng": {
+    "type": "DISEASE",
+    "count": 7,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "45.txt"
+    ]
+  },
+  "tăng nhãn áp": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "mờ mắt": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "45.txt"
+    ]
+  },
+  "nhìn mờ": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "não úng tủy": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "dẫn": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "lưu shunt": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "não úng thủy": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "tăng đau đầu": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "23.txt",
+      "45.txt",
+      "45.txt"
+    ]
+  },
+  "vàng da": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "24.txt",
+      "24.txt",
+      "24.txt"
+    ]
+  },
+  "vàng mắt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "nhiễm trùng nhiễm độc": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "sốt nhẹ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "37": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "sốt nóng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "gai rét": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "rét run": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "viên": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "24.txt",
+      "25.txt",
+      "57.txt"
+    ]
+  },
+  "paracetamol viên": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "sủi": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "vàng niêm mạc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "sốt bn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "nằm": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "24.txt",
+      "62.txt",
+      "62.txt"
+    ]
+  },
+  "bn": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "24.txt",
+      "24.txt",
+      "87.txt"
+    ]
+  },
+  "ăn ngủ tốt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "N": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "HBsAg": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "Anti HBe": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "Anti": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "24.txt",
+      "24.txt"
+    ]
+  },
+  "HBc IgG": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "HBc IgM": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "viêm gan vàng da ứ mật": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "da niêm mạc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "vàng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "nước tiểu": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "24.txt",
+      "24.txt",
+      "59.txt"
+    ]
+  },
+  "ít": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "vàng sậm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "nước vối": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "trong": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "bờ sườn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "mềm": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "24.txt",
+      "46.txt",
+      "80.txt"
+    ]
+  },
+  "nhẵn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "ấn tức": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "24.txt"
+    ]
+  },
+  "sd": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "25.txt",
+      "25.txt",
+      "25.txt"
+    ]
+  },
+  "*": {
+    "type": "MEDICINE",
+    "count": 15,
+    "samples": [
+      "25.txt",
+      "25.txt",
+      "25.txt"
+    ]
+  },
+  "vien": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "25.txt",
+      "25.txt",
+      "25.txt"
+    ]
+  },
+  "bcs": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "invisible": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "sì nước": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "test": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "là": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "trễ kinh ạ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "kinh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "đều": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "25.txt",
+      "40.txt",
+      "40.txt"
+    ]
+  },
+  "tránh thai": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "25.txt",
+      "61.txt"
+    ]
+  },
+  "tắc ống": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "teo niêm mạc tử cung": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "rụng trứng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "25.txt"
+    ]
+  },
+  "BỆNH MẠCH VÀNH": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "Coronary": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "Artery Disease": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "CAD": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "Bệnh mạch vành": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "26.txt",
+      "26.txt"
+    ]
+  },
+  "hẹp": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "tắc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "nuôi dưỡng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "xơ vữa": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "tưới máu": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "26.txt",
+      "29.txt"
+    ]
+  },
+  "thiếu oxy": {
+    "type": "SYMPTOM",
+    "count": 6,
+    "samples": [
+      "26.txt",
+      "42.txt",
+      "51.txt"
+    ]
+  },
+  "Xơ vữa động mạch vành": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "LDL-cholesterol": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "Lắng đọng lipid": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "to dần": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "tắc mạch": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "Béo phì": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "ít vận động": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "Đau thắt ngực": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "26.txt",
+      "26.txt"
+    ]
+  },
+  "xương ức": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "đè nặng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "bóp nghẹt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "thắt chặt Lan": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "vai trái": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "cánh tay trái": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "26.txt",
+      "33.txt",
+      "33.txt"
+    ]
+  },
+  "cổ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "26.txt",
+      "71.txt"
+    ]
+  },
+  "hàm dưới": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "nitroglycerin": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "26.txt",
+      "64.txt"
+    ]
+  },
+  "Hội chứng vành": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "26.txt"
+    ]
+  },
+  "viêm phổi hoại tử": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "viêm phổi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "áp xe phổi": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "27.txt",
+      "27.txt"
+    ]
+  },
+  "VP": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "VPHT": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "bệnh sinh": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "Viêm phổi": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "27.txt",
+      "27.txt",
+      "40.txt"
+    ]
+  },
+  "viêm phế quản, phế nang": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "suy giảm miễn dịch": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "hoại tử nhu mô phổi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "Viêm phổi hoại tử": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "bệnh lý phổi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "hang": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "áp-xe": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "nhu mô phổi": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "27.txt",
+      "27.txt",
+      "27.txt"
+    ]
+  },
+  "tổn thương màng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "Áp xe phổi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "nung mủ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "27.txt",
+      "27.txt"
+    ]
+  },
+  "hoại tử": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "ổ viêm hóa mủ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "đông đặc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "phục hội": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "ổ viêm": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "hoại tử lan": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "27.txt"
+    ]
+  },
+  "MÀY ĐAY": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "28.txt",
+      "28.txt",
+      "52.txt"
+    ]
+  },
+  "VÔ CĂN": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "28.txt",
+      "52.txt"
+    ]
+  },
+  "MẠN TÍNH": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "28.txt",
+      "52.txt"
+    ]
+  },
+  "học": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "28.txt"
+    ]
+  },
+  "lympho T": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "28.txt",
+      "52.txt"
+    ]
+  },
+  "đại thực bào": {
+    "type": "MEDICINE",
+    "count": 6,
+    "samples": [
+      "28.txt",
+      "30.txt",
+      "44.txt"
+    ]
+  },
+  "kính hiển vi quang học": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "28.txt",
+      "52.txt"
+    ]
+  },
+  "kính hiển vi điện tử": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "28.txt",
+      "52.txt"
+    ]
+  },
+  "nội Các": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "Bệnh bạch cầu dòng tủy mãn tính": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "Rung nhĩ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "thất nhanh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "nghẹt ngực": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "29.txt",
+      "29.txt",
+      "62.txt"
+    ]
+  },
+  "nhiệt độ cao": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "38,3°C": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "tăng dần": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "phù ngoại": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "đau vai": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "suy hô hấp": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "tăng huyết áp": {
+    "type": "SYMPTOM",
+    "count": 9,
+    "samples": [
+      "29.txt",
+      "33.txt",
+      "43.txt"
+    ]
+  },
+  "lợi tiểu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "thở áp lực": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "BiPAP": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "29.txt",
+      "67.txt"
+    ]
+  },
+  "hỗ trợ": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "nhiễm": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "khuẩn huyết": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "tụ cầu vàng nhạy cảm methicillin": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "đường": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "PICC": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "Siêu âm mạch máu chi": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "huyết khối": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "xạ hình thông khí": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "thuyên tắc phổi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "29.txt"
+    ]
+  },
+  "mãn tính": {
+    "type": "DISEASE",
+    "count": 6,
+    "samples": [
+      "30.txt",
+      "72.txt",
+      "85.txt"
+    ]
+  },
+  "tim mạch": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "thận": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "methadone": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "2": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "30.txt",
+      "40.txt"
+    ]
+  },
+  "phù": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "30.txt",
+      "30.txt",
+      "40.txt"
+    ]
+  },
+  "đau tăng dần": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "30.txt",
+      "30.txt",
+      "30.txt"
+    ]
+  },
+  "đi lại": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "30.txt",
+      "30.txt",
+      "57.txt"
+    ]
+  },
+  "phù hai bên": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "RL": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "30.txt",
+      "30.txt"
+    ]
+  },
+  "Chân phải": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "lơ mơ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "tỉnh táo": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "tiền sử": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "phù hai": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "RL Câu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "MÀY": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "đay VÔ CĂN": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "MÀY đay MẠN": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "30.txt",
+      "44.txt",
+      "76.txt"
+    ]
+  },
+  "Tổ thương mô bệnh học": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "30.txt",
+      "44.txt",
+      "76.txt"
+    ]
+  },
+  "bạch huyết T": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "30.txt",
+      "44.txt",
+      "76.txt"
+    ]
+  },
+  "kính": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "30.txt",
+      "44.txt",
+      "44.txt"
+    ]
+  },
+  "hiển thị": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "30.txt",
+      "44.txt"
+    ]
+  },
+  "vi quang học": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "30.txt"
+    ]
+  },
+  "NSAID": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "31.txt",
+      "82.txt"
+    ]
+  },
+  "đau đầu gối": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "31.txt",
+      "77.txt",
+      "82.txt"
+    ]
+  },
+  "giãn thừng tinh 2.5mm 1 bên": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "giãn": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "31.txt",
+      "77.txt",
+      "77.txt"
+    ]
+  },
+  "đau nhẹ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "nóng phần tinh hoàn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "covid": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "vào hcm": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "ảnh hưởng tinh trùng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "sinh sản": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "Giãn thừng tinh": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "vô sinh thứ phát": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "giãn thừng tinh": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "hạ sườn phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "31.txt",
+      "31.txt"
+    ]
+  },
+  "chướng bụng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "31.txt",
+      "82.txt"
+    ]
+  },
+  "buồn nôn thoáng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "31.txt",
+      "82.txt"
+    ]
+  },
+  "Nôn mửa": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "đau lưng âm ỉ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "31.txt"
+    ]
+  },
+  "đau lưng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "31.txt",
+      "82.txt"
+    ]
+  },
+  "tăng sản tuyến": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "32.txt",
+      "38.txt",
+      "54.txt"
+    ]
+  },
+  "rung nhĩ": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "33.txt",
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "béo phì Cháu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "nhiều dầu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "mụn trứng cá": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "33.txt",
+      "41.txt",
+      "59.txt"
+    ]
+  },
+  "dầu": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "33.txt",
+      "59.txt",
+      "60.txt"
+    ]
+  },
+  "mụn": {
+    "type": "SYMPTOM",
+    "count": 13,
+    "samples": [
+      "33.txt",
+      "33.txt",
+      "33.txt"
+    ]
+  },
+  "lên mụn": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "33.txt",
+      "41.txt",
+      "59.txt"
+    ]
+  },
+  "mụn cám": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "33.txt",
+      "59.txt",
+      "60.txt"
+    ]
+  },
+  "mụn đầu trắng": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "33.txt",
+      "59.txt",
+      "60.txt"
+    ]
+  },
+  "sức khoẻ sinh sản cộng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "lên lại": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "33.txt",
+      "59.txt",
+      "60.txt"
+    ]
+  },
+  "dầu mụn": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "33.txt",
+      "59.txt",
+      "60.txt"
+    ]
+  },
+  "tái phát": {
+    "type": "SYMPTOM",
+    "count": 6,
+    "samples": [
+      "33.txt",
+      "41.txt",
+      "59.txt"
+    ]
+  },
+  "weak": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "ngủ": {
+    "type": "SYMPTOM",
+    "count": 8,
+    "samples": [
+      "33.txt",
+      "42.txt",
+      "51.txt"
+    ]
+  },
+  "quên": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "ngất xỉu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "Đau buốt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "đi tiểu": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "33.txt",
+      "42.txt",
+      "42.txt"
+    ]
+  },
+  "chán ăn": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "33.txt",
+      "61.txt",
+      "73.txt"
+    ]
+  },
+  "ăn": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "33.txt",
+      "82.txt"
+    ]
+  },
+  "đau ngực": {
+    "type": "SYMPTOM",
+    "count": 7,
+    "samples": [
+      "33.txt",
+      "42.txt",
+      "47.txt"
+    ]
+  },
+  "nhói": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "tê bì": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "bàn tay": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "33.txt"
+    ]
+  },
+  "đau vừa hoặc đau dữ dội, cơn đau tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, sợ ánh sáng, sợ tiếng động, căng thẳng.\n-Với tình trạng đau nửa đầu dữ dội": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "hơi sốt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "đau nửa": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "Migraine": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "đau nửa đầu": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "34.txt",
+      "34.txt",
+      "34.txt"
+    ]
+  },
+  "đau cả hai bên": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "mạch đập": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "34.txt",
+      "34.txt"
+    ]
+  },
+  "thị giác": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "nhòe": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "ruồi bay": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "đau vừa": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "sợ ánh sáng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "sợ tiếng động": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "căng thẳng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "34.txt",
+      "93.txt"
+    ]
+  },
+  "đau đầu": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "34.txt",
+      "45.txt",
+      "45.txt"
+    ]
+  },
+  "viêm xoang": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "trái hành hạ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "sức khỏe": {
+    "type": "DISEASE",
+    "count": 7,
+    "samples": [
+      "34.txt",
+      "39.txt",
+      "55.txt"
+    ]
+  },
+  "suy giảm trí nhớ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "khó tập trung": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "suy thoái": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "mất thị lực": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "34.txt"
+    ]
+  },
+  "xét nghiệm gắng sức": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "35.txt"
+    ]
+  },
+  "gián đoạn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "35.txt"
+    ]
+  },
+  "đổ mồ hôi": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "35.txt",
+      "89.txt"
+    ]
+  },
+  "Gián đoạn": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "35.txt",
+      "89.txt"
+    ]
+  },
+  "Chiếu r xạ": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "35.txt",
+      "89.txt"
+    ]
+  },
+  "đổ mồ hôi Các": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "35.txt",
+      "89.txt"
+    ]
+  },
+  "xét nghiệm gắng sức bất thường": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "35.txt",
+      "89.txt",
+      "89.txt"
+    ]
+  },
+  "thăm khám lâm sàng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "35.txt"
+    ]
+  },
+  "Viêm hang vị sung huyết": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "35.txt",
+      "56.txt",
+      "67.txt"
+    ]
+  },
+  "giãn nở": {
+    "type": "SYMPTOM",
+    "count": 6,
+    "samples": [
+      "35.txt",
+      "44.txt",
+      "56.txt"
+    ]
+  },
+  "ứ máu nhiều": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "35.txt",
+      "56.txt",
+      "67.txt"
+    ]
+  },
+  "đau bụng cồn cào": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "35.txt",
+      "56.txt",
+      "67.txt"
+    ]
+  },
+  "ợ hơi": {
+    "type": "SYMPTOM",
+    "count": 6,
+    "samples": [
+      "35.txt",
+      "42.txt",
+      "56.txt"
+    ]
+  },
+  "ợ chua": {
+    "type": "SYMPTOM",
+    "count": 6,
+    "samples": [
+      "35.txt",
+      "42.txt",
+      "56.txt"
+    ]
+  },
+  "bệnh dạ dày": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "35.txt",
+      "56.txt",
+      "67.txt"
+    ]
+  },
+  "nan y": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "35.txt",
+      "56.txt",
+      "67.txt"
+    ]
+  },
+  "viêm sung huyết hang vị dạ dày": {
+    "type": "DISEASE",
+    "count": 9,
+    "samples": [
+      "35.txt",
+      "56.txt",
+      "56.txt"
+    ]
+  },
+  "thăm khám": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "35.txt",
+      "67.txt"
+    ]
+  },
+  "nội soi dạ dày": {
+    "type": "TEST",
+    "count": 6,
+    "samples": [
+      "35.txt",
+      "42.txt",
+      "56.txt"
+    ]
+  },
+  "nặng mặt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "tức nặng 2 chi dưới": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "tiểu ít": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "Hội chứng thận hư": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "Phù": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "phù 2 chi dưới": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "phù tăng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "phù mặt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "phù nhẹ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "2 chi dưới": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "Albumin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "Triglycerid": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "36.txt",
+      "58.txt"
+    ]
+  },
+  "6,7": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "mmol": {
+    "type": "MEDICINE",
+    "count": 11,
+    "samples": [
+      "36.txt",
+      "36.txt",
+      "36.txt"
+    ]
+  },
+  "Tổn thương cầu thận mạn tính": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "nước tiểu protein": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "HC": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "36.txt",
+      "36.txt"
+    ]
+  },
+  "Trụ niệu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "trụ trong": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "trụ sáp": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "trụ hình hạt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "sỏi đài": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "niệu quản": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "viêm cầu thận": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "suy thận": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "Ure": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "36.txt",
+      "97.txt"
+    ]
+  },
+  "6,4": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "Creatinin": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "36.txt",
+      "87.txt"
+    ]
+  },
+  "79": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "micromol": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "thiếu máu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "T": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "HST": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "K": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "36.txt"
+    ]
+  },
+  "tai": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "37.txt",
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "lỗ tai": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "vành tai": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "37.txt",
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "đo âm tai": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "nghe nói": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "lỗ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "to": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "37.txt",
+      "48.txt",
+      "77.txt"
+    ]
+  },
+  "vành tai đẹp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "nghe": {
+    "type": "SYMPTOM",
+    "count": 6,
+    "samples": [
+      "37.txt",
+      "37.txt",
+      "37.txt"
+    ]
+  },
+  "bìng thường": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "mở mắt nhìn": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "37.txt",
+      "48.txt"
+    ]
+  },
+  "trêu chọc": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "37.txt",
+      "48.txt",
+      "69.txt"
+    ]
+  },
+  "âm hộ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "37.txt"
+    ]
+  },
+  "mông": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "37.txt"
+    ]
+  },
+  "đau đớn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "37.txt"
+    ]
+  },
+  "chảy mủ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "37.txt"
+    ]
+  },
+  "đặc hiệu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "38.txt"
+    ]
+  },
+  "Toàn trạng suy kiệt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "38.txt"
+    ]
+  },
+  "ảo giác dai dẳng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "38.txt"
+    ]
+  },
+  "Cực kỳ yếu": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "38.txt",
+      "54.txt"
+    ]
+  },
+  "yếu cơ": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "38.txt",
+      "38.txt",
+      "54.txt"
+    ]
+  },
+  "toàn trạng": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "38.txt",
+      "54.txt",
+      "73.txt"
+    ]
+  },
+  "Ăn uống": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "38.txt",
+      "38.txt"
+    ]
+  },
+  "kém": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "38.txt",
+      "38.txt",
+      "73.txt"
+    ]
+  },
+  "Nôn": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "38.txt",
+      "38.txt"
+    ]
+  },
+  "ra máu": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "38.txt",
+      "38.txt"
+    ]
+  },
+  "ra dịch mật": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "38.txt"
+    ]
+  },
+  "ảo giác bình thường": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "38.txt"
+    ]
+  },
+  "trượt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "38.txt"
+    ]
+  },
+  "ngã xuống sàn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "38.txt"
+    ]
+  },
+  "ra dịch mật Câu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "38.txt"
+    ]
+  },
+  "Ung thư biểu mô tuyến đại tràng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "bệnh phổi tắc nghẽn mạn tính": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "Đái tháo đường": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "39.txt",
+      "47.txt",
+      "57.txt"
+    ]
+  },
+  "xơ gan do rượu": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "39.txt",
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "mở": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "cắt": {
+    "type": "TEST",
+    "count": 8,
+    "samples": [
+      "39.txt",
+      "47.txt",
+      "67.txt"
+    ]
+  },
+  "nối": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "ung thư tuyến đại tràng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "tụt huyết áp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "Viêm phổi bệnh viện": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "nhịp nhanh trên thất": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "phục hồi chức năng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "39.txt"
+    ]
+  },
+  "mũi": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "39.txt"
+    ]
+  },
+  "kẹp": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "39.txt"
+    ]
+  },
+  "vật liệu": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "47.txt"
+    ]
+  },
+  "mệt mỏi kéo dài": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "39.txt",
+      "61.txt"
+    ]
+  },
+  "đau bụng gián đoạn": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "39.txt",
+      "61.txt",
+      "61.txt"
+    ]
+  },
+  "hạ huyết áp": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "39.txt",
+      "61.txt",
+      "92.txt"
+    ]
+  },
+  "bàn chân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "39.txt"
+    ]
+  },
+  "tật bẩm sinh": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "39.txt"
+    ]
+  },
+  "chạy nhảy": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "39.txt"
+    ]
+  },
+  "bất thường về xương": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "39.txt"
+    ]
+  },
+  "ngoài": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "40.txt"
+    ]
+  },
+  "phân đen": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "40.txt"
+    ]
+  },
+  "đau bụng quanh rốn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "nôn thức ăn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "lẫn máu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "đi": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "43.txt"
+    ]
+  },
+  "khó thở liên tục": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "sốt =>": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "tiêu hóa": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "40.txt",
+      "40.txt",
+      "91.txt"
+    ]
+  },
+  "XHTH": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "kháng vitamin": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "40.txt"
+    ]
+  },
+  "INR": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "60.txt"
+    ]
+  },
+  "15": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "40.txt"
+    ]
+  },
+  "Van động mạch chủ cơ học": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "40.txt"
+    ]
+  },
+  "Toàn thân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "Mạch": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "40.txt",
+      "53.txt",
+      "89.txt"
+    ]
+  },
+  "tỉnh": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "87.txt"
+    ]
+  },
+  "glasgow": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "Da": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "niêm mạc": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "42.txt"
+    ]
+  },
+  "nhợt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "nhiễm trùng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "69.txt"
+    ]
+  },
+  "xuất huyết dưới da": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "Tim": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "46.txt"
+    ]
+  },
+  "T1T2": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "tiếng": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "40.txt",
+      "40.txt",
+      "99.txt"
+    ]
+  },
+  "van cơ học": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "thổi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "RRPN": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "phế trường": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "chướng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "99.txt"
+    ]
+  },
+  "thành bụng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "37°C": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "Huyết áp": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "40.txt",
+      "89.txt",
+      "93.txt"
+    ]
+  },
+  "130": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "40.txt",
+      "58.txt"
+    ]
+  },
+  "70": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "mmHg": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "Nhịp thở": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "l": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "Xuất huyết": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "khớp": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "Xét nghiệm máuKhí máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "Khí": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "40.txt"
+    ]
+  },
+  "da liễu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "mụn ở trán": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "da dầu mụn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "Mụn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "chất bã nhờn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "Bít tắc nang lông": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "chất bã": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "tế bào sừng\nVi hệ tại nang lông": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "Propionibacterium acnes": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "vi khuẩn kỵ khí": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "viêm\nTrứng cá": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "nhân mụn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "sẹo": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "mụn mủ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "nốt sần": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "nang\n2": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "Trứng": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "41.txt",
+      "41.txt"
+    ]
+  },
+  "Tăng sản tuyến bã nhờn": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "41.txt",
+      "92.txt"
+    ]
+  },
+  "Sừng hóa nang lông": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "Vi khuẩn": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "C. acne": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "Nhân mụn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "Tretinoin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "41.txt"
+    ]
+  },
+  "kháng sinh": {
+    "type": "MEDICINE",
+    "count": 6,
+    "samples": [
+      "41.txt",
+      "68.txt",
+      "69.txt"
+    ]
+  },
+  "ho đái tháo đường": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "42.txt"
+    ]
+  },
+  "tăng": {
+    "type": "DISEASE",
+    "count": 10,
+    "samples": [
+      "42.txt",
+      "44.txt",
+      "44.txt"
+    ]
+  },
+  "ngưng thở": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "42.txt",
+      "90.txt"
+    ]
+  },
+  "tắc nghẽn": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "42.txt",
+      "67.txt"
+    ]
+  },
+  "mucinex": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "42.txt"
+    ]
+  },
+  "d": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "42.txt"
+    ]
+  },
+  "đau bụng vùng thượng vị": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "42.txt"
+    ]
+  },
+  "hang vị": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "42.txt"
+    ]
+  },
+  "tiền môn vị": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "42.txt"
+    ]
+  },
+  "phù nề": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "42.txt"
+    ]
+  },
+  "sung huyết đỏ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "42.txt"
+    ]
+  },
+  "mật ong": {
+    "type": "MEDICINE",
+    "count": 5,
+    "samples": [
+      "42.txt",
+      "56.txt",
+      "67.txt"
+    ]
+  },
+  "đau buốt": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "42.txt",
+      "62.txt"
+    ]
+  },
+  "đi bộ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "42.txt",
+      "62.txt"
+    ]
+  },
+  "ho đặc": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "42.txt",
+      "62.txt"
+    ]
+  },
+  "bã": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "42.txt",
+      "62.txt"
+    ]
+  },
+  "khạc nhổ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "42.txt",
+      "62.txt"
+    ]
+  },
+  "paroxysmal": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "42.txt",
+      "62.txt"
+    ]
+  },
+  "tăng cholesterol máu đơn thuần": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "43.txt",
+      "63.txt"
+    ]
+  },
+  "allopurinol": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "43.txt",
+      "43.txt",
+      "63.txt"
+    ]
+  },
+  "giảm": {
+    "type": "MEDICINE",
+    "count": 16,
+    "samples": [
+      "43.txt",
+      "43.txt",
+      "43.txt"
+    ]
+  },
+  "ảo giácxuất": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "43.txt",
+      "63.txt"
+    ]
+  },
+  "nhiễm khuẩn đường tiết niệu": {
+    "type": "DISEASE",
+    "count": 8,
+    "samples": [
+      "43.txt",
+      "43.txt",
+      "59.txt"
+    ]
+  },
+  "Liều gleevec": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "43.txt",
+      "63.txt"
+    ]
+  },
+  "Ảo giác": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "43.txt",
+      "63.txt"
+    ]
+  },
+  "hoang tưởng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "43.txt"
+    ]
+  },
+  "OSH": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "44.txt",
+      "44.txt"
+    ]
+  },
+  "tăng men gan": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "bilirubin máu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "ast": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "alt": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "alp": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "bilirubin toàn phần": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "0.9": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "siêu âm bụng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "doppler": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "chụp hida": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "xét nghiệm nồng độ": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "nac": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "ercp": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "44.txt",
+      "44.txt"
+    ]
+  },
+  "túi mật": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "sỏi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "sỏi mật": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "MÀY đay VÔ CĂN": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "44.txt",
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "hiển thị vi quang học": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "vi điện tử": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "44.txt"
+    ]
+  },
+  "tăng lượng hạ bì": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "44.txt",
+      "76.txt"
+    ]
+  },
+  "thoát ra": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "44.txt",
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "thiết bị thương mại": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "44.txt",
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "dịch": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "44.txt",
+      "47.txt",
+      "76.txt"
+    ]
+  },
+  "Date]": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "45.txt",
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "thông não": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "chụp cắt lớp vi tính": {
+    "type": "TEST",
+    "count": 4,
+    "samples": [
+      "45.txt",
+      "50.txt",
+      "96.txt"
+    ]
+  },
+  "ct": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "45.txt",
+      "50.txt",
+      "96.txt"
+    ]
+  },
+  "nằm ngửa": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "45.txt",
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "phù gai thị": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "não úng thuỷ khác từ thời kỳ sơ sinh\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật đặt cảng để điều trị chứng tăng nhãn áp ở thời kỳ sơ sinh\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế khi 3 tháng tuổi\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế lại khi [Số] tuổi\n2.  Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau đầu kéo dài kèm theo mờ mắt\n    Thời điểm khởi phát triệu chứng: nhìn mờ tiến triển trong 2 tuần qua\n    Diễn biến bệnh\n    - Bệnh nhân bị não úng tuỷ từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt\n    - Trước đây đã từng nhập viện với chẩn đoán não úng thủy": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "chỉnh sửa": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "thay thế": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "phù gai": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "45.txt",
+      "50.txt"
+    ]
+  },
+  "stent mạch vành": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "46.txt",
+      "46.txt"
+    ]
+  },
+  "HoHL": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "46.txt",
+      "46.txt"
+    ]
+  },
+  "điêu trị": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "tăng lên": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "NYHA III-IV": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "mệt mỏi \nnhiều": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "phù phổi cấp": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "Tỉnh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "Glasgow": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "15 điểm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "Da niêm mạc hồng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "phù Không": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "TTT": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "mỏm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "82": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "HA": {
+    "type": "SYMPTOM",
+    "count": 10,
+    "samples": [
+      "46.txt",
+      "53.txt",
+      "55.txt"
+    ]
+  },
+  "160": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "46.txt",
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "Phổi RRPN": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "rale ẩm Bụng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "chướng Cận": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "Khí máu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "Lactat": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "46.txt",
+      "46.txt"
+    ]
+  },
+  "0.8 HCO3": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "46.txt",
+      "46.txt"
+    ]
+  },
+  "điện tim": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "nhịp xoang": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "biến đổi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "ST-T": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "CLS": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "Định lượng": {
+    "type": "TEST",
+    "count": 5,
+    "samples": [
+      "46.txt",
+      "87.txt",
+      "87.txt"
+    ]
+  },
+  "Acid Lactic": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "Siêu âm": {
+    "type": "TEST",
+    "count": 4,
+    "samples": [
+      "46.txt",
+      "77.txt",
+      "87.txt"
+    ]
+  },
+  "doper": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "Phình thành": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "46.txt"
+    ]
+  },
+  "đại tràng sigma": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "phục hồi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "mũi kẹp": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "đi tiêu": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "47.txt",
+      "47.txt"
+    ]
+  },
+  "mổ": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "đỏ da": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "bục chỉ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "khâu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "khám thực thể": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "ran nổ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "phù phù": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "rỉ huyết thanh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "phân nâu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "guaiac": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "47.txt"
+    ]
+  },
+  "nhìn bên ngoài": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "48.txt"
+    ]
+  },
+  "phát triển": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "48.txt"
+    ]
+  },
+  "nhỏ": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "48.txt",
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "dị tật thiểu sản vành tai": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "48.txt"
+    ]
+  },
+  "tịt ống tai ngoài bẩm sinh": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "48.txt"
+    ]
+  },
+  "rụng tóc từng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "49.txt"
+    ]
+  },
+  "Ung thư vú di căn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "49.txt"
+    ]
+  },
+  "tràn dịch màng phổi trái": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "49.txt"
+    ]
+  },
+  "tràn dịch màng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "49.txt"
+    ]
+  },
+  "chẩn đoán": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "49.txt"
+    ]
+  },
+  "hình ảnh": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "49.txt",
+      "82.txt"
+    ]
+  },
+  "di căn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "49.txt"
+    ]
+  },
+  "lưu dịch màng tim": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "49.txt"
+    ]
+  },
+  "nội thương tổn": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "49.txt",
+      "65.txt"
+    ]
+  },
+  "rụng tóc từng vùng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "49.txt",
+      "65.txt"
+    ]
+  },
+  "thương tổn": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "49.txt",
+      "85.txt",
+      "96.txt"
+    ]
+  },
+  "Corticosteroid bôi": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "49.txt",
+      "65.txt"
+    ]
+  },
+  "kem": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "49.txt",
+      "65.txt"
+    ]
+  },
+  "đái tháo đường": {
+    "type": "DISEASE",
+    "count": 5,
+    "samples": [
+      "51.txt",
+      "55.txt",
+      "70.txt"
+    ]
+  },
+  "ngừng thở": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "tiền sử lâm sàng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "Dị ứng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "furosemide": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "xem": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "khó nằm": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "51.txt",
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "thở": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "51.txt",
+      "70.txt",
+      "89.txt"
+    ]
+  },
+  "căng cứng vai trái": {
+    "type": "SYMPTOM",
+    "count": 8,
+    "samples": [
+      "51.txt",
+      "51.txt",
+      "51.txt"
+    ]
+  },
+  "ngắt quãng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "tiền sử ho": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "đờm trắng": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "51.txt",
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "phù chi dưới": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "51.txt",
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "EMS": {
+    "type": "MEDICINE",
+    "count": 6,
+    "samples": [
+      "51.txt",
+      "51.txt",
+      "51.txt"
+    ]
+  },
+  "thở khí trời": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "mask": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "51.txt",
+      "70.txt"
+    ]
+  },
+  "Tổn thương mô bệnh học": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "52.txt"
+    ]
+  },
+  "gầy sút cân": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "53.txt",
+      "53.txt"
+    ]
+  },
+  "Ăn nhiều": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "khát nước": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "uống": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "nhiều": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "53.txt",
+      "96.txt"
+    ]
+  },
+  "đi tiểu nhiều": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "180": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "Xét nghiệm máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "Glucose": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "53.txt",
+      "58.txt",
+      "87.txt"
+    ]
+  },
+  "13,2": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "Quai": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "ĐMC vồng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "chỉ số tim": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "rốn phổi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "đậm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "ĐTD typ II": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "53.txt"
+    ]
+  },
+  "Torsemide": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "53.txt",
+      "57.txt",
+      "57.txt"
+    ]
+  },
+  "Insulin glargine": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "53.txt",
+      "57.txt"
+    ]
+  },
+  "Rosuvastatin": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "53.txt",
+      "57.txt"
+    ]
+  },
+  "Crestor": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "53.txt",
+      "57.txt"
+    ]
+  },
+  "Carvedilol": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "53.txt",
+      "57.txt"
+    ]
+  },
+  "tăng kali máu": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "53.txt",
+      "57.txt"
+    ]
+  },
+  "Creatinine": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "53.txt",
+      "57.txt"
+    ]
+  },
+  "? Em": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "54.txt"
+    ]
+  },
+  "? E": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "54.txt"
+    ]
+  },
+  "? Và": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "54.txt"
+    ]
+  },
+  "tăng lipid": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "54.txt"
+    ]
+  },
+  "Ngã": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "54.txt"
+    ]
+  },
+  "đo HA": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "đo": {
+    "type": "TEST",
+    "count": 11,
+    "samples": [
+      "55.txt",
+      "55.txt",
+      "55.txt"
+    ]
+  },
+  "170": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "150": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "hồi hợp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "rợn người": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "55.txt",
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "máy": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "55.txt",
+      "87.txt",
+      "93.txt"
+    ]
+  },
+  "HA nhịp tim": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "55.txt"
+    ]
+  },
+  "hồi hộp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "tim đập": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "ĐHYD": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "XN": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "93.txt"
+    ]
+  },
+  "tăng HA": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "55.txt",
+      "58.txt",
+      "93.txt"
+    ]
+  },
+  "hoang mang": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "55.txt"
+    ]
+  },
+  "Suy thận mạn": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "55.txt",
+      "97.txt"
+    ]
+  },
+  "Cận": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "56.txt"
+    ]
+  },
+  "chẩn đoán hình ảnh": {
+    "type": "TEST",
+    "count": 6,
+    "samples": [
+      "56.txt",
+      "68.txt",
+      "88.txt"
+    ]
+  },
+  "Đo sức": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "56.txt",
+      "68.txt"
+    ]
+  },
+  "đồng vị": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "56.txt",
+      "68.txt"
+    ]
+  },
+  "cố định": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "56.txt",
+      "68.txt"
+    ]
+  },
+  "rối loạn chức năng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "56.txt",
+      "68.txt"
+    ]
+  },
+  "Chụp động mạch vành": {
+    "type": "TEST",
+    "count": 4,
+    "samples": [
+      "56.txt",
+      "56.txt",
+      "68.txt"
+    ]
+  },
+  "ba thân động mạch vành": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "56.txt",
+      "68.txt"
+    ]
+  },
+  "thăm khám chuyên khoa": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "56.txt",
+      "86.txt",
+      "94.txt"
+    ]
+  },
+  "Suy tim": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "57.txt",
+      "58.txt"
+    ]
+  },
+  "thận mạn tính": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "57.txt",
+      "58.txt"
+    ]
+  },
+  "xét nghiệm bất thường": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "57.txt"
+    ]
+  },
+  "torsemide": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "57.txt"
+    ]
+  },
+  "kiểm tra đường huyết": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "57.txt"
+    ]
+  },
+  "que": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "57.txt",
+      "61.txt",
+      "81.txt"
+    ]
+  },
+  "thử đường máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "57.txt"
+    ]
+  },
+  "glucose": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "57.txt",
+      "85.txt"
+    ]
+  },
+  "thấp": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "57.txt"
+    ]
+  },
+  "glargine": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "57.txt"
+    ]
+  },
+  "isosorbide": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "57.txt"
+    ]
+  },
+  "crestor": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "57.txt"
+    ]
+  },
+  "mệt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "đại tiểu tiện": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "nước tiểu trong": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "Nhịp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "58.txt",
+      "89.txt"
+    ]
+  },
+  "XN máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "5,8": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "Cholesterol": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "4,7": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "1,9": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "LDL": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "2,2": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "HDL": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "HbA1c": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "pP": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "rượu": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "58.txt",
+      "69.txt",
+      "86.txt"
+    ]
+  },
+  "Đái tháo đường typ II": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "Tăng HA độ III": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "58.txt"
+    ]
+  },
+  "sức khoẻ sinh sản cộng thêm việc khám sau một thời gian lên lại mụn thì rất tốn kém. Mong các bác sĩ cho cháu lời khuyên về vấn đề chăm sóc da dầu mụn và làm thế nào để da hết mụn không tái phát ạ. Cháu cảm ơn các bác sĩ ạ.\n\nCâu trả lời của bác sĩ: \n\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.1-->0.8\n- Cấy nước tiểu : nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp\n- cấy máu :âm tính\n-chỉ số marker viêm của anh ấy đã có xu hướng tăng \nchẩn đoán hình ảnh: \n - MRI:  không thấy tình trạng viêm xương tủy nặng hơn\nSừng hóa nang lông bất thường\nVi khuẩn C. acne\nViêm tại chỗ\nHầu hết thiếu niên (80%) bị mụn trứng cá, một số trường hợp có thể kéo dài đến tuổi trưởng thành. Bạn điều trị theo chỉ định của bác sỹ chuyên khoa da liễu nhưng không rõ dùng thuốc gì. Nhưng về nguyên tắc khi điều trị thì bệnh sẽ ổn định, ngừng điều trị thì khả năng bệnh sẽ tái phát vì ngoài các yếu tố kể trên, bệnh còn liên quan đến nhiều yếu tố như yếu tố nội tiết, cơ địa, nghề nghiệp, do thói quen chà xát và nặn mụn…\n\nBạn vẫn nên đi khám lại để bác sĩ chuyên khoa tư vấn về thuốc và chăm sóc da mụn. Bạn vẫn có thể điều trị nhiều phương pháp mà không ảnh hưởng đến sức khỏe sinh sản cộng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "Phổi": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "thông khí đều": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "sonde tiểu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "cặn Cận": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "lactate": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "59.txt",
+      "85.txt"
+    ]
+  },
+  "1.1 --": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "Cấy nước tiểu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "vi khuẩn hỗn hợp": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "cấy máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "marker": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "MRI": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "viêm xương tủy": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "hóa nang lông": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "C.": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "59.txt"
+    ]
+  },
+  "sức": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "sinh sản cộng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "Trứng cá": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "thay": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "ghép": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "coumadin": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "60.txt",
+      "91.txt",
+      "91.txt"
+    ]
+  },
+  "3.0 mg": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "chảy máu mũi": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "60.txt",
+      "60.txt",
+      "78.txt"
+    ]
+  },
+  "chạy": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "chỉ số đông máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "INR 1.7": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "60.txt"
+    ]
+  },
+  "ngừa thai": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "61.txt",
+      "61.txt",
+      "61.txt"
+    ]
+  },
+  "cấy que": {
+    "type": "MEDICINE",
+    "count": 6,
+    "samples": [
+      "61.txt",
+      "61.txt",
+      "61.txt"
+    ]
+  },
+  "cấy": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "61.txt",
+      "61.txt"
+    ]
+  },
+  "Implanon": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "61.txt"
+    ]
+  },
+  "ho mạn tính": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "61.txt"
+    ]
+  },
+  "đờm vàng loãng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "61.txt"
+    ]
+  },
+  "hạt": {
+    "type": "MEDICINE",
+    "count": 12,
+    "samples": [
+      "62.txt",
+      "80.txt",
+      "80.txt"
+    ]
+  },
+  "tophi": {
+    "type": "MEDICINE",
+    "count": 12,
+    "samples": [
+      "62.txt",
+      "80.txt",
+      "80.txt"
+    ]
+  },
+  "hạ lượng": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "acid": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "62.txt",
+      "68.txt",
+      "85.txt"
+    ]
+  },
+  "cơ xương khớp": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "khó thở nhẹ-vừa": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "62.txt",
+      "86.txt"
+    ]
+  },
+  "như": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "buồn nôn/": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "nocturnal": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "dyspnea": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "giãn phế quản": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "azithromycin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "mucinex d": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "62.txt"
+    ]
+  },
+  "kháng B-histamin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "63.txt"
+    ]
+  },
+  "mẩn ngứa": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "63.txt"
+    ]
+  },
+  "bệnh động mạch vành": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "Vastarel": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "Vastarel Các": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "Graves": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "run rẩy tay chân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "mất thăng bằng khi": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "64.txt",
+      "85.txt"
+    ]
+  },
+  "đi đứng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "trimetazidine": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "nội thần kinh": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "Nitramyl": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "2,5 mg": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "giãn mạch vành": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "tăng tưới máu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "tích lũy": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "64.txt"
+    ]
+  },
+  "rụng tóc từng mảng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "65.txt"
+    ]
+  },
+  "! Bạn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "65.txt"
+    ]
+  },
+  "rụng tóc": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "65.txt",
+      "65.txt"
+    ]
+  },
+  "rụng tóc toàn bộ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "65.txt"
+    ]
+  },
+  "2,5": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "65.txt"
+    ]
+  },
+  "g": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "65.txt"
+    ]
+  },
+  "u lành về tuyến vú": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "u xơ tuyến vú": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "66.txt",
+      "66.txt",
+      "66.txt"
+    ]
+  },
+  "u nang tuyến vú": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "66.txt",
+      "66.txt",
+      "66.txt"
+    ]
+  },
+  "3": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "b": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "b1": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "b6": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "b12": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "66.txt",
+      "66.txt"
+    ]
+  },
+  "khối u ung thư": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "khối u lành tính": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "Vitamin B12": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "chúng": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "mcg": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "66.txt",
+      "66.txt"
+    ]
+  },
+  "nưa trưởng thành": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "vitamin B12": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "ăn chay trường diễn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "viêm teo niêm mạc dạ dày": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "B12": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "66.txt",
+      "66.txt",
+      "66.txt"
+    ]
+  },
+  "sản xuất": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "tủy xương": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "dị cảm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "cảm giác vị thế": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "trí óc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "hạ huyết áp tư thế đứng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "66.txt"
+    ]
+  },
+  "bệnh mạch máu ngoại biên": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "67.txt"
+    ]
+  },
+  "phổi tắc nghẽn mạn tính": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "67.txt"
+    ]
+  },
+  "Ngưng thở": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "67.txt"
+    ]
+  },
+  "Ung thư biểu mô tế bào vảy": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "67.txt"
+    ]
+  },
+  "dương vậtbiệt hóa": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "67.txt"
+    ]
+  },
+  "bao quy đầu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "67.txt"
+    ]
+  },
+  "bờ diện": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "67.txt"
+    ]
+  },
+  "cắt dương tính": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "67.txt"
+    ]
+  },
+  "Bệnh lý mãn tính": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "bệnh lý thần kinh ngoại biên": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "vận động gắng sức": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "68.txt",
+      "68.txt"
+    ]
+  },
+  "khó thở tăng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "Đi lại": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "gậy": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "Đau hai bàn chân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "bệnh lý thần kinh ngoại biên Cận": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "giảm chức năng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "can thiệp": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "liều Augmentin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "amoxicillin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "/": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "68.txt",
+      "85.txt"
+    ]
+  },
+  "clavulanic": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "cân nặng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "68.txt",
+      "88.txt"
+    ]
+  },
+  "tái lại": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "68.txt"
+    ]
+  },
+  "sốc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "69.txt"
+    ]
+  },
+  "cần": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "69.txt"
+    ]
+  },
+  "sa": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "69.txt"
+    ]
+  },
+  "nhảy cầu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "69.txt"
+    ]
+  },
+  "tổn thương chi dưới": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "69.txt"
+    ]
+  },
+  "tiếp xúc": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "69.txt",
+      "71.txt"
+    ]
+  },
+  "tổn thương tổn thương chi": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "69.txt",
+      "71.txt"
+    ]
+  },
+  "cụt chân phải": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "69.txt"
+    ]
+  },
+  "thuyên tắc phổi hai": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "69.txt"
+    ]
+  },
+  "Enterococcus": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "69.txt",
+      "71.txt"
+    ]
+  },
+  "kháng vancomycin": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "69.txt",
+      "71.txt"
+    ]
+  },
+  "chân phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "69.txt",
+      "71.txt"
+    ]
+  },
+  "tĩnh mạch": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "69.txt"
+    ]
+  },
+  "nhẹ nhàng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "69.txt",
+      "69.txt"
+    ]
+  },
+  "thuyên tắc phổi hai bên": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "nhiễm trùng chi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "nổi mẩn": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "71.txt",
+      "71.txt"
+    ]
+  },
+  "đỏ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "nổi sần": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "lớp": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "sừng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "hông - mông": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "viêm nang lông": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "cởi trần": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "nổi mẩn vùng lưng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "nổi mẩn đỏ ngứa": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "71.txt"
+    ]
+  },
+  "độc": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "72.txt",
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "buồn ngủ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "72.txt",
+      "83.txt"
+    ]
+  },
+  "Rối loạn lưỡng cực": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "72.txt",
+      "98.txt"
+    ]
+  },
+  "rối loạn lo âu Thuốc": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "72.txt",
+      "98.txt"
+    ]
+  },
+  "klonopinclonidine": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "72.txt",
+      "98.txt"
+    ]
+  },
+  "clonidine": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "72.txt",
+      "98.txt"
+    ]
+  },
+  "suboxone": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "72.txt",
+      "98.txt",
+      "98.txt"
+    ]
+  },
+  "gây": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "72.txt",
+      "98.txt"
+    ]
+  },
+  "opioid": {
+    "type": "MEDICINE",
+    "count": 3,
+    "samples": [
+      "72.txt",
+      "73.txt",
+      "98.txt"
+    ]
+  },
+  "sử": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "72.txt"
+    ]
+  },
+  "tăng hoạt động": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "72.txt",
+      "98.txt"
+    ]
+  },
+  "Viêm loét đại tràng": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "73.txt",
+      "74.txt"
+    ]
+  },
+  "tạo hậu môn nhân tạo": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "túi nối": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "73.txt",
+      "74.txt"
+    ]
+  },
+  "hậu môn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "khó chịu vùng bụng": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "73.txt",
+      "74.txt",
+      "74.txt"
+    ]
+  },
+  "hạ vị": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "LLQ": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "73.txt",
+      "74.txt",
+      "74.txt"
+    ]
+  },
+  "run rẩy": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "73.txt",
+      "73.txt",
+      "74.txt"
+    ]
+  },
+  "mất cảm giác ngon miệng": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "73.txt",
+      "73.txt",
+      "74.txt"
+    ]
+  },
+  "suy nhược": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "73.txt",
+      "73.txt",
+      "74.txt"
+    ]
+  },
+  "1800": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "300": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "ống thông": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "73.txt",
+      "74.txt"
+    ]
+  },
+  "350": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "1200": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "mltrong": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "73.txt",
+      "74.txt"
+    ]
+  },
+  "đa hệ thống": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "suy kiệt  thiểu niệu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "73.txt"
+    ]
+  },
+  "35cm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "74.txt"
+    ]
+  },
+  "nấm bẹn": {
+    "type": "DISEASE",
+    "count": 5,
+    "samples": [
+      "74.txt",
+      "75.txt",
+      "75.txt"
+    ]
+  },
+  "lây lan": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "74.txt"
+    ]
+  },
+  "hai bên bẹn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "74.txt"
+    ]
+  },
+  "300 ml": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "74.txt"
+    ]
+  },
+  "350 ml": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "74.txt"
+    ]
+  },
+  "chán": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "74.txt"
+    ]
+  },
+  "khối u trực tràng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "75.txt"
+    ]
+  },
+  "u ác trực tràng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "75.txt"
+    ]
+  },
+  "sinh thiết": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "75.txt"
+    ]
+  },
+  "u tuyến": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "75.txt"
+    ]
+  },
+  "Nấm bẹn": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "nhiễm nấm": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "Trichophyton rubrum": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "T.": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "mentagrophytes": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "ẩm ướt": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "nóng": {
+    "type": "SYMPTOM",
+    "count": 5,
+    "samples": [
+      "75.txt",
+      "84.txt",
+      "86.txt"
+    ]
+  },
+  "ướt": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "chật": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "nếp gấp da": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "nhiễm nấm da": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "kháng": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "bôi": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "lây nhiễm": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "khô thoáng": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "75.txt",
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "lau": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "tắm": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "mồ hôi": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "75.txt",
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "bột": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "độ ẩm": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "đồ lót": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "75.txt",
+      "75.txt",
+      "84.txt"
+    ]
+  },
+  "chân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "76.txt"
+    ]
+  },
+  "một nhân": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "kính hiển thị vi quang học": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "kính hiển thị vi điện tử": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "giảm phức tạp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "sợi": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "fibrin": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "mày đay vô căn": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "đay vô căn hộ": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "76.txt",
+      "83.txt"
+    ]
+  },
+  "CGhi": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "đau vùng xương bánh chè": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "đau đầu gối phải": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "Đau bánh chè đùi phải": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "dữ dội": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "đau đau dữ dội": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "Siêu âm ổ bụng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "giãn nh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "Doppler": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "77.txt",
+      "87.txt"
+    ]
+  },
+  "Buồng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "EF BP": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "Hở": {
+    "type": "DISEASE",
+    "count": 3,
+    "samples": [
+      "77.txt",
+      "77.txt",
+      "77.txt"
+    ]
+  },
+  "Thất phải": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "FAC": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "Tăng áp lực": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "bóng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "suy thận mạn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "Chiếu xạ": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "77.txt"
+    ]
+  },
+  "chảy": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "78.txt",
+      "78.txt",
+      "78.txt"
+    ]
+  },
+  "choáng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "78.txt",
+      "78.txt"
+    ]
+  },
+  "chảy máu cam": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "khô nóng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "thức": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "ban đỏ lan rộng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "nhiểu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "sờ nắn": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "toàn thân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "đau ấn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "hội tụ mạch máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "thay đổi": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "78.txt",
+      "91.txt"
+    ]
+  },
+  "hắt hơi mạnh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "viêm nhiễm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "ngoáy mũi": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "Tai mũi họng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "78.txt"
+    ]
+  },
+  "gút": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "hạt nhỏ": {
+    "type": "SYMPTOM",
+    "count": 4,
+    "samples": [
+      "80.txt",
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "ngón chân": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "bệnhgout": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "gout mạn tính": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "di động": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "axit urictăng": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "u cứng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "tấy đỏ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "vận động": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "vỡ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "biến dạng xương khớp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "nhiễm trùng máu": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "80.txt",
+      "95.txt"
+    ]
+  },
+  "xơ gan": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "80.txt"
+    ]
+  },
+  "mất bù": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "80.txt"
+    ]
+  },
+  "tăng áp lực tĩnh mạch cửa": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "80.txt"
+    ]
+  },
+  "cổ trướng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "80.txt"
+    ]
+  },
+  "tràn dịch màng phổi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "80.txt"
+    ]
+  },
+  "sảy thai": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "hội chứng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "gen đông máu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "thrombophilia": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "81.txt",
+      "81.txt"
+    ]
+  },
+  "thử 2 vạch": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "chống": {
+    "type": "MEDICINE",
+    "count": 4,
+    "samples": [
+      "81.txt",
+      "81.txt",
+      "81.txt"
+    ]
+  },
+  "hành vì": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "Thrombophilia": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "vón cục": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "tăng đông máu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "sẩy thai": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "sinh non": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "tiền sản": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "ra máu bất thường": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "81.txt"
+    ]
+  },
+  "đau vùng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "82.txt",
+      "82.txt"
+    ]
+  },
+  "kèm chướng bụng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "buồn nôn thoáng qua": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "nôn ói": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "Đau bụng": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "82.txt",
+      "92.txt"
+    ]
+  },
+  "đau bụng vùng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "hóa trị": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "ghép gan": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "thăm dò": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "Nội soi thực quản - dạ dày": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "viêm dạ dày": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "82.txt"
+    ]
+  },
+  "giảm cân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "83.txt"
+    ]
+  },
+  "tăng cân": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "83.txt"
+    ]
+  },
+  "tăng lượng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "83.txt"
+    ]
+  },
+  "hạ bì": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "83.txt"
+    ]
+  },
+  "opioid Câu": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "84.txt"
+    ]
+  },
+  "khô": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "84.txt",
+      "92.txt",
+      "96.txt"
+    ]
+  },
+  "tập thể dục": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "84.txt"
+    ]
+  },
+  "vi nấm": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "84.txt"
+    ]
+  },
+  "Nhiễm trùng đường tiết niệu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "UTIs": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "đau bàn chân phải": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "85.txt",
+      "85.txt"
+    ]
+  },
+  "viêm bể thận": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "viêm phế quản": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "ánh sáng mặt trời": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "85.txt",
+      "96.txt"
+    ]
+  },
+  "khẩu trang": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "bụi": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "85.txt",
+      "96.txt"
+    ]
+  },
+  "cọ xát": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "chưa": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "vitamin C": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "không": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "vững": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "đứng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "hct": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "hematocrit": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "platelets": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "hco3": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "(": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "bicarbonate": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "ag": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "anion": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "gap": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "bun": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "creatinine": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "85.txt",
+      "85.txt"
+    ]
+  },
+  "ure": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "lactat": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "urinalysis": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "tổng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "phân tích nước tiểu": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "85.txt",
+      "90.txt"
+    ]
+  },
+  "bạch cầu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "hồng cầu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "âm tính": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "85.txt"
+    ]
+  },
+  "nitrite": {
+    "type": "MEDICINE",
+    "count": 2,
+    "samples": [
+      "85.txt",
+      "90.txt"
+    ]
+  },
+  "Viêm hang vị": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "86.txt"
+    ]
+  },
+  "sung huyết": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "86.txt"
+    ]
+  },
+  "hang vị dạ dày": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "86.txt",
+      "94.txt"
+    ]
+  },
+  "dạ dày": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "86.txt",
+      "94.txt"
+    ]
+  },
+  "thiên nhiên": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "86.txt"
+    ]
+  },
+  "vị": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "86.txt"
+    ]
+  },
+  "chua": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "86.txt",
+      "94.txt"
+    ]
+  },
+  "cay": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "86.txt",
+      "94.txt"
+    ]
+  },
+  "dầu mỡ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "86.txt",
+      "94.txt"
+    ]
+  },
+  "đau ngực \nTS": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "khỏe mạnh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "đau ngực T": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "âm ỉ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "lan": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "87.txt",
+      "87.txt"
+    ]
+  },
+  "đau \ntăng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Bn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Đau ngực": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "khó": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "hồng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Tim nhịp": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "87.txt",
+      "99.txt"
+    ]
+  },
+  "Phổi RRPN thô": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Bụng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "mềm Tiểu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "70 mmHg               M": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Xét nghiệm": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "prothrombin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "PT": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Prothrombin Time": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Prothrombin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "máy \ntự động": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Troponin Ths": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Đo hoạt độ AST": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "GOT": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Đo hoạt độ ALT": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "GPT": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Điện giải đồ": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "n t": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "-": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "proBNP": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "ProBNP": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "Tổng phân tích tế bào máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "đếm laser": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "87.txt"
+    ]
+  },
+  "ống dẫn mật chủ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "nối ống gan": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "ung thư đường mật": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "chụp đường mật": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "stent đường mật lưu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "sốt Các": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "ổ dịch": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "áp xe": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "Augmentin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "chụp": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "ra mồ hôi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "vi chất": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "calcium": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "rau quả": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "tắm nắng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "bổ dưỡng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "88.txt"
+    ]
+  },
+  "tiền sử Đái tháo đường": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "89.txt",
+      "89.txt"
+    ]
+  },
+  "tăng huyết áp vô căn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "89.txt"
+    ]
+  },
+  "bớt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "89.txt"
+    ]
+  },
+  "Nghỉ ngơi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "89.txt"
+    ]
+  },
+  "điện tâm đồ": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "89.txt",
+      "99.txt"
+    ]
+  },
+  "Nhiệt độ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "89.txt"
+    ]
+  },
+  "139": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "89.txt",
+      "89.txt"
+    ]
+  },
+  "68 mmhg": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "89.txt",
+      "89.txt"
+    ]
+  },
+  "SpO2": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "89.txt",
+      "99.txt"
+    ]
+  },
+  "nhiệt độ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "89.txt"
+    ]
+  },
+  "36.7°c": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "89.txt"
+    ]
+  },
+  "huyết áp": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "89.txt",
+      "93.txt"
+    ]
+  },
+  "nhịp": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "89.txt"
+    ]
+  },
+  "nhịp thở": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "89.txt"
+    ]
+  },
+  "rối loạn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "Táo bón": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "nhịp thở nhanh": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "90.txt",
+      "90.txt",
+      "90.txt"
+    ]
+  },
+  "chảy nước mũi": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "90.txt",
+      "90.txt"
+    ]
+  },
+  "nhiễm trùng đường hô hấp trên": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "bão hòa": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "SPO2": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "khí trời": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "Thiếu oxy": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "bnp": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "4227": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "kali": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "3.2": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "troponin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "0.01": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "lactate 1.8": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "bạch cầuvài vi khuẩn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "bệnh lý tim mạch hoặc hô hấp cấp tính": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "chụp x-quang ngực": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "90.txt",
+      "99.txt",
+      "99.txt"
+    ]
+  },
+  "viêm phổi kẽ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "Khí dung": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "Albuterol": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "Ipratropium": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "90.txt"
+    ]
+  },
+  "hội chứng turner": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "Ung thư đại tràng": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "Thuyên tắc phổi": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "91.txt",
+      "91.txt"
+    ]
+  },
+  "có": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "đờm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "ở cổ họng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "cơn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "đánh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "trống ngực": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "nhịp nhanh": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "khó nuốt": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "albuterolipratropium": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "nebs": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "x2 Sỏi": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "7mm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "91.txt"
+    ]
+  },
+  "viêm tủy xương mãn tính": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "92.txt",
+      "92.txt"
+    ]
+  },
+  "bàng quang thần kinh": {
+    "type": "DISEASE",
+    "count": 2,
+    "samples": [
+      "92.txt",
+      "99.txt"
+    ]
+  },
+  "biến chứng liệt hai chi dưới": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "loét tì đè": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "lưu sonde": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "sử dụngvancozosyn": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "Truyền nhiễm": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "sốt cao Cách": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "nhiễm trùng huyết": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "vancozosynbactrim": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "viêm tuỷ xương.  Sau đó dùng zosyn 8 ngày và dừng tất cả kháng sinh để điều trị viêm tủy xương": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "zosyn": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "Kháng sinh": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "Hồi sức": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "sốt cao": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "39.7 độ C": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "khát nước Da": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "nếp véo da": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "mất chậm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "Không ngực": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "đau hông": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "Hạ huyết áp Mạch": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "Tim nhịp nhanh đều": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "Xquang ngực thẳng": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "thâm nhiễm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "svo2": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "ống thông tĩnh mạch": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "92.txt"
+    ]
+  },
+  "đo HA điện tử": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "93.txt"
+    ]
+  },
+  "HA nhịp": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "93.txt"
+    ]
+  },
+  "lo âu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "93.txt"
+    ]
+  },
+  "chèn": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "94.txt"
+    ]
+  },
+  "thuốc lào": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "94.txt"
+    ]
+  },
+  "khối u": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "95.txt"
+    ]
+  },
+  "gout": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "95.txt"
+    ]
+  },
+  "đau các khớp": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "95.txt"
+    ]
+  },
+  "tắc hẹp 80% động mạch thận trái L\n\n3": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "tắc hẹp 80% động mạch thận trái L": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "phun xăm": {
+    "type": "TEST",
+    "count": 3,
+    "samples": [
+      "96.txt",
+      "96.txt",
+      "96.txt"
+    ]
+  },
+  "bị thương tổn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "bong vẩy trắng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "phun môi": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "da chết": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "dưỡng ẩm": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "cậy": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "bóc": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "vảy môi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "lên màu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "phun": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "96.txt"
+    ]
+  },
+  "u ác": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "tuyến tiền liệt": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "xạ trị": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "u dây thần kinh số VIII": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "Đặt": {
+    "type": "TEST",
+    "count": 2,
+    "samples": [
+      "97.txt",
+      "99.txt"
+    ]
+  },
+  "shunt động": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "AVF": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "RUE AVF": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "Sinh thiết tuyến": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "mất trí nhớ chi tiết": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "97.txt",
+      "97.txt",
+      "97.txt"
+    ]
+  },
+  "ăn không ngon miệng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "ngứa da toàn thân nhiều": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "tỉnhi": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "Mệt mỏi nhiều": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "Ăn không ngon miệng": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "Ngứa da toàn thân nhiều": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "trĩ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "tây y": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "x2": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "91": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "dl": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "photpho 8.4": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "97.txt"
+    ]
+  },
+  "tàn nhang": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "98.txt"
+    ]
+  },
+  "da sạm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "98.txt"
+    ]
+  },
+  "bôi nghệ": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "98.txt"
+    ]
+  },
+  "sang da": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "98.txt"
+    ]
+  },
+  "tự bắn vào đầu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "98.txt"
+    ]
+  },
+  "hưng cảm": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "98.txt"
+    ]
+  },
+  "nhu cầu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "98.txt"
+    ]
+  },
+  "lo âu hoảng sợ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "98.txt"
+    ]
+  },
+  "viêm tủy xương": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "biến đổi ý thức": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "99.txt",
+      "99.txt",
+      "99.txt"
+    ]
+  },
+  "hạ thân nhiệt": {
+    "type": "SYMPTOM",
+    "count": 3,
+    "samples": [
+      "99.txt",
+      "99.txt",
+      "99.txt"
+    ]
+  },
+  "huyết áp tâm": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "nằm đầu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "99": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "thở  khí": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "2L": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "105": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "chu  kì": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "T1": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "T2": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "rõ": {
+    "type": "SYMPTOM",
+    "count": 2,
+    "samples": [
+      "99.txt",
+      "99.txt"
+    ]
+  },
+  "tim bệnh lí": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "110": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "Phổi rì rào phế nang": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "rales": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "Bụng mềm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "điểm": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "gan lách": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "sờ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "tiểu được": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "COPD": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "Tâm phế mạn": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "Cơn": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "tim nhanh nhĩ": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "Nhiễm khuẩn đường tiêu hóa": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "viêm cấp tính": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "sonde bàng quang": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "xét nghiệm máu": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "cấy nước tiểu Các": {
+    "type": "TEST",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "thủ thuậ": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "99.txt"
+    ]
+  },
+  "tiền sản giật": {
+    "type": "DISEASE",
+    "count": 4,
+    "samples": [
+      "100.txt",
+      "100.txt",
+      "100.txt"
+    ]
+  },
+  "đông": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "100.txt"
+    ]
+  },
+  "tiêu ra máu": {
+    "type": "SYMPTOM",
+    "count": 1,
+    "samples": [
+      "100.txt"
+    ]
+  },
+  "chống đông máu": {
+    "type": "DISEASE",
+    "count": 1,
+    "samples": [
+      "100.txt"
+    ]
+  },
+  "aspirin": {
+    "type": "MEDICINE",
+    "count": 1,
+    "samples": [
+      "100.txt"
+    ]
+  }
+}

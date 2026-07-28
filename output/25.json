@@ -1,0 +1,208 @@
+[
+  {
+    "text": "viên",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      173,
+      177
+    ]
+  },
+  {
+    "text": "sì nước",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      255,
+      262
+    ]
+  },
+  {
+    "text": "test",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      274,
+      278
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      386,
+      394
+    ]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      403,
+      411
+    ]
+  },
+  {
+    "text": "trễ kinh ạ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      416,
+      426
+    ]
+  },
+  {
+    "text": "kinh",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      428,
+      432
+    ]
+  },
+  {
+    "text": "đều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      441,
+      444
+    ]
+  },
+  {
+    "text": "tránh thai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      574,
+      584
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      681,
+      686
+    ]
+  },
+  {
+    "text": "tắc ống",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      757,
+      764
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      785,
+      790
+    ]
+  },
+  {
+    "text": "teo niêm mạc tử cung",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      801,
+      821
+    ]
+  },
+  {
+    "text": "rụng trứng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      829,
+      839
+    ]
+  },
+  {
+    "text": "vô sinh",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      848,
+      855
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1504,
+      1507
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1657,
+      1660
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1741,
+      1744
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2203,
+      2206
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      2254,
+      2257
+    ]
+  }
+]

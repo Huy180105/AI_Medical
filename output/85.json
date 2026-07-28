@@ -1,0 +1,394 @@
+[
+  {
+    "text": "bệnh nội khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      12,
+      25
+    ]
+  },
+  {
+    "text": "bệnh mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      34,
+      47
+    ]
+  },
+  {
+    "text": "Tiểu đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      54,
+      64
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      72,
+      86
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      93,
+      106
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.5"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      113,
+      127
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      150,
+      157
+    ]
+  },
+  {
+    "text": "Nhiễm trùng đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N39.0"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      164,
+      191
+    ]
+  },
+  {
+    "text": "UTIs",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      193,
+      197
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N39.0"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      208,
+      235
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      307,
+      310
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      360,
+      363
+    ]
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      384,
+      398
+    ]
+  },
+  {
+    "text": "đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      403,
+      409
+    ]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      473,
+      485
+    ]
+  },
+  {
+    "text": "viêm phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J20.9"
+    ],
+    "assertions": [],
+    "position": [
+      489,
+      502
+    ]
+  },
+  {
+    "text": "ánh sáng mặt trời",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      529,
+      546
+    ]
+  },
+  {
+    "text": "khẩu trang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      552,
+      562
+    ]
+  },
+  {
+    "text": "bụi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      608,
+      611
+    ]
+  },
+  {
+    "text": "cọ xát",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      650,
+      656
+    ]
+  },
+  {
+    "text": "thương tổn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      681,
+      691
+    ]
+  },
+  {
+    "text": "vitamin C",
+    "type": "THUỐC",
+    "candidates": [
+      "11246"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      738,
+      747
+    ]
+  },
+  {
+    "text": "không",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      781,
+      786
+    ]
+  },
+  {
+    "text": "vững",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      787,
+      791
+    ]
+  },
+  {
+    "text": "đứng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      796,
+      800
+    ]
+  },
+  {
+    "text": "xét nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      841,
+      851
+    ]
+  },
+  {
+    "text": "xét nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      852,
+      862
+    ]
+  },
+  {
+    "text": "tổng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1111,
+      1115
+    ]
+  },
+  {
+    "text": "phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1116,
+      1135
+    ]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1141,
+      1149
+    ]
+  },
+  {
+    "text": "vi khuẩn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1157,
+      1165
+    ]
+  },
+  {
+    "text": "hồng cầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1169,
+      1177
+    ]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1256,
+      1268
+    ]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1352,
+      1359
+    ]
+  }
+]

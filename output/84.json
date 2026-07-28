@@ -1,0 +1,278 @@
+[
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      66,
+      69
+    ]
+  },
+  {
+    "text": "Nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B35.6"
+    ],
+    "assertions": [],
+    "position": [
+      114,
+      121
+    ]
+  },
+  {
+    "text": "nhiễm nấm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      134,
+      143
+    ]
+  },
+  {
+    "text": "Trichophyton rubrum",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      158,
+      177
+    ]
+  },
+  {
+    "text": "ẩm ướt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      255,
+      261
+    ]
+  },
+  {
+    "text": "nóng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      273,
+      277
+    ]
+  },
+  {
+    "text": "ướt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      287,
+      290
+    ]
+  },
+  {
+    "text": "chật",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      294,
+      298
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      306,
+      313
+    ]
+  },
+  {
+    "text": "nếp gấp da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      326,
+      336
+    ]
+  },
+  {
+    "text": "nhiễm nấm da",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      347,
+      359
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B35.6"
+    ],
+    "assertions": [],
+    "position": [
+      385,
+      392
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      415,
+      420
+    ]
+  },
+  {
+    "text": "bôi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      436,
+      439
+    ]
+  },
+  {
+    "text": "lây nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      560,
+      569
+    ]
+  },
+  {
+    "text": "tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      576,
+      584
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B35.6"
+    ],
+    "assertions": [],
+    "position": [
+      585,
+      592
+    ]
+  },
+  {
+    "text": "khô thoáng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      624,
+      634
+    ]
+  },
+  {
+    "text": "lau",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      640,
+      643
+    ]
+  },
+  {
+    "text": "khô",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      644,
+      647
+    ]
+  },
+  {
+    "text": "tắm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      665,
+      668
+    ]
+  },
+  {
+    "text": "tập thể dục",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      674,
+      685
+    ]
+  },
+  {
+    "text": "khô thoáng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      711,
+      721
+    ]
+  },
+  {
+    "text": "mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      749,
+      755
+    ]
+  },
+  {
+    "text": "độ ẩm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      784,
+      789
+    ]
+  },
+  {
+    "text": "mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      920,
+      926
+    ]
+  },
+  {
+    "text": "vi nấm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1128,
+      1134
+    ]
+  }
+]

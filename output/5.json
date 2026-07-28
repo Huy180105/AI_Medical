@@ -1,0 +1,532 @@
+[
+  {
+    "text": "bệnh nội khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      12,
+      25
+    ]
+  },
+  {
+    "text": "ống dẫn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      93,
+      100
+    ]
+  },
+  {
+    "text": "thùy gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      128,
+      136
+    ]
+  },
+  {
+    "text": "nối mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      149,
+      156
+    ]
+  },
+  {
+    "text": "ống dẫn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      166,
+      173
+    ]
+  },
+  {
+    "text": "RNY hepaticojejunostomy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      185,
+      208
+    ]
+  },
+  {
+    "text": "ung thư biểu mô tế bào mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C22.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      238,
+      264
+    ]
+  },
+  {
+    "text": "xét nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      333,
+      343
+    ]
+  },
+  {
+    "text": "vô sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      356,
+      363
+    ]
+  },
+  {
+    "text": "có thai",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isFamily",
+      "isHistorical"
+    ],
+    "position": [
+      401,
+      408
+    ]
+  },
+  {
+    "text": "xét nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      468,
+      478
+    ]
+  },
+  {
+    "text": "xét nghiệm tinh dịch đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      519,
+      542
+    ]
+  },
+  {
+    "text": "xét nghiệm cận lâm sàng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      588,
+      611
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      616,
+      623
+    ]
+  },
+  {
+    "text": "bất thường về giải phẫu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      638,
+      661
+    ]
+  },
+  {
+    "text": "chụp tử cung vòi trứng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      664,
+      686
+    ]
+  },
+  {
+    "text": "đánh giá hình thái buồng tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      688,
+      720
+    ]
+  },
+  {
+    "text": "thông",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      727,
+      732
+    ]
+  },
+  {
+    "text": "xét nghiệm nội tiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      749,
+      768
+    ]
+  },
+  {
+    "text": "đánh giá chức năng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      770,
+      788
+    ]
+  },
+  {
+    "text": "Kinh nguyệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      848,
+      859
+    ]
+  },
+  {
+    "text": "thưa",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      868,
+      872
+    ]
+  },
+  {
+    "text": "kinh nguyệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      896,
+      907
+    ]
+  },
+  {
+    "text": "Hội chứng buồng trứng đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E28.2"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      982,
+      1011
+    ]
+  },
+  {
+    "text": "rậm lông",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1021,
+      1029
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1031,
+      1038
+    ]
+  },
+  {
+    "text": "siêu âm buồng trứng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1040,
+      1059
+    ]
+  },
+  {
+    "text": "nhiều nang",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1063,
+      1073
+    ]
+  },
+  {
+    "text": "vô sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1108,
+      1115
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1169,
+      1177
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1179,
+      1182
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1184,
+      1187
+    ]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1189,
+      1196
+    ]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1478,
+      1488
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1939,
+      1947
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1949,
+      1952
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1954,
+      1962
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2011,
+      2014
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      2366,
+      2374
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      2376,
+      2379
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      2381,
+      2384
+    ]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2664,
+      2674
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      3002,
+      3005
+    ]
+  }
+]

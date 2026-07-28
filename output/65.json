@@ -1,0 +1,118 @@
+[
+  {
+    "text": "bệnh rụng tóc từng mảng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      30,
+      53
+    ]
+  },
+  {
+    "text": "Bạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      230,
+      233
+    ]
+  },
+  {
+    "text": "rụng tóc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      252,
+      260
+    ]
+  },
+  {
+    "text": "nội thương tổn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      369,
+      383
+    ]
+  },
+  {
+    "text": "rụng tóc từng vùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      404,
+      422
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [
+      "261551"
+    ],
+    "assertions": [],
+    "position": [
+      681,
+      690
+    ]
+  },
+  {
+    "text": "rụng tóc toàn bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      713,
+      729
+    ]
+  },
+  {
+    "text": "rụng tóc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      735,
+      743
+    ]
+  },
+  {
+    "text": "thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.9"
+    ],
+    "assertions": [],
+    "position": [
+      998,
+      1014
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      1367,
+      1374
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1661,
+      1664
+    ]
+  }
+]

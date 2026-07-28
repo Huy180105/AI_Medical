@@ -1,0 +1,490 @@
+[
+  {
+    "text": "bệnh nội khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      12,
+      25
+    ]
+  },
+  {
+    "text": "viêm tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      52,
+      66
+    ]
+  },
+  {
+    "text": "bàng quang thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      70,
+      90
+    ]
+  },
+  {
+    "text": "biến đổi ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      166,
+      181
+    ]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      191,
+      204
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      208,
+      219
+    ]
+  },
+  {
+    "text": "biến đổi ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      378,
+      393
+    ]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      395,
+      408
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      410,
+      421
+    ]
+  },
+  {
+    "text": "huyết áp tâm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      426,
+      438
+    ]
+  },
+  {
+    "text": "biến đổi ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      484,
+      499
+    ]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      506,
+      519
+    ]
+  },
+  {
+    "text": "nằm đầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      532,
+      539
+    ]
+  },
+  {
+    "text": "Tim nhịp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      571,
+      579
+    ]
+  },
+  {
+    "text": "đều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      586,
+      589
+    ]
+  },
+  {
+    "text": "chu  kì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      602,
+      609
+    ]
+  },
+  {
+    "text": "tiếng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      636,
+      641
+    ]
+  },
+  {
+    "text": "tim bệnh lí",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      642,
+      653
+    ]
+  },
+  {
+    "text": "Huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      654,
+      662
+    ]
+  },
+  {
+    "text": "Phổi rì rào phế nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      677,
+      697
+    ]
+  },
+  {
+    "text": "tiếng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      713,
+      718
+    ]
+  },
+  {
+    "text": "rales",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      719,
+      724
+    ]
+  },
+  {
+    "text": "Bụng mềm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      733,
+      741
+    ]
+  },
+  {
+    "text": "chướng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      749,
+      755
+    ]
+  },
+  {
+    "text": "điểm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      766,
+      770
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      771,
+      774
+    ]
+  },
+  {
+    "text": "gan lách",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      776,
+      784
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      806,
+      809
+    ]
+  },
+  {
+    "text": "tiểu được",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      811,
+      820
+    ]
+  },
+  {
+    "text": "COPD",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      861,
+      865
+    ]
+  },
+  {
+    "text": "Tâm phế mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      868,
+      879
+    ]
+  },
+  {
+    "text": "Cơn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      882,
+      885
+    ]
+  },
+  {
+    "text": "tim nhanh nhĩ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      886,
+      899
+    ]
+  },
+  {
+    "text": "Nhiễm khuẩn đường tiêu hóa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N39.0"
+    ],
+    "assertions": [],
+    "position": [
+      902,
+      928
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
+    "position": [
+      931,
+      944
+    ]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1008,
+      1020
+    ]
+  },
+  {
+    "text": "viêm cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1059,
+      1072
+    ]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1085,
+      1097
+    ]
+  },
+  {
+    "text": "Đặt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1144,
+      1147
+    ]
+  },
+  {
+    "text": "sonde bàng quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1148,
+      1164
+    ]
+  },
+  {
+    "text": "xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1175,
+      1189
+    ]
+  },
+  {
+    "text": "cấy nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1193,
+      1206
+    ]
+  },
+  {
+    "text": "thủ thuậ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1215,
+      1223
+    ]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1235,
+      1246
+    ]
+  }
+]

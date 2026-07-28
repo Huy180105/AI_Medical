@@ -1,0 +1,284 @@
+[
+  {
+    "text": "xét nghiệm gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      71,
+      90
+    ]
+  },
+  {
+    "text": "khó chịu vùng ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      193,
+      211
+    ]
+  },
+  {
+    "text": "gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      212,
+      221
+    ]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      256,
+      265
+    ]
+  },
+  {
+    "text": "Gián đoạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      390,
+      399
+    ]
+  },
+  {
+    "text": "Chiếu r xạ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      402,
+      412
+    ]
+  },
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      599,
+      629
+    ]
+  },
+  {
+    "text": "thăm khám lâm sàng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      665,
+      683
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      695,
+      698
+    ]
+  },
+  {
+    "text": "Viêm hang vị sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K29.5"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      743,
+      766
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      810,
+      814
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      834,
+      838
+    ]
+  },
+  {
+    "text": "giãn nở",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      839,
+      846
+    ]
+  },
+  {
+    "text": "ứ máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      850,
+      861
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      884,
+      892
+    ]
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      910,
+      915
+    ]
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      917,
+      923
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      944,
+      952
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      958,
+      961
+    ]
+  },
+  {
+    "text": "bệnh dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      973,
+      984
+    ]
+  },
+  {
+    "text": "bệnh nan y",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      997,
+      1007
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1052,
+      1059
+    ]
+  },
+  {
+    "text": "bệnh viêm sung huyết hang vị dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1128,
+      1163
+    ]
+  },
+  {
+    "text": "thăm khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1196,
+      1205
+    ]
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1219,
+      1233
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2079,
+      2082
+    ]
+  }
+]

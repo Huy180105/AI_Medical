@@ -1,0 +1,310 @@
+[
+  {
+    "text": "nặng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      42,
+      50
+    ]
+  },
+  {
+    "text": "tức nặng 2 chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      52,
+      71
+    ]
+  },
+  {
+    "text": "tiểu ít",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      73,
+      80
+    ]
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N04.9"
+    ],
+    "assertions": [],
+    "position": [
+      187,
+      204
+    ]
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      212,
+      215
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      308,
+      311
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      324,
+      327
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      381,
+      384
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      408,
+      411
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      421,
+      424
+    ]
+  },
+  {
+    "text": "chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      431,
+      439
+    ]
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      591,
+      594
+    ]
+  },
+  {
+    "text": "Xét nghiệm nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      630,
+      650
+    ]
+  },
+  {
+    "text": "Trụ niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      671,
+      679
+    ]
+  },
+  {
+    "text": "trụ trong",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      685,
+      694
+    ]
+  },
+  {
+    "text": "trụ sáp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      696,
+      703
+    ]
+  },
+  {
+    "text": "trụ hình hạt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      705,
+      717
+    ]
+  },
+  {
+    "text": "sỏi đài",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      740,
+      747
+    ]
+  },
+  {
+    "text": "niệu quản",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      757,
+      766
+    ]
+  },
+  {
+    "text": "viêm cầu thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      777,
+      790
+    ]
+  },
+  {
+    "text": "suy thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      808,
+      816
+    ]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D64.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      874,
+      883
+    ]
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N04.9"
+    ],
+    "assertions": [],
+    "position": [
+      1122,
+      1139
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1561,
+      1564
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.5"
+    ],
+    "assertions": [],
+    "position": [
+      1566,
+      1580
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1908,
+      1911
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1972,
+      1979
+    ]
+  },
+  {
+    "text": "sỏi mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K80.2"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1989,
+      1996
+    ]
+  }
+]

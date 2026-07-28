@@ -1,0 +1,81 @@
+==========================================================================
+BÁO CÁO PHÂN TÍCH CHẨN ĐOÁN 5 BƯỚC TOÀN BỘ 100 FILE OUTPUT THEO MENTOR
+==========================================================================
+Tổng số file: 100
+Tổng số thực thể: 2617 (Trung bình 26.2 thực thể/file)
+
+--- BƯỚC 1: Thống kê Tỷ lệ Candidate theo Loaị Thực thể ---
+  * THUỐC          :   141 thực thể |    90 CÓ candidate ( 63.8%) |    51 KHÔNG CÓ candidate ( 36.2%)
+  * CHẨN_ĐOÁN      :   760 thực thể |   350 CÓ candidate ( 46.1%) |   410 KHÔNG CÓ candidate ( 53.9%)
+  * TRIỆU_CHỨNG    :  1427 thực thể |     0 CÓ candidate (  0.0%) |  1427 KHÔNG CÓ candidate (100.0%)
+  * TÊN_XÉT_NGHIỆM :   289 thực thể |     0 CÓ candidate (  0.0%) |   289 KHÔNG CÓ candidate (100.0%)
+
+--- BƯỚC 2 & 3: Top 50 Thực thể Xuất hiện Nhiều nhất & Trạng thái Candidate/Synonym ---
+STT  | Text thực thể                       | Tần suất | Loại chính      | Mã Candidate hiện tại
+------------------------------------------------------------------------------------------
+1    | đau                                 | 135      | TRIỆU_CHỨNG     | [TRỐNG]
+2    | phù                                 | 60       | TRIỆU_CHỨNG     | [TRỐNG]
+3    | khó thở                             | 53       | TRIỆU_CHỨNG     | [TRỐNG]
+4    | sốt                                 | 53       | TRIỆU_CHỨNG     | [TRỐNG]
+5    | nôn                                 | 52       | TRIỆU_CHỨNG     | [TRỐNG]
+6    | đau bụng                            | 45       | TRIỆU_CHỨNG     | [TRỐNG]
+7    | buồn nôn                            | 43       | TRIỆU_CHỨNG     | [TRỐNG]
+8    | mệt mỏi                             | 40       | TRIỆU_CHỨNG     | [TRỐNG]
+9    | bệnh dại                            | 39       | CHẨN_ĐOÁN       | A82
+10   | đau đầu                             | 32       | TRIỆU_CHỨNG     | [TRỐNG]
+11   | nội soi                             | 30       | TÊN_XÉT_NGHIỆM  | [TRỐNG]
+12   | mày đay                             | 28       | CHẨN_ĐOÁN       | L50.9
+13   | tăng huyết áp                       | 26       | CHẨN_ĐOÁN       | I10
+14   | đái tháo đường                      | 23       | CHẨN_ĐOÁN       | E11.9
+15   | amyloidosis                         | 23       | CHẨN_ĐOÁN       | E85.9
+16   | thuốc                               | 22       | THUỐC           | [TRỐNG]
+17   | siêu âm                             | 19       | TÊN_XÉT_NGHIỆM  | [TRỐNG]
+18   | đau ngực                            | 19       | TRIỆU_CHỨNG     | [TRỐNG]
+19   | gleevec                             | 18       | THUỐC           | 282388
+20   | thiếu men g6pd                      | 17       | CHẨN_ĐOÁN       | D55.0
+21   | viêm                                | 17       | TRIỆU_CHỨNG     | J18.9
+22   | chụp ct                             | 16       | TÊN_XÉT_NGHIỆM  | [TRỐNG]
+23   | chóng mặt                           | 15       | TRIỆU_CHỨNG     | [TRỐNG]
+24   | ảo giác                             | 15       | TRIỆU_CHỨNG     | [TRỐNG]
+25   | x-quang                             | 15       | TÊN_XÉT_NGHIỆM  | [TRỐNG]
+26   | tiêu chảy                           | 14       | TRIỆU_CHỨNG     | [TRỐNG]
+27   | mạn tính                            | 13       | CHẨN_ĐOÁN       | [TRỐNG]
+28   | viêm phổi                           | 13       | CHẨN_ĐOÁN       | J18.9
+29   | suy tim                             | 12       | CHẨN_ĐOÁN       | I50.9
+30   | béo phì                             | 12       | TRIỆU_CHỨNG     | [TRỐNG]
+31   | ho                                  | 12       | TRIỆU_CHỨNG     | [TRỐNG]
+32   | khó thở khi gắng sức                | 12       | TRIỆU_CHỨNG     | [TRỐNG]
+33   | vàng da                             | 11       | TRIỆU_CHỨNG     | [TRỐNG]
+34   | bệnh nội khoa                       | 11       | CHẨN_ĐOÁN       | [TRỐNG]
+35   | tự tử                               | 11       | TRIỆU_CHỨNG     | [TRỐNG]
+36   | nhiễm khuẩn đường tiết niệu         | 11       | CHẨN_ĐOÁN       | N39.0
+37   | omeprazole                          | 10       | THUỐC           | 7646
+38   | trầm cảm                            | 10       | CHẨN_ĐOÁN       | F32.9
+39   | phẫu thuật                          | 10       | TÊN_XÉT_NGHIỆM  | [TRỐNG]
+40   | thoái hóa tinh bột                  | 10       | CHẨN_ĐOÁN       | E85.9
+41   | ngã                                 | 9        | TRIỆU_CHỨNG     | [TRỐNG]
+42   | tylenol                             | 9        | THUỐC           | 202433
+43   | bệnh kawasaki                       | 8        | CHẨN_ĐOÁN       | M30.3
+44   | sinh thiết                          | 8        | TÊN_XÉT_NGHIỆM  | [TRỐNG]
+45   | đánh trống ngực                     | 8        | TRIỆU_CHỨNG     | [TRỐNG]
+46   | corticoid                           | 8        | THUỐC           | 261551
+47   | ban đỏ                              | 8        | TRIỆU_CHỨNG     | [TRỐNG]
+48   | tổn thương                          | 8        | TRIỆU_CHỨNG     | N90.8
+49   | dấu mề đay                          | 8        | TRIỆU_CHỨNG     | [TRỐNG]
+50   | lắng đọng                           | 8        | TRIỆU_CHỨNG     | [TRỐNG]
+
+--- BƯỚC 4: Kiểm tra Lỗi Nhầm Loại Thực thể (Type Ambiguity / 2x Penalty) ---
+  * Thực thể 'viêm' (17 lần) bị đoán nhầm giữa các loại: {'CHẨN_ĐOÁN': 4, 'TRIỆU_CHỨNG': 13}
+  * Thực thể 'thuốc' (22 lần) bị đoán nhầm giữa các loại: {'THUỐC': 21, 'TRIỆU_CHỨNG': 1}
+  * Thực thể 'vô sinh' (3 lần) bị đoán nhầm giữa các loại: {'CHẨN_ĐOÁN': 2, 'TRIỆU_CHỨNG': 1}
+  * Thực thể 'xuất huyết' (4 lần) bị đoán nhầm giữa các loại: {'CHẨN_ĐOÁN': 3, 'TRIỆU_CHỨNG': 1}
+  * Thực thể 'nhìn' (3 lần) bị đoán nhầm giữa các loại: {'TRIỆU_CHỨNG': 2, 'TÊN_XÉT_NGHIỆM': 1}
+  * Thực thể 'tổn thương' (8 lần) bị đoán nhầm giữa các loại: {'TRIỆU_CHỨNG': 5, 'CHẨN_ĐOÁN': 3}
+  * Thực thể 'toàn trạng' (6 lần) bị đoán nhầm giữa các loại: {'TRIỆU_CHỨNG': 5, 'CHẨN_ĐOÁN': 1}
+  * Thực thể 'thiếu oxy' (7 lần) bị đoán nhầm giữa các loại: {'TRIỆU_CHỨNG': 5, 'CHẨN_ĐOÁN': 2}
+  * Thực thể 'cánh tay trái' (4 lần) bị đoán nhầm giữa các loại: {'TRIỆU_CHỨNG': 1, 'CHẨN_ĐOÁN': 3}
+  * Thực thể 'mụn trứng cá' (4 lần) bị đoán nhầm giữa các loại: {'TRIỆU_CHỨNG': 1, 'CHẨN_ĐOÁN': 3}
+  * Thực thể 'tái phát' (4 lần) bị đoán nhầm giữa các loại: {'TRIỆU_CHỨNG': 2, 'CHẨN_ĐOÁN': 2}
+  * Thực thể 'gián đoạn' (3 lần) bị đoán nhầm giữa các loại: {'TRIỆU_CHỨNG': 1, 'CHẨN_ĐOÁN': 2}
+  * Thực thể 'tăng' (7 lần) bị đoán nhầm giữa các loại: {'CHẨN_ĐOÁN': 1, 'TRIỆU_CHỨNG': 6}
+  * Thực thể 'thương tổn' (3 lần) bị đoán nhầm giữa các loại: {'CHẨN_ĐOÁN': 1, 'TRIỆU_CHỨNG': 2}

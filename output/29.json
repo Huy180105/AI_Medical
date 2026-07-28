@@ -1,0 +1,402 @@
+[
+  {
+    "text": "mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      32,
+      40
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      46,
+      77
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      80,
+      93
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      96,
+      110
+    ]
+  },
+  {
+    "text": "Rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I48.91"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      122,
+      130
+    ]
+  },
+  {
+    "text": "thất nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      143,
+      153
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      156,
+      169
+    ]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      343,
+      353
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      358,
+      361
+    ]
+  },
+  {
+    "text": "nhiệt độ cao",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      363,
+      375
+    ]
+  },
+  {
+    "text": ",3°C",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      390,
+      394
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      414,
+      417
+    ]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      435,
+      445
+    ]
+  },
+  {
+    "text": "tăng dần",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      512,
+      520
+    ]
+  },
+  {
+    "text": "gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      534,
+      542
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      548,
+      551
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      640,
+      643
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      647,
+      650
+    ]
+  },
+  {
+    "text": "suy hô hấp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      700,
+      710
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
+    "position": [
+      715,
+      728
+    ]
+  },
+  {
+    "text": "lợi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      765,
+      773
+    ]
+  },
+  {
+    "text": "hô hấp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      874,
+      880
+    ]
+  },
+  {
+    "text": "hỗ trợ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      895,
+      901
+    ]
+  },
+  {
+    "text": "hô hấp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      902,
+      908
+    ]
+  },
+  {
+    "text": "nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N39.0"
+    ],
+    "assertions": [],
+    "position": [
+      991,
+      996
+    ]
+  },
+  {
+    "text": "khuẩn huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      997,
+      1008
+    ]
+  },
+  {
+    "text": "tụ cầu vàng nhạy cảm methicillin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1012,
+      1044
+    ]
+  },
+  {
+    "text": "đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [],
+    "position": [
+      1065,
+      1070
+    ]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1116,
+      1123
+    ]
+  },
+  {
+    "text": "huyết khối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1157,
+      1167
+    ]
+  },
+  {
+    "text": "xạ hình thông khí",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1169,
+      1186
+    ]
+  },
+  {
+    "text": "tưới máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1189,
+      1197
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I26.9"
+    ],
+    "assertions": [],
+    "position": [
+      1226,
+      1241
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1818,
+      1821
+    ]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2108,
+      2115
+    ]
+  }
+]

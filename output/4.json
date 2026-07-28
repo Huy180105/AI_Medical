@@ -1,0 +1,648 @@
+[
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      73,
+      81
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      85,
+      94
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      118,
+      121
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      176,
+      179
+    ]
+  },
+  {
+    "text": "hội chứng ruột kích thích",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K58.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      226,
+      251
+    ]
+  },
+  {
+    "text": "hội chứng ruột kích thích",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K58.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      268,
+      293
+    ]
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      353,
+      360
+    ]
+  },
+  {
+    "text": "loét tá tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K26.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      390,
+      403
+    ]
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      411,
+      418
+    ]
+  },
+  {
+    "text": "loét tá tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K26.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      435,
+      448
+    ]
+  },
+  {
+    "text": "hồi tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      452,
+      461
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      469,
+      476
+    ]
+  },
+  {
+    "text": "Viêm thực quản độ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J20.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      478,
+      495
+    ]
+  },
+  {
+    "text": "loét thực quản",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      499,
+      513
+    ]
+  },
+  {
+    "text": "điểm sắc tố",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      527,
+      538
+    ]
+  },
+  {
+    "text": "loét",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      546,
+      550
+    ]
+  },
+  {
+    "text": "hồi tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      579,
+      588
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": [
+      "7646"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      625,
+      635
+    ]
+  },
+  {
+    "text": "làm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      650,
+      653
+    ]
+  },
+  {
+    "text": "test hơi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      654,
+      662
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      726,
+      729
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      809,
+      817
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      821,
+      830
+    ]
+  },
+  {
+    "text": "ăn uống",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      912,
+      919
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      937,
+      945
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      949,
+      958
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1008,
+      1011
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1068,
+      1071
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1115,
+      1123
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1127,
+      1130
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": [
+      "7646"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1168,
+      1178
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1244,
+      1252
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1256,
+      1265
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1332,
+      1339
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1534,
+      1542
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1544,
+      1553
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1555,
+      1558
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1567,
+      1574
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": [
+      "7646"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1695,
+      1705
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": [
+      "7646"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1753,
+      1763
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1776,
+      1784
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1788,
+      1791
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1846,
+      1849
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1894,
+      1897
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2120,
+      2128
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2132,
+      2141
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2204,
+      2207
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2264,
+      2271
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": [
+      "7646"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2473,
+      2483
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2541,
+      2549
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2553,
+      2556
+    ]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": [
+      "7646"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2594,
+      2604
+    ]
+  }
+]

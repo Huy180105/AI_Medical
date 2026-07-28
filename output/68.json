@@ -1,0 +1,276 @@
+[
+  {
+    "text": "bệnh\nBệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      11,
+      32
+    ]
+  },
+  {
+    "text": "bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      55,
+      83
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      160,
+      167
+    ]
+  },
+  {
+    "text": "vận động gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      181,
+      198
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      248,
+      255
+    ]
+  },
+  {
+    "text": "tăng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      266,
+      270
+    ]
+  },
+  {
+    "text": "vận động gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      275,
+      292
+    ]
+  },
+  {
+    "text": "Đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      295,
+      301
+    ]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      302,
+      310
+    ]
+  },
+  {
+    "text": "gậy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      321,
+      324
+    ]
+  },
+  {
+    "text": "đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      332,
+      338
+    ]
+  },
+  {
+    "text": "Đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      341,
+      344
+    ]
+  },
+  {
+    "text": "bệnh lý thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      361,
+      378
+    ]
+  },
+  {
+    "text": "chẩn đoán hình ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      413,
+      431
+    ]
+  },
+  {
+    "text": "Đo sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      434,
+      440
+    ]
+  },
+  {
+    "text": "cố định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      492,
+      499
+    ]
+  },
+  {
+    "text": "giảm chức năng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      534,
+      548
+    ]
+  },
+  {
+    "text": "rối loạn chức năng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      589,
+      607
+    ]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      621,
+      640
+    ]
+  },
+  {
+    "text": "bệnh ba thân động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      650,
+      677
+    ]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      721,
+      740
+    ]
+  },
+  {
+    "text": "can thiệp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      741,
+      750
+    ]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      810,
+      821
+    ]
+  },
+  {
+    "text": "cân nặng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      975,
+      983
+    ]
+  },
+  {
+    "text": "kháng sinh",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1029,
+      1039
+    ]
+  },
+  {
+    "text": "tái lại",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1151,
+      1158
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1434,
+      1443
+    ]
+  }
+]

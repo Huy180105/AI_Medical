@@ -1,0 +1,13 @@
+2026-07-11 07:28:50 - src.agent.workflow - INFO - Agent latency ner=0.00ms retriever=0.00ms reasoner=0.02ms total=0.06ms gpu={'available': False, 'device': 'cpu', 'error': 'torch_unavailable'}
+2026-07-11 07:28:50 - src.knowledge.loader - INFO - Loaded 2 knowledge documents from C:\Users\Quang Huy\AppData\Local\Temp\tmpmvqd5c2k
+2026-07-11 07:28:58 - src.knowledge.loader - INFO - Loaded 12 knowledge documents from C:\Users\Quang Huy\source\repos\Mediacal-AI-Agent\knowledge_base
+2026-07-11 07:29:41 - src.agent.workflow - INFO - Agent latency ner=0.00ms retriever=0.00ms reasoner=0.02ms total=0.05ms gpu={'available': False, 'device': 'cpu', 'error': 'torch_unavailable'}
+2026-07-11 07:29:41 - src.knowledge.loader - INFO - Loaded 2 knowledge documents from C:\Users\Quang Huy\AppData\Local\Temp\tmp1e0w5g6i
+2026-07-20 20:49:04 - competition.evaluate_real - INFO - Evaluating real encoder backbone: BGE_SMALL (BAAI/bge-small-en-v1.5)...
+2026-07-20 20:49:04 - competition.evaluate_real - WARNING - MLflow logging skipped: No module named 'mlflow'
+2026-07-20 20:49:04 - competition.evaluate_real - INFO - Evaluating real encoder backbone: E5_SMALL (intfloat/e5-small-v2)...
+2026-07-20 20:49:04 - competition.evaluate_real - WARNING - MLflow logging skipped: No module named 'mlflow'
+2026-07-20 20:49:04 - competition.evaluate_real - INFO - Evaluating real encoder backbone: VIHEALTHBERT (nhuy/vihealthbert)...
+2026-07-20 20:49:04 - competition.evaluate_real - WARNING - MLflow logging skipped: No module named 'mlflow'
+2026-07-20 20:49:04 - competition.evaluate_real - INFO - Evaluating real encoder backbone: PHOBERT (vinai/phobert-base)...
+2026-07-20 20:49:04 - competition.evaluate_real - WARNING - MLflow logging skipped: No module named 'mlflow'

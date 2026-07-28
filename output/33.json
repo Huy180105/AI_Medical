@@ -1,0 +1,455 @@
+[
+  {
+    "text": "mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      28,
+      36
+    ]
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I48.91"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      39,
+      47
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      50,
+      63
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I50.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      66,
+      73
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      92,
+      99
+    ]
+  },
+  {
+    "text": "nhiều dầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      129,
+      138
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      145,
+      157
+    ]
+  },
+  {
+    "text": "dầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      252,
+      255
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      283,
+      286
+    ]
+  },
+  {
+    "text": "lên mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      322,
+      329
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      342,
+      345
+    ]
+  },
+  {
+    "text": "mụn cám",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      392,
+      399
+    ]
+  },
+  {
+    "text": "mụn đầu trắng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      403,
+      416
+    ]
+  },
+  {
+    "text": "sức khoẻ sinh sản cộng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      493,
+      515
+    ]
+  },
+  {
+    "text": "lên lại",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      549,
+      556
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      557,
+      560
+    ]
+  },
+  {
+    "text": "dầu mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      636,
+      643
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      669,
+      672
+    ]
+  },
+  {
+    "text": "tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      679,
+      687
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      720,
+      727
+    ]
+  },
+  {
+    "text": "weak",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      731,
+      735
+    ]
+  },
+  {
+    "text": "ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      751,
+      754
+    ]
+  },
+  {
+    "text": "quên",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      755,
+      759
+    ]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      772,
+      780
+    ]
+  },
+  {
+    "text": "Đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      829,
+      832
+    ]
+  },
+  {
+    "text": "đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      842,
+      849
+    ]
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      852,
+      859
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      862,
+      865
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      909,
+      917
+    ]
+  },
+  {
+    "text": "nhói",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      980,
+      984
+    ]
+  },
+  {
+    "text": "tê bì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1033,
+      1038
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1063,
+      1066
+    ]
+  },
+  {
+    "text": "bàn tay",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1091,
+      1098
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1290,
+      1293
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1373,
+      1376
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2105,
+      2113
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      2156,
+      2164
+    ]
+  }
+]

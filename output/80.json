@@ -1,0 +1,230 @@
+[
+  {
+    "text": "bệnh gút",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M10.9"
+    ],
+    "assertions": [],
+    "position": [
+      64,
+      72
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      115,
+      118
+    ]
+  },
+  {
+    "text": "hạt nhỏ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      166,
+      173
+    ]
+  },
+  {
+    "text": "ngón chân",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      218,
+      227
+    ]
+  },
+  {
+    "text": "bệnhgout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      396,
+      404
+    ]
+  },
+  {
+    "text": "hạt nhỏ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      467,
+      474
+    ]
+  },
+  {
+    "text": "bệnh gout mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      524,
+      542
+    ]
+  },
+  {
+    "text": "nhỏ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      612,
+      615
+    ]
+  },
+  {
+    "text": "mềm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      617,
+      620
+    ]
+  },
+  {
+    "text": "di động",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      629,
+      636
+    ]
+  },
+  {
+    "text": "u cứng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      722,
+      728
+    ]
+  },
+  {
+    "text": "nổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      760,
+      763
+    ]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      788,
+      792
+    ]
+  },
+  {
+    "text": "tấy đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      794,
+      800
+    ]
+  },
+  {
+    "text": "vận động",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      867,
+      875
+    ]
+  },
+  {
+    "text": "biến dạng xương khớp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      947,
+      967
+    ]
+  },
+  {
+    "text": "nhiễm trùng máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      973,
+      988
+    ]
+  },
+  {
+    "text": "xơ gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K74.6"
+    ],
+    "assertions": [],
+    "position": [
+      1019,
+      1025
+    ]
+  },
+  {
+    "text": "mất bù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1026,
+      1032
+    ]
+  },
+  {
+    "text": "tăng áp lực tĩnh mạch cửa",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1036,
+      1061
+    ]
+  },
+  {
+    "text": "cổ trướng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1063,
+      1072
+    ]
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1076,
+      1095
+    ]
+  }
+]

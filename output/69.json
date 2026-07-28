@@ -1,0 +1,268 @@
+[
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      41,
+      46
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      108,
+      116
+    ]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      121,
+      135
+    ]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      202,
+      207
+    ]
+  },
+  {
+    "text": "sốc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      263,
+      266
+    ]
+  },
+  {
+    "text": "trêu chọc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      303,
+      312
+    ]
+  },
+  {
+    "text": "rượu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      336,
+      340
+    ]
+  },
+  {
+    "text": "nhảy cầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      418,
+      426
+    ]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      427,
+      432
+    ]
+  },
+  {
+    "text": "tiếp xúc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      521,
+      529
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      555,
+      563
+    ]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      602,
+      607
+    ]
+  },
+  {
+    "text": "cắt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      689,
+      692
+    ]
+  },
+  {
+    "text": "cắt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      724,
+      727
+    ]
+  },
+  {
+    "text": "cụt chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      728,
+      741
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi hai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      768,
+      787
+    ]
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      795,
+      806
+    ]
+  },
+  {
+    "text": "chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      918,
+      927
+    ]
+  },
+  {
+    "text": "kháng sinh",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      943,
+      953
+    ]
+  },
+  {
+    "text": "nổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1031,
+      1034
+    ]
+  },
+  {
+    "text": "nhẹ nhàng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1045,
+      1054
+    ]
+  },
+  {
+    "text": "nhẹ nhàng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1055,
+      1064
+    ]
+  },
+  {
+    "text": "nổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1093,
+      1096
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1127,
+      1130
+    ]
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1143,
+      1151
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      45,
+      52
+    ]
+  },
+  {
+    "text": "gầy sút cân",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      54,
+      65
+    ]
+  },
+  {
+    "text": "Ăn nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      140,
+      148
+    ]
+  },
+  {
+    "text": "khát nước",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      150,
+      159
+    ]
+  },
+  {
+    "text": "nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      166,
+      171
+    ]
+  },
+  {
+    "text": "đi tiểu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      173,
+      186
+    ]
+  },
+  {
+    "text": "gầy sút cân",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      188,
+      199
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      219,
+      226
+    ]
+  },
+  {
+    "text": "Mạch",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      276,
+      280
+    ]
+  },
+  {
+    "text": "Xét nghiệm máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      321,
+      335
+    ]
+  },
+  {
+    "text": "Quai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      373,
+      377
+    ]
+  },
+  {
+    "text": "ĐMC vồng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      378,
+      386
+    ]
+  },
+  {
+    "text": "rốn phổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      411,
+      419
+    ]
+  },
+  {
+    "text": "đậm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      420,
+      423
+    ]
+  },
+  {
+    "text": "ĐTD typ II",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      458,
+      468
+    ]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": [
+      "10737"
+    ],
+    "assertions": [],
+    "position": [
+      554,
+      563
+    ]
+  },
+  {
+    "text": "Insulin glargine",
+    "type": "THUỐC",
+    "candidates": [
+      "274785"
+    ],
+    "assertions": [],
+    "position": [
+      604,
+      620
+    ]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": [
+      "301542"
+    ],
+    "assertions": [],
+    "position": [
+      735,
+      747
+    ]
+  },
+  {
+    "text": "Crestor",
+    "type": "THUỐC",
+    "candidates": [
+      "377884"
+    ],
+    "assertions": [],
+    "position": [
+      749,
+      756
+    ]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": [
+      "20352"
+    ],
+    "assertions": [],
+    "position": [
+      803,
+      813
+    ]
+  },
+  {
+    "text": "xét nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      896,
+      906
+    ]
+  },
+  {
+    "text": "tăng kali máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      920,
+      933
+    ]
+  },
+  {
+    "text": "tăng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      948,
+      952
+    ]
+  }
+]

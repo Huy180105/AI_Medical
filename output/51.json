@@ -1,0 +1,288 @@
+[
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      48,
+      55
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      62,
+      76
+    ]
+  },
+  {
+    "text": "ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      127,
+      130
+    ]
+  },
+  {
+    "text": "tiền sử lâm sàng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      137,
+      153
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I50.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      154,
+      161
+    ]
+  },
+  {
+    "text": "Dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "T78.40"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      190,
+      196
+    ]
+  },
+  {
+    "text": "furosemide",
+    "type": "THUỐC",
+    "candidates": [
+      "4603"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      197,
+      207
+    ]
+  },
+  {
+    "text": "xem",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      374,
+      377
+    ]
+  },
+  {
+    "text": "khó nằm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      455,
+      462
+    ]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      495,
+      513
+    ]
+  },
+  {
+    "text": "ngắt quãng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      515,
+      525
+    ]
+  },
+  {
+    "text": "tiền sử ho",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      574,
+      584
+    ]
+  },
+  {
+    "text": "đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      588,
+      597
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      613,
+      616
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      623,
+      626
+    ]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      685,
+      703
+    ]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      737,
+      755
+    ]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      798,
+      816
+    ]
+  },
+  {
+    "text": "khó nằm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      847,
+      854
+    ]
+  },
+  {
+    "text": "đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      892,
+      901
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      912,
+      915
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      917,
+      920
+    ]
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1083,
+      1092
+    ]
+  }
+]

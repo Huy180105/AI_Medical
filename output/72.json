@@ -1,0 +1,66 @@
+[
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [
+      "261551"
+    ],
+    "assertions": [],
+    "position": [
+      332,
+      341
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "353062"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      821,
+      829
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32.9"
+    ],
+    "assertions": [],
+    "position": [
+      1112,
+      1120
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "353062"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1343,
+      1351
+    ]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": [
+      "353062"
+    ],
+    "assertions": [],
+    "position": [
+      1386,
+      1394
+    ]
+  }
+]

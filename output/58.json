@@ -1,0 +1,229 @@
+[
+  {
+    "text": "bệnh nội khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      24,
+      37
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      39,
+      52
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      54,
+      68
+    ]
+  },
+  {
+    "text": "Suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I50.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      114,
+      121
+    ]
+  },
+  {
+    "text": "thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.9"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      131,
+      147
+    ]
+  },
+  {
+    "text": "Bệnh thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      176,
+      194
+    ]
+  },
+  {
+    "text": "mệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      286,
+      289
+    ]
+  },
+  {
+    "text": "đại tiểu tiện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      291,
+      304
+    ]
+  },
+  {
+    "text": "nước tiểu trong",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      318,
+      333
+    ]
+  },
+  {
+    "text": "Nhịp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      343,
+      347
+    ]
+  },
+  {
+    "text": "XN máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      394,
+      400
+    ]
+  },
+  {
+    "text": "rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      618,
+      622
+    ]
+  },
+  {
+    "text": "tăng HA",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      670,
+      677
+    ]
+  },
+  {
+    "text": "dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "T78.40"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      739,
+      745
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [],
+    "position": [
+      825,
+      839
+    ]
+  },
+  {
+    "text": "Tăng HA độ III",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      847,
+      861
+    ]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1531,
+      1543
+    ]
+  },
+  {
+    "text": "Tăng",
+    "type": "KẾ_QUẢ_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1545,
+      1549
+    ]
+  }
+]

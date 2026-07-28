@@ -1,0 +1,336 @@
+[
+  {
+    "text": "Bệnh phổi kẽ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J84.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      44,
+      56
+    ]
+  },
+  {
+    "text": "corticoid liều cao",
+    "type": "THUỐC",
+    "candidates": [
+      "261551"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      68,
+      86
+    ]
+  },
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      124,
+      162
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      170,
+      177
+    ]
+  },
+  {
+    "text": "Tăng huyết áp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      184,
+      209
+    ]
+  },
+  {
+    "text": "phẫu thuật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      223,
+      233
+    ]
+  },
+  {
+    "text": "thủ thuật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      236,
+      245
+    ]
+  },
+  {
+    "text": "Sinh thiết nội mạc tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      247,
+      273
+    ]
+  },
+  {
+    "text": "Corticoid liều cao",
+    "type": "THUỐC",
+    "candidates": [
+      "261551"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      317,
+      335
+    ]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": [
+      "3640"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      430,
+      441
+    ]
+  },
+  {
+    "text": "Suy giảm miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D84.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      478,
+      496
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [
+      "261551"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      508,
+      517
+    ]
+  },
+  {
+    "text": "mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      609,
+      622
+    ]
+  },
+  {
+    "text": "mông phải",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      723,
+      732
+    ]
+  },
+  {
+    "text": "cotrimoxazol",
+    "type": "THUỐC",
+    "candidates": [
+      "259238"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      921,
+      933
+    ]
+  },
+  {
+    "text": "doxycyclin",
+    "type": "THUỐC",
+    "candidates": [
+      "3640"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      953,
+      963
+    ]
+  },
+  {
+    "text": "viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L03.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      976,
+      990
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1008,
+      1014
+    ]
+  },
+  {
+    "text": "bọng nước",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1114,
+      1123
+    ]
+  },
+  {
+    "text": "mông phải",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1139,
+      1148
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1150,
+      1153
+    ]
+  },
+  {
+    "text": "rỉ dịch",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1175,
+      1182
+    ]
+  },
+  {
+    "text": "vàng đục",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1183,
+      1191
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1407,
+      1410
+    ]
+  },
+  {
+    "text": "Viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L03.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2539,
+      2553
+    ]
+  },
+  {
+    "text": "Bệnh thủy đậu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B01.9"
+    ],
+    "assertions": [],
+    "position": [
+      2798,
+      2811
+    ]
+  }
+]

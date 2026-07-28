@@ -1,0 +1,414 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      49,
+      56
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      58,
+      65
+    ]
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      67,
+      75
+    ]
+  },
+  {
+    "text": "Hội chứng nhiễm trùng nhiễm độc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      181,
+      212
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      238,
+      241
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      256,
+      259
+    ]
+  },
+  {
+    "text": "gai rét",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      277,
+      284
+    ]
+  },
+  {
+    "text": "rét run",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      299,
+      306
+    ]
+  },
+  {
+    "text": "viên",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      315,
+      319
+    ]
+  },
+  {
+    "text": "paracetamol viên",
+    "type": "THUỐC",
+    "candidates": [
+      "313782"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      320,
+      336
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      382,
+      385
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      400,
+      407
+    ]
+  },
+  {
+    "text": "vàng niêm mạc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      409,
+      422
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      441,
+      444
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      448,
+      455
+    ]
+  },
+  {
+    "text": "nằm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      471,
+      474
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      506,
+      509
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      515,
+      522
+    ]
+  },
+  {
+    "text": "ăn ngủ tốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      524,
+      534
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      667,
+      674
+    ]
+  },
+  {
+    "text": "da niêm mạc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      712,
+      723
+    ]
+  },
+  {
+    "text": "vàng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      724,
+      728
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      741,
+      744
+    ]
+  },
+  {
+    "text": "nước tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      758,
+      767
+    ]
+  },
+  {
+    "text": "vàng sậm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      795,
+      803
+    ]
+  },
+  {
+    "text": "nước vối",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      808,
+      816
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      860,
+      867
+    ]
+  },
+  {
+    "text": "nước tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      874,
+      883
+    ]
+  },
+  {
+    "text": "bờ sườn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      966,
+      973
+    ]
+  },
+  {
+    "text": "mềm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      993,
+      996
+    ]
+  },
+  {
+    "text": "nhẵn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1005,
+      1009
+    ]
+  },
+  {
+    "text": "ấn tức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1011,
+      1017
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1410,
+      1417
+    ]
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1419,
+      1427
+    ]
+  },
+  {
+    "text": "viêm gan B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B18.1"
+    ],
+    "assertions": [
+      "isNegated",
+      "isFamily",
+      "isHistorical"
+    ],
+    "position": [
+      1578,
+      1588
+    ]
+  },
+  {
+    "text": "viêm gan B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B18.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1653,
+      1663
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1712,
+      1719
+    ]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1725,
+      1732
+    ]
+  }
+]

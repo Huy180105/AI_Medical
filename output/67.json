@@ -1,0 +1,324 @@
+[
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I50.9"
+    ],
+    "assertions": [],
+    "position": [
+      30,
+      37
+    ]
+  },
+  {
+    "text": "bệnh mạch máu ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      44,
+      68
+    ]
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      75,
+      103
+    ]
+  },
+  {
+    "text": "ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      124,
+      127
+    ]
+  },
+  {
+    "text": "tắc nghẽn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      131,
+      140
+    ]
+  },
+  {
+    "text": "Ung thư biểu mô tế bào vảy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C22.1"
+    ],
+    "assertions": [],
+    "position": [
+      163,
+      189
+    ]
+  },
+  {
+    "text": "dương vậtbiệt hóa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      203,
+      220
+    ]
+  },
+  {
+    "text": "cắt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      230,
+      233
+    ]
+  },
+  {
+    "text": "bao quy đầu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      234,
+      245
+    ]
+  },
+  {
+    "text": "cắt dương tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      258,
+      272
+    ]
+  },
+  {
+    "text": "thủ thuật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      299,
+      308
+    ]
+  },
+  {
+    "text": "Viêm hang vị sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K29.5"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      336,
+      359
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      403,
+      407
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      427,
+      431
+    ]
+  },
+  {
+    "text": "giãn nở",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      432,
+      439
+    ]
+  },
+  {
+    "text": "ứ máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      443,
+      454
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      477,
+      485
+    ]
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      503,
+      508
+    ]
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      510,
+      516
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      537,
+      545
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      551,
+      554
+    ]
+  },
+  {
+    "text": "bệnh dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      566,
+      577
+    ]
+  },
+  {
+    "text": "bệnh nan y",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      590,
+      600
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      645,
+      652
+    ]
+  },
+  {
+    "text": "bệnh viêm sung huyết hang vị dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      721,
+      756
+    ]
+  },
+  {
+    "text": "thăm khám",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      789,
+      798
+    ]
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      812,
+      826
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1672,
+      1675
+    ]
+  }
+]

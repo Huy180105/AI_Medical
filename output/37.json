@@ -1,0 +1,244 @@
+[
+  {
+    "text": "tai",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      72,
+      75
+    ]
+  },
+  {
+    "text": "lỗ tai",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      93,
+      99
+    ]
+  },
+  {
+    "text": "vành tai",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      108,
+      116
+    ]
+  },
+  {
+    "text": "nhìn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      195,
+      199
+    ]
+  },
+  {
+    "text": "đo âm tai",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      213,
+      222
+    ]
+  },
+  {
+    "text": "nghe nói",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      250,
+      258
+    ]
+  },
+  {
+    "text": "vành tai",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      375,
+      383
+    ]
+  },
+  {
+    "text": "vành tai đẹp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      468,
+      480
+    ]
+  },
+  {
+    "text": "nghe",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      546,
+      550
+    ]
+  },
+  {
+    "text": "bìng thường",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      551,
+      562
+    ]
+  },
+  {
+    "text": "nghe",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      602,
+      606
+    ]
+  },
+  {
+    "text": "mở mắt nhìn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      610,
+      621
+    ]
+  },
+  {
+    "text": "tai",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      643,
+      646
+    ]
+  },
+  {
+    "text": "trêu chọc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      713,
+      722
+    ]
+  },
+  {
+    "text": "kiểm tra",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      819,
+      827
+    ]
+  },
+  {
+    "text": "nghe",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      833,
+      837
+    ]
+  },
+  {
+    "text": "âm hộ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      926,
+      931
+    ]
+  },
+  {
+    "text": "mông",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      942,
+      946
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      990,
+      993
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1087,
+      1093
+    ]
+  },
+  {
+    "text": "chảy mủ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1095,
+      1102
+    ]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": [
+      "3640"
+    ],
+    "assertions": [],
+    "position": [
+      1222,
+      1233
+    ]
+  },
+  {
+    "text": "Viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L03.9"
+    ],
+    "assertions": [],
+    "position": [
+      1256,
+      1270
+    ]
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "text": "nổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      73,
+      76
+    ]
+  },
+  {
+    "text": "dấu mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      81,
+      91
+    ]
+  },
+  {
+    "text": "ngứa khắp người",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      102,
+      117
+    ]
+  },
+  {
+    "text": "nổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      129,
+      132
+    ]
+  },
+  {
+    "text": "dấu mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      157,
+      167
+    ]
+  },
+  {
+    "text": "nổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      168,
+      171
+    ]
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      176,
+      184
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      188,
+      192
+    ]
+  },
+  {
+    "text": "dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "T78.40"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      357,
+      363
+    ]
+  },
+  {
+    "text": "thời tiết",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      367,
+      376
+    ]
+  },
+  {
+    "text": "thức ăn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      381,
+      388
+    ]
+  },
+  {
+    "text": "nổi lên",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      400,
+      407
+    ]
+  },
+  {
+    "text": "mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [],
+    "position": [
+      627,
+      635
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [],
+    "position": [
+      642,
+      673
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [],
+    "position": [
+      684,
+      691
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
+    "position": [
+      698,
+      711
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.5"
+    ],
+    "assertions": [],
+    "position": [
+      718,
+      732
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      755,
+      769
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M48.0"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      782,
+      794
+    ]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M11.2"
+    ],
+    "assertions": [],
+    "position": [
+      801,
+      809
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.9"
+    ],
+    "assertions": [],
+    "position": [
+      816,
+      829
+    ]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      864,
+      888
+    ]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      905,
+      908
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      927,
+      934
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [],
+    "position": [
+      966,
+      973
+    ]
+  },
+  {
+    "text": "Toàn trạng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1061,
+      1071
+    ]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1072,
+      1080
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1108,
+      1115
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1131,
+      1137
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1857,
+      1864
+    ]
+  },
+  {
+    "text": "Mày đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1969,
+      1976
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [
+      "261551"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2426,
+      2435
+    ]
+  }
+]

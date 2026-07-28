@@ -1,0 +1,624 @@
+[
+  {
+    "text": "bệnh nội khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      12,
+      25
+    ]
+  },
+  {
+    "text": "mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      42,
+      50
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      57,
+      88
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      99,
+      106
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      113,
+      126
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.5"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      133,
+      147
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      170,
+      184
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M48.0"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      197,
+      209
+    ]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M11.2"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      216,
+      224
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      231,
+      244
+    ]
+  },
+  {
+    "text": "đặc hiệu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      252,
+      260
+    ]
+  },
+  {
+    "text": "tăng sản tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      279,
+      293
+    ]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      320,
+      323
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      342,
+      349
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      381,
+      388
+    ]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      476,
+      495
+    ]
+  },
+  {
+    "text": "ảo giác dai dẳng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      523,
+      539
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      546,
+      552
+    ]
+  },
+  {
+    "text": "Cực kỳ yếu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      605,
+      615
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      661,
+      668
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      693,
+      699
+    ]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      739,
+      745
+    ]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      754,
+      757
+    ]
+  },
+  {
+    "text": "toàn trạng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      797,
+      807
+    ]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      808,
+      816
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      823,
+      830
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      837,
+      843
+    ]
+  },
+  {
+    "text": "Ăn uống",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      850,
+      857
+    ]
+  },
+  {
+    "text": "kém",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      858,
+      861
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      873,
+      876
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      884,
+      887
+    ]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      894,
+      900
+    ]
+  },
+  {
+    "text": "ra dịch mật",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      908,
+      919
+    ]
+  },
+  {
+    "text": "ảo giác bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1000,
+      1019
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1047,
+      1054
+    ]
+  },
+  {
+    "text": "Toàn trạng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1101,
+      1111
+    ]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1112,
+      1120
+    ]
+  },
+  {
+    "text": "trượt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1127,
+      1132
+    ]
+  },
+  {
+    "text": "ngã xuống sàn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1133,
+      1146
+    ]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1150,
+      1156
+    ]
+  },
+  {
+    "text": "Ăn uống",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1163,
+      1170
+    ]
+  },
+  {
+    "text": "kém",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1171,
+      1174
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1186,
+      1189
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1197,
+      1200
+    ]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1207,
+      1213
+    ]
+  },
+  {
+    "text": "ra dịch",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1221,
+      1228
+    ]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1799,
+      1811
+    ]
+  },
+  {
+    "text": "cml",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1968,
+      1971
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1993,
+      2000
+    ]
+  }
+]

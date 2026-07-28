@@ -1,0 +1,15 @@
+==========================================================================
+BÁO CÁO CHẨN ĐOÁN CHUYÊN SÂU 4 ĐIỂM NÚT THẮT THEO YÊU CẦU MENTOR
+==========================================================================
+1. Thống kê mở rộng Span THUỐC (Drug Span Expansion):
+   - Tổng số thực thể THUỐC hiện tại: 148
+   - Số thực thể THUỐC có thể mở rộng kèm liều/đường dùng/tần suất: 7 (4.7%)
+   - Số thực thể THUỐC chỉ có tên hoạt chất đơn lẻ: 141 (95.3%)
+
+2. Thống kê Lỗi Ranh giới/Ký tự gây nhiễu (Boundary Noise):
+   - Tổng số thực thể: 2746
+   - Số thực thể bị dính ký tự rác (như '!', '•', dấu câu, số thứ tự): 21 (0.8%)
+
+3. Thống kê Tiềm năng Gán nhãn isHistorical theo Tiêu đề đoạn (Section Header):
+   - Thực thể nằm trong tài liệu/đoạn có chứa tiêu đề Tiền sử/Trước nhập viện: 1337 (48.7%)
+==========================================================================

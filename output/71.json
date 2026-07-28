@@ -1,0 +1,220 @@
+[
+  {
+    "text": "tiếp xúc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      72,
+      80
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      106,
+      114
+    ]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      153,
+      158
+    ]
+  },
+  {
+    "text": "cắt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      240,
+      243
+    ]
+  },
+  {
+    "text": "cắt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      275,
+      278
+    ]
+  },
+  {
+    "text": "thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      319,
+      342
+    ]
+  },
+  {
+    "text": "nhiễm trùng chi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      346,
+      361
+    ]
+  },
+  {
+    "text": "cắt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      439,
+      442
+    ]
+  },
+  {
+    "text": "chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      469,
+      478
+    ]
+  },
+  {
+    "text": "nổi mẩn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      632,
+      639
+    ]
+  },
+  {
+    "text": "nổi mẩn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      691,
+      698
+    ]
+  },
+  {
+    "text": "nổi sần",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      763,
+      770
+    ]
+  },
+  {
+    "text": "lớp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      781,
+      784
+    ]
+  },
+  {
+    "text": "sừng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      785,
+      789
+    ]
+  },
+  {
+    "text": "hông - mông",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      830,
+      841
+    ]
+  },
+  {
+    "text": "viêm nang lông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      914,
+      928
+    ]
+  },
+  {
+    "text": "cởi trần",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1011,
+      1019
+    ]
+  },
+  {
+    "text": "nổi mẩn vùng lưng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1064,
+      1081
+    ]
+  },
+  {
+    "text": "nổi mẩn đỏ ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1171,
+      1186
+    ]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1396,
+      1409
+    ]
+  },
+  {
+    "text": "nổi mề đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      1411,
+      1421
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "text": "đánh răng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      60,
+      69
+    ]
+  },
+  {
+    "text": "chảy máu chân răng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      74,
+      92
+    ]
+  },
+  {
+    "text": "mùi khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      113,
+      125
+    ]
+  },
+  {
+    "text": "mảng bám quanh răng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      147,
+      166
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      780,
+      783
+    ]
+  },
+  {
+    "text": "đột quỵ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I63.9"
+    ],
+    "assertions": [],
+    "position": [
+      983,
+      990
+    ]
+  },
+  {
+    "text": "vitamin K",
+    "type": "THUỐC",
+    "candidates": [
+      "11246"
+    ],
+    "assertions": [],
+    "position": [
+      1160,
+      1169
+    ]
+  },
+  {
+    "text": "Tiểu đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [],
+    "position": [
+      1173,
+      1183
+    ]
+  },
+  {
+    "text": "bệnh tiểu đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [],
+    "position": [
+      1233,
+      1248
+    ]
+  },
+  {
+    "text": "tiểu đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [],
+    "position": [
+      1313,
+      1323
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32.9"
+    ],
+    "assertions": [],
+    "position": [
+      1621,
+      1629
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1677,
+      1680
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2220,
+      2223
+    ]
+  }
+]

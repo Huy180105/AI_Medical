@@ -1,0 +1,156 @@
+[
+  {
+    "text": "đo HA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      80,
+      85
+    ]
+  },
+  {
+    "text": "hồi hợp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      197,
+      204
+    ]
+  },
+  {
+    "text": "rợn người",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      215,
+      224
+    ]
+  },
+  {
+    "text": "máy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      236,
+      239
+    ]
+  },
+  {
+    "text": "đo HA điện tử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      240,
+      253
+    ]
+  },
+  {
+    "text": "HA nhịp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      391,
+      398
+    ]
+  },
+  {
+    "text": "tăng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      407,
+      411
+    ]
+  },
+  {
+    "text": "rợn người",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      436,
+      445
+    ]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      447,
+      454
+    ]
+  },
+  {
+    "text": "tim đập",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      470,
+      477
+    ]
+  },
+  {
+    "text": "tăng HA",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      692,
+      699
+    ]
+  },
+  {
+    "text": "Huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      899,
+      907
+    ]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      986,
+      991
+    ]
+  },
+  {
+    "text": "căng thẳng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      992,
+      1002
+    ]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1007,
+      1015
+    ]
+  }
+]

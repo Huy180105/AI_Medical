@@ -1,0 +1,308 @@
+[
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      59,
+      70
+    ]
+  },
+  {
+    "text": "da liễu trung ương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      103,
+      121
+    ]
+  },
+  {
+    "text": "bệnh amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      337,
+      353
+    ]
+  },
+  {
+    "text": "suy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      713,
+      716
+    ]
+  },
+  {
+    "text": "tử vong",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      750,
+      757
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [],
+    "position": [
+      765,
+      796
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [],
+    "position": [
+      807,
+      814
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
+    "position": [
+      821,
+      834
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.5"
+    ],
+    "assertions": [],
+    "position": [
+      841,
+      855
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      878,
+      892
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M48.0"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      905,
+      917
+    ]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M11.2"
+    ],
+    "assertions": [],
+    "position": [
+      924,
+      932
+    ]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.9"
+    ],
+    "assertions": [],
+    "position": [
+      939,
+      952
+    ]
+  },
+  {
+    "text": "tăng sản tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      987,
+      1001
+    ]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1028,
+      1031
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1050,
+      1057
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [],
+    "position": [
+      1089,
+      1096
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1581,
+      1584
+    ]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1592,
+      1595
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1637,
+      1653
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis tự miễn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1673,
+      1697
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1712,
+      1728
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      1891,
+      1902
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2036,
+      2047
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2191,
+      2194
+    ]
+  }
+]

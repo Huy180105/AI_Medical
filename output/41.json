@@ -1,0 +1,298 @@
+[
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L70.0"
+    ],
+    "assertions": [],
+    "position": [
+      80,
+      92
+    ]
+  },
+  {
+    "text": "lên mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      229,
+      236
+    ]
+  },
+  {
+    "text": "mụn ở trán",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      249,
+      259
+    ]
+  },
+  {
+    "text": "da dầu mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      316,
+      326
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      352,
+      355
+    ]
+  },
+  {
+    "text": "tái phát",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      362,
+      370
+    ]
+  },
+  {
+    "text": "Mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      428,
+      431
+    ]
+  },
+  {
+    "text": "chất bã nhờn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      504,
+      516
+    ]
+  },
+  {
+    "text": "Bít tắc nang lông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      517,
+      534
+    ]
+  },
+  {
+    "text": "chất bã",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      539,
+      546
+    ]
+  },
+  {
+    "text": "tế bào sừng\nVi hệ tại nang lông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      550,
+      581
+    ]
+  },
+  {
+    "text": "vi khuẩn kỵ khí",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      611,
+      626
+    ]
+  },
+  {
+    "text": "viêm\nTrứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      676,
+      689
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      724,
+      728
+    ]
+  },
+  {
+    "text": "nhân mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      744,
+      752
+    ]
+  },
+  {
+    "text": "Viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B18.2"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      755,
+      759
+    ]
+  },
+  {
+    "text": "sẹo",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      775,
+      778
+    ]
+  },
+  {
+    "text": "mụn mủ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      780,
+      786
+    ]
+  },
+  {
+    "text": "nốt sần",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      788,
+      795
+    ]
+  },
+  {
+    "text": "nang\n2",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      800,
+      806
+    ]
+  },
+  {
+    "text": "Tăng sản tuyến bã nhờn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      850,
+      872
+    ]
+  },
+  {
+    "text": "Sừng hóa nang lông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      875,
+      893
+    ]
+  },
+  {
+    "text": "Viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B18.2"
+    ],
+    "assertions": [],
+    "position": [
+      926,
+      930
+    ]
+  },
+  {
+    "text": "Nhân mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      952,
+      960
+    ]
+  },
+  {
+    "text": "viêm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      991,
+      995
+    ]
+  },
+  {
+    "text": "kháng sinh",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1044,
+      1054
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1115,
+      1123
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1141,
+      1144
+    ]
+  }
+]

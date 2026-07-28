@@ -1,0 +1,98 @@
+[
+  {
+    "text": "mụn trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L70.0"
+    ],
+    "assertions": [],
+    "position": [
+      69,
+      81
+    ]
+  },
+  {
+    "text": "dầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      176,
+      179
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      207,
+      210
+    ]
+  },
+  {
+    "text": "lên mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      246,
+      253
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      266,
+      269
+    ]
+  },
+  {
+    "text": "mụn cám",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      316,
+      323
+    ]
+  },
+  {
+    "text": "mụn đầu trắng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      327,
+      340
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N39.0"
+    ],
+    "assertions": [],
+    "position": [
+      773,
+      800
+    ]
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1685,
+      1688
+    ]
+  }
+]

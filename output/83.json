@@ -1,0 +1,162 @@
+[
+  {
+    "text": "giảm cân",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      24,
+      32
+    ]
+  },
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      36,
+      44
+    ]
+  },
+  {
+    "text": "MÀY đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      170,
+      177
+    ]
+  },
+  {
+    "text": "MÀY đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      268,
+      275
+    ]
+  },
+  {
+    "text": "một nhân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      345,
+      353
+    ]
+  },
+  {
+    "text": "kính hiển thị vi quang học",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      435,
+      461
+    ]
+  },
+  {
+    "text": "kính hiển thị vi điện tử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      488,
+      512
+    ]
+  },
+  {
+    "text": "tăng lượng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      534,
+      544
+    ]
+  },
+  {
+    "text": "hạ bì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      545,
+      550
+    ]
+  },
+  {
+    "text": "thoát ra",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      566,
+      574
+    ]
+  },
+  {
+    "text": "giảm phức tạp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      692,
+      705
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      747,
+      754
+    ]
+  },
+  {
+    "text": "đay vô căn hộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      863,
+      876
+    ]
+  },
+  {
+    "text": "độc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1115,
+      1118
+    ]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1183,
+      1191
+    ]
+  }
+]

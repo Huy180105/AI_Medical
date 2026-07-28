@@ -1,0 +1,130 @@
+[
+  {
+    "text": "chân",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      26,
+      30
+    ]
+  },
+  {
+    "text": "MÀY đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      267,
+      274
+    ]
+  },
+  {
+    "text": "MÀY đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      365,
+      372
+    ]
+  },
+  {
+    "text": "một nhân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      442,
+      450
+    ]
+  },
+  {
+    "text": "kính hiển thị vi quang học",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      532,
+      558
+    ]
+  },
+  {
+    "text": "kính hiển thị vi điện tử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      585,
+      609
+    ]
+  },
+  {
+    "text": "tăng lượng hạ bì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      631,
+      647
+    ]
+  },
+  {
+    "text": "thoát ra",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      663,
+      671
+    ]
+  },
+  {
+    "text": "giảm phức tạp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      789,
+      802
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      844,
+      851
+    ]
+  },
+  {
+    "text": "đay vô căn hộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      960,
+      973
+    ]
+  },
+  {
+    "text": "độc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1212,
+      1215
+    ]
+  }
+]

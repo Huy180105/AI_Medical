@@ -1,0 +1,158 @@
+[
+  {
+    "text": "bệnh rụng tóc từng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      30,
+      48
+    ]
+  },
+  {
+    "text": "Ung thư vú di căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      195,
+      212
+    ]
+  },
+  {
+    "text": "tràn dịch màng phổi trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      214,
+      238
+    ]
+  },
+  {
+    "text": "tràn dịch màng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      326,
+      340
+    ]
+  },
+  {
+    "text": "hình ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      387,
+      395
+    ]
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C22.1"
+    ],
+    "assertions": [],
+    "position": [
+      397,
+      404
+    ]
+  },
+  {
+    "text": "di căn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      405,
+      411
+    ]
+  },
+  {
+    "text": "lưu dịch màng tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      478,
+      495
+    ]
+  },
+  {
+    "text": "nội thương tổn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      604,
+      618
+    ]
+  },
+  {
+    "text": "rụng tóc từng vùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      639,
+      657
+    ]
+  },
+  {
+    "text": "thương tổn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      672,
+      682
+    ]
+  },
+  {
+    "text": "da đầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      702,
+      708
+    ]
+  },
+  {
+    "text": "corticoid",
+    "type": "THUỐC",
+    "candidates": [
+      "261551"
+    ],
+    "assertions": [],
+    "position": [
+      916,
+      925
+    ]
+  },
+  {
+    "text": "mày đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "L50.9"
+    ],
+    "assertions": [],
+    "position": [
+      1535,
+      1542
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1829,
+      1832
+    ]
+  }
+]

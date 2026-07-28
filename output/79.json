@@ -1,0 +1,168 @@
+[
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      59,
+      70
+    ]
+  },
+  {
+    "text": "da liễu trung ương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      103,
+      121
+    ]
+  },
+  {
+    "text": "bệnh amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      337,
+      353
+    ]
+  },
+  {
+    "text": "suy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      713,
+      716
+    ]
+  },
+  {
+    "text": "tử vong",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      750,
+      757
+    ]
+  },
+  {
+    "text": "bàng quang",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      904,
+      914
+    ]
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C22.1"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1043,
+      1050
+    ]
+  },
+  {
+    "text": "bệnh ung thư máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1089,
+      1105
+    ]
+  },
+  {
+    "text": "đa u tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1110,
+      1118
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      1134,
+      1145
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      1190,
+      1206
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis tự miễn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      1226,
+      1250
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1301,
+      1309
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E85.9"
+    ],
+    "assertions": [],
+    "position": [
+      1357,
+      1368
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1512,
+      1515
+    ]
+  }
+]

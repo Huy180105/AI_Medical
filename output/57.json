@@ -1,0 +1,309 @@
+[
+  {
+    "text": "bệnh nội khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      24,
+      37
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      39,
+      52
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      54,
+      68
+    ]
+  },
+  {
+    "text": "Suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I50.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      114,
+      121
+    ]
+  },
+  {
+    "text": "thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.9"
+    ],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      131,
+      147
+    ]
+  },
+  {
+    "text": "Bệnh thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      176,
+      194
+    ]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": [
+      "10737"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      224,
+      233
+    ]
+  },
+  {
+    "text": "viên",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      242,
+      246
+    ]
+  },
+  {
+    "text": "Insulin glargine",
+    "type": "THUỐC",
+    "candidates": [
+      "274785"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      274,
+      290
+    ]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": [
+      "301542"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      405,
+      417
+    ]
+  },
+  {
+    "text": "Crestor",
+    "type": "THUỐC",
+    "candidates": [
+      "377884"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      419,
+      426
+    ]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": [
+      "20352"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      473,
+      483
+    ]
+  },
+  {
+    "text": "xét nghiệm bất thường",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      566,
+      587
+    ]
+  },
+  {
+    "text": "tăng kali máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      590,
+      603
+    ]
+  },
+  {
+    "text": "tăng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      618,
+      622
+    ]
+  },
+  {
+    "text": "viên",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      736,
+      740
+    ]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": [
+      "10737"
+    ],
+    "assertions": [],
+    "position": [
+      741,
+      750
+    ]
+  },
+  {
+    "text": "torsemide",
+    "type": "THUỐC",
+    "candidates": [
+      "10737"
+    ],
+    "assertions": [],
+    "position": [
+      805,
+      814
+    ]
+  },
+  {
+    "text": "kiểm tra đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      841,
+      861
+    ]
+  },
+  {
+    "text": "que",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      890,
+      893
+    ]
+  },
+  {
+    "text": "thử đường máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      894,
+      907
+    ]
+  },
+  {
+    "text": "thấp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      922,
+      926
+    ]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      965,
+      968
+    ]
+  },
+  {
+    "text": "đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1015,
+      1021
+    ]
+  },
+  {
+    "text": "crestor",
+    "type": "THUỐC",
+    "candidates": [
+      "377884"
+    ],
+    "assertions": [],
+    "position": [
+      1052,
+      1059
+    ]
+  }
+]

@@ -1,0 +1,294 @@
+[
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      62,
+      81
+    ]
+  },
+  {
+    "text": "Vastarel",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      129,
+      137
+    ]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      203,
+      210
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      237,
+      242
+    ]
+  },
+  {
+    "text": "mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C92.1"
+    ],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      268,
+      276
+    ]
+  },
+  {
+    "text": "bệnh Graves",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      283,
+      294
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.5"
+    ],
+    "assertions": [],
+    "position": [
+      301,
+      315
+    ]
+  },
+  {
+    "text": "run rẩy tay chân",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      338,
+      354
+    ]
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      356,
+      370
+    ]
+  },
+  {
+    "text": "đi đứng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      375,
+      382
+    ]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isFamily"
+    ],
+    "position": [
+      417,
+      424
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      456,
+      461
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      512,
+      517
+    ]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      725,
+      732
+    ]
+  },
+  {
+    "text": "nội thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      757,
+      770
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      804,
+      809
+    ]
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "candidates": [
+      "7431"
+    ],
+    "assertions": [],
+    "position": [
+      832,
+      845
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      872,
+      877
+    ]
+  },
+  {
+    "text": "giãn mạch vành",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      885,
+      899
+    ]
+  },
+  {
+    "text": "tăng tưới máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      905,
+      918
+    ]
+  },
+  {
+    "text": "đau thắt ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I20.9"
+    ],
+    "assertions": [],
+    "position": [
+      948,
+      961
+    ]
+  },
+  {
+    "text": "bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.10"
+    ],
+    "assertions": [],
+    "position": [
+      969,
+      983
+    ]
+  },
+  {
+    "text": "tích lũy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1031,
+      1039
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1201,
+      1208
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1221,
+      1229
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1604,
+      1607
+    ]
+  }
+]

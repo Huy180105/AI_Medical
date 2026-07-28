@@ -1,0 +1,388 @@
+[
+  {
+    "text": "u lành về tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      70,
+      88
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D24.9"
+    ],
+    "assertions": [],
+    "position": [
+      93,
+      106
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N60.0"
+    ],
+    "assertions": [],
+    "position": [
+      111,
+      126
+    ]
+  },
+  {
+    "text": "vitamin",
+    "type": "THUỐC",
+    "candidates": [
+      "11246"
+    ],
+    "assertions": [],
+    "position": [
+      153,
+      160
+    ]
+  },
+  {
+    "text": "b12",
+    "type": "THUỐC",
+    "candidates": [
+      "11252"
+    ],
+    "assertions": [],
+    "position": [
+      170,
+      173
+    ]
+  },
+  {
+    "text": "vitamin",
+    "type": "THUỐC",
+    "candidates": [
+      "11246"
+    ],
+    "assertions": [],
+    "position": [
+      237,
+      244
+    ]
+  },
+  {
+    "text": "b12",
+    "type": "THUỐC",
+    "candidates": [
+      "11252"
+    ],
+    "assertions": [],
+    "position": [
+      245,
+      248
+    ]
+  },
+  {
+    "text": "khối u ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      264,
+      278
+    ]
+  },
+  {
+    "text": "khối u lành tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      305,
+      321
+    ]
+  },
+  {
+    "text": "Vitamin B12",
+    "type": "THUỐC",
+    "candidates": [
+      "11252"
+    ],
+    "assertions": [],
+    "position": [
+      390,
+      401
+    ]
+  },
+  {
+    "text": "vitamin",
+    "type": "THUỐC",
+    "candidates": [
+      "11246"
+    ],
+    "assertions": [],
+    "position": [
+      409,
+      416
+    ]
+  },
+  {
+    "text": "nưa trưởng thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      542,
+      558
+    ]
+  },
+  {
+    "text": "vitamin B12",
+    "type": "THUỐC",
+    "candidates": [
+      "11252"
+    ],
+    "assertions": [],
+    "position": [
+      647,
+      658
+    ]
+  },
+  {
+    "text": "ăn chay trường diễn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      679,
+      698
+    ]
+  },
+  {
+    "text": "viêm teo niêm mạc dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      700,
+      724
+    ]
+  },
+  {
+    "text": "B12",
+    "type": "THUỐC",
+    "candidates": [
+      "11252"
+    ],
+    "assertions": [],
+    "position": [
+      785,
+      788
+    ]
+  },
+  {
+    "text": "sản xuất",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      801,
+      809
+    ]
+  },
+  {
+    "text": "tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      816,
+      825
+    ]
+  },
+  {
+    "text": "dị cảm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      858,
+      864
+    ]
+  },
+  {
+    "text": "cảm giác vị thế",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      872,
+      887
+    ]
+  },
+  {
+    "text": "trí óc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      898,
+      904
+    ]
+  },
+  {
+    "text": "hạ huyết áp tư thế đứng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      911,
+      934
+    ]
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C22.1"
+    ],
+    "assertions": [],
+    "position": [
+      958,
+      965
+    ]
+  },
+  {
+    "text": "B12",
+    "type": "THUỐC",
+    "candidates": [
+      "11252"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1004,
+      1007
+    ]
+  },
+  {
+    "text": "bệnh u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1017,
+      1037
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D24.9"
+    ],
+    "assertions": [],
+    "position": [
+      1039,
+      1052
+    ]
+  },
+  {
+    "text": "B12",
+    "type": "THUỐC",
+    "candidates": [
+      "11252"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1097,
+      1100
+    ]
+  },
+  {
+    "text": "ung thư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C22.1"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1118,
+      1125
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N60.0"
+    ],
+    "assertions": [],
+    "position": [
+      1151,
+      1166
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D24.9"
+    ],
+    "assertions": [],
+    "position": [
+      1168,
+      1181
+    ]
+  },
+  {
+    "text": "B12",
+    "type": "THUỐC",
+    "candidates": [
+      "11252"
+    ],
+    "assertions": [],
+    "position": [
+      1199,
+      1202
+    ]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D64.9"
+    ],
+    "assertions": [],
+    "position": [
+      1254,
+      1263
+    ]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1426,
+      1438
+    ]
+  },
+  {
+    "text": "Tăng",
+    "type": "KẾ_QUẢ_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1440,
+      1444
+    ]
+  }
+]

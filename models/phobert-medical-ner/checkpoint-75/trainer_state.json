@@ -1,0 +1,95 @@
+{
+  "best_global_step": 75,
+  "best_metric": 1.0,
+  "best_model_checkpoint": "C:\\Users\\Quang Huy\\source\\repos\\Mediacal-AI-Agent\\models\\phobert-medical-ner\\checkpoint-75",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 75,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.13333333333333333,
+      "grad_norm": 4.710367202758789,
+      "learning_rate": 1.1842105263157895e-05,
+      "loss": 2.0921310424804687,
+      "step": 10
+    },
+    {
+      "epoch": 0.26666666666666666,
+      "grad_norm": 1.9387447834014893,
+      "learning_rate": 2.5e-05,
+      "loss": 1.3744627952575683,
+      "step": 20
+    },
+    {
+      "epoch": 0.4,
+      "grad_norm": 1.8482048511505127,
+      "learning_rate": 3.815789473684211e-05,
+      "loss": 0.8703876495361328,
+      "step": 30
+    },
+    {
+      "epoch": 0.5333333333333333,
+      "grad_norm": 1.209342122077942,
+      "learning_rate": 4.9851632047477745e-05,
+      "loss": 0.502924633026123,
+      "step": 40
+    },
+    {
+      "epoch": 0.6666666666666666,
+      "grad_norm": 0.5957255959510803,
+      "learning_rate": 4.8367952522255196e-05,
+      "loss": 0.24021384716033936,
+      "step": 50
+    },
+    {
+      "epoch": 0.8,
+      "grad_norm": 0.27545493841171265,
+      "learning_rate": 4.688427299703264e-05,
+      "loss": 0.0967951774597168,
+      "step": 60
+    },
+    {
+      "epoch": 0.9333333333333333,
+      "grad_norm": 0.34301072359085083,
+      "learning_rate": 4.540059347181009e-05,
+      "loss": 0.05531545877456665,
+      "step": 70
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 1.0,
+      "eval_f1": 1.0,
+      "eval_loss": 0.027549657970666885,
+      "eval_precision": 1.0,
+      "eval_recall": 1.0,
+      "eval_runtime": 27.2753,
+      "eval_samples_per_second": 5.499,
+      "eval_steps_per_second": 0.697,
+      "step": 75
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 375,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 78393987993600.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}

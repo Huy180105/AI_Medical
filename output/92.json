@@ -1,0 +1,184 @@
+[
+  {
+    "text": "viêm tủy xương mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      18,
+      41
+    ]
+  },
+  {
+    "text": "bàng quang thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      45,
+      65
+    ]
+  },
+  {
+    "text": "biến chứng liệt hai chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      70,
+      98
+    ]
+  },
+  {
+    "text": "loét tì đè",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      102,
+      112
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N39.0"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      163,
+      190
+    ]
+  },
+  {
+    "text": "Truyền nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      298,
+      310
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N39.0"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      341,
+      368
+    ]
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      407,
+      414
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      466,
+      477
+    ]
+  },
+  {
+    "text": "nhiễm trùng huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      497,
+      514
+    ]
+  },
+  {
+    "text": "kháng sinh",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      529,
+      539
+    ]
+  },
+  {
+    "text": "bệnh viêm tuỷ xương.  Sau đó dùng zosyn 8 ngày và dừng tất cả kháng sinh để điều trị viêm tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      570,
+      669
+    ]
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      822,
+      829
+    ]
+  },
+  {
+    "text": "Đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      970,
+      978
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      980,
+      983
+    ]
+  },
+  {
+    "text": "Kháng sinh",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1343,
+      1353
+    ]
+  }
+]

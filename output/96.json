@@ -1,0 +1,250 @@
+[
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      57,
+      77
+    ]
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L\n\n3",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      107,
+      143
+    ]
+  },
+  {
+    "text": "chẩn đoán hình ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      181,
+      199
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      201,
+      221
+    ]
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      236,
+      269
+    ]
+  },
+  {
+    "text": "phun xăm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      308,
+      316
+    ]
+  },
+  {
+    "text": "nhạy cảm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      324,
+      332
+    ]
+  },
+  {
+    "text": "phun xăm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      390,
+      398
+    ]
+  },
+  {
+    "text": "bị thương tổn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      540,
+      553
+    ]
+  },
+  {
+    "text": "bong vẩy trắng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      596,
+      610
+    ]
+  },
+  {
+    "text": "phun môi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      625,
+      633
+    ]
+  },
+  {
+    "text": "khô",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      639,
+      642
+    ]
+  },
+  {
+    "text": "nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      646,
+      651
+    ]
+  },
+  {
+    "text": "da chết",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      653,
+      660
+    ]
+  },
+  {
+    "text": "dưỡng ẩm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      686,
+      694
+    ]
+  },
+  {
+    "text": "cậy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      722,
+      725
+    ]
+  },
+  {
+    "text": "bóc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      727,
+      730
+    ]
+  },
+  {
+    "text": "vảy môi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      731,
+      738
+    ]
+  },
+  {
+    "text": "phun xăm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      767,
+      775
+    ]
+  },
+  {
+    "text": "lên màu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      853,
+      860
+    ]
+  },
+  {
+    "text": "phun",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      992,
+      996
+    ]
+  },
+  {
+    "text": "ánh sáng mặt trời",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1092,
+      1109
+    ]
+  },
+  {
+    "text": "bụi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1171,
+      1174
+    ]
+  },
+  {
+    "text": "thương tổn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1244,
+      1254
+    ]
+  }
+]

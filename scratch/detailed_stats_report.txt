@@ -1,0 +1,49 @@
+==========================================================================
+DỮ LIỆU THỐNG KÊ CHI TIẾT 100 FILE OUTPUT SUBMISSION (STEP 1 - STEP 4)
+==========================================================================
+Tổng số file output: 100
+Tổng số thực thể trích xuất: 2664 (Trung bình 26.6 thực thể/file)
+
+1. Phân bố loại thực thể (Entity Types):
+   - TRIỆU_CHỨNG         :  1456 ( 54.7%)
+   - CHẨN_ĐOÁN           :   773 ( 29.0%)
+   - TÊN_XÉT_NGHIỆM      :   296 ( 11.1%)
+   - THUỐC               :   139 (  5.2%)
+
+2. Thống kê Candidate mapping:
+   - Số thực thể CÓ candidate (candidates != []):   488 ( 18.3%)
+   - Số thực thể KHÔNG CÓ candidate (candidates == []):  2176 ( 81.7%)
+
+3. Top 30 mã Candidate xuất hiện nhiều nhất toàn bộ 100 file:
+   - Code A82            :   39 lần
+   - Code E85.9          :   33 lần
+   - Code I10            :   29 lần
+   - Code L50.9          :   29 lần
+   - Code E11.9          :   28 lần
+   - Code 282388         :   18 lần
+   - Code D55.0          :   17 lần
+   - Code J18.9          :   17 lần
+   - Code K29.7          :   16 lần
+   - Code N39.0          :   14 lần
+   - Code N18.9          :   14 lần
+   - Code M30.3          :   13 lần
+   - Code I50.9          :   12 lần
+   - Code E78.5          :   11 lần
+   - Code 7646           :   10 lần
+   - Code F32.9          :   10 lần
+   - Code 202433         :    9 lần
+   - Code C22.1          :    8 lần
+   - Code 656            :    8 lần
+   - Code 11246          :    7 lần
+   - Code I20.9          :    7 lần
+   - Code C92.1          :    7 lần
+   - Code D59.9          :    6 lần
+   - Code I21.9          :    6 lần
+   - Code 353062         :    6 lần
+   - Code D64.9          :    5 lần
+   - Code I25.9          :    5 lần
+   - Code 3640           :    5 lần
+   - Code 135834         :    5 lần
+   - Code M48.0          :    5 lần
+
+==========================================================================

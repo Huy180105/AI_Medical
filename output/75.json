@@ -1,0 +1,268 @@
+[
+  {
+    "text": "khối u trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      25,
+      42
+    ]
+  },
+  {
+    "text": "u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      64,
+      79
+    ]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      90,
+      100
+    ]
+  },
+  {
+    "text": "u tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      118,
+      125
+    ]
+  },
+  {
+    "text": "Nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B35.6"
+    ],
+    "assertions": [],
+    "position": [
+      220,
+      227
+    ]
+  },
+  {
+    "text": "nhiễm nấm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      240,
+      249
+    ]
+  },
+  {
+    "text": "ẩm ướt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      361,
+      367
+    ]
+  },
+  {
+    "text": "nóng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      379,
+      383
+    ]
+  },
+  {
+    "text": "ướt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      393,
+      396
+    ]
+  },
+  {
+    "text": "chật",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      400,
+      404
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      412,
+      419
+    ]
+  },
+  {
+    "text": "nếp gấp da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      432,
+      442
+    ]
+  },
+  {
+    "text": "nhiễm nấm da",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      453,
+      465
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B35.6"
+    ],
+    "assertions": [],
+    "position": [
+      491,
+      498
+    ]
+  },
+  {
+    "text": "thuốc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      521,
+      526
+    ]
+  },
+  {
+    "text": "bôi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      542,
+      545
+    ]
+  },
+  {
+    "text": "lây nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      666,
+      675
+    ]
+  },
+  {
+    "text": "tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      682,
+      690
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "B35.6"
+    ],
+    "assertions": [],
+    "position": [
+      691,
+      698
+    ]
+  },
+  {
+    "text": "khô thoáng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      730,
+      740
+    ]
+  },
+  {
+    "text": "lau",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      746,
+      749
+    ]
+  },
+  {
+    "text": "tắm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      771,
+      774
+    ]
+  },
+  {
+    "text": "khô thoáng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      817,
+      827
+    ]
+  },
+  {
+    "text": "mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      855,
+      861
+    ]
+  },
+  {
+    "text": "độ ẩm",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      890,
+      895
+    ]
+  },
+  {
+    "text": "mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1026,
+      1032
+    ]
+  }
+]

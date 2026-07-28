@@ -1,0 +1,90 @@
+[
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [],
+    "position": [
+      343,
+      350
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
+    "position": [
+      357,
+      370
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E78.5"
+    ],
+    "assertions": [],
+    "position": [
+      377,
+      391
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      414,
+      428
+    ]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M48.0"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      441,
+      453
+    ]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": [
+      "282388"
+    ],
+    "assertions": [],
+    "position": [
+      625,
+      632
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1573,
+      1580
+    ]
+  }
+]

@@ -1,0 +1,509 @@
+[
+  {
+    "text": "ngoài",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      37,
+      42
+    ]
+  },
+  {
+    "text": "phân đen",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      43,
+      51
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      106,
+      114
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      126,
+      129
+    ]
+  },
+  {
+    "text": "lẫn máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      138,
+      145
+    ]
+  },
+  {
+    "text": "ngoài",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      153,
+      158
+    ]
+  },
+  {
+    "text": "phân đen",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      159,
+      167
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      196,
+      199
+    ]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      223,
+      230
+    ]
+  },
+  {
+    "text": "XHTH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      251,
+      255
+    ]
+  },
+  {
+    "text": "vitamin K",
+    "type": "THUỐC",
+    "candidates": [
+      "11246"
+    ],
+    "assertions": [],
+    "position": [
+      277,
+      286
+    ]
+  },
+  {
+    "text": "Van động mạch chủ cơ học",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      370,
+      394
+    ]
+  },
+  {
+    "text": "đều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      416,
+      419
+    ]
+  },
+  {
+    "text": "Toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      456,
+      465
+    ]
+  },
+  {
+    "text": "Mạch",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      467,
+      471
+    ]
+  },
+  {
+    "text": "tỉnh",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      497,
+      501
+    ]
+  },
+  {
+    "text": "niêm mạc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      523,
+      531
+    ]
+  },
+  {
+    "text": "nhợt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      532,
+      536
+    ]
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      548,
+      559
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      567,
+      570
+    ]
+  },
+  {
+    "text": "xuất huyết dưới da",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      578,
+      596
+    ]
+  },
+  {
+    "text": "Tim",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      612,
+      615
+    ]
+  },
+  {
+    "text": "đều",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      616,
+      619
+    ]
+  },
+  {
+    "text": "tiếng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      629,
+      634
+    ]
+  },
+  {
+    "text": "van cơ học",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      635,
+      645
+    ]
+  },
+  {
+    "text": "tiếng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      653,
+      658
+    ]
+  },
+  {
+    "text": "thổi",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      659,
+      663
+    ]
+  },
+  {
+    "text": "phế trường",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      677,
+      687
+    ]
+  },
+  {
+    "text": "chướng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      705,
+      711
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      724,
+      727
+    ]
+  },
+  {
+    "text": "thành bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      728,
+      738
+    ]
+  },
+  {
+    "text": "Huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isNegated",
+      "isHistorical"
+    ],
+    "position": [
+      756,
+      764
+    ]
+  },
+  {
+    "text": "mmHg",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      775,
+      779
+    ]
+  },
+  {
+    "text": "Xuất huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A90"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      812,
+      822
+    ]
+  },
+  {
+    "text": "tiêu hóa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      823,
+      831
+    ]
+  },
+  {
+    "text": "vitamin K",
+    "type": "THUỐC",
+    "candidates": [
+      "11246"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      856,
+      865
+    ]
+  },
+  {
+    "text": "Viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J18.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      868,
+      877
+    ]
+  },
+  {
+    "text": "Van động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      881,
+      898
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      909,
+      923
+    ]
+  },
+  {
+    "text": "khớp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      934,
+      938
+    ]
+  },
+  {
+    "text": "Xét nghiệm máuKhí máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      970,
+      991
+    ]
+  },
+  {
+    "text": "Khí",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      993,
+      996
+    ]
+  }
+]

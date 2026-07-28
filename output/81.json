@@ -1,0 +1,24 @@
+[
+  {
+    "text": "sảy thai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      78,
+      86
+    ]
+  },
+  {
+    "text": "tiền sản giật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "O14.9"
+    ],
+    "assertions": [],
+    "position": [
+      998,
+      1011
+    ]
+  }
+]

@@ -1,0 +1,238 @@
+==================================================
+DOCUMENT 3.txt (3724 chars)
+Raw Text Excerpt:
+1.  Tiền sử bệnh
+ nhưng hiện tượng run tay không khỏi hẳn. Em muốn hỏi có phải run tay là phản ứng phụ của thuốc không và mẹ em nên làm gì để cải thiện tình trạng này. Ngoài ra việc sử dụng Nitralmyl lâu dài có gây ảnh hưởng xấu gì không ạ?
+ Em xin cảm ơn Bác sĩ.
+Câu trả lời của bác sĩ: 
+Chào bạn, k...
+
+Extracted Entities (28 total):
+  - 'run tay' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'run tay' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'thuốc' [THUỐC] cand=[] ass=[]
+  - 'thuốcVastarel' [THUỐC] cand=[] ass=[]
+  - 'thuốc' [THUỐC] cand=[] ass=[]
+  - 'run tay chân' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'mất thăng bằng khi đi' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'run rấy toàn thân' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'đau thắt ngực' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'ổn địnhkhi' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'thuốc' [THUỐC] cand=[] ass=['isNegated']
+  - 'chóng mặt' [TRIỆU_CHỨNG] cand=['R42'] ass=[]
+  - 'ù tai' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'rối loạn thị lực' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'Parkinson' [CHẨN_ĐOÁN] cand=[] ass=['isNegated']
+  - 'tri giác' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'giảm sút' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'nhìn song thị' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'chụp ct' [TÊN_XÉT_NGHIỆM] cand=['CT'] ass=[]
+  - 'chụp ct' [TÊN_XÉT_NGHIỆM] cand=['CT'] ass=[]
+  - 'co giật' [TRIỆU_CHỨNG] cand=['R56.9'] ass=['isNegated', 'isHistorical']
+  - 'mệt mỏi' [TRIỆU_CHỨNG] cand=['R53.83'] ass=[]
+  - 'mệt mỏi' [TRIỆU_CHỨNG] cand=['R53.83'] ass=['isNegated']
+  - 'chụp ct' [TÊN_XÉT_NGHIỆM] cand=['CT'] ass=[]
+  - 'chụp ct' [TÊN_XÉT_NGHIỆM] cand=['CT'] ass=[]
+  - 'chụp ct' [TÊN_XÉT_NGHIỆM] cand=['CT'] ass=[]
+  - 'chụp ct' [TÊN_XÉT_NGHIỆM] cand=['CT'] ass=['isNegated']
+  - 'chụp ct' [TÊN_XÉT_NGHIỆM] cand=['CT'] ass=['isNegated']
+
+
+==================================================
+DOCUMENT 5.txt (3420 chars)
+Raw Text Excerpt:
+1.  Tiền sử bệnh nội khoa
+    Tiền sử phẫu thuật / thủ thuật: Đã thực hiện phẫu thuật cắt bỏ ống dẫn mật chung, cắt bỏ một phần thùy gan bên trái và nối mật tụy bằng ống dẫn hồi tràng (RNY hepaticojejunostomy) vào ngày [Ngày] vì nghi ngờ ung thư biểu mô tế bào mật không thể cắt bỏ.
+
+2.  Tiền sử bệnh...
+
+Extracted Entities (40 total):
+  - 'khỏe' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'ống dẫn' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'thùy gan' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'nối mật' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'ống dẫn' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'RNY hepaticojejunostomy' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'ung thư biểu mô tế bào mật' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'xét nghiệm' [TÊN_XÉT_NGHIỆM] cand=['BL'] ass=[]
+  - 'vô sinh' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'có thai' [TRIỆU_CHỨNG] cand=[] ass=['isNegated', 'isFamily']
+  - 'xét nghiệm' [TÊN_XÉT_NGHIỆM] cand=['BL'] ass=[]
+  - 'xét nghiệm tinh dịch đồ' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'xét nghiệm cận lâm sàng' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'siêu âm' [TÊN_XÉT_NGHIỆM] cand=['US'] ass=[]
+  - 'bất thường về giải phẫu' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'chụp tử cung vòi trứng' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'đánh giá hình thái buồng tử cung' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'thông' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'xét nghiệm nội tiết' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'đánh giá chức năng' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'Kinh nguyệt' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'thưa' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'kinh nguyệt' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'Hội chứng buồng trứng đa nang' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'rậm lông' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'béo phì' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'siêu âm buồng trứng' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'nhiều nang' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'vô sinh' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'buồn nôn' [TRIỆU_CHỨNG] cand=['R11.0'] ass=['isNegated']
+  - 'nôn' [TRIỆU_CHỨNG] cand=['R11'] ass=['isNegated']
+  - 'ớn lạnh' [TRIỆU_CHỨNG] cand=[] ass=['isNegated']
+  - 'sinh thiết' [TÊN_XÉT_NGHIỆM] cand=['BIO'] ass=[]
+  - 'buồn nôn' [TRIỆU_CHỨNG] cand=['R11.0'] ass=['isNegated']
+  - 'nôn' [TRIỆU_CHỨNG] cand=['R11'] ass=['isNegated']
+  - 'đau ngực' [TRIỆU_CHỨNG] cand=['R07.4'] ass=['isNegated']
+  - 'khó thở' [TRIỆU_CHỨNG] cand=['R06.0'] ass=['isNegated']
+  - 'buồn nôn' [TRIỆU_CHỨNG] cand=['R11.0'] ass=['isNegated']
+  - 'nôn' [TRIỆU_CHỨNG] cand=['R11'] ass=['isNegated']
+  - 'sinh thiết' [TÊN_XÉT_NGHIỆM] cand=['BIO'] ass=[]
+
+
+==================================================
+DOCUMENT 7.txt (3208 chars)
+Raw Text Excerpt:
+Hỏi : Kính chào bác sĩ! Em 37 tuổi và hiện đang mang thai lần 2 được 20 tuần 
+. Từ năm 24-26 tuổi em có dấu hiệu đau bao tử (thỉnh thoảng đau và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả. Năm 27 tuổi em đi nội...
+
+Extracted Entities (10 total):
+  - '! Em' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'đau bao tử' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'ăn uống' [TRIỆU_CHỨNG] cand=[] ass=['isFamily']
+  - 'thất thường' [TRIỆU_CHỨNG] cand=[] ass=['isFamily']
+  - 'nội soi' [TÊN_XÉT_NGHIỆM] cand=['END'] ass=[]
+  - 'đau lại' [TRIỆU_CHỨNG] cand=[] ass=['isNegated', 'isFamily']
+  - 'khỏe lên' [TRIỆU_CHỨNG] cand=[] ass=['isNegated']
+  - 'chuối' [TRIỆU_CHỨNG] cand=[] ass=['isNegated']
+  - 'đau bụng râm ran' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'dồn đạp' [TRIỆU_CHỨNG] cand=[] ass=[]
+
+
+==================================================
+DOCUMENT 13.txt (2729 chars)
+Raw Text Excerpt:
+Câu hỏi từ người dùng:
+
+Em chào bác sỹ
+Cho em hỏi em có bị thương nhẹ ở tay nhưng bị chảy máu,sau đó khoảng 10 phút em có chơi với 1 con chó con nhà em (chó chưa tiêm dại) tuổi có có dính nước dãi của chó con vào tay. Hôm qua em vô tình đọc được thông tin là nếu dính nước dãi chó vẫn có ng...
+
+Extracted Entities (11 total):
+  - 'chảy máu' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'tiêm dại' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'nước dãi' [TRIỆU_CHỨNG] cand=[] ass=['isNegated']
+  - 'nước' [TRIỆU_CHỨNG] cand=[] ass=['isNegated']
+  - 'nước bọt' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'liếm' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'trầy xước' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'trung khu thần kinh' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'điên dạiở' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'đe dọa' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'đau ngực' [TRIỆU_CHỨNG] cand=['R07.4'] ass=[]
+
+
+==================================================
+DOCUMENT 18.txt (2639 chars)
+Raw Text Excerpt:
+Cận lâm sàng
+
+Điện tâm đồ (ECG)
+ • ST chênh lên / chênh xuống
+ • Sóng T đảo
+ • Q bệnh lý
+
+Men tim
+ • Troponin I/T ↑ (chẩn đoán nhồi máu)
+ • CK-MB ↑
+
+Siêu âm tim
+ • Rối loạn vận động vùng
+ • Đánh giá chức năng thất trái
+
+Nghiệm pháp gắng sức
+ • Phát hiện thiếu máu cơ tim khi gắng sức
+
+Chụp mạch vành ...
+
+Extracted Entities (36 total):
+  - 'hẹp •' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'Cận lâm sàng
+
+Điện tâm đồ' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'chênh lên' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'chênh xuống' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'Men tim' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'nhồi máu' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'Siêu âm tim' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'Rối loạn vận động vùng' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'Đánh giá chức năng' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'thất trái' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'gắng sức' [TRIỆU_CHỨNG] cand=['R06.02'] ass=[]
+  - 'thiếu máu cơ tim' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'gắng sức' [TRIỆU_CHỨNG] cand=['R06.02'] ass=[]
+  - 'nhồi máu' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'tưới máu tim' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'tử vong' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'Thuốc' [THUỐC] cand=[] ass=[]
+  - 'ổn định' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'mảng xơ vữa' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'phẫu thuật' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'Can thiệp' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'Đặt stent' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'Phẫu thuật' [TÊN_XÉT_NGHIỆM] cand=[] ass=[]
+  - 'CABG' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'tổn thương' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'nhiều nhánh' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'mạch vành' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'tiên phát' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'ít muối' [TRIỆU_CHỨNG] cand=[] ass=['isNegated']
+  - 'đau bụng' [TRIỆU_CHỨNG] cand=['R10.9'] ass=[]
+  - 'đau bụng' [TRIỆU_CHỨNG] cand=['R10.9'] ass=[]
+  - 'buồn nôn' [TRIỆU_CHỨNG] cand=['R11.0'] ass=['isNegated']
+  - 'nôn' [TRIỆU_CHỨNG] cand=['R11'] ass=['isNegated']
+  - 'đau ngực' [TRIỆU_CHỨNG] cand=['R07.4'] ass=[]
+  - 'khó thở' [TRIỆU_CHỨNG] cand=['R06.0'] ass=[]
+  - 'chụp ct' [TÊN_XÉT_NGHIỆM] cand=['CT'] ass=[]
+
+
+==================================================
+DOCUMENT 24.txt (2465 chars)
+Raw Text Excerpt:
+Bệnh nhân nam 40 tuổi, bộ đội vào viện với lý do mệt mỏi, vàng da, vàng mắt ngày thứ 10, hiện tại ngày thứ 17 của bệnh. Bệnh diễn biến với các hội chứng và triệu chứng sau:
+        Hội chứng nhiễm trùng nhiễm độc:
+        Khởi phát từ từ sốt nhẹ (37^∘ 8), sốt nóng liên tục có gai rét, không có cơn r...
+
+Extracted Entities (33 total):
+  - 'mệt mỏi' [TRIỆU_CHỨNG] cand=['R53.83'] ass=[]
+  - 'vàng da' [TRIỆU_CHỨNG] cand=['R17'] ass=[]
+  - 'vàng mắt' [TRIỆU_CHỨNG] cand=['R17'] ass=[]
+  - 'nhiễm trùng nhiễm độc' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'sốt nhẹ' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'sốt nóng' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'gai rét' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'rét run' [TRIỆU_CHỨNG] cand=[] ass=['isNegated']
+  - 'viên' [THUỐC] cand=[] ass=['isNegated']
+  - 'paracetamol viên' [THUỐC] cand=[] ass=['isNegated']
+  - 'vàng da' [TRIỆU_CHỨNG] cand=['R17'] ass=['isNegated']
+  - 'vàng niêm mạc' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'sốt bn' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'mệt mỏi nhiều' [TRIỆU_CHỨNG] cand=['R53.83'] ass=[]
+  - 'mệt mỏi' [TRIỆU_CHỨNG] cand=['R53.83'] ass=[]
+  - 'ăn ngủ tốt' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'viêm gan vàng da ứ mật' [CHẨN_ĐOÁN] cand=[] ass=[]
+  - 'da niêm mạc' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'nước tiểu' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'vàng sậm' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'nước vối' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'vàng da' [TRIỆU_CHỨNG] cand=['R17'] ass=[]
+  - 'nước tiểu' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'bờ sườn' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'nhẵn' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'ấn tức' [TRIỆU_CHỨNG] cand=[] ass=[]
+  - 'vàng da' [TRIỆU_CHỨNG] cand=['R17'] ass=['isNegated', 'isHistorical']
+  - 'vàng mắt' [TRIỆU_CHỨNG] cand=['R17'] ass=['isNegated', 'isHistorical']
+  - 'rượu' [CHẨN_ĐOÁN] cand=['F10.2'] ass=[]
+  - 'viêm gan B' [CHẨN_ĐOÁN] cand=['B18.1'] ass=['isNegated', 'isFamily', 'isHistorical']
+  - 'viêm gan B' [CHẨN_ĐOÁN] cand=['B18.1'] ass=['isHistorical']
+  - 'mệt mỏi' [TRIỆU_CHỨNG] cand=['R53.83'] ass=[]
+  - 'vàng da' [TRIỆU_CHỨNG] cand=['R17'] ass=[]
+

@@ -1,0 +1,494 @@
+[
+  {
+    "text": "BỆNH MẠCH VÀNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.10"
+    ],
+    "assertions": [],
+    "position": [
+      1,
+      15
+    ]
+  },
+  {
+    "text": "CAD",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      43,
+      46
+    ]
+  },
+  {
+    "text": "Bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.10"
+    ],
+    "assertions": [],
+    "position": [
+      52,
+      66
+    ]
+  },
+  {
+    "text": "Bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I25.10"
+    ],
+    "assertions": [],
+    "position": [
+      76,
+      90
+    ]
+  },
+  {
+    "text": "hẹp",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      105,
+      108
+    ]
+  },
+  {
+    "text": "tắc",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      114,
+      117
+    ]
+  },
+  {
+    "text": "nuôi dưỡng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      166,
+      176
+    ]
+  },
+  {
+    "text": "xơ vữa",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      208,
+      214
+    ]
+  },
+  {
+    "text": "tưới máu",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      235,
+      243
+    ]
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      256,
+      265
+    ]
+  },
+  {
+    "text": "đau thắt ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I20.9"
+    ],
+    "assertions": [],
+    "position": [
+      288,
+      301
+    ]
+  },
+  {
+    "text": "nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21.9"
+    ],
+    "assertions": [],
+    "position": [
+      303,
+      318
+    ]
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I50.9"
+    ],
+    "assertions": [],
+    "position": [
+      320,
+      327
+    ]
+  },
+  {
+    "text": "đột tử",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      333,
+      339
+    ]
+  },
+  {
+    "text": "Xơ vữa động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      399,
+      420
+    ]
+  },
+  {
+    "text": "mảng xơ vữa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      478,
+      489
+    ]
+  },
+  {
+    "text": "to dần",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      505,
+      511
+    ]
+  },
+  {
+    "text": "tắc mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      565,
+      573
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
+    "position": [
+      716,
+      729
+    ]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [],
+    "position": [
+      733,
+      747
+    ]
+  },
+  {
+    "text": "Béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      774,
+      781
+    ]
+  },
+  {
+    "text": "ít vận động",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      783,
+      794
+    ]
+  },
+  {
+    "text": "Đau thắt ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I20.9"
+    ],
+    "assertions": [],
+    "position": [
+      838,
+      851
+    ]
+  },
+  {
+    "text": "xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      889,
+      897
+    ]
+  },
+  {
+    "text": "đè nặng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      909,
+      916
+    ]
+  },
+  {
+    "text": "bóp nghẹt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      918,
+      927
+    ]
+  },
+  {
+    "text": "thắt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      929,
+      933
+    ]
+  },
+  {
+    "text": "vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      944,
+      952
+    ]
+  },
+  {
+    "text": "hàm dưới",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      976,
+      984
+    ]
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "candidates": [
+      "7431"
+    ],
+    "assertions": [],
+    "position": [
+      1029,
+      1042
+    ]
+  },
+  {
+    "text": "Đau thắt ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I20.9"
+    ],
+    "assertions": [],
+    "position": [
+      1061,
+      1074
+    ]
+  },
+  {
+    "text": "gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1097,
+      1105
+    ]
+  },
+  {
+    "text": "Hội chứng vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1124,
+      1138
+    ]
+  },
+  {
+    "text": "Đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1146,
+      1149
+    ]
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1198,
+      1213
+    ]
+  },
+  {
+    "text": "Đau thắt ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I20.9"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      1253,
+      1266
+    ]
+  },
+  {
+    "text": "Buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1363,
+      1371
+    ]
+  },
+  {
+    "text": "Đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1375,
+      1378
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [],
+    "position": [
+      1428,
+      1436
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1883,
+      1886
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1890,
+      1898
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      1951,
+      1959
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2015,
+      2018
+    ]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2043,
+      2046
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "candidates": [],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      2353,
+      2361
+    ]
+  }
+]

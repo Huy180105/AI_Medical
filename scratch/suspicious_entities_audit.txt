@@ -1,0 +1,97 @@
+==========================================================================
+BÁO CÁO THỐNG KÊ CHI TIẾT 100 FILE OUTPUT (AUDIT TOÀN DIỆN FALSE POSITIVES)
+==========================================================================
+1. Tổng số thực thể đang xuất ra trên 100 file: 2770 (Trung bình 27.7 entity/file)
+
+2. Phân bố theo Loại thực thể (Entity Types):
+   - TRIỆU_CHỨNG: 1522 (54.9%)
+   - CHẨN_ĐOÁN: 781 (28.2%)
+   - TÊN_XÉT_NGHIỆM: 327 (11.8%)
+   - THUỐC: 140 (5.1%)
+
+3. Top 30 thực thể nghi ngờ sai loại / nghi ngờ False Positives:
+   - 'chức năng gan' [TÊN_XÉT_NGHIỆM]: 5 lần
+   - 'rối loạn chuyển hóa tinh bột' [CHẨN_ĐOÁN]: 3 lần
+   - 'lắng đọng protein' [CHẨN_ĐOÁN]: 3 lần
+   - 'đánh giá chức năng' [TÊN_XÉT_NGHIỆM]: 2 lần
+   - 'hội chứng kháng enzym tổng hợp protein' [CHẨN_ĐOÁN]: 2 lần
+   - 'rối loạn chức năng' [TRIỆU_CHỨNG]: 2 lần
+   - 'glucose-6-phosphate dehydrogenase' [CHẨN_ĐOÁN]: 1 lần
+   - 'nhiễm sắc thể x. trẻ' [CHẨN_ĐOÁN]: 1 lần
+   - 'gen lặn' [TÊN_XÉT_NGHIỆM]: 1 lần
+   - 'nhiễm sắc thể giới tính' [CHẨN_ĐOÁN]: 1 lần
+   - 'nhiễm sắc thể x' [CHẨN_ĐOÁN]: 1 lần
+   - 'đột biến gen' [TÊN_XÉT_NGHIỆM]: 1 lần
+   - 'đột biến' [CHẨN_ĐOÁN]: 1 lần
+   - 'đột biến' [TÊN_XÉT_NGHIỆM]: 1 lần
+   - 'chuyển hóa' [CHẨN_ĐOÁN]: 1 lần
+   - 'tác nhân' [CHẨN_ĐOÁN]: 1 lần
+   - 'mong manh' [TRIỆU_CHỨNG]: 1 lần
+   - 'phá hủy' [CHẨN_ĐOÁN]: 1 lần
+   - 'ảnh hưởng tinh trùng' [CHẨN_ĐOÁN]: 1 lần
+   - 'phục hồi chức năng' [TÊN_XÉT_NGHIỆM]: 1 lần
+   - 'giảm chức năng' [TRIỆU_CHỨNG]: 1 lần
+
+4. Top 30 thực thể xuất hiện nhiều nhất toàn bộ 100 file:
+   - 'đau' [TRIỆU_CHỨNG]: 135 lần
+   - 'phù' [TRIỆU_CHỨNG]: 60 lần
+   - 'khó thở' [TRIỆU_CHỨNG]: 53 lần
+   - 'sốt' [TRIỆU_CHỨNG]: 53 lần
+   - 'nôn' [TRIỆU_CHỨNG]: 52 lần
+   - 'đau bụng' [TRIỆU_CHỨNG]: 45 lần
+   - 'buồn nôn' [TRIỆU_CHỨNG]: 43 lần
+   - 'mệt mỏi' [TRIỆU_CHỨNG]: 40 lần
+   - 'bệnh dại' [CHẨN_ĐOÁN]: 39 lần
+   - 'đau đầu' [TRIỆU_CHỨNG]: 32 lần
+   - 'tăng huyết áp' [CHẨN_ĐOÁN]: 26 lần
+   - 'mày đay' [CHẨN_ĐOÁN]: 25 lần
+   - 'nội soi' [TÊN_XÉT_NGHIỆM]: 24 lần
+   - 'đái tháo đường' [CHẨN_ĐOÁN]: 23 lần
+   - 'thuốc' [THUỐC]: 21 lần
+   - 'đau ngực' [TRIỆU_CHỨNG]: 19 lần
+   - 'siêu âm' [TÊN_XÉT_NGHIỆM]: 18 lần
+   - 'gleevec' [THUỐC]: 18 lần
+   - 'thiếu men g6pd' [CHẨN_ĐOÁN]: 17 lần
+   - 'nổi' [TRIỆU_CHỨNG]: 16 lần
+   - 'chóng mặt' [TRIỆU_CHỨNG]: 15 lần
+   - 'ảo giác' [TRIỆU_CHỨNG]: 15 lần
+   - 'chụp ct' [TÊN_XÉT_NGHIỆM]: 14 lần
+   - 'tiêu chảy' [TRIỆU_CHỨNG]: 14 lần
+   - 'x-quang ngực' [TÊN_XÉT_NGHIỆM]: 13 lần
+   - 'mạn tính' [CHẨN_ĐOÁN]: 13 lần
+   - 'viêm phổi' [CHẨN_ĐOÁN]: 13 lần
+   - 'viêm' [TRIỆU_CHỨNG]: 13 lần
+   - 'suy tim' [CHẨN_ĐOÁN]: 12 lần
+   - 'béo phì' [TRIỆU_CHỨNG]: 12 lần
+
+5. Top 30 thực thể KHÔNG CÓ CANDIDATE (candidates == []):
+   - 'đau': 135 lần
+   - 'phù': 60 lần
+   - 'khó thở': 53 lần
+   - 'sốt': 53 lần
+   - 'nôn': 52 lần
+   - 'đau bụng': 45 lần
+   - 'buồn nôn': 43 lần
+   - 'mệt mỏi': 40 lần
+   - 'đau đầu': 32 lần
+   - 'nội soi': 24 lần
+   - 'thuốc': 22 lần
+   - 'đau ngực': 19 lần
+   - 'siêu âm': 18 lần
+   - 'nổi': 16 lần
+   - 'chóng mặt': 15 lần
+   - 'ảo giác': 15 lần
+   - 'chụp ct': 14 lần
+   - 'tiêu chảy': 14 lần
+   - 'x-quang ngực': 13 lần
+   - 'viêm': 13 lần
+   - 'béo phì': 12 lần
+   - 'ho': 12 lần
+   - 'khó thở khi gắng sức': 12 lần
+   - 'mụn': 12 lần
+   - 'vàng da': 11 lần
+   - 'bệnh nội khoa': 11 lần
+   - 'tự tử': 11 lần
+   - 'phẫu thuật': 10 lần
+   - 'ngã': 9 lần
+   - 'đánh trống ngực': 8 lần

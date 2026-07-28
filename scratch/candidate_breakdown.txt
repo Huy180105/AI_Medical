@@ -1,0 +1,63 @@
+==========================================================================
+BÁO CÁO PHÂN TÍCH CANDIDATE THEO LOẠI THỰC THỂ (ENTITY TYPE BREAKDOWN)
+==========================================================================
+
+THUỐC:
+  - Tổng số thực thể: 138
+  - Số thực thể có Candidate: 100 (72.5%)
+  - Top 10 Candidates của THUỐC:
+       * 282388         : 17 lần
+       * 7646           : 10 lần
+       * 202433         : 9 lần
+       * 656            : 8 lần
+       * 353062         : 6 lần
+       * 11246          : 5 lần
+       * 3640           : 5 lần
+       * 135834         : 5 lần
+       * 5856           : 5 lần
+       * 38413          : 4 lần
+
+CHẨN_ĐOÁN:
+  - Tổng số thực thể: 779
+  - Số thực thể có Candidate: 382 (49.0%)
+  - Top 10 Candidates của CHẨN_ĐOÁN:
+       * A82            : 39 lần
+       * E85.9          : 33 lần
+       * I10            : 29 lần
+       * E11.9          : 28 lần
+       * L50.9          : 28 lần
+       * D55.0          : 17 lần
+       * J18.9          : 17 lần
+       * K29.7          : 16 lần
+       * M30.3          : 13 lần
+       * N39.0          : 13 lần
+
+TRIỆU_CHỨNG:
+  - Tổng số thực thể: 1441
+  - Số thực thể có Candidate: 700 (48.6%)
+  - Top 10 Candidates của TRIỆU_CHỨNG:
+       * R52            : 114 lần
+       * R06.0          : 65 lần
+       * R50.9          : 60 lần
+       * R60.9          : 51 lần
+       * R10.9          : 46 lần
+       * R11.0          : 42 lần
+       * R11            : 42 lần
+       * R53.83         : 40 lần
+       * R51            : 28 lần
+       * R06.02         : 26 lần
+
+TÊN_XÉT_NGHIỆM:
+  - Tổng số thực thể: 300
+  - Số thực thể có Candidate: 143 (47.7%)
+  - Top 10 Candidates của TÊN_XÉT_NGHIỆM:
+       * CT             : 30 lần
+       * END            : 30 lần
+       * US             : 20 lần
+       * XR             : 15 lần
+       * BL             : 13 lần
+       * ECG            : 9 lần
+       * BIO            : 8 lần
+       * ECHO           : 5 lần
+       * MR             : 5 lần
+       * LFT            : 4 lần
