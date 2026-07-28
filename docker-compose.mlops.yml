@@ -1,0 +1,9 @@
+services:
+  mlflow:
+    profiles: ["mlops"]
+
+  postgres:
+    profiles: ["mlops"]
+
+  metrics:
+    profiles: ["mlops"]
