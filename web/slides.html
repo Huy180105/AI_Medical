@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedFusion-CXR · 15-Slide Presentation Deck</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0A0F1D;
+            --card-bg: #111C35;
+            --card-border: #1E293B;
+            --cyan: #06B6D4;
+            --blue: #3B82F6;
+            --emerald: #10B981;
+            --amber: #F59E0B;
+            --rose: #F43F5E;
+            --text-white: #FFFFFF;
+            --text-slate: #94A3B8;
+            --text-muted: #64748B;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: #020617;
+            color: var(--text-white);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        /* 16:9 Presentation Stage */
+        .stage-wrapper {
+            position: relative;
+            width: 1200px;
+            height: 675px;
+            background: var(--bg-dark);
+            border: 1px solid var(--card-border);
+            border-radius: 14px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.85);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide {
+            position: absolute;
+            inset: 0;
+            padding: 2.2rem 2.8rem;
+            display: none;
+            flex-direction: column;
+            opacity: 0;
+            transition: opacity 0.22s ease;
+        }
+
+        .slide.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        /* Slide Header */
+        .slide-header {
+            margin-bottom: 1.25rem;
+            border-bottom: 1px solid var(--card-border);
+            padding-bottom: 0.75rem;
+        }
+
+        .eyebrow {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.1em;
+            color: var(--cyan);
+            font-weight: 700;
+            margin-bottom: 0.2rem;
+        }
+
+        .slide-title {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 1.65rem;
+            font-weight: 800;
+            color: var(--text-white);
+        }
+
+        .slide-sub {
+            font-size: 0.88rem;
+            color: var(--text-slate);
+            margin-top: 0.2rem;
+        }
+
+        /* Bento Grid Layouts */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.1rem;
+            flex: 1;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.1rem;
+            flex: 1;
+        }
+
+        .grid-2x2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1.0rem;
+            flex: 1;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 10px;
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card.cyan-border { border-color: var(--cyan); }
+        .card.emerald-border { border-color: var(--emerald); }
+        .card.amber-border { border-color: var(--amber); }
+        .card.rose-border { border-color: var(--rose); }
+
+        .card-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 700;
+            margin-bottom: 0.45rem;
+        }
+
+        .card h4 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 1.12rem;
+            font-weight: 700;
+            margin-bottom: 0.65rem;
+            color: var(--text-white);
+        }
+
+        .card p, .card li {
+            font-size: 0.84rem;
+            color: #CBD5E1;
+            line-height: 1.55;
+        }
+
+        .card ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.45rem;
+        }
+
+        .card ul li::before {
+            content: "• ";
+            color: var(--cyan);
+            font-weight: bold;
+        }
+
+        .stat-callout {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--cyan);
+            margin: 0.4rem 0;
+        }
+
+        /* Hero Slide 1 */
+        .hero-slide {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 3rem 4rem;
+        }
+
+        .hero-box {
+            background: linear-gradient(135deg, rgba(6,182,212,0.12), rgba(15,23,42,0.95));
+            border: 1px solid var(--cyan);
+            border-radius: 14px;
+            padding: 2.8rem 3rem;
+            max-width: 980px;
+        }
+
+        .hero-title {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 3.2rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+            margin-bottom: 0.6rem;
+        }
+
+        .hero-badges {
+            display: flex;
+            justify-content: center;
+            gap: 0.6rem;
+            margin-top: 1.8rem;
+            flex-wrap: wrap;
+        }
+
+        .pill {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.35rem 0.85rem;
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--card-border);
+            color: var(--text-slate);
+        }
+
+        .pill.active {
+            border-color: var(--cyan);
+            color: var(--cyan);
+            background: rgba(6, 182, 212, 0.15);
+        }
+
+        /* Bottom Controls Bar */
+        .control-bar {
+            width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.85rem 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .slide-counter {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.82rem;
+            color: var(--text-slate);
+        }
+
+        .nav-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            color: var(--text-white);
+            padding: 0.45rem 1.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.15s ease;
+        }
+
+        .nav-btn:hover {
+            border-color: var(--cyan);
+            background: rgba(6,182,212,0.15);
+            color: var(--cyan);
+        }
+
+        img.slide-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid var(--card-border);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="stage-wrapper" id="deck-stage">
+
+        <!-- SLIDE 1: TITLE SLIDE -->
+        <div class="slide hero-slide active" data-slide="1">
+            <div class="hero-box">
+                <div class="eyebrow" style="color:var(--cyan); margin-bottom:0.8rem;">BÁO CÁO KHOA HỌC &amp; KHÓA LUẬN CDSS · CLINICAL AI</div>
+                <h1 class="hero-title">MedFusion-CXR</h1>
+                <h3 style="color:var(--cyan); font-size:1.35rem; font-weight:700; margin-bottom:0.8rem;">
+                    Hệ Thống Đa Phương Thức &amp; Đa Tác Tử Hỗ Trợ Đánh Giá Lâm Sàng
+                </h3>
+                <p style="font-size:0.95rem; color:var(--text-slate); line-height:1.6; max-width:780px; margin:0 auto;">
+                    Tích hợp Deep Learning Phim X-Quang (DenseNet-121) và Machine Learning Lâm Sàng (XGBoost) qua Cơ Chế Gated Feature Fusion trong Kiến Trúc Multi-Agent
+                </p>
+                <div class="hero-badges">
+                    <span class="pill active">🩻 DenseNet-121 (NIH-14)</span>
+                    <span class="pill active">🩺 XGBoost + TreeSHAP</span>
+                    <span class="pill active">🔗 Gated Fusion (GMU ℝ²⁵⁶)</span>
+                    <span class="pill active">⚡ 5-Agent Swarm</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 2: MOTIVATION - SOLUTION - KEY LEARNINGS -->
+        <div class="slide" data-slide="2">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN I · TỔNG QUAN ĐỀ TÀI &amp; GIÁ TRỊ THU HOẠCH</div>
+                <h2 class="slide-title">Lý Do Chọn Đề Tài · Giải Pháp Nêu Ra · Giá Trị Học Được</h2>
+                <p class="slide-sub">Khái quát ba trụ cột trọng tâm: Nhu cầu thực tế cấp cứu → Kiến trúc đề xuất MedFusion-CXR → Bài học khoa học &amp; kỹ thuật</p>
+            </div>
+            <div class="grid-3">
+                <!-- Pillar 1: Lý do chọn đề tài -->
+                <div class="card" style="border-top:3px solid var(--rose);padding:0.95rem;">
+                    <div class="card-tag" style="color:var(--rose);">1. LÝ DO CHỌN ĐỀ TÀI</div>
+                    <div style="font-size:0.75rem;color:var(--text-slate);font-weight:700;margin-bottom:0.6rem;text-transform:uppercase;">Bối cảnh &amp; Nỗi đau thực tế</div>
+                    <div style="display:flex;flex-direction:column;gap:0.55rem;font-size:0.77rem;line-height:1.5;">
+                        <div>
+                            <strong style="color:var(--text-white);">Áp lực "Thời gian vàng" cấp cứu:</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;">Bệnh nhân suy hô hấp diễn biến nhanh trong vài phút; bác sĩ chịu tải cao khi dữ liệu phân mảnh giữa Chẩn đoán hình ảnh và Hồi sức.</p>
+                        </div>
+                        <div>
+                            <strong style="color:var(--text-white);">Bế tắc của AI đơn phương thức:</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;"><span style="color:var(--rose);">• Vision-only:</span> Thấy tổn thương nhưng mù sinh hiệu (không biết sốt cao, tụt SpO₂, sốc).</p>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;"><span style="color:var(--rose);">• Clinical-only:</span> Thấy rối loạn cấp tính nhưng thiếu hình thái (khó phân biệt Viêm phổi vs Suy tim).</p>
+                        </div>
+                        <div>
+                            <strong style="color:var(--text-white);">Khoảng trống công nghệ:</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;">Thiếu công cụ dung hòa đồng thời cả 2 nguồn tin để hỗ trợ ra quyết định toàn diện.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pillar 2: Giải pháp nêu ra -->
+                <div class="card" style="border-top:3px solid var(--emerald);padding:0.95rem;">
+                    <div class="card-tag" style="color:var(--emerald);">2. GIẢI PHÁP NÊU RA</div>
+                    <div style="font-size:0.75rem;color:var(--text-slate);font-weight:700;margin-bottom:0.6rem;text-transform:uppercase;">Hệ thống MedFusion-CXR</div>
+                    <div style="display:flex;flex-direction:column;gap:0.55rem;font-size:0.77rem;line-height:1.5;">
+                        <div>
+                            <strong style="color:var(--text-white);">Kiến trúc Đa phương thức 2 nhánh:</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;"><span style="color:var(--emerald);">• Thị giác:</span> DenseNet-121 quét 14 bệnh lý phổi NIH-14 (vector F_v ∈ ℝ¹⁰²⁴).</p>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;"><span style="color:var(--emerald);">• Lâm sàng:</span> XGBoost + TreeSHAP lượng giá nguy cơ (vector F_c ∈ ℝ³²).</p>
+                        </div>
+                        <div>
+                            <strong style="color:var(--text-white);">Cơ chế Cổng thích ứng (GMU):</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;">Cổng tự cân bằng: <strong>48% ảnh · 52% sinh hiệu</strong>; cơ chế Fallback an toàn chuyển 100% sinh hiệu khi chưa có phim X-quang.</p>
+                        </div>
+                        <div>
+                            <strong style="color:var(--text-white);">Điều phối 5 Agent &amp; Bạch Mai RAG:</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;">Gác cổng mốc t₀ chống rò rỉ, PhoBERT bóc tách bệnh sử tiếng Việt, đối chiếu phác đồ BV Bạch Mai + ICD-10.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pillar 3: Qua đó học được những gì -->
+                <div class="card" style="border-top:3px solid var(--amber);padding:0.95rem;">
+                    <div class="card-tag" style="color:var(--amber);">3. QUA ĐÓ HỌC ĐƯỢC GÌ</div>
+                    <div style="font-size:0.75rem;color:var(--text-slate);font-weight:700;margin-bottom:0.6rem;text-transform:uppercase;">Bài học thu hoạch đồ án</div>
+                    <div style="display:flex;flex-direction:column;gap:0.55rem;font-size:0.77rem;line-height:1.5;">
+                        <div>
+                            <strong style="color:var(--text-white);">Kỹ thuật AI Y tế Đa phương thức:</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;">Nắm vững tiền xử lý dữ liệu phức hợp (ảnh xám 224×224 kết hợp bảng sinh hiệu), cơ chế Gated Fusion và giải thích mô hình bằng TreeSHAP.</p>
+                        </div>
+                        <div>
+                            <strong style="color:var(--text-white);">Liêm chính &amp; Phương pháp luận:</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;">Hiểu sâu về kiểm soát rò rỉ dữ liệu (Zero patient leakage, temporal guardrail t₀); nhận thức rõ ranh giới nghiên cứu trên tập dữ liệu chưa ghép cặp.</p>
+                        </div>
+                        <div>
+                            <strong style="color:var(--text-white);">Tư duy Xây dựng Sản phẩm:</strong>
+                            <p style="color:var(--text-slate);margin:0.15rem 0 0 0;">Thiết kế hệ điều phối Multi-Agent Swarm, đóng gói hệ thống hoàn chỉnh với Docker, xây dựng giao diện CDSS thân thiện với bác sĩ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 3: RESEARCH OBJECTIVES -->
+        <div class="slide" data-slide="3">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN I · BỐI CẢNH NGHIÊN CỨU</div>
+                <h2 class="slide-title">Động Lực Nghiên Cứu &amp; 4 Mục Tiêu Kỹ Thuật</h2>
+                <p class="slide-sub">Thiết kế hệ thống đa phương thức toàn diện kết hợp Deep Learning, Machine Learning và Multi-Agent</p>
+            </div>
+            <div class="grid-2x2">
+                <div class="card cyan-border">
+                    <div class="card-tag" style="color:var(--cyan);">MỤC TIÊU 1</div>
+                    <h4>1. Nhánh Thị giác (DenseNet-121)</h4>
+                    <ul>
+                        <li>Phân loại 14 bệnh lý phổi trên tập dữ liệu NIH ChestX-ray14.</li>
+                        <li>Trích xuất biểu diễn đặc trưng thị giác F_v ∈ ℝ¹⁰²⁴ trước lớp fully-connected.</li>
+                        <li>Hiệu chuẩn ngưỡng phân loại tối ưu hóa F1 độc lập trên tập Validation.</li>
+                    </ul>
+                </div>
+                <div class="card emerald-border">
+                    <div class="card-tag" style="color:var(--emerald);">MỤC TIÊU 2</div>
+                    <h4>2. Nhánh Lâm sàng (XGBoost + TreeSHAP)</h4>
+                    <ul>
+                        <li>Dự đoán can thiệp trên 11 biến sinh hiệu/thể trạng + các chỉ số cấp cứu (qSOFA, Shock Index).</li>
+                        <li>Trích xuất vector biểu diễn lâm sàng F_c ∈ ℝ³² kết hợp với TreeSHAP.</li>
+                        <li>Cung cấp khả năng giải thích nguyên nhân cá thể hóa chính xác từng ca bệnh.</li>
+                    </ul>
+                </div>
+                <div class="card amber-border">
+                    <div class="card-tag" style="color:var(--amber);">MỤC TIÊU 3</div>
+                    <h4>3. Cơ chế Gated Feature Fusion (GMU)</h4>
+                    <ul>
+                        <li>Chiếu F_v và F_c về không gian biểu diễn tương thích ℝ²⁵⁶.</li>
+                        <li>Cổng Sigmoid điều tiết trọng số thích ứng: F_fusion = g⊙F̃_v + (1-g)⊙F̃_c.</li>
+                        <li>Tích hợp cơ chế tự động chuyển sang Clinical-only fallback an toàn khi thiếu ảnh.</li>
+                    </ul>
+                </div>
+                <div class="card" style="border-color:var(--blue);">
+                    <div class="card-tag" style="color:var(--blue);">MỤC TIÊU 4</div>
+                    <h4>4. Lớp Điều phối Multi-Agent</h4>
+                    <ul>
+                        <li>Phân công 5 Agent chuyên khoa có giám sát rò rỉ thời gian t₀.</li>
+                        <li>TriageTimelineAgent (PhoBERT) bóc tách triệu chứng và thời gian khởi phát.</li>
+                        <li>Tổng hợp báo cáo và đối chiếu phác đồ tham khảo BV Bạch Mai.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 4: DATASETS & GOVERNANCE -->
+        <div class="slide" data-slide="4">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN I · DỮ LIỆU &amp; QUẢN TRỊ KHOA HỌC</div>
+                <h2 class="slide-title">Nguồn Dữ Liệu &amp; Cam Kết Liêm Chính Khoa Học</h2>
+                <p class="slide-sub">Minh bạch phương pháp luận: Đánh giá độc lập 2 dataset, tuyệt đối không tạo dữ liệu ghép cặp giả mạo</p>
+            </div>
+            <div class="grid-2">
+                <div class="card cyan-border">
+                    <div class="card-tag" style="color:var(--cyan);">MODALITY 1 · VISION</div>
+                    <h4>NIH ChestX-ray14 (112.120 Ảnh)</h4>
+                    <div class="stat-callout">30.805 <span style="font-size:1rem;color:var(--text-slate);">Bệnh nhân</span></div>
+                    <ul>
+                        <li>14 nhãn bệnh lý nhị phân {0, 1} khai phá qua xử lý ngôn ngữ tự nhiên (NLP-mined).</li>
+                        <li>Phân chia bệnh nhân (Patient-Level Split): Train 73.089 / Val 13.435 / Test 25.596 ảnh.</li>
+                        <li>Zero Patient Leakage: Trùng lặp bệnh nhân giữa Train, Val và Test = 0 (Đã kiểm chứng tự động).</li>
+                        <li>Trạng thái đĩa cục bộ: 74.999 ảnh hợp lệ (shards 001–008, ~30 GB) sẵn sàng đánh giá.</li>
+                    </ul>
+                </div>
+                <div class="card emerald-border">
+                    <div class="card-tag" style="color:var(--emerald);">MODALITY 2 · CLINICAL</div>
+                    <h4>Clinical Tabular Dataset (1.600 Mẫu)</h4>
+                    <div class="stat-callout">11 <span style="font-size:1rem;color:var(--text-slate);">Đặc trưng Thể trạng</span></div>
+                    <ul>
+                        <li>Quy mô: 1.600 mẫu bệnh nhân (1.500 mô phỏng sinh lý + 100 hồ sơ trích xuất lâm sàng).</li>
+                        <li>11 biến thể trạng: Tuổi, giới, SpO₂, HR, SBP, DBP, stress, giấc ngủ, vận động, bệnh nền, triệu chứng.</li>
+                        <li>Phân chia phân tầng (Stratified 70/15/15): Train 1.120 / Val 240 / Held-out Test 240 mẫu.</li>
+                        <li>Không liên kết bệnh nhân với tập NIH (Unpaired Cohorts) → Giữ tính trung thực khoa học.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 5: DATA ENGINEERING -->
+        <div class="slide" data-slide="5">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN II · PHƯƠNG PHÁP &amp; THIẾT KẾ HỆ THỐNG</div>
+                <h2 class="slide-title">Kỹ Thuật Dữ Liệu &amp; Kiểm Soát Rò Rỉ Đa Tầng</h2>
+                <p class="slide-sub">Quy trình tiền xử lý độc lập và các rào chắn kỹ thuật ngăn ngừa data leakage triệt để</p>
+            </div>
+            <div class="grid-3">
+                <div class="card cyan-border">
+                    <div class="card-tag" style="color:var(--cyan);">PIPELINE 1</div>
+                    <h4>Tiền xử lý Ảnh NIH</h4>
+                    <ul>
+                        <li>Chuyển đổi 1 kênh xám (Grayscale), chuẩn hóa cường độ voxel [-1024.0, +1024.0].</li>
+                        <li>Cắt khung vuông trung tâm (Center-crop) độ phân giải chuẩn 224 × 224 pixels.</li>
+                        <li>Kiểm định mã băm SHA-256 checkpoint: 31a5475c… đảm bảo toàn vẹn trọng số.</li>
+                        <li>Cách ly hoàn toàn các file ảnh giả lập đồ họa (Synthetic Graphic Quarantine).</li>
+                    </ul>
+                </div>
+                <div class="card emerald-border">
+                    <div class="card-tag" style="color:var(--emerald);">PIPELINE 2</div>
+                    <h4>Chuẩn hóa Lâm sàng</h4>
+                    <ul>
+                        <li>StandardScaler chỉ học tham số (μ, σ) trên tập Train (1.120 mẫu) để tránh rò rỉ phân phối.</li>
+                        <li>Kiểm soát giá trị bất thường: Clip SpO₂ về [50, 100]% (xử lý ngoại lai 102.7% và 101.4%).</li>
+                        <li>Tính toán các chỉ số động học cấp tính: qSOFA, Shock Index (HR/SBP), độ giảm oxy máu.</li>
+                    </ul>
+                </div>
+                <div class="card amber-border">
+                    <div class="card-tag" style="color:var(--amber);">RÀO CHẮN AN TOÀN</div>
+                    <h4>Chống Rò rỉ Đa tầng</h4>
+                    <ul>
+                        <li>Patient-level Split: Kiểm tra giao tập bệnh nhân train ∩ val ∩ test = ∅, overlap = 0.</li>
+                        <li>Freeze Validation Threshold: Ngưỡng quyết định F1 tối ưu được chọn trên Val và đóng băng cho Test.</li>
+                        <li>Temporal Guard Agent: Chặn toàn bộ dữ liệu phát sinh sau mốc thời gian tiếp nhận ban đầu t₀.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 6: OVERALL ARCHITECTURE -->
+        <div class="slide" data-slide="6">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN II · PHƯƠNG PHÁP &amp; THIẾT KẾ HỆ THỐNG</div>
+                <h2 class="slide-title">Kiến Trúc Tổng Thể Hệ Thống MedFusion-CXR</h2>
+                <p class="slide-sub">Tích hợp hai nhánh độc lập qua Gated Feature Fusion và phân cấp điều phối bằng Multi-Agent Swarm</p>
+            </div>
+            <div style="flex:1; display:flex; justify-content:center; align-items:center;">
+                <img src="../reports/presentation_assets/architecture_flowchart.png" alt="Architecture Diagram" style="max-height:460px; max-width:100%; border-radius:10px; border:1px solid var(--card-border);">
+            </div>
+        </div>
+
+        <!-- SLIDE 7: VISION BRANCH -->
+        <div class="slide" data-slide="7">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN II · PHƯƠNG PHÁP &amp; THIẾT KẾ HỆ THỐNG</div>
+                <h2 class="slide-title">Nhánh Trí Tuệ Hình Ảnh: DenseNet-121</h2>
+                <p class="slide-sub">Mô hình mạng nơ-ron tích chập sâu phân tích 14 bệnh lý lồng ngực và trích xuất vector đặc trưng thị giác</p>
+            </div>
+            <div class="grid-2">
+                <div class="card cyan-border" style="align-items:center; justify-content:center; text-align:center;">
+                    <img src="samples/pneumonia_nih.png" alt="Sample CXR" style="width:260px; height:260px; border-radius:10px; border:1px solid var(--cyan); margin-bottom:0.8rem;">
+                    <p style="font-size:0.8rem; color:var(--text-slate);">Phim X-quang Lồng ngực Mẫu (NIH ChestX-ray14)<br>Grayscale · 224x224 Center-Cropped</p>
+                </div>
+                <div class="card cyan-border">
+                    <div class="card-tag" style="color:var(--cyan);">CƠ CHẾ THỊ GIÁC (F_v ∈ ℝ¹⁰²⁴)</div>
+                    <h4>Đặc điểm Kỹ thuật DenseNet-121</h4>
+                    <ul>
+                        <li>Backbone Kiến trúc: DenseNet-121 với kết nối dày đặc giúp bảo toàn gradient và tái sử dụng đặc trưng.</li>
+                        <li>Trọng số Tiền huấn luyện: TorchXRayVision 'densenet121-res224-nih' (SHA-256 verified).</li>
+                        <li>14 Nhãn Bệnh lý NIH: Atelectasis, Cardiomegaly, Consolidation, Edema, Effusion, Emphysema, Fibrosis, Hernia, Infiltration, Mass, Nodule, Pleural Thickening, Pneumonia, Pneumothorax.</li>
+                        <li>Trích xuất Đặc trưng: Hàm extract_features() trích xuất vector đặc trưng thị giác F_v ∈ ℝ¹⁰²⁴.</li>
+                        <li>Hiệu chuẩn Ngưỡng (Calibration): Tìm kiếm lưới 91 điểm trên Validation để chọn ngưỡng tối ưu F1 độc lập.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 8: CLINICAL BRANCH -->
+        <div class="slide" data-slide="8">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN II · PHƯƠNG PHÁP &amp; THIẾT KẾ HỆ THỐNG</div>
+                <h2 class="slide-title">Nhánh Trí Tuệ Lâm Sàng: XGBoost &amp; TreeSHAP</h2>
+                <p class="slide-sub">Phân tích nguy cơ lâm sàng, trích xuất biểu diễn 32-d và giải thích quyết định cá thể hóa</p>
+            </div>
+            <div class="grid-2">
+                <div class="card emerald-border">
+                    <div class="card-tag" style="color:var(--emerald);">BIỂU DIỄN LÂM SÀNG (F_c ∈ ℝ³²)</div>
+                    <h4>Đặc điểm Kỹ thuật XGBoost</h4>
+                    <ul>
+                        <li>Mô hình Học máy Cốt lõi: Gradient Boosted Trees (XGBoost) gồm 160 cây, max depth 4, learning rate 0.06.</li>
+                        <li>11 Biến Thể trạng &amp; Sinh hiệu: SpO₂, SBP, DBP, HR, Tuổi, Giới tính, Stress, Giấc ngủ, Vận động, Bệnh nền, Triệu chứng.</li>
+                        <li>Giải thích TreeSHAP: Hàm get_booster().predict(pred_contribs=True) xuất vector đóng góp phi tuyến chính xác từng thuộc tính.</li>
+                        <li>Vector Biểu diễn 32 chiều: Gồm 11 biến scaled + 11 SHAP + bias + logit + 8 chỉ số cấp cứu (qSOFA, Shock Index, RR, Temp, WBC, CRP, Troponin).</li>
+                    </ul>
+                </div>
+                <div class="card emerald-border" style="align-items:center; justify-content:center;">
+                    <img src="../reports/presentation_assets/e3_treeshap_importance.png" alt="TreeSHAP Importance" style="max-height:430px; max-width:100%; border-radius:8px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 9: MULTI-AGENT SEQUENTIAL ORCHESTRATION -->
+        <div class="slide" data-slide="9">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN II · PHƯƠNG PHÁP &amp; THIẾT KẾ HỆ THỐNG</div>
+                <h2 class="slide-title">Trình Tự &amp; Luồng Điều Phối 5 Tác Tử Khi Tiếp Nhận Input</h2>
+                <p class="slide-sub">Cơ chế tuần tự: Tiếp nhận mốc t₀ ➔ Phân luồng song song chuyên biệt ➔ Hội đồng Gated Fusion ➔ Đối chiếu phác đồ Bạch Mai</p>
+            </div>
+
+            <!-- Top Input Banner -->
+            <div style="background:rgba(14,116,144,0.18);border:1px solid var(--cyan);border-radius:8px;padding:0.6rem 1rem;margin-bottom:0.8rem;display:flex;justify-content:space-between;align-items:center;">
+                <span style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;font-weight:700;color:var(--cyan);">📥 INPUT TIẾP NHẬN TẠI MỐC t₀:</span>
+                <span style="font-size:0.8rem;color:#f8fafc;font-weight:600;">1. Phim X-Quang Ngực (CXR) &nbsp;·&nbsp; 2. 11 Sinh Hiệu &amp; Labs Cấp Cứu &nbsp;·&nbsp; 3. Bệnh Sử Tiếng Việt Tự Do</span>
+            </div>
+
+            <!-- 4-Stage Sequential Flow -->
+            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:0.75rem;flex:1;">
+                <!-- Step 1 -->
+                <div class="card" style="border-top:3px solid var(--rose);padding:0.75rem;display:flex;flex-direction:column;gap:0.45rem;">
+                    <div class="card-tag" style="color:var(--rose);">BƯỚC 1 · GÁC CỔNG &amp; PHÂN LOẠI</div>
+                    <div style="background:rgba(2,6,23,0.6);border-radius:6px;padding:0.5rem;border:1px solid var(--card-border);">
+                        <strong style="color:#f8fafc;font-size:0.82rem;display:block;">🛡️ TemporalLeakageGuard</strong>
+                        <p style="font-size:0.74rem;color:var(--text-slate);margin-top:0.2rem;">Chặn triệt để mọi dữ liệu phát sinh sau mốc t₀, bảo đảm zero-leakage.</p>
+                    </div>
+                    <div style="background:rgba(2,6,23,0.6);border-radius:6px;padding:0.5rem;border:1px solid var(--card-border);">
+                        <strong style="color:#f8fafc;font-size:0.82rem;display:block;">📝 TriageTimelineAgent</strong>
+                        <p style="font-size:0.74rem;color:var(--text-slate);margin-top:0.2rem;">PhoBERT NER bóc tách triệu chứng, tiền sử, thuốc và thời gian khởi phát.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="card" style="border-top:3px solid var(--emerald);padding:0.75rem;display:flex;flex-direction:column;gap:0.45rem;">
+                    <div class="card-tag" style="color:var(--emerald);">BƯỚC 2 · PHÂN CÔNG CHUYÊN KHOA</div>
+                    <div style="background:rgba(2,6,23,0.6);border-radius:6px;padding:0.5rem;border:1px solid var(--card-border);">
+                        <strong style="color:var(--cyan);font-size:0.82rem;display:block;">🩻 CXRDiagnosticAgent</strong>
+                        <p style="font-size:0.74rem;color:var(--text-slate);margin-top:0.2rem;">DenseNet-121 quét 14 bệnh lý phổi ➔ Xuất vector thị giác F_v (1024-d).</p>
+                    </div>
+                    <div style="background:rgba(2,6,23,0.6);border-radius:6px;padding:0.5rem;border:1px solid var(--card-border);">
+                        <strong style="color:var(--emerald);font-size:0.82rem;display:block;">🩺 VitalLabDynamicsAgent</strong>
+                        <p style="font-size:0.74rem;color:var(--text-slate);margin-top:0.2rem;">qSOFA, Shock Index, XGBoost lượng giá nguy cơ ➔ Xuất vector F_c (32-d).</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="card" style="border-top:3px solid var(--amber);padding:0.75rem;display:flex;flex-direction:column;gap:0.5rem;">
+                    <div class="card-tag" style="color:var(--amber);">BƯỚC 3 · HỘI CHẨN &amp; FUSION</div>
+                    <div style="background:rgba(2,6,23,0.6);border-radius:6px;padding:0.65rem;border:1px solid var(--card-border);flex:1;">
+                        <strong style="color:var(--amber);font-size:0.85rem;display:block;margin-bottom:0.3rem;">👑 ConsensusOrchestrator</strong>
+                        <ul style="font-size:0.74rem;color:var(--text-slate);line-height:1.45;padding-left:0;list-style:none;">
+                            <li>• <strong>Gated Fusion:</strong> Cổng GMU tự cân bằng 48% ảnh · 52% sinh hiệu.</li>
+                            <li>• <strong>Dung hòa tin:</strong> Bằng chứng tổn thương phổi củng cố cho sốt và tụt SpO₂.</li>
+                            <li>• <strong>Chế độ Fallback:</strong> Thiếu ảnh vẫn chạy an toàn 100% bằng lâm sàng.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="card" style="border-top:3px solid var(--blue);padding:0.75rem;display:flex;flex-direction:column;gap:0.5rem;">
+                    <div class="card-tag" style="color:var(--blue);">BƯỚC 4 · ĐỐI CHIẾU &amp; QUYẾT ĐỊNH</div>
+                    <div style="background:rgba(2,6,23,0.6);border-radius:6px;padding:0.65rem;border:1px solid var(--card-border);flex:1;">
+                        <strong style="color:var(--blue);font-size:0.85rem;display:block;margin-bottom:0.3rem;">🏥 Đầu Ra Lâm Sàng (CDSS)</strong>
+                        <ul style="font-size:0.74rem;color:var(--text-slate);line-height:1.45;padding-left:0;list-style:none;">
+                            <li>• <strong>RAG Bạch Mai:</strong> Phác đồ điều trị chuẩn y khoa + Mã ICD-10.</li>
+                            <li>• <strong>Cảnh báo:</strong> Mức độ nguy cơ cấp (Critical / Ổn định).</li>
+                            <li>• <strong>TreeSHAP:</strong> 8 yếu tố sinh hiệu giải thích trực quan cho bác sĩ.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 10: GATED FUSION PROTOTYPE -->
+        <div class="slide" data-slide="10">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN II · PHƯƠNG PHÁP &amp; THIẾT KẾ HỆ THỐNG</div>
+                <h2 class="slide-title">Cơ Chế Gated Feature Fusion (GMU Prototype)</h2>
+                <p class="slide-sub">Hợp nhất đặc trưng thích ứng và cơ chế dự phòng an toàn (Fallback Mode) khi thiếu modality</p>
+            </div>
+            <div class="card amber-border" style="margin-bottom:1rem; padding:1.2rem; background:rgba(245,158,11,0.06);">
+                <div class="card-tag" style="color:var(--amber);">CÔNG THỨC GMU TRÊN KHÔNG GIAN ℝ²⁵⁶</div>
+                <p style="font-family:'JetBrains Mono', monospace; font-size:0.92rem; color:#FFFFFF; line-height:1.8;">
+                    F̃_v = Proj_v(F_v) ∈ ℝ²⁵⁶  |  F̃_c = Proj_c(F_c) ∈ ℝ²⁵⁶<br>
+                    g = σ(W_g [ F̃_v ; F̃_c ] + b_g) ∈ (0, 1)²⁵⁶<br>
+                    F_fusion = g ⊙ F̃_v + (1 − g) ⊙ F̃_c ∈ ℝ²⁵⁶<br>
+                    Fallback Mode: Khi thiếu ảnh X-quang ⇒ g = 0 ⇒ F_fusion = F̃_c
+                </p>
+            </div>
+            <div class="grid-2">
+                <div class="card cyan-border">
+                    <h4>Ưu Điểm Của Cơ Chế Cổng</h4>
+                    <ul>
+                        <li>Khắc phục nhược điểm ghép phẳng (Concatenation) vốn giả định trọng số cố định giữa 2 nguồn.</li>
+                        <li>Cổng g tự động gán trọng số cao hơn cho nhánh có đặc trưng rõ rệt.</li>
+                        <li>Giám sát trực tiếp độ dài chuẩn ‖F̃_v‖₂, ‖F̃_c‖₂ và độ phân tán của cổng qua Telemetry API.</li>
+                    </ul>
+                </div>
+                <div class="card amber-border">
+                    <h4>Giới Hạn Phương Pháp Luận</h4>
+                    <ul>
+                        <li>Trạng thái thực tế: ARCHITECTURAL_PROTOTYPE_UNPAIRED_COHORTS.</li>
+                        <li>Trọng số W_g chưa được huấn luyện có giám sát vì chưa có nhãn lâm sàng trên cùng bệnh nhân với ảnh NIH.</li>
+                        <li>Giá trị gate trên giao diện demo phản ánh khả năng vận hành luồng kiến trúc, không phải hiệu năng lâm sàng.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 11: EXPERIMENTAL SETUP -->
+        <div class="slide" data-slide="11">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN III · THỰC NGHIỆM &amp; KẾT QUẢ</div>
+                <h2 class="slide-title">Thiết Kế Thực Nghiệm Độc Lập Nghiêm Ngặt</h2>
+                <p class="slide-sub">Phân định minh bạch giữa các thực nghiệm đã hoàn thành và điều kiện cần cho thực nghiệm multimodal</p>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:0.6rem; flex:1;">
+                <div class="card cyan-border" style="padding:0.75rem 1rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <h5 style="color:var(--cyan); font-size:0.95rem;">E1: Đánh giá Nhánh Thị giác (DenseNet-121)</h5>
+                        <span class="pill" style="border-color:var(--cyan); color:var(--cyan);">HOÀN THÀNH</span>
+                    </div>
+                    <p style="font-size:0.8rem; margin-top:0.25rem;">Dataset: NIH ChestX-ray14 (Test Set: 1.314 ảnh / 50 BN). Giao thức: Đóng băng ngưỡng Val, Bootstrap 300 lần tính CI 95%.</p>
+                </div>
+                <div class="card emerald-border" style="padding:0.75rem 1rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <h5 style="color:var(--emerald); font-size:0.95rem;">E2: Đánh giá Nhánh Lâm sàng (XGBoost vs 5 Baselines)</h5>
+                        <span class="pill" style="border-color:var(--emerald); color:var(--emerald);">HOÀN THÀNH</span>
+                    </div>
+                    <p style="font-size:0.8rem; margin-top:0.25rem;">Dataset: Clinical Tabular (1.600 mẫu; Train 1.120 / Val 240 / Test 240). So sánh 6 mô hình: XGBoost, LightGBM, RF, DT, MLP, LogReg.</p>
+                </div>
+                <div class="card" style="border-color:var(--blue); padding:0.75rem 1rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <h5 style="color:var(--blue); font-size:0.95rem;">E3: Khả năng Giải thích Quyết định (TreeSHAP XAI)</h5>
+                        <span class="pill" style="border-color:var(--blue); color:var(--blue);">HOÀN THÀNH</span>
+                    </div>
+                    <p style="font-size:0.8rem; margin-top:0.25rem;">Phương pháp: Trích xuất chính xác đóng góp đặc trưng phi tuyến từ cây quyết định (pred_contribs=True) cấp ca bệnh và toàn cục.</p>
+                </div>
+                <div class="card amber-border" style="padding:0.75rem 1rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <h5 style="color:var(--amber); font-size:0.95rem;">E4: Kiểm thử Tầng Hợp nhất Gated Fusion (Kiến trúc &amp; Luồng)</h5>
+                        <span class="pill" style="border-color:var(--amber); color:var(--amber);">PROTOTYPE</span>
+                    </div>
+                    <p style="font-size:0.8rem; margin-top:0.25rem;">Mục tiêu: Xác thực kích thước tensor (1024-d, 32-d -> 256-d), tính liên tục của hàm cổng sigmoid và Fallback mode khi thiếu ảnh.</p>
+                </div>
+                <div class="card" style="border-color:var(--text-muted); padding:0.75rem 1rem;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <h5 style="color:var(--text-slate); font-size:0.95rem;">E5: Kiểm chứng Hiệu quả Fusion Đa phương thức</h5>
+                        <span class="pill" style="border-color:var(--text-muted); color:var(--text-muted);">FUTURE WORK</span>
+                    </div>
+                    <p style="font-size:0.8rem; margin-top:0.25rem;">Điều kiện tiên quyết: Yêu cầu tập dữ liệu ghép cặp theo từng ca bệnh được phê duyệt đạo đức y sinh. Tuyệt đối không báo cáo khi chưa có dữ liệu ghép cặp.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 12: RESULTS E1 & E2 -->
+        <div class="slide" data-slide="12">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN III · THỰC NGHIỆM &amp; KẾT QUẢ</div>
+                <h2 class="slide-title">Kết Quả Thực Nghiệm Độc Lập E1 &amp; E2</h2>
+                <p class="slide-sub">Số liệu định lượng thực tế từ các thực nghiệm đã chạy kiểm chứng trên hệ thống</p>
+            </div>
+            <div class="grid-2">
+                <div class="card emerald-border" style="align-items:center;">
+                    <h5 style="color:var(--emerald); margin-bottom:0.4rem;">E2: Nhánh Lâm sàng (XGBoost Test Split)</h5>
+                    <img src="../reports/presentation_assets/e2_clinical_benchmark.png" alt="E2 Chart" style="max-height:310px; max-width:100%; border-radius:8px;">
+                    <p style="font-size:0.78rem; color:var(--text-slate); margin-top:0.5rem; text-align:center;">
+                        <strong>XGBoost dẫn đầu toàn diện:</strong> AUROC 94.16% | AUPRC 93.18% | F1-Score 84.62%
+                    </p>
+                </div>
+                <div class="card cyan-border" style="align-items:center;">
+                    <h5 style="color:var(--cyan); margin-bottom:0.4rem;">E1: Nhánh Thị giác (DenseNet-121 NIH-14)</h5>
+                    <img src="../reports/presentation_assets/e1_nih14_benchmark.png" alt="E1 Chart" style="max-height:310px; max-width:100%; border-radius:8px;">
+                    <p style="font-size:0.78rem; color:var(--text-slate); margin-top:0.5rem; text-align:center;">
+                        <strong>Macro AUROC = 0.6482</strong> (14 nhãn) | Tim to: 0.7541 | Khối u: 0.7481 | Tràn dịch: 0.7049
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 13: PRODUCT DEMO -->
+        <div class="slide" data-slide="13">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN IV · SẢN PHẨM &amp; KẾT LUẬN</div>
+                <h2 class="slide-title">Minh Họa Sản Phẩm Thực Tế (CDSS Web Platform)</h2>
+                <p class="slide-sub">Giao diện hỗ trợ hội chẩn tương tác thời gian thực tại http://localhost:8000</p>
+            </div>
+            <div class="grid-3">
+                <div class="card cyan-border">
+                    <div class="card-tag" style="color:var(--cyan);">TÍNH NĂNG 1</div>
+                    <h4>1. Nạp Ca Bệnh 1-Click</h4>
+                    <ul>
+                        <li>4 Preset ca bệnh lâm sàng mẫu gắn liền với ảnh X-quang NIH thật.</li>
+                        <li>Ca 1: Viêm phổi cấp &amp; giảm oxy máu.</li>
+                        <li>Ca 2: Tim to / Theo dõi suy tim mất bù.</li>
+                        <li>Ca 3: Tràn dịch màng phổi &amp; khó thở.</li>
+                        <li>Ca 4: Khám sàng lọc định kỳ ổn định.</li>
+                        <li>Xem trước phim X-quang, đảo ngược âm bản (Invert) &amp; nút "Bỏ ảnh" test Fallback.</li>
+                    </ul>
+                </div>
+                <div class="card amber-border">
+                    <div class="card-tag" style="color:var(--amber);">TÍNH NĂNG 2</div>
+                    <h4>2. Tỷ Lệ Đóng Góp &amp; Nhận Định Lâm Sàng</h4>
+                    <ul>
+                        <li>Thanh tỷ lệ trực quan: Phim X-quang vs Sinh hiệu &amp; Xét nghiệm.</li>
+                        <li>Tự động diễn giải Nhận định lâm sàng bằng ngôn ngữ y khoa dễ hiểu cho bác sĩ.</li>
+                        <li>Hộp mở rộng công thức toán học GMU &amp; vector đặc trưng cho kỹ sư và hội đồng.</li>
+                        <li>Chế độ an toàn Fallback: Tự động chuyển 100% sang lâm sàng khi chưa có ảnh X-quang.</li>
+                    </ul>
+                </div>
+                <div class="card emerald-border">
+                    <div class="card-tag" style="color:var(--emerald);">TÍNH NĂNG 3</div>
+                    <h4>3. Hỗ trợ Ra Quyết định &amp; Phác đồ</h4>
+                    <ul>
+                        <li>Biểu đồ thanh ngang TreeSHAP cá thể hóa cho từng bệnh nhân.</li>
+                        <li>Tính toán động học cấp cứu: Điểm qSOFA (1-3), Shock Index (HR/SBP), độ bão hòa Oxy.</li>
+                        <li>Gợi ý phác đồ điều trị tham khảo theo Hướng dẫn Bệnh viện Bạch Mai.</li>
+                        <li>Tổng hợp kết quả hội chẩn đa phương thức từ 5 Agent chuyên khoa minh bạch.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 14: LIMITATIONS & FUTURE WORK -->
+        <div class="slide" data-slide="14">
+            <div class="slide-header">
+                <div class="eyebrow">PHẦN IV · SẢN PHẨM &amp; KẾT LUẬN</div>
+                <h2 class="slide-title">Giới Hạn Hiện Tại &amp; Hướng Phát Triển Tiếp Theo</h2>
+                <p class="slide-sub">Đánh giá khách quan các hạn chế và đề xuất lộ trình nâng cấp hệ thống trong tương lai</p>
+            </div>
+            <div class="grid-2">
+                <div class="card rose-border">
+                    <div class="card-tag" style="color:var(--rose);">CURRENT LIMITATIONS</div>
+                    <h4>Giới Hạn Hiện Tại</h4>
+                    <ul>
+                        <li>Chưa có Dữ liệu Ghép cặp Bệnh nhân: Tập ảnh NIH và tập lâm sàng độc lập; chưa chứng minh được mức cải thiện hiệu năng của Gated Fusion trên tập ghép cặp thực.</li>
+                        <li>Trọng số Cổng GMU chưa Huấn luyện: Trọng số W_g và projection layer vận hành ở chế độ nguyên mẫu kiến trúc (Architectural Prototype).</li>
+                        <li>Quy mô Tập Kiểm định E1: Mới chạy thử nghiệm pilot trên 50 bệnh nhân/split; khoảng tin cậy 95% còn rộng ở các nhãn hiếm (Hernia).</li>
+                        <li>Nguồn dữ liệu Lâm sàng: 1.500/1.600 mẫu lâm sàng là mô phỏng sinh lý, cần tiếp tục kiểm định trên EHR thực.</li>
+                    </ul>
+                </div>
+                <div class="card cyan-border">
+                    <div class="card-tag" style="color:var(--cyan);">FUTURE ROADMAP</div>
+                    <h4>Hướng Nghiên Cứu Tiếp Theo</h4>
+                    <ul>
+                        <li>Hoàn thiện Đánh giá Toàn bộ 112.120 Ảnh NIH: Mở rộng kiểm định DenseNet-121 trên 25.596 ảnh test chính thức, phân tích chi tiết khoảng tin cậy theo phân nhóm tuổi, giới tính và tư thế chụp (PA vs AP).</li>
+                        <li>Cải thiện Tổng quát hóa &amp; Hiệu chỉnh Xác suất: Nghiên cứu các phương pháp Temperature Scaling / Isotonic Regression để tối ưu độ tin cậy của xác suất dự đoán.</li>
+                        <li>Mở rộng Đánh giá Đa nhóm Bệnh nhân: Khảo sát độ nhạy và độ đặc hiệu trên các nhóm bệnh nhân đặc thù và các ca bệnh đồng mắc phức tạp.</li>
+                        <li>Xây dựng Cohort Ghép cặp Hợp lệ trong Tương lai: Khi có nguồn dữ liệu bệnh án điện tử và X-quang ghép cặp được phê duyệt, sẽ tiến hành huấn luyện có giám sát cho tầng Gated Fusion.</li>
+                        <li>Kiểm định Ngoài &amp; Thử nghiệm Lâm sàng: Đánh giá mô hình trên dữ liệu thực tế tại các bệnh viện đối tác (Bạch Mai, Chợ Rẫy).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 15: CONCLUSION & QA -->
+        <div class="slide hero-slide" data-slide="15">
+            <div class="hero-box" style="padding:2.2rem 2.8rem;">
+                <div class="eyebrow" style="color:var(--emerald); margin-bottom:0.6rem;">KẾT LUẬN &amp; TỔNG KẾT ĐỀ TÀI</div>
+                <h2 style="font-size:2.2rem; margin-bottom:1.2rem; color:#FFFFFF;">MedFusion-CXR</h2>
+                <div class="grid-3" style="margin-bottom:1.4rem; text-align:left;">
+                    <div class="card cyan-border" style="padding:1rem;">
+                        <h5 style="color:var(--cyan); margin-bottom:0.4rem;">1. Đóng Góp Kiến Trúc</h5>
+                        <p style="font-size:0.8rem;">Thiết kế thành công hệ thống đa phương thức kết hợp DenseNet-121 và XGBoost qua Gated Feature Fusion GMU ℝ²⁵⁶ kèm chế độ Fallback an toàn.</p>
+                    </div>
+                    <div class="card emerald-border" style="padding:1rem;">
+                        <h5 style="color:var(--emerald); margin-bottom:0.4rem;">2. Liêm Chính Khoa Học</h5>
+                        <p style="font-size:0.8rem;">Đánh giá độc lập trung thực: XGBoost đạt AUROC 94.16%, F1 84.62%; DenseNet-121 đạt Macro AUROC 0.6482; không ngụy tạo kết quả ghép cặp giả.</p>
+                    </div>
+                    <div class="card amber-border" style="padding:1rem;">
+                        <h5 style="color:var(--amber); margin-bottom:0.4rem;">3. Sẵn Sàng Triển Khai</h5>
+                        <p style="font-size:0.8rem;">Đóng gói hoàn chỉnh container Docker (medfusion-cxr:latest), giao diện Web HUD trực quan, vượt qua 39/39 automated unit tests.</p>
+                    </div>
+                </div>
+                <h3 style="color:var(--cyan); font-size:1.15rem; font-weight:700;">
+                    XIN TRÂN TRỌNG CẢM ƠN QUÝ THẦY CÔ VÀ HỘI ĐỒNG KHOA HỌC!
+                </h3>
+                <p style="font-size:0.88rem; color:var(--text-slate); margin-top:0.35rem;">
+                    Sẵn sàng cho Phiên Hỏi Đáp (Q&amp;A) · Dashboard Trực Tiếp: http://localhost:8000
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Controls -->
+    <div class="control-bar">
+        <button class="nav-btn" id="prev-btn">◀ Slide Trước</button>
+        <div class="slide-counter" id="slide-num">Slide 1 / 15</div>
+        <button class="nav-btn" id="next-btn">Slide Tiếp ▶</button>
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 15;
+        const slides = document.querySelectorAll('.slide');
+        const counter = document.getElementById('slide-num');
+
+        function goToSlide(n) {
+            if (n < 1) n = 1;
+            if (n > totalSlides) n = totalSlides;
+            currentSlide = n;
+            slides.forEach(s => s.classList.remove('active'));
+            const target = document.querySelector(`.slide[data-slide="${currentSlide}"]`);
+            if (target) target.classList.add('active');
+            counter.textContent = `Slide ${currentSlide} / ${totalSlides}`;
+        }
+
+        document.getElementById('prev-btn').addEventListener('click', () => goToSlide(currentSlide - 1));
+        document.getElementById('next-btn').addEventListener('click', () => goToSlide(currentSlide + 1));
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
+                goToSlide(currentSlide + 1);
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                goToSlide(currentSlide - 1);
+            } else if (e.key === 'Home') {
+                goToSlide(1);
+            } else if (e.key === 'End') {
+                goToSlide(totalSlides);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -44,3 +44,12 @@ Thumbs.db
 *.pth
 *.onnx
 *.zip
+
+# Datasets, Runtime Uploads & API Credentials (NEVER commit to Git)
+data/kaggle_nih/
+data/uploads/
+output/consultation_*.json
+reports/nih_predictions*.csv
+kaggle.json
+**/kaggle.json
+.kaggle/

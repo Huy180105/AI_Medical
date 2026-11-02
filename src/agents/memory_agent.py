@@ -1,7 +1,7 @@
 from typing import Any, Optional
 from src.agents.base import BaseAgent
 from src.agents.context import AgentContext
-from src.agent.memory import ConversationMemory
+from src.agents.memory import ConversationMemory
 
 
 class MemoryAgent(BaseAgent):

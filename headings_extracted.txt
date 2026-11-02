@@ -1,0 +1,75 @@
+_Toc244334270: L Ờ? I C Ả? M Ơ N \*
+_Toc244334272: DANH M Ụ? C CÁ C B Ả? NG \*
+_Toc244334273: DANH M Ụ? C CÁ C H̀ NH \*
+_Toc244334274: T ó m t ắ? t đ ề? tà i \*
+_Toc244334275: 1. B ố? i c ả? nh, m ụ? c tiê u và ph ạ? m vi \*
+_Toc244334276: 1.1. B ố? i c ả? nh \*
+_Toc244334277: 1.2. M ụ? c tiê u và ph ạ? m vi \*
+_Toc244334278: 2. N ề? n t ả? ng lư thuy ế? t \*
+_Toc244334279: 2.1. T ổ? ng quan NLP, ASR và TTS \*
+_Toc244334280: 2.2. Tó m t ắ? t trí ch xu ấ? t \*
+_Toc244334281: 2.3. F5-TTS và VieNeu-TTS \*
+_Toc244334282: 2.4. Fine-tune, Lora, zero-shot và merged checkpoint \*
+_Toc244334283: 3. Kh ả? o sá t d ữ? li ệ? u v à chu ẩ? n b ị? mô i trư ờ? ng \*
+_Toc244334284: 3.1. Ngu ồ? n d ữ? li ệ? u ban đ ầ? u \*
+_Toc244334285: \* _Toc244334909 B ả? ng 3.1. Ngu ồ? n ban đ ầ? u \* _Toc244334909 3.2. Chu ẩ? n b ị? ph ầ? n c ứ? ng và thư vi ệ? n \*
+_Toc244334286: 3.3. T ổ? ch ứ? c thư m ụ? c \*
+_Toc244334287: 4. Ti ề? n x ử? lư â m thanh và qu ả? n lư t ậ? p d ữ? li ệ? u \*
+_Toc244334288: 4.1. Tá ch â m thanh, chu ẩ? n hó a và chia đ o ạ? n \*
+_Toc244334289: 4.2. T ạ? o transcript và metadata \*
+_Toc244334290: 4.3. Chia train/validation/test và pḥ ng ṛ r ỉ? d ữ? li ệ? u \*
+_Toc244334291: 5. KH Ả? O SÁ T VÀ FINE-TUNE M Ô H̀ NH TTS \*
+_Toc244334292: 5.1. Giai đ o ạ? n th ử? F5-TTS \*
+_Toc244334293: 5.2. Giai đ o ạ? n chuy ể? n sang VieNeu-TTS \*
+_Toc244334294: 5.3. LoRA và checkpoint AFTER \*
+_Toc244334295: 5.4. Reference audio và bà i h ọ? c ch ọ? n m ẫ? u \*
+_Toc244334910: B ả? ng 5.4. Refernce audio clip_128 \*
+_Toc244334296: 6. H Ệ? TH Ố? NG TÓ M T Ắ? T BÀ I BÁ O \*
+_Toc244334297: 6.1. Đ ầ? u và o và trí ch xu ấ? t n ộ? i dung \*
+_Toc244334298: 6.2. Sinh b ả? n tin và nh ậ? t kư \*
+_Toc244334299: 6.3. L ự? a ch ọ? n LLM \*
+_Toc244334300: 7. THI Ế? T K Ế? KI Ế? N TRÚ C VÀ TRI Ể? N KHAI EXTENSION \*
+_Toc244334301: 7.1. Sơ đ ồ? ki ế? n trú c \*
+_Toc244334824: \* _Toc244334932 H́ nh 7.1. S ơ đ ồ? ki ế? n trú c \*
+_Toc244334302: 7.2. Cá c endpoint backend \*
+_Toc244334911: B ả? ng 7.2. C á c endpoint becke nd \*
+_Toc244334303: 7.3. K ế? t n ố? i adapter và script PowerShell \*
+_Toc244334304: 7.4. Giao di ệ? n extension \*
+_Toc244334305: 8. THI Ế? T K Ế? THÍ NGHI Ệ? M VÀ THƯ Ớ? C Đ O \*
+_Toc244334306: 8.1. Nguyê n t ắ? c đ ố? i ch ứ? ng \*
+_Toc244334307: 8.2. WER và CER \*
+_Toc244334308: 8.3. SIM, UTMOS, RTF và prosody \*
+_Toc244334309: 8.4. Cá ch trá nh so sá nh sai \*
+_Toc244334310: 9. K Ế? T QU Ả? TH Ự? C NGHI Ệ? M VÀ BI Ể? U Đ Ồ? \*
+_Toc244334311: 9.1. So sá nh VieNeu BEFORE/AFTER trê n 30 c ặ? p \*
+_Toc244334912: B ả? ng 9.1. K ế? t qu ả? th ự? c nghi ệ? m v à bi ể? u đ ồ? \*
+_Toc244334825: \* _Toc244334933 H́ nh 9.1. 1 . WER và CER trê n 30 c ặ? p: AFTER tă ng nh ẹ? (khô ng có l ợ? i). \*
+_Toc244334826: \* _Toc244334934 H́ nh 9.1. 2 . SIM và UTMOS tă ng sau fine-tune; hai thư ớ? c đ o có thang khá c nhau. \*
+_Toc244334827: \* _Toc244334935 H́ nh 9 .1.3 . RTF trung b́ nh gi ả? m nh ẹ? trong thí nghi ệ? m 30 c ặ? p. \*
+_Toc244334312: 9.2. Thí nghi ệ? m thă m d ̣ 8 câ u \*
+_Toc244334913: B ả? ng 9.2. Th í nghi ệ? m th ă m d ̣ 8 c â u \*
+_Toc244334313: 9.3. So sá nh F5 và VieNeu ở? giai đ o ạ? n khá c \*
+_Toc244334314: 9.4. Nh ậ? n xé t v ề? ng ữ? đ i ệ? u \*
+_Toc244334315: 10. ĐÁ NH GIÁ NGHE MÙ VÀ GI Ớ? I H Ạ? N CH Ứ? NG C Ứ? \*
+_Toc244334316: 10.1. Quy tŕ nh đ ă chu ẩ? n b ị? \*
+_Toc244334317: 10.2. T́ nh tr ạ? ng th ự? c t ế? c ủ? a d ữ? li ệ? u nghe mù \*
+_Toc244334318: 10.3. Ví d ụ? m ô ph ỏ? ng khô ng ph ả? i k ế? t qu ả? kh ả? o sá t \*
+_Toc244334319: 10.4. Phươ ng á n t ố? i thi ể? u khi c ầ? n đá nh giá th ậ? t \*
+_Toc244334320: 11. NH Ậ? T KƯ KHÓ KHĂ N, L Ỗ? I VÀ CÁ CH KH Ắ? C PH Ụ? C \*
+_Toc244334321: 11.1. D ữ? li ệ? u video dà i, â m thanh khô ng đ ồ? ng đ ề? u \*
+_Toc244334322: 11.2. Transcript ASR có l ỗ? i \*
+_Toc244334323: 11.3. Checkpoint và phiê n b ả? n mô h́ nh khó qu ả? n lư \*
+_Toc244334324: 11.4. Xung đ ộ? t mô i trư ờ? ng Python \*
+_Toc244334325: 11.5. L ỗ? i thi ế? u pkg_resources \*
+_Toc244334326: 11.6. PowerShell khô ng hi ể? u cú phá p Python \*
+_Toc244334327: 11.7. IndentationError khi s ử? a script \*
+_Toc244334328: 11.8. Pipeline có nguy cơ l ấ? y nh ầ? m b ả? n ghi cu ố? i \*
+_Toc244334329: 11.9. Khô ng th ể? k ế? t lu ậ? n ch ỉ? b ằ? ng 8 câ u \*
+_Toc244334330: 11.10. B ộ? ch ấ? m mù chư a có ngư ờ? i ch ấ? m \*
+_Toc244334331: 11.11. TTS trê n extension chư a k ế? t n ố? i ở? giai đ o ạ? n đ ầ? u \*
+_Toc244334332: 12. KI Ể? M TH Ử? S Ả? N PH Ẩ? M VÀ TH Ả? O LU Ậ? N \*
+_Toc244334333: 12.1. Cá c bư ớ? c đ ă xá c nh ậ? n \*
+_Toc244334334: 12.2. Nh ữ? ng ǵ ch ư a ki ể? m ch ứ? ng \*
+_Toc244334335: 12.3. Bà n lu ậ? n v ề? quy ế? t đ ị? nh ch ọ? n VieNeu AFTER \*
+_Toc244334336: 12.4. Gi ớ? i h ạ? n v ề? quy ề? n s ử? d ụ? ng gi ọ? ng m ẫ? u \*
+_Toc244334337: 13. K Ế? T LU Ậ? N VÀ HƯ Ớ? NG PHÁ T TRI Ể? N \*

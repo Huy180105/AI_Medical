@@ -1,0 +1,72 @@
+{
+  "subject_id": "10020640",
+  "hadm_id": "27984218",
+  "stay_id": "38797992",
+  "prediction_anchor_time": "2153-02-12T21:59:00",
+  "age": null,
+  "gender": "F",
+  "image": null,
+  "symptoms": [
+    {
+      "symptom_name": "SOB/ABNL LABS",
+      "symptom_raw_text": "SOB/ABNL LABS",
+      "symptom_onset_time": "2153-02-12 21:59:00",
+      "symptom_duration_text": "documented on triage",
+      "symptom_duration_hours": null,
+      "onset_confidence": 1.0,
+      "source_note_id": "NOTE_TRIAGE_38797992",
+      "is_valid": true
+    }
+  ],
+  "vitals": [
+    {
+      "charttime": "2153-02-12 21:59:00",
+      "heart_rate": 130.0,
+      "respiratory_rate": 32.0,
+      "systolic_bp": 106.0,
+      "diastolic_bp": 74.0,
+      "spo2": 94.0,
+      "temperature_c": 99.2,
+      "storetime": null,
+      "source_table": "ed_triage"
+    }
+  ],
+  "labs": [],
+  "clinical_notes": [],
+  "labels": {},
+  "detailed_labels": [],
+  "modality_availability": {
+    "image_has_record": false,
+    "image_has_valid_data": false,
+    "image_has_valid_at_anchor": false,
+    "symptoms_has_record": true,
+    "symptoms_has_valid_data": true,
+    "symptoms_has_valid_at_anchor": true,
+    "vitals_has_record": true,
+    "vitals_has_valid_data": true,
+    "vitals_has_valid_at_anchor": true,
+    "labs_has_record": false,
+    "labs_has_valid_data": false,
+    "labs_has_valid_at_anchor": false
+  },
+  "data_provenance": {
+    "source_dataset": "PhysioNet MIMIC-IV-ED Demo v2.2",
+    "source_record_id": "38797992",
+    "linkage_method": "EXPLICIT_ED_STAY_INTIME",
+    "linkage_verified": true,
+    "cxr_linkage_status": "UNLINKED_NO_CXR",
+    "ed_diagnoses": [
+      "PNEUMONIA,ORGANISM UNSPECIFIED",
+      "HYPOSMOLALITY/HYPONATREMIA",
+      "ALZHEIMER'S DISEASE",
+      "DIABETES UNCOMPL ADULT",
+      "DEMENTIA IN CONDITIONS CLASSIFIED ELSEWHERE WITHOUT BEHAVIROAL DISTURBANCE"
+    ],
+    "temporal_audit": {
+      "valid_count": 2,
+      "leaked_count": 0,
+      "rejected_count": 0,
+      "is_clean": true
+    }
+  }
+}

@@ -9,9 +9,6 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from src.utils.config import Config
 from src.utils.logger import get_logger
-from src.utils.generate_data import main as run_generate_data
-from src.training.train_ner import train as run_train
-from src.inference.predict_ner import MedicalNERPredictor
 
 logger = get_logger(__name__)
 
@@ -34,10 +31,12 @@ def main():
     
     if args.mode == "generate-data":
         logger.info("Executing Mode: Data Generation")
+        from src.utils.generate_data import main as run_generate_data
         run_generate_data()
         
     elif args.mode == "train":
         logger.info("Executing Mode: PhoBERT Fine-tuning")
+        from src.training.train_ner import train as run_train
         run_train()
         
     elif args.mode == "evaluate":
@@ -50,9 +49,11 @@ def main():
         test_path = os.path.join(Config.DATA_DIR, "test.json")
         if not os.path.exists(test_path):
             logger.error("Test dataset not found. Generating data first...")
+            from src.utils.generate_data import main as run_generate_data
             run_generate_data()
             
         logger.info("Loading predictor...")
+        from src.inference.predict_ner import MedicalNERPredictor
         predictor = MedicalNERPredictor()
         
         logger.info("Loading test dataset...")
@@ -81,6 +82,7 @@ def main():
             parser.error("--text is required when --mode is 'predict'")
             
         logger.info(f"Input text: '{args.text}'")
+        from src.inference.predict_ner import MedicalNERPredictor
         predictor = MedicalNERPredictor()
         entities = predictor.predict(args.text)
         

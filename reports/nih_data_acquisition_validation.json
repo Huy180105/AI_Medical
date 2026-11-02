@@ -1,0 +1,330 @@
+{
+  "report_type": "NIH_CHESTXRAY14_DATA_ACQUISITION_VALIDATION",
+  "timestamp_utc": "2026-10-30T19:38:06.724487+00:00",
+  "overall_validation_status": "PASS",
+  "ready_for_remaining_shards_download": true,
+  "full_112120_benchmark_completed": false,
+  "scope_disclosure": "Data Acquisition Validation ONLY (112,120 metadata rows + Shard 1 `images_001` = 4,999 real radiographs). Shards `images_002`..`images_012` (107,121 radiographs) have NOT been downloaded yet, and full benchmark metrics are NOT claimed at this stage.",
+  "physionet_or_mimic_used": false,
+  "acceptance_criteria": {
+    "1_zero_corrupt_images_in_shard_and_batch": {
+      "passed": true,
+      "corrupt_in_shard": 0,
+      "valid_in_shard": 4999,
+      "expected_in_shard": 4999
+    },
+    "2_zero_duplicate_image_index": {
+      "passed": true,
+      "duplicate_manifest_image_ids": 0,
+      "duplicate_files_in_shard": 0
+    },
+    "3_exact_14_nih_labels_verified": {
+      "passed": true,
+      "nih_14_labels": [
+        "Atelectasis",
+        "Cardiomegaly",
+        "Consolidation",
+        "Edema",
+        "Effusion",
+        "Emphysema",
+        "Fibrosis",
+        "Hernia",
+        "Infiltration",
+        "Mass",
+        "Nodule",
+        "Pleural_Thickening",
+        "Pneumonia",
+        "Pneumothorax"
+      ]
+    },
+    "4_valid_inference_probabilities": {
+      "passed": true,
+      "images_inferred": 64,
+      "total_scalar_probabilities_checked": 896,
+      "nan_or_inf_detected": false,
+      "global_min_prob": 0.0,
+      "global_max_prob": 0.862427
+    },
+    "5_zero_patient_leakage": {
+      "passed": true,
+      "full_manifest_leakage_audit": {
+        "zero_patient_leakage_verified": true,
+        "train_unique_patients": 23807,
+        "validate_unique_patients": 4201,
+        "test_unique_patients": 2797,
+        "train_validate_overlap": 0,
+        "train_test_overlap": 0,
+        "validate_test_overlap": 0,
+        "max_splits_per_patient": 1
+      },
+      "batch_subset_leakage_audit": {
+        "zero_patient_leakage_verified": true,
+        "train_unique_patients": 0,
+        "validate_unique_patients": 32,
+        "test_unique_patients": 32,
+        "train_validate_overlap": 0,
+        "train_test_overlap": 0,
+        "validate_test_overlap": 0,
+        "max_splits_per_patient": 1
+      }
+    },
+    "6_official_test_labels_and_thresholds_locked": {
+      "passed": true,
+      "official_test_list_untouched": true,
+      "official_test_image_count": 25596,
+      "threshold_invariant_to_test_label_inversion": true
+    }
+  },
+  "manifest_and_split_verification": {
+    "total_manifest_rows": 112120,
+    "expected_full_rows": 112120,
+    "total_unique_patients": 30805,
+    "images_by_split": {
+      "train": 73089,
+      "validate": 13435,
+      "test": 25596
+    },
+    "patients_by_split": {
+      "train": 23807,
+      "validate": 4201,
+      "test": 2797
+    },
+    "rare_pathology_distribution": {
+      "Fibrosis": {
+        "total_positive_images": 1686,
+        "total_prevalence_pct": 1.5037,
+        "total_positive_patients": 1260,
+        "positive_images_by_split": {
+          "train": 1063,
+          "validate": 188,
+          "test": 435
+        },
+        "prevalence_pct_by_split": {
+          "train": 1.4544,
+          "validate": 1.3993,
+          "test": 1.6995
+        },
+        "positive_patients_by_split": {
+          "train": 848,
+          "validate": 155,
+          "test": 257
+        },
+        "has_positives_in_all_3_splits": true
+      },
+      "Hernia": {
+        "total_positive_images": 227,
+        "total_prevalence_pct": 0.2025,
+        "total_positive_patients": 134,
+        "positive_images_by_split": {
+          "train": 120,
+          "validate": 21,
+          "test": 86
+        },
+        "prevalence_pct_by_split": {
+          "train": 0.1642,
+          "validate": 0.1563,
+          "test": 0.336
+        },
+        "positive_patients_by_split": {
+          "train": 87,
+          "validate": 15,
+          "test": 32
+        },
+        "has_positives_in_all_3_splits": true
+      },
+      "Pneumonia": {
+        "total_positive_images": 1431,
+        "total_prevalence_pct": 1.2763,
+        "total_positive_patients": 1008,
+        "positive_images_by_split": {
+          "train": 745,
+          "validate": 131,
+          "test": 555
+        },
+        "prevalence_pct_by_split": {
+          "train": 1.0193,
+          "validate": 0.9751,
+          "test": 2.1683
+        },
+        "positive_patients_by_split": {
+          "train": 593,
+          "validate": 104,
+          "test": 311
+        },
+        "has_positives_in_all_3_splits": true
+      }
+    }
+  },
+  "shard_1_integrity_reconciliation": {
+    "shard_id": "images_001",
+    "expected_archive_png_count": 4999,
+    "on_disk_png_count": 4999,
+    "valid_decoded_png_count": 4999,
+    "corrupt_png_count": 0,
+    "missing_in_shard_range_count": 0,
+    "orphan_unindexed_files_count": 0,
+    "resolutions_and_modes": {
+      "1024x1024:L": 4928,
+      "1024x1024:RGBA": 71
+    },
+    "shard_tree_sha256": "2c776f12f88bfaa7ca6d6ed29ac52b0207b7125de0552533a94a1c8399569d2f"
+  },
+  "real_batch_inference_verification": {
+    "checkpoint_path": "models\\nih-densenet121-nih14.pt",
+    "checkpoint_sha256": "31a5475c6b1383a7edbfcaf96af9ce302eb9969cfe28b6b8b5859afc6f274fdf",
+    "mini_batch_size": 16,
+    "preprocessing_verification": {
+      "mini_batch_tensor_shape": [
+        16,
+        1,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min_value": -1024.0002,
+      "max_value": 1013.7131,
+      "mean_value": 115.7189,
+      "has_nan_or_inf": false,
+      "within_expected_xrv_bounds": true
+    },
+    "total_real_images_inferred": 64,
+    "validate_images_in_batch": 32,
+    "test_images_in_batch": 32,
+    "inference_wall_time_seconds": 53.614,
+    "per_label_probability_summary": {
+      "Atelectasis": {
+        "min_prob": 0.00011,
+        "mean_prob": 0.075877,
+        "max_prob": 0.335433
+      },
+      "Cardiomegaly": {
+        "min_prob": 0.0,
+        "mean_prob": 0.057361,
+        "max_prob": 0.862427
+      },
+      "Consolidation": {
+        "min_prob": 7.7e-05,
+        "mean_prob": 0.01924,
+        "max_prob": 0.298269
+      },
+      "Edema": {
+        "min_prob": 0.0,
+        "mean_prob": 0.004313,
+        "max_prob": 0.068774
+      },
+      "Effusion": {
+        "min_prob": 0.00026,
+        "mean_prob": 0.069683,
+        "max_prob": 0.797497
+      },
+      "Emphysema": {
+        "min_prob": 0.0,
+        "mean_prob": 0.014406,
+        "max_prob": 0.200748
+      },
+      "Fibrosis": {
+        "min_prob": 6.3e-05,
+        "mean_prob": 0.025469,
+        "max_prob": 0.172004
+      },
+      "Hernia": {
+        "min_prob": 1e-06,
+        "mean_prob": 0.005029,
+        "max_prob": 0.077782
+      },
+      "Infiltration": {
+        "min_prob": 0.005747,
+        "mean_prob": 0.126721,
+        "max_prob": 0.452231
+      },
+      "Mass": {
+        "min_prob": 0.000965,
+        "mean_prob": 0.052998,
+        "max_prob": 0.569812
+      },
+      "Nodule": {
+        "min_prob": 0.005654,
+        "mean_prob": 0.064994,
+        "max_prob": 0.494953
+      },
+      "Pleural_Thickening": {
+        "min_prob": 0.000241,
+        "mean_prob": 0.030288,
+        "max_prob": 0.288137
+      },
+      "Pneumonia": {
+        "min_prob": 1e-06,
+        "mean_prob": 0.009514,
+        "max_prob": 0.082535
+      },
+      "Pneumothorax": {
+        "min_prob": 1.2e-05,
+        "mean_prob": 0.02924,
+        "max_prob": 0.550357
+      }
+    },
+    "sample_real_predictions": [
+      {
+        "image_id": "00001054_000.png",
+        "patient_id": "1054",
+        "split": "validate",
+        "finding_labels_raw": "No Finding",
+        "top_3_predicted_probs": {
+          "Infiltration": 0.017674,
+          "Nodule": 0.009613,
+          "Effusion": 0.008461
+        }
+      },
+      {
+        "image_id": "00000011_000.png",
+        "patient_id": "11",
+        "split": "validate",
+        "finding_labels_raw": "Effusion",
+        "top_3_predicted_probs": {
+          "Infiltration": 0.207215,
+          "Atelectasis": 0.201656,
+          "Fibrosis": 0.07213
+        }
+      },
+      {
+        "image_id": "00001107_000.png",
+        "patient_id": "1107",
+        "split": "validate",
+        "finding_labels_raw": "No Finding",
+        "top_3_predicted_probs": {
+          "Atelectasis": 0.116883,
+          "Nodule": 0.028842,
+          "Infiltration": 0.016089
+        }
+      },
+      {
+        "image_id": "00000112_000.png",
+        "patient_id": "112",
+        "split": "validate",
+        "finding_labels_raw": "Atelectasis|Effusion|Mass",
+        "top_3_predicted_probs": {
+          "Atelectasis": 0.212413,
+          "Emphysema": 0.032719,
+          "Nodule": 0.026455
+        }
+      },
+      {
+        "image_id": "00001180_000.png",
+        "patient_id": "1180",
+        "split": "validate",
+        "finding_labels_raw": "No Finding",
+        "top_3_predicted_probs": {
+          "Infiltration": 0.110283,
+          "Nodule": 0.021055,
+          "Fibrosis": 0.008951
+        }
+      }
+    ]
+  },
+  "artifact_hashes_sha256": {
+    "nih_download_audit.json": "b2279a37764f4a21e400c4121a1bf7d41ab76b921ae82b52bdef8cf8dd049629",
+    "nih_manifest.csv": "78dbbd3a2a504da6a1035506d94d95e902ae2a96cf35004918b8b39b5a28728e",
+    "nih_manifest_summary.json": "7b8088392b6cc3731e9c2e5d04e3dcd302316ded85924fa2736f1764180dea48"
+  },
+  "validation_elapsed_seconds": 152.74
+}

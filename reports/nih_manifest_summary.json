@@ -1,0 +1,277 @@
+{
+  "timestamp_utc": "2026-10-31T00:27:46.166094+00:00",
+  "dataset_name": "NIH ChestX-ray14",
+  "source_platform": "Kaggle (nih-chest-xrays/data)",
+  "originating_institution": "NIH Clinical Center",
+  "primary_citation": "Wang X, Peng Y, Lu L, Lu Z, Bagheri M, Summers RM. ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. IEEE CVPR 2017 (arXiv:1705.02315).",
+  "physionet_or_mimic_used": false,
+  "label_ontology": {
+    "num_disease_classes": 14,
+    "nih_14_labels": [
+      "Atelectasis",
+      "Cardiomegaly",
+      "Consolidation",
+      "Edema",
+      "Effusion",
+      "Emphysema",
+      "Fibrosis",
+      "Hernia",
+      "Infiltration",
+      "Mass",
+      "Nodule",
+      "Pleural_Thickening",
+      "Pneumonia",
+      "Pneumothorax"
+    ],
+    "no_finding_encoding": "All 14 disease columns == 0 (never encoded as a 15th disease target)",
+    "label_domain": "strict_binary_0_1",
+    "chexpert_uncertainty_used": false,
+    "nlp_label_limitation": "Labels were text-mined via NLP from radiological reports (~>90% NLP precision reported by Wang et al., CVPR 2017; Oakden-Rayner 2020 documented label noise relative to visual re-reads). Do NOT treat NIH NLP labels as equivalent to CheXpert labels or radiologist biopsy/consensus ground truth."
+  },
+  "record_accounting": {
+    "total_metadata_rows": 112120,
+    "expected_full_nih_rows": 112120,
+    "is_complete_112120_metadata": true,
+    "total_unique_patients": 30805,
+    "expected_full_nih_patients": 30805,
+    "no_finding_images": 60361,
+    "any_pathology_images": 51759,
+    "multi_label_2plus_images": 20796,
+    "bbox_annotated_images": 880,
+    "rows_silently_dropped": 0
+  },
+  "image_integrity_audit": {
+    "VALID": 112120,
+    "MISSING": 0,
+    "CORRUPT": 0,
+    "verify_pixel_decode_enabled": true,
+    "downloaded_shard_counts": {
+      "images_001": 4999,
+      "images_002": 10000,
+      "images_003": 10000,
+      "images_004": 10000,
+      "images_005": 10000,
+      "images_006": 10000,
+      "images_007": 10000,
+      "images_008": 10000,
+      "images_009": 10000,
+      "images_010": 10000,
+      "images_011": 10000,
+      "images_012": 7121
+    }
+  },
+  "split_distribution": {
+    "images": {
+      "train": 73089,
+      "validate": 13435,
+      "test": 25596
+    },
+    "leakage_verification": {
+      "zero_patient_leakage_verified": true,
+      "train_unique_patients": 23807,
+      "validate_unique_patients": 4201,
+      "test_unique_patients": 2797,
+      "train_validate_overlap": 0,
+      "train_test_overlap": 0,
+      "validate_test_overlap": 0,
+      "max_splits_per_patient": 1
+    }
+  },
+  "demographic_and_acquisition_distribution": {
+    "patient_gender": {
+      "M": 63340,
+      "F": 48780
+    },
+    "age_group": {
+      "40-59": 49137,
+      "18-39": 30694,
+      "60-79": 25913,
+      "0-17": 5241,
+      "80+": 1119,
+      "ANOMALY_OUT_OF_RANGE": 16
+    },
+    "age_anomaly_count": 16,
+    "view_position": {
+      "PA": 67310,
+      "AP": 44810
+    }
+  },
+  "label_distribution": {
+    "Atelectasis": {
+      "positive_images": 11559,
+      "negative_images": 100561,
+      "prevalence_pct": 10.3095,
+      "positive_unique_patients": 4981,
+      "positive_images_by_split": {
+        "train": 6910,
+        "validate": 1370,
+        "test": 3279
+      },
+      "valid_on_disk_positive_images": 11559
+    },
+    "Cardiomegaly": {
+      "positive_images": 2776,
+      "negative_images": 109344,
+      "prevalence_pct": 2.4759,
+      "positive_unique_patients": 1566,
+      "positive_images_by_split": {
+        "train": 1469,
+        "validate": 238,
+        "test": 1069
+      },
+      "valid_on_disk_positive_images": 2776
+    },
+    "Consolidation": {
+      "positive_images": 4667,
+      "negative_images": 107453,
+      "prevalence_pct": 4.1625,
+      "positive_unique_patients": 2150,
+      "positive_images_by_split": {
+        "train": 2403,
+        "validate": 449,
+        "test": 1815
+      },
+      "valid_on_disk_positive_images": 4667
+    },
+    "Edema": {
+      "positive_images": 2303,
+      "negative_images": 109817,
+      "prevalence_pct": 2.054,
+      "positive_unique_patients": 1073,
+      "positive_images_by_split": {
+        "train": 1183,
+        "validate": 195,
+        "test": 925
+      },
+      "valid_on_disk_positive_images": 2303
+    },
+    "Effusion": {
+      "positive_images": 13317,
+      "negative_images": 98803,
+      "prevalence_pct": 11.8775,
+      "positive_unique_patients": 4275,
+      "positive_images_by_split": {
+        "train": 7218,
+        "validate": 1441,
+        "test": 4658
+      },
+      "valid_on_disk_positive_images": 13317
+    },
+    "Emphysema": {
+      "positive_images": 2516,
+      "negative_images": 109604,
+      "prevalence_pct": 2.244,
+      "positive_unique_patients": 1046,
+      "positive_images_by_split": {
+        "train": 1192,
+        "validate": 231,
+        "test": 1093
+      },
+      "valid_on_disk_positive_images": 2516
+    },
+    "Fibrosis": {
+      "positive_images": 1686,
+      "negative_images": 110434,
+      "prevalence_pct": 1.5037,
+      "positive_unique_patients": 1260,
+      "positive_images_by_split": {
+        "train": 1063,
+        "validate": 188,
+        "test": 435
+      },
+      "valid_on_disk_positive_images": 1686
+    },
+    "Hernia": {
+      "positive_images": 227,
+      "negative_images": 111893,
+      "prevalence_pct": 0.2025,
+      "positive_unique_patients": 134,
+      "positive_images_by_split": {
+        "train": 120,
+        "validate": 21,
+        "test": 86
+      },
+      "valid_on_disk_positive_images": 227
+    },
+    "Infiltration": {
+      "positive_images": 19894,
+      "negative_images": 92226,
+      "prevalence_pct": 17.7435,
+      "positive_unique_patients": 8035,
+      "positive_images_by_split": {
+        "train": 11652,
+        "validate": 2130,
+        "test": 6112
+      },
+      "valid_on_disk_positive_images": 19894
+    },
+    "Mass": {
+      "positive_images": 5782,
+      "negative_images": 106338,
+      "prevalence_pct": 5.157,
+      "positive_unique_patients": 2568,
+      "positive_images_by_split": {
+        "train": 3394,
+        "validate": 640,
+        "test": 1748
+      },
+      "valid_on_disk_positive_images": 5782
+    },
+    "Nodule": {
+      "positive_images": 6331,
+      "negative_images": 105789,
+      "prevalence_pct": 5.6466,
+      "positive_unique_patients": 3394,
+      "positive_images_by_split": {
+        "train": 4013,
+        "validate": 695,
+        "test": 1623
+      },
+      "valid_on_disk_positive_images": 6331
+    },
+    "Pleural_Thickening": {
+      "positive_images": 3385,
+      "negative_images": 108735,
+      "prevalence_pct": 3.0191,
+      "positive_unique_patients": 2006,
+      "positive_images_by_split": {
+        "train": 1871,
+        "validate": 371,
+        "test": 1143
+      },
+      "valid_on_disk_positive_images": 3385
+    },
+    "Pneumonia": {
+      "positive_images": 1431,
+      "negative_images": 110689,
+      "prevalence_pct": 1.2763,
+      "positive_unique_patients": 1008,
+      "positive_images_by_split": {
+        "train": 745,
+        "validate": 131,
+        "test": 555
+      },
+      "valid_on_disk_positive_images": 1431
+    },
+    "Pneumothorax": {
+      "positive_images": 5302,
+      "negative_images": 106818,
+      "prevalence_pct": 4.7289,
+      "positive_unique_patients": 1487,
+      "positive_images_by_split": {
+        "train": 2213,
+        "validate": 424,
+        "test": 2665
+      },
+      "valid_on_disk_positive_images": 5302
+    }
+  },
+  "artifact_hashes_sha256": {
+    "Data_Entry_2017.csv": "88f75094e25ccc0c6f1f9cdfd4b2f94f9379a0ae07d5ff4dcf94242707b07462",
+    "BBox_List_2017.csv": "0bbfea9d4c4e9771481b3023b1bc9f0df9dea924453b12986beb29b0c4d0c95b",
+    "train_val_list.txt": "61fbe896321c1c1c8b75f3e4f3a08e4fef6486d95ef8a667c31d4d60dca6cb81",
+    "test_list.txt": "38ca5ef7f756092946f57c1a59faca882ed589a1ab1f72590b45dc06c6d5e1cc",
+    "patient_splits.csv": "7d7061393c72c92f5f947144a88af0f2cc437e38e9cadeefc196513d97dda21c",
+    "nih_manifest.csv": "296538db93bf7b37ea46209bc6fabe77c133ba6e980723f5f7e85bea5b6ea5c1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "audit_timestamp_utc": "2026-10-31T04:23:09.847696+00:00",
+  "deck_path": "reports/MedFusion_CXR_Presentation.pptx",
+  "final_deck_path": "reports/MedFusion_CXR_Presentation_FINAL.pptx",
+  "total_slides": 15,
+  "aspect_ratio": "16:9 (13.333 x 7.500 inches)",
+  "audit_summary": {
+    "verified_claims": 12,
+    "partially_verified_claims": 1,
+    "incorrect_claims_corrected": 2,
+    "total_claims_audited": 15
+  },
+  "critical_corrections_made": [
+    {
+      "slide": 11,
+      "issue": "MIMIC-CXR/IV mentioned in experimental design future work",
+      "correction": "Replaced with approved institutional clinical paired cohort in future roadmap; strictly NIH scope."
+    },
+    {
+      "slide": 14,
+      "issue": "MIMIC-CXR/IV mentioned in research roadmap",
+      "correction": "Replaced with full 112,120-image NIH ChestX-ray14 evaluation, probability calibration, subgroup analysis, and paired cohort building under approved protocols."
+    },
+    {
+      "slide": 10,
+      "issue": "Unclear specification of Clinical 32-d representation and GMU status",
+      "correction": "Clarified exact composition of F_c (24-d XGBoost + 8-d acute vitals/labs) and explicitly identified GMU as an Architectural Prototype awaiting paired supervision."
+    },
+    {
+      "slide": 12,
+      "issue": "DenseNet-121 0.6482 Macro AUROC context not explicitly distinguished from full 112,120 dataset",
+      "correction": "Explicitly labelled as pilot subset evaluation (50 patients/split, 1,314 test images); noted full dataset of 112,120 images is verified and staged for complete benchmark."
+    },
+    {
+      "slide": 13,
+      "issue": "Potential confusion between implemented backend agents and demo presentation UI",
+      "correction": "Clearly delineated verified running software components (API, PhoBERT NER, XGBoost, TreeSHAP, Orchestrator) from UI mockups."
+    }
+  ],
+  "web_slides_html_audit": {
+    "file": "web/slides.html",
+    "relative_assets_verified": true,
+    "mimic_references_removed": true,
+    "slide_count": 15
+  }
+}

@@ -1,80 +1,32 @@
 services:
-  api:
+  medical_ai_app:
     build: .
+    image: medfusion-cxr:latest
+    container_name: medical_ai_capstone
     ports:
       - "8000:8000"
     environment:
-      API_HOST: 0.0.0.0
-      API_PORT: 8000
-      REDIS_URL: redis://redis:6379/0
-      KNOWLEDGE_BASE_DIR: /app/knowledge_base
-      MLFLOW_TRACKING_URI: http://mlflow:5000
-      POSTGRES_DSN: postgresql://mlflow:mlflow@postgres:5432/mlflow
-    depends_on:
-      - redis
-      - mlflow
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]
-
-  metrics:
-    build: .
-    command: ["uvicorn", "src.mlops.metrics_api:create_metrics_app", "--factory", "--host", "0.0.0.0", "--port", "9000"]
-    ports:
-      - "9000:9000"
-    environment:
-      REDIS_URL: redis://redis:6379/0
-      POSTGRES_DSN: postgresql://mlflow:mlflow@postgres:5432/mlflow
-      METRICS_LATENCY_PROBE_URL: http://api:8000/health
-    depends_on:
-      - api
-      - redis
-      - postgres
-
-  mlflow:
-    build: .
-    command:
-      - mlflow
-      - server
-      - --host
-      - 0.0.0.0
-      - --port
-      - "5000"
-      - --backend-store-uri
-      - postgresql://mlflow:mlflow@postgres:5432/mlflow
-      - --default-artifact-root
-      - /mlflow/artifacts
-    ports:
-      - "5000:5000"
-    depends_on:
-      - postgres
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
     volumes:
-      - mlflow-artifacts:/mlflow/artifacts
-
-  redis:
-    image: redis:7-alpine
-    ports:
-      - "6379:6379"
-    command: ["redis-server", "--appendonly", "yes"]
-    volumes:
-      - redis-data:/data
-
-  postgres:
-    image: postgres:16-alpine
-    ports:
-      - "5432:5432"
-    environment:
-      POSTGRES_DB: mlflow
-      POSTGRES_USER: mlflow
-      POSTGRES_PASSWORD: mlflow
-    volumes:
-      - postgres-data:/var/lib/postgresql/data
+      # Source code and web UI bind-mounted for live development & hot-reloading
+      - ./main.py:/app/main.py:ro
+      - ./src:/app/src:ro
+      - ./web:/app/web:ro
+      # Pretrained DenseNet-121 NIH-14, XGBoost/TreeSHAP artifacts, PhoBERT NER weights
+      - ./models:/app/models:ro
+      # E1 NIH-14 benchmark reports (read by /api/v1/multimodal/nih-benchmark)
+      - ./reports:/app/reports:ro
+      # Writable outputs + HuggingFace cache persisted across restarts
+      - ./output:/app/output
+      - hf_cache:/app/.cache/huggingface
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/api/v1/treatment/benchmark"]
+      interval: 30s
+      timeout: 10s
+      start_period: 120s
+      retries: 5
+    restart: unless-stopped
 
 volumes:
-  redis-data:
-  postgres-data:
-  mlflow-artifacts:
+  hf_cache:

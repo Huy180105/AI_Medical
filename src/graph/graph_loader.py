@@ -24,12 +24,19 @@ class MedicalGraphLoader:
         return graph
 
     def load(self) -> nx.MultiDiGraph:
-        payload = json_graph.node_link_graph(
-            self.graph_path.read_text(encoding="utf-8"),
-            directed=True,
-            multigraph=True,
-        )
-        return nx.MultiDiGraph(payload)
+        import json
+        try:
+            data_dict = json.loads(self.graph_path.read_text(encoding="utf-8"))
+            payload = json_graph.node_link_graph(
+                data_dict,
+                directed=True,
+                multigraph=True,
+            )
+            return nx.MultiDiGraph(payload)
+        except Exception:
+            graph = self.builder.build()
+            self.save(graph)
+            return graph
 
     def save(self, graph: nx.MultiDiGraph) -> Path:
         self.graph_path.parent.mkdir(parents=True, exist_ok=True)

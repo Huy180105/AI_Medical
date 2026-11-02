@@ -17,8 +17,12 @@ class MedicalNERPredictor:
         self.model_dir = model_dir or Config.OUTPUT_MODEL_DIR
         self.device = Config.DEVICE
         
+        has_local_weights = os.path.exists(self.model_dir) and (
+            os.path.exists(os.path.join(self.model_dir, "model.safetensors"))
+            or os.path.exists(os.path.join(self.model_dir, "pytorch_model.bin"))
+        )
         # Determine if a fine-tuned model exists, otherwise log warning and load base model
-        if os.path.exists(self.model_dir) and os.path.exists(os.path.join(self.model_dir, "config.json")):
+        if has_local_weights and os.path.exists(os.path.join(self.model_dir, "config.json")):
             logger.info(f"Loading fine-tuned model from {self.model_dir}...")
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_dir, use_fast=False)
             self.model = AutoModelForTokenClassification.from_pretrained(self.model_dir)

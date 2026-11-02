@@ -1,0 +1,226 @@
+{
+  "experiment_id": "E2_CLINICAL_TABULAR_BENCHMARK",
+  "primary_clinical_branch_model": "XGBoost",
+  "best_model_name": "Random Forest",
+  "best_f1_score": 0.8111,
+  "best_roc_auc": 0.9382,
+  "xgboost_metrics": {
+    "accuracy": 0.8667,
+    "precision": 0.8224,
+    "recall": 0.8713,
+    "f1_score": 0.8462,
+    "roc_auc": 0.9416,
+    "auprc": 0.9318,
+    "brier_score": 0.096,
+    "optimal_threshold": 0.41,
+    "val_f1_score": 0.8341,
+    "val_roc_auc": 0.9271,
+    "confusion_matrix": [
+      [
+        120,
+        19
+      ],
+      [
+        13,
+        88
+      ]
+    ]
+  },
+  "dataset_split_summary": {
+    "total_samples": 1600,
+    "synthetic_physiological_samples": 1500,
+    "extracted_clinical_records": 100,
+    "train_samples": 1120,
+    "val_samples": 240,
+    "test_samples": 240,
+    "positive_rate_overall": 0.4225,
+    "nih_paired_linkage": false,
+    "scaler_fit_split": "train_only"
+  },
+  "benchmark_results": {
+    "XGBoost": {
+      "accuracy": 0.8667,
+      "precision": 0.8224,
+      "recall": 0.8713,
+      "f1_score": 0.8462,
+      "roc_auc": 0.9416,
+      "auprc": 0.9318,
+      "brier_score": 0.096,
+      "optimal_threshold": 0.41,
+      "val_f1_score": 0.8341,
+      "val_roc_auc": 0.9271,
+      "confusion_matrix": [
+        [
+          120,
+          19
+        ],
+        [
+          13,
+          88
+        ]
+      ]
+    },
+    "LightGBM": {
+      "accuracy": 0.8417,
+      "precision": 0.752,
+      "recall": 0.9307,
+      "f1_score": 0.8319,
+      "roc_auc": 0.9385,
+      "auprc": 0.925,
+      "brier_score": 0.1003,
+      "optimal_threshold": 0.3,
+      "val_f1_score": 0.8341,
+      "val_roc_auc": 0.9273,
+      "confusion_matrix": [
+        [
+          108,
+          31
+        ],
+        [
+          7,
+          94
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.8292,
+      "precision": 0.7586,
+      "recall": 0.8713,
+      "f1_score": 0.8111,
+      "roc_auc": 0.9382,
+      "auprc": 0.9304,
+      "brier_score": 0.1042,
+      "optimal_threshold": 0.39,
+      "val_f1_score": 0.8426,
+      "val_roc_auc": 0.9263,
+      "confusion_matrix": [
+        [
+          111,
+          28
+        ],
+        [
+          13,
+          88
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 0.8667,
+      "precision": 0.8416,
+      "recall": 0.8416,
+      "f1_score": 0.8416,
+      "roc_auc": 0.8927,
+      "auprc": 0.8605,
+      "brier_score": 0.1149,
+      "optimal_threshold": 0.29,
+      "val_f1_score": 0.8269,
+      "val_roc_auc": 0.8635,
+      "confusion_matrix": [
+        [
+          123,
+          16
+        ],
+        [
+          16,
+          85
+        ]
+      ]
+    },
+    "Deep Neural Network (MLP)": {
+      "accuracy": 0.7333,
+      "precision": 0.6637,
+      "recall": 0.7426,
+      "f1_score": 0.7009,
+      "roc_auc": 0.8368,
+      "auprc": 0.8322,
+      "brier_score": 0.1609,
+      "optimal_threshold": 0.45,
+      "val_f1_score": 0.7455,
+      "val_roc_auc": 0.8492,
+      "confusion_matrix": [
+        [
+          101,
+          38
+        ],
+        [
+          26,
+          75
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.7167,
+      "precision": 0.632,
+      "recall": 0.7822,
+      "f1_score": 0.6991,
+      "roc_auc": 0.8412,
+      "auprc": 0.8413,
+      "brier_score": 0.1537,
+      "optimal_threshold": 0.35,
+      "val_f1_score": 0.7706,
+      "val_roc_auc": 0.8501,
+      "confusion_matrix": [
+        [
+          93,
+          46
+        ],
+        [
+          22,
+          79
+        ]
+      ]
+    }
+  },
+  "feature_importances": {
+    "Độ tuổi (Age)": 0.0893,
+    "Nhịp tim (HR bpm)": 0.0133,
+    "Huyết áp tâm thu (SBP mmHg)": 0.091,
+    "Huyết áp tâm trương (DBP mmHg)": 0.0605,
+    "Độ bão hòa Oxy (SpO2 %)": 0.1035,
+    "Điểm căng thẳng (Stress 1-10)": 0.1695,
+    "Thời lượng ngủ (Giờ/ngày)": 0.0577,
+    "Vận động thể chất (Giờ/tuần)": 0.0323,
+    "Số bệnh nền mạn tính": 0.1426,
+    "Mức độ triệu chứng (1-5)": 0.2404,
+    "Giới tính (Gender)": 0.0
+  },
+  "xgboost_shap_importances": {
+    "age": 0.0893,
+    "heart_rate": 0.0133,
+    "sys_bp": 0.091,
+    "dia_bp": 0.0605,
+    "spo2": 0.1035,
+    "stress_score": 0.1695,
+    "sleep_hours": 0.0577,
+    "physical_activity_hrs": 0.0323,
+    "chronic_conditions": 0.1426,
+    "symptoms_severity": 0.2404,
+    "gender_encoded": 0.0
+  },
+  "xgboost_gain_importances": {
+    "age": 0.0656,
+    "heart_rate": 0.0326,
+    "sys_bp": 0.0744,
+    "dia_bp": 0.0526,
+    "spo2": 0.1117,
+    "stress_score": 0.1427,
+    "sleep_hours": 0.0636,
+    "physical_activity_hrs": 0.0367,
+    "chronic_conditions": 0.1692,
+    "symptoms_severity": 0.2509,
+    "gender_encoded": 0.0
+  },
+  "feature_names": [
+    "age",
+    "heart_rate",
+    "sys_bp",
+    "dia_bp",
+    "spo2",
+    "stress_score",
+    "sleep_hours",
+    "physical_activity_hrs",
+    "chronic_conditions",
+    "symptoms_severity",
+    "gender_encoded"
+  ]
+}

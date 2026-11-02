@@ -1,0 +1,56 @@
+{
+  "subject_id": "10016810",
+  "hadm_id": "",
+  "stay_id": "31824062",
+  "prediction_anchor_time": "2185-07-08T11:55:00",
+  "age": null,
+  "gender": "F",
+  "image": null,
+  "symptoms": [
+    {
+      "symptom_name": "UNKNOWN-CC",
+      "symptom_raw_text": "UNKNOWN-CC",
+      "symptom_onset_time": "2185-07-08 11:55:00",
+      "symptom_duration_text": "documented on triage",
+      "symptom_duration_hours": null,
+      "onset_confidence": 1.0,
+      "source_note_id": "NOTE_TRIAGE_31824062",
+      "is_valid": true
+    }
+  ],
+  "vitals": [],
+  "labs": [],
+  "clinical_notes": [],
+  "labels": {},
+  "detailed_labels": [],
+  "modality_availability": {
+    "image_has_record": false,
+    "image_has_valid_data": false,
+    "image_has_valid_at_anchor": false,
+    "symptoms_has_record": true,
+    "symptoms_has_valid_data": true,
+    "symptoms_has_valid_at_anchor": true,
+    "vitals_has_record": false,
+    "vitals_has_valid_data": false,
+    "vitals_has_valid_at_anchor": false,
+    "labs_has_record": false,
+    "labs_has_valid_data": false,
+    "labs_has_valid_at_anchor": false
+  },
+  "data_provenance": {
+    "source_dataset": "PhysioNet MIMIC-IV-ED Demo v2.2",
+    "source_record_id": "31824062",
+    "linkage_method": "EXPLICIT_ED_STAY_INTIME",
+    "linkage_verified": true,
+    "cxr_linkage_status": "UNLINKED_NO_CXR",
+    "ed_diagnoses": [
+      "OBSERVATION FOR OTHER SPECIFIED CONDITIONS NOT FOUND"
+    ],
+    "temporal_audit": {
+      "valid_count": 1,
+      "leaked_count": 0,
+      "rejected_count": 0,
+      "is_clean": true
+    }
+  }
+}

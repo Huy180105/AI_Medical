@@ -1,0 +1,32 @@
+{
+  "title": "Chẩn đoán & Điều trị Bệnh Nội khoa - Bệnh viện Bạch Mai",
+  "source": "Chẩn đoán & điều trị bệnh nội khoa - Bệnh viện Bạch Mai - testyhoc.vn  (1).pdf",
+  "total_pages": 1602,
+  "sample_topics_extracted": 673,
+  "guidelines": [
+    {
+      "disease": "Tăng Huyết Áp Nguyên Phát",
+      "hospital": "Bệnh viện Bạch Mai",
+      "diagnosis": "Huyết áp tâm thu >= 140 mmHg và/hoặc huyết áp tâm trương >= 90 mmHg.",
+      "treatment": "Thay đổi lối sống, hạn chế muối < 5g/ngày, vận động thể chất 30 phút/ngày, phối hợp thuốc Chẹn kênh Canxi (Amlodipine) hoặc Ức chế men chuyển."
+    },
+    {
+      "disease": "Đái Tháo Đường Típ 2",
+      "hospital": "Bệnh viện Bạch Mai",
+      "diagnosis": "Đường huyết lúc đói >= 7.0 mmol/L hoặc HbA1c >= 6.5%.",
+      "treatment": "Metformin là lựa chọn hàng đầu, kết hợp kiểm soát chế độ ăn, tập luyện và phối hợp thuốc hạ đường huyết hoặc Insulin khi cần."
+    },
+    {
+      "disease": "Suy Tim Mạn Tính",
+      "hospital": "Bệnh viện Bạch Mai",
+      "diagnosis": "Khó thở khi gắng sức, phù hai chân, giảm phân suất tống máu (EF), tăng NT-proBNP.",
+      "treatment": "Phối hợp 4 trụ cột: Ức chế thụ thể Sacubitril/Valsartan, Chẹn Beta giao cảm, Kháng Aldosterone (Spironolactone), và Ức chế SGLT2."
+    },
+    {
+      "disease": "Viêm Phổi Cộng Đồng",
+      "hospital": "Bệnh viện Bạch Mai",
+      "diagnosis": "Ho có đờm, sốt cao, đau ngực, hình ảnh thâm nhiễm phổi trên X-quang ngực.",
+      "treatment": "Kháng sinh nhóm Beta-lactam phối hợp Macrolide hoặc Quinolone hô hấp."
+    }
+  ]
+}

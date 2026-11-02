@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "sic-medical-ai-collection",
+		"name": "Capstone Project SIC - Medical AI Platform API",
+		"description": "Collection of all API endpoints for Patient Health Treatment Prediction, Model Benchmarks, XAI and Clinical NLP Agent.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Patient Treatment Prediction & Bach Mai Protocols",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"age\": 58,\n  \"gender\": \"Nam (Male)\",\n  \"heart_rate\": 92.0,\n  \"sys_bp\": 148.0,\n  \"dia_bp\": 94.0,\n  \"spo2\": 93.5,\n  \"stress_score\": 8,\n  \"sleep_hours\": 4.5,\n  \"physical_activity_hrs\": 1.0,\n  \"chronic_conditions\": 2,\n  \"symptoms_severity\": 4\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/treatment/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"treatment",
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Get Sorted Model Benchmarks (6 Models)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/v1/treatment/benchmark",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"treatment",
+						"benchmark"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Clinical NLP Agent (PhoBERT Entity Extraction)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"text\": \"Bệnh nhân 55 tuổi có tiền sử đái tháo đường típ 2 và tăng huyết áp nguyên phát, nhập viện vì ho kéo dài, sốt cao và đau ngực trái. Bác sĩ chỉ định chụp X-quang ngực, xét nghiệm công thức máu và kê đơn Amlodipine 10mg uống hàng ngày.\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Medical Agent RAG Query",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"query\": \"Bệnh nhân đái tháo đường típ 2 có triệu chứng ho sốt thì điều trị phác đồ gì?\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/agent/query",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"agent",
+						"query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. System Health & Readiness Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/v1/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -14,6 +14,14 @@ from src.agents.recommendation_agent import RecommendationAgent
 from src.agents.response_agent import ResponseAgent
 from src.agents.conversation_agent import ConversationAgent
 from src.agents.memory_agent import MemoryAgent
+from src.agents.memory import ConversationMemory, RedisMemoryStore, MedicalContextMemory, PatientHistoryMemory
+
+# Multimodal CXR Specialist Agents
+from src.agents.cxr_agent import CXRDiagnosticAgent
+from src.agents.triage_agent import TriageTimelineAgent
+from src.agents.lab_vital_agent import VitalLabDynamicsAgent
+from src.agents.temporal_guard import TemporalLeakageGuardAgent
+from src.agents.multimodal_orchestrator import MultimodalConsensusOrchestrator
 
 __all__ = [
     "AgentContext",
@@ -30,4 +38,14 @@ __all__ = [
     "ResponseAgent",
     "ConversationAgent",
     "MemoryAgent",
+    "ConversationMemory",
+    "RedisMemoryStore",
+    "MedicalContextMemory",
+    "PatientHistoryMemory",
+    # Multimodal Agents
+    "CXRDiagnosticAgent",
+    "TriageTimelineAgent",
+    "VitalLabDynamicsAgent",
+    "TemporalLeakageGuardAgent",
+    "MultimodalConsensusOrchestrator",
 ]

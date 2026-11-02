@@ -1,0 +1,947 @@
+{
+  "report_type": "NIH_CHESTXRAY14_FINAL_BATCH_009_012_AND_GLOBAL_AUDIT",
+  "timestamp_utc": "2026-10-31T00:35:34.620411+00:00",
+  "overall_status": "PASS",
+  "dataset_source": "Kaggle (nih-chest-xrays/data, CC0-1.0)",
+  "physionet_or_mimic_used": false,
+  "preflight_audit": {
+    "timestamp_utc": "2026-10-30T23:02:03.517769+00:00",
+    "target_shards": [
+      "images_009",
+      "images_010",
+      "images_011",
+      "images_012"
+    ],
+    "drives_before_download": {
+      "A:\\": {
+        "total_gb": 406.55,
+        "used_gb": 375.82,
+        "free_gb": 30.73
+      },
+      "C:\\": {
+        "total_gb": 523.18,
+        "used_gb": 427.75,
+        "free_gb": 95.43
+      }
+    },
+    "disk_preflight": {
+      "drive": "C:",
+      "target_dir": "C:\\Users\\Quang Huy\\source\\repos\\Mediacal-AI-Agent\\data\\kaggle_nih",
+      "total_gb": 523.18,
+      "used_gb": 427.75,
+      "free_gb": 95.43,
+      "required_gb": 20.0,
+      "preflight_passed": true
+    },
+    "footprint_recalculation_009_012": {
+      "expected_png_count": 37121,
+      "per_shard_expected": {
+        "images_009": {
+          "png_count": 10000,
+          "compressed_bytes": 4109912951,
+          "uncompressed_bytes": 4108933524,
+          "first_image": "00018387_035.png",
+          "last_image": "00020945_049.png",
+          "compressed_gb": 3.828,
+          "uncompressed_gb": 3.827
+        },
+        "images_010": {
+          "png_count": 10000,
+          "compressed_bytes": 4180149851,
+          "uncompressed_bytes": 4179144121,
+          "first_image": "00020945_050.png",
+          "last_image": "00024717_000.png",
+          "compressed_gb": 3.893,
+          "uncompressed_gb": 3.892
+        },
+        "images_011": {
+          "png_count": 10000,
+          "compressed_bytes": 4185666931,
+          "uncompressed_bytes": 4184608844,
+          "first_image": "00024718_000.png",
+          "last_image": "00028173_002.png",
+          "compressed_gb": 3.898,
+          "uncompressed_gb": 3.897
+        },
+        "images_012": {
+          "png_count": 7121,
+          "compressed_bytes": 2913167799,
+          "uncompressed_bytes": 2912543044,
+          "first_image": "00028173_003.png",
+          "last_image": "00030805_000.png",
+          "compressed_gb": 2.713,
+          "uncompressed_gb": 2.713
+        }
+      },
+      "combined_compressed_bytes": 15388897532,
+      "combined_compressed_gib": 14.332,
+      "combined_uncompressed_bytes": 15385229533,
+      "combined_uncompressed_gib": 14.329,
+      "conservative_required_free_gib": 20.0,
+      "c_free_gib_before": 95.43,
+      "estimated_c_free_gib_after_112120_complete": 81.1
+    },
+    "locked_governance_hashes_before_batch": {
+      "test_list_txt_sha256": "38ca5ef7f756092946f57c1a59faca882ed589a1ab1f72590b45dc06c6d5e1cc",
+      "train_val_list_txt_sha256": "61fbe896321c1c1c8b75f3e4f3a08e4fef6486d95ef8a667c31d4d60dca6cb81",
+      "data_entry_2017_csv_sha256": "88f75094e25ccc0c6f1f9cdfd4b2f94f9379a0ae07d5ff4dcf94242707b07462",
+      "patient_splits_csv_sha256": "7d7061393c72c92f5f947144a88af0f2cc437e38e9cadeefc196513d97dda21c",
+      "checkpoint_nih14_sha256": "31a5475c6b1383a7edbfcaf96af9ce302eb9969cfe28b6b8b5859afc6f274fdf",
+      "split_membership_112120_sha256": "fbb9642224bc6465dc89ba2aa0788d1056a6a948becbbb3f2b74fc76c21004ce"
+    },
+    "existing_shards_001_008_immutability_verified": true,
+    "existing_shards_001_008_details": {
+      "images_001": {
+        "png_count": 4999,
+        "expected_png_count": 4999,
+        "part_files_count": 0,
+        "expected_tree_sha256": "2c776f12f88bfaa7ca6d6ed29ac52b0207b7125de0552533a94a1c8399569d2f",
+        "actual_tree_sha256": "2c776f12f88bfaa7ca6d6ed29ac52b0207b7125de0552533a94a1c8399569d2f",
+        "unchanged_verified": true
+      },
+      "images_002": {
+        "png_count": 10000,
+        "expected_png_count": 10000,
+        "part_files_count": 0,
+        "expected_tree_sha256": "afc3742da9a23dabbe5f88a3add366ebe87d9c9779bb759e6197450e65f49f5d",
+        "actual_tree_sha256": "afc3742da9a23dabbe5f88a3add366ebe87d9c9779bb759e6197450e65f49f5d",
+        "unchanged_verified": true
+      },
+      "images_003": {
+        "png_count": 10000,
+        "expected_png_count": 10000,
+        "part_files_count": 0,
+        "expected_tree_sha256": "4c6f2d4ce61b9e9bb69676384ed7bcd06a1f1b3989f1c7e462ad363b86e79138",
+        "actual_tree_sha256": "4c6f2d4ce61b9e9bb69676384ed7bcd06a1f1b3989f1c7e462ad363b86e79138",
+        "unchanged_verified": true
+      },
+      "images_004": {
+        "png_count": 10000,
+        "expected_png_count": 10000,
+        "part_files_count": 0,
+        "expected_tree_sha256": "18ba3e408bf1f90009242338c0ce461860fff50b380c94ceecfc8e89d95c41d6",
+        "actual_tree_sha256": "18ba3e408bf1f90009242338c0ce461860fff50b380c94ceecfc8e89d95c41d6",
+        "unchanged_verified": true
+      },
+      "images_005": {
+        "png_count": 10000,
+        "expected_png_count": 10000,
+        "part_files_count": 0,
+        "expected_tree_sha256": "0b6eb6689dd32d673ef9492b52ced4c6257857279f68aba81181a081c6febaec",
+        "actual_tree_sha256": "0b6eb6689dd32d673ef9492b52ced4c6257857279f68aba81181a081c6febaec",
+        "unchanged_verified": true
+      },
+      "images_006": {
+        "png_count": 10000,
+        "expected_png_count": 10000,
+        "part_files_count": 0,
+        "expected_tree_sha256": "706c6ab080c46ea971637a5383a045ccf24dfa0652de5f82a621dbb63efaf960",
+        "actual_tree_sha256": "706c6ab080c46ea971637a5383a045ccf24dfa0652de5f82a621dbb63efaf960",
+        "unchanged_verified": true
+      },
+      "images_007": {
+        "png_count": 10000,
+        "expected_png_count": 10000,
+        "part_files_count": 0,
+        "expected_tree_sha256": "a1c1ff11c52252a712c0af4c4f6130ac7004c45740c4c16d00d5affc7e300455",
+        "actual_tree_sha256": "a1c1ff11c52252a712c0af4c4f6130ac7004c45740c4c16d00d5affc7e300455",
+        "unchanged_verified": true
+      },
+      "images_008": {
+        "png_count": 10000,
+        "expected_png_count": 10000,
+        "part_files_count": 0,
+        "expected_tree_sha256": "1e2d75ad811206bca00797f0a46cb4293ca54a918df72655c0a1f7927639d7de",
+        "actual_tree_sha256": "1e2d75ad811206bca00797f0a46cb4293ca54a918df72655c0a1f7927639d7de",
+        "unchanged_verified": true
+      }
+    },
+    "shards_009_012_initial_counts": {
+      "images_009": 0,
+      "images_010": 0,
+      "images_011": 0,
+      "images_012": 0
+    },
+    "kaggle_connectivity_probe": {
+      "credentials_check": {
+        "auth_method": "kagglesdk_public_cc0_signed_gcs_stream",
+        "token_location": null,
+        "configured": true,
+        "remote_archive_bytes": 45096150231
+      },
+      "remote_archive_bytes": 45096150231,
+      "range_probe_http_status": 206,
+      "rate_limited_429": false,
+      "accept_ranges": "bytes",
+      "probe_latency_ms": 9369.1
+    },
+    "preflight_passed": true
+  },
+  "batch_network_transfer_telemetry": {
+    "http_range_requests": 464,
+    "bytes_downloaded": 15535702016,
+    "gigabytes_downloaded": 14.469,
+    "elapsed_seconds": 3480.22
+  },
+  "sequential_per_shard_transfer_telemetry": {
+    "images_009": {
+      "network_transfer_telemetry": {
+        "http_range_requests": 124,
+        "bytes_downloaded": 4152360960,
+        "gigabytes_downloaded": 3.867,
+        "elapsed_seconds": 1167.88
+      },
+      "extracted_shard": {
+        "shard_id": "images_009",
+        "expected_in_archive": 10000,
+        "newly_extracted": 10000,
+        "already_present_verified": 0,
+        "total_png_on_disk": 10000,
+        "compressed_bytes": 4109912951,
+        "uncompressed_bytes": 4108933524,
+        "Aggregate_sha256_manifest_digest": null,
+        "extracted_dir": "data\\kaggle_nih\\raw\\images_009",
+        "png_count": 10000,
+        "shard_tree_sha256": "47e2887fe68af1be1cac7b4c0ba40315f00ee973d715bf0601288ac359cd7de6"
+      }
+    },
+    "images_010": {
+      "network_transfer_telemetry": {
+        "http_range_requests": 126,
+        "bytes_downloaded": 4219469824,
+        "gigabytes_downloaded": 3.93,
+        "elapsed_seconds": 959.05
+      },
+      "extracted_shard": {
+        "shard_id": "images_010",
+        "expected_in_archive": 10000,
+        "newly_extracted": 10000,
+        "already_present_verified": 0,
+        "total_png_on_disk": 10000,
+        "compressed_bytes": 4180149851,
+        "uncompressed_bytes": 4179144121,
+        "Aggregate_sha256_manifest_digest": null,
+        "extracted_dir": "data\\kaggle_nih\\raw\\images_010",
+        "png_count": 10000,
+        "shard_tree_sha256": "64a3c0f4b3a33637135e1b0fff2ae790050e6c0f81bcd5fe430738c67ae40ebf"
+      }
+    },
+    "images_011": {
+      "network_transfer_telemetry": {
+        "http_range_requests": 126,
+        "bytes_downloaded": 4219469824,
+        "gigabytes_downloaded": 3.93,
+        "elapsed_seconds": 782.01
+      },
+      "extracted_shard": {
+        "shard_id": "images_011",
+        "expected_in_archive": 10000,
+        "newly_extracted": 10000,
+        "already_present_verified": 0,
+        "total_png_on_disk": 10000,
+        "compressed_bytes": 4185666931,
+        "uncompressed_bytes": 4184608844,
+        "Aggregate_sha256_manifest_digest": null,
+        "extracted_dir": "data\\kaggle_nih\\raw\\images_011",
+        "png_count": 10000,
+        "shard_tree_sha256": "2a5be7527c29f8d0bf9c06408e511cf66f1c9a92c6b2cf22a995c17e60d93903"
+      }
+    },
+    "images_012": {
+      "network_transfer_telemetry": {
+        "http_range_requests": 88,
+        "bytes_downloaded": 2944401408,
+        "gigabytes_downloaded": 2.742,
+        "elapsed_seconds": 571.28
+      },
+      "extracted_shard": {
+        "shard_id": "images_012",
+        "expected_in_archive": 7121,
+        "newly_extracted": 7121,
+        "already_present_verified": 0,
+        "total_png_on_disk": 7121,
+        "compressed_bytes": 2913167799,
+        "uncompressed_bytes": 2912543044,
+        "Aggregate_sha256_manifest_digest": null,
+        "extracted_dir": "data\\kaggle_nih\\raw\\images_012",
+        "png_count": 7121,
+        "shard_tree_sha256": "895ca212bc77f601b107eb3ab6d052148568795896963af03a59c3e7f1d87d14"
+      }
+    }
+  },
+  "per_shard_validation": {
+    "images_001": {
+      "shard_id": "images_001",
+      "status": "PASS",
+      "expected_png_count": 4999,
+      "actual_png_count": 4999,
+      "valid_decoded_png_count": 4999,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00000001_000.png",
+      "last_image_expected": "00001335_006.png",
+      "first_image_actual": "00000001_000.png",
+      "last_image_actual": "00001335_006.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 4999,
+      "patient_id_filename_prefix_matches": 4999,
+      "unique_patients_in_shard": 1335,
+      "split_image_counts": {
+        "train": 3463,
+        "validate": 569,
+        "test": 967
+      },
+      "color_mode_counts": {
+        "L": 4928,
+        "RGBA": 71
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 4928,
+        "1024x1024:RGBA": 71
+      },
+      "remote_compressed_bytes": 2007748690,
+      "remote_compressed_gib": 1.87,
+      "actual_uncompressed_bytes": 2007961024,
+      "actual_uncompressed_gib": 1.87,
+      "shard_tree_sha256": "2c776f12f88bfaa7ca6d6ed29ac52b0207b7125de0552533a94a1c8399569d2f",
+      "unchanged_vs_accepted_baseline": true,
+      "audit_elapsed_seconds": 17.42
+    },
+    "images_002": {
+      "shard_id": "images_002",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00001336_000.png",
+      "last_image_expected": "00003923_013.png",
+      "first_image_actual": "00001336_000.png",
+      "last_image_actual": "00003923_013.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2588,
+      "split_image_counts": {
+        "train": 7378,
+        "validate": 1130,
+        "test": 1492
+      },
+      "color_mode_counts": {
+        "L": 9918,
+        "RGBA": 82
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9918,
+        "1024x1024:RGBA": 82
+      },
+      "remote_compressed_bytes": 3951197256,
+      "remote_compressed_gib": 3.68,
+      "actual_uncompressed_bytes": 3951069542,
+      "actual_uncompressed_gib": 3.68,
+      "shard_tree_sha256": "afc3742da9a23dabbe5f88a3add366ebe87d9c9779bb759e6197450e65f49f5d",
+      "unchanged_vs_accepted_baseline": true,
+      "audit_elapsed_seconds": 34.35
+    },
+    "images_003": {
+      "shard_id": "images_003",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00003923_014.png",
+      "last_image_expected": "00006585_006.png",
+      "first_image_actual": "00003923_014.png",
+      "last_image_actual": "00006585_006.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2663,
+      "split_image_counts": {
+        "train": 7002,
+        "validate": 1389,
+        "test": 1609
+      },
+      "color_mode_counts": {
+        "L": 9817,
+        "RGBA": 183
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9817,
+        "1024x1024:RGBA": 183
+      },
+      "remote_compressed_bytes": 3927785103,
+      "remote_compressed_gib": 3.658,
+      "actual_uncompressed_bytes": 3928657321,
+      "actual_uncompressed_gib": 3.659,
+      "shard_tree_sha256": "4c6f2d4ce61b9e9bb69676384ed7bcd06a1f1b3989f1c7e462ad363b86e79138",
+      "unchanged_vs_accepted_baseline": true,
+      "audit_elapsed_seconds": 33.24
+    },
+    "images_004": {
+      "shard_id": "images_004",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00006585_007.png",
+      "last_image_expected": "00009232_003.png",
+      "first_image_actual": "00006585_007.png",
+      "last_image_actual": "00009232_003.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2648,
+      "split_image_counts": {
+        "train": 6978,
+        "validate": 1485,
+        "test": 1537
+      },
+      "color_mode_counts": {
+        "L": 9931,
+        "RGBA": 69
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9931,
+        "1024x1024:RGBA": 69
+      },
+      "remote_compressed_bytes": 3837488320,
+      "remote_compressed_gib": 3.574,
+      "actual_uncompressed_bytes": 3837267398,
+      "actual_uncompressed_gib": 3.574,
+      "shard_tree_sha256": "18ba3e408bf1f90009242338c0ce461860fff50b380c94ceecfc8e89d95c41d6",
+      "unchanged_vs_accepted_baseline": true,
+      "audit_elapsed_seconds": 33.44
+    },
+    "images_005": {
+      "shard_id": "images_005",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00009232_004.png",
+      "last_image_expected": "00011558_007.png",
+      "first_image_actual": "00009232_004.png",
+      "last_image_actual": "00011558_007.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2327,
+      "split_image_counts": {
+        "train": 6847,
+        "validate": 1034,
+        "test": 2119
+      },
+      "color_mode_counts": {
+        "L": 9984,
+        "RGBA": 16
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9984,
+        "1024x1024:RGBA": 16
+      },
+      "remote_compressed_bytes": 3934068651,
+      "remote_compressed_gib": 3.664,
+      "actual_uncompressed_bytes": 3933273109,
+      "actual_uncompressed_gib": 3.663,
+      "shard_tree_sha256": "0b6eb6689dd32d673ef9492b52ced4c6257857279f68aba81181a081c6febaec",
+      "unchanged_vs_accepted_baseline": true,
+      "audit_elapsed_seconds": 33.67
+    },
+    "images_006": {
+      "shard_id": "images_006",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00011558_008.png",
+      "last_image_expected": "00013774_025.png",
+      "first_image_actual": "00011558_008.png",
+      "last_image_actual": "00013774_025.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2217,
+      "split_image_counts": {
+        "train": 6119,
+        "validate": 1203,
+        "test": 2678
+      },
+      "color_mode_counts": {
+        "L": 9988,
+        "RGBA": 12
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9988,
+        "1024x1024:RGBA": 12
+      },
+      "remote_compressed_bytes": 3984863159,
+      "remote_compressed_gib": 3.711,
+      "actual_uncompressed_bytes": 3983895279,
+      "actual_uncompressed_gib": 3.71,
+      "shard_tree_sha256": "706c6ab080c46ea971637a5383a045ccf24dfa0652de5f82a621dbb63efaf960",
+      "unchanged_vs_accepted_baseline": true,
+      "audit_elapsed_seconds": 33.48
+    },
+    "images_007": {
+      "shard_id": "images_007",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00013774_026.png",
+      "last_image_expected": "00016051_009.png",
+      "first_image_actual": "00013774_026.png",
+      "last_image_actual": "00016051_009.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2278,
+      "split_image_counts": {
+        "train": 6167,
+        "validate": 1056,
+        "test": 2777
+      },
+      "color_mode_counts": {
+        "L": 9966,
+        "RGBA": 34
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9966,
+        "1024x1024:RGBA": 34
+      },
+      "remote_compressed_bytes": 4014893635,
+      "remote_compressed_gib": 3.739,
+      "actual_uncompressed_bytes": 4014137889,
+      "actual_uncompressed_gib": 3.738,
+      "shard_tree_sha256": "a1c1ff11c52252a712c0af4c4f6130ac7004c45740c4c16d00d5affc7e300455",
+      "unchanged_vs_accepted_baseline": true,
+      "audit_elapsed_seconds": 32.7
+    },
+    "images_008": {
+      "shard_id": "images_008",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00016051_010.png",
+      "last_image_expected": "00018387_034.png",
+      "first_image_actual": "00016051_010.png",
+      "last_image_actual": "00018387_034.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2337,
+      "split_image_counts": {
+        "train": 6219,
+        "validate": 1291,
+        "test": 2490
+      },
+      "color_mode_counts": {
+        "L": 9989,
+        "RGBA": 11
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9989,
+        "1024x1024:RGBA": 11
+      },
+      "remote_compressed_bytes": 4016919592,
+      "remote_compressed_gib": 3.741,
+      "actual_uncompressed_bytes": 4015949603,
+      "actual_uncompressed_gib": 3.74,
+      "shard_tree_sha256": "1e2d75ad811206bca00797f0a46cb4293ca54a918df72655c0a1f7927639d7de",
+      "unchanged_vs_accepted_baseline": true,
+      "audit_elapsed_seconds": 33.91
+    },
+    "images_009": {
+      "shard_id": "images_009",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00018387_035.png",
+      "last_image_expected": "00020945_049.png",
+      "first_image_actual": "00018387_035.png",
+      "last_image_actual": "00020945_049.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2559,
+      "split_image_counts": {
+        "train": 6481,
+        "validate": 1280,
+        "test": 2239
+      },
+      "color_mode_counts": {
+        "L": 9987,
+        "RGBA": 13
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9987,
+        "1024x1024:RGBA": 13
+      },
+      "remote_compressed_bytes": 4109912951,
+      "remote_compressed_gib": 3.828,
+      "actual_uncompressed_bytes": 4108933524,
+      "actual_uncompressed_gib": 3.827,
+      "shard_tree_sha256": "47e2887fe68af1be1cac7b4c0ba40315f00ee973d715bf0601288ac359cd7de6",
+      "unchanged_vs_accepted_baseline": null,
+      "audit_elapsed_seconds": 34.29
+    },
+    "images_010": {
+      "shard_id": "images_010",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00020945_050.png",
+      "last_image_expected": "00024717_000.png",
+      "first_image_actual": "00020945_050.png",
+      "last_image_actual": "00024717_000.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 3773,
+      "split_image_counts": {
+        "train": 6434,
+        "validate": 1412,
+        "test": 2154
+      },
+      "color_mode_counts": {
+        "L": 9991,
+        "RGBA": 9
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9991,
+        "1024x1024:RGBA": 9
+      },
+      "remote_compressed_bytes": 4180149851,
+      "remote_compressed_gib": 3.893,
+      "actual_uncompressed_bytes": 4179144121,
+      "actual_uncompressed_gib": 3.892,
+      "shard_tree_sha256": "64a3c0f4b3a33637135e1b0fff2ae790050e6c0f81bcd5fe430738c67ae40ebf",
+      "unchanged_vs_accepted_baseline": null,
+      "audit_elapsed_seconds": 35.19
+    },
+    "images_011": {
+      "shard_id": "images_011",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00024718_000.png",
+      "last_image_expected": "00028173_002.png",
+      "first_image_actual": "00024718_000.png",
+      "last_image_actual": "00028173_002.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 3456,
+      "split_image_counts": {
+        "train": 6983,
+        "validate": 1075,
+        "test": 1942
+      },
+      "color_mode_counts": {
+        "L": 9995,
+        "RGBA": 5
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9995,
+        "1024x1024:RGBA": 5
+      },
+      "remote_compressed_bytes": 4185666931,
+      "remote_compressed_gib": 3.898,
+      "actual_uncompressed_bytes": 4184608844,
+      "actual_uncompressed_gib": 3.897,
+      "shard_tree_sha256": "2a5be7527c29f8d0bf9c06408e511cf66f1c9a92c6b2cf22a995c17e60d93903",
+      "unchanged_vs_accepted_baseline": null,
+      "audit_elapsed_seconds": 35.71
+    },
+    "images_012": {
+      "shard_id": "images_012",
+      "status": "PASS",
+      "expected_png_count": 7121,
+      "actual_png_count": 7121,
+      "valid_decoded_png_count": 7121,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "all_1024x1024_verified": true,
+      "non_1024x1024_count": 0,
+      "non_1024x1024_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00028173_003.png",
+      "last_image_expected": "00030805_000.png",
+      "first_image_actual": "00028173_003.png",
+      "last_image_actual": "00030805_000.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 7121,
+      "patient_id_filename_prefix_matches": 7121,
+      "unique_patients_in_shard": 2633,
+      "split_image_counts": {
+        "train": 3018,
+        "validate": 511,
+        "test": 3592
+      },
+      "color_mode_counts": {
+        "L": 7107,
+        "RGBA": 14
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 7107,
+        "1024x1024:RGBA": 14
+      },
+      "remote_compressed_bytes": 2913167799,
+      "remote_compressed_gib": 2.713,
+      "actual_uncompressed_bytes": 2912543044,
+      "actual_uncompressed_gib": 2.713,
+      "shard_tree_sha256": "895ca212bc77f601b107eb3ab6d052148568795896963af03a59c3e7f1d87d14",
+      "unchanged_vs_accepted_baseline": null,
+      "audit_elapsed_seconds": 24.1
+    }
+  },
+  "global_12_shard_validation": {
+    "shards_covered": [
+      "images_001",
+      "images_002",
+      "images_003",
+      "images_004",
+      "images_005",
+      "images_006",
+      "images_007",
+      "images_008",
+      "images_009",
+      "images_010",
+      "images_011",
+      "images_012"
+    ],
+    "shards_passed_count": 12,
+    "expected_shards_count": 12,
+    "new_batch_shards": [
+      "images_009",
+      "images_010",
+      "images_011",
+      "images_012"
+    ],
+    "new_batch_expected_images": 37121,
+    "new_batch_valid_images": 37121,
+    "new_batch_uncompressed_bytes": 15385229533,
+    "new_batch_uncompressed_gib": 14.329,
+    "total_expected_images_all_12": 112120,
+    "total_verified_images_all_12": 112120,
+    "total_unique_patients_all_12": 30805,
+    "dataset_completion_pct": 100.0,
+    "dataset_final_completion_status": "COMPLETE_112120_VERIFIED",
+    "dataset_12_shards_master_sha256": "d6583f3c6731898cfcda1fe633703c0d228f038f23640196fe7e071ecfdbc805",
+    "total_uncompressed_bytes_all_12": 45057440698,
+    "total_uncompressed_gib_all_12": 41.963,
+    "cross_shard_duplicate_image_index_count": 0,
+    "manifest_duplicate_image_index_count": 0,
+    "orphan_images_absent_from_manifest_count": 0,
+    "missing_images_global_count": 0,
+    "corrupt_images_global_count": 0,
+    "non_1024x1024_global_count": 0,
+    "leftover_part_files_count": 0,
+    "patient_id_metadata_exact_matches_global": 112120,
+    "patient_id_filename_prefix_matches_global": 112120,
+    "manifest_global_status_counts": {
+      "VALID": 112120,
+      "MISSING": 0,
+      "CORRUPT": 0
+    },
+    "aggregate_dimensions_and_color_modes_009_012": {
+      "1024x1024:L": 37080,
+      "1024x1024:RGBA": 41
+    },
+    "aggregate_dimensions_and_color_modes_all_12": {
+      "1024x1024:L": 111601,
+      "1024x1024:RGBA": 519
+    },
+    "shards_001_008_unchanged_verified": true,
+    "official_test_membership_untouched": true,
+    "official_test_image_count": 25596,
+    "governance_hashes_unchanged_verified": true,
+    "governance_hashes": {
+      "test_list_txt_sha256": "38ca5ef7f756092946f57c1a59faca882ed589a1ab1f72590b45dc06c6d5e1cc",
+      "train_val_list_txt_sha256": "61fbe896321c1c1c8b75f3e4f3a08e4fef6486d95ef8a667c31d4d60dca6cb81",
+      "data_entry_2017_csv_sha256": "88f75094e25ccc0c6f1f9cdfd4b2f94f9379a0ae07d5ff4dcf94242707b07462",
+      "patient_splits_csv_sha256": "7d7061393c72c92f5f947144a88af0f2cc437e38e9cadeefc196513d97dda21c",
+      "checkpoint_nih14_sha256": "31a5475c6b1383a7edbfcaf96af9ce302eb9969cfe28b6b8b5859afc6f274fdf",
+      "split_membership_112120_sha256": "fbb9642224bc6465dc89ba2aa0788d1056a6a948becbbb3f2b74fc76c21004ce"
+    },
+    "full_112120_patient_leakage_audit": {
+      "zero_patient_leakage_verified": true,
+      "train_unique_patients": 23807,
+      "validate_unique_patients": 4201,
+      "test_unique_patients": 2797,
+      "train_validate_overlap": 0,
+      "train_test_overlap": 0,
+      "validate_test_overlap": 0,
+      "max_splits_per_patient": 1
+    },
+    "global_112120_split_image_counts": {
+      "train": 73089,
+      "validate": 13435,
+      "test": 25596
+    },
+    "global_112120_split_patient_counts": {
+      "train": 23807,
+      "validate": 4201,
+      "test": 2797
+    },
+    "global_112120_pathology_positive_counts": {
+      "Atelectasis": 11559,
+      "Cardiomegaly": 2776,
+      "Consolidation": 4667,
+      "Edema": 2303,
+      "Effusion": 13317,
+      "Emphysema": 2516,
+      "Fibrosis": 1686,
+      "Hernia": 227,
+      "Infiltration": 19894,
+      "Mass": 5782,
+      "Nodule": 6331,
+      "Pleural_Thickening": 3385,
+      "Pneumonia": 1431,
+      "Pneumothorax": 5302
+    },
+    "global_112120_no_finding_count": 60361
+  },
+  "inference_validation_summary": {
+    "status": "PASS",
+    "device": "cpu",
+    "mini_batch_size": 16,
+    "total_images_inferred": 128,
+    "execution_wall_time_seconds": 18.681,
+    "throughput_images_per_second": 6.85,
+    "throughput_unit": "images/second",
+    "nan_or_inf_detected": false,
+    "global_min_prob": 0.0,
+    "global_max_prob": 0.913044,
+    "threshold_invariant_to_test_label_inversion": true
+  },
+  "regression_test_results": {
+    "exit_code": 0,
+    "passed": 32,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 17,
+    "elapsed_seconds": 50.81,
+    "suites": [
+      "tests/test_nih_cxr_manifest.py",
+      "tests/test_nih_patient_split.py",
+      "tests/test_nih_cxr_inference.py",
+      "tests/test_benchmark_fusion.py"
+    ]
+  },
+  "disk_usage_before_and_after": {
+    "drives_after": {
+      "A:\\": {
+        "total_gb": 406.55,
+        "used_gb": 375.82,
+        "free_gb": 30.73
+      },
+      "C:\\": {
+        "total_gb": 523.18,
+        "used_gb": 449.43,
+        "free_gb": 73.75
+      }
+    },
+    "c_drive_free_gib_before_batch": 95.43,
+    "c_drive_free_gib_after_batch": 73.75,
+    "c_drive_delta_gib": 21.68,
+    "a_drive_free_gib_after_batch": 30.73,
+    "total_dataset_12_shards_uncompressed_gib": 41.963,
+    "remaining_undownloaded_shards_count": 0,
+    "remaining_undownloaded_images_count": 0
+  },
+  "recommendation": "DATASET_ACQUISITION_100PCT_COMPLETE_READY_FOR_FINALIZATION_AND_BENCHMARKING",
+  "total_validation_elapsed_seconds": 414.44
+}

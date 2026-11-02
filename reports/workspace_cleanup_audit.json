@@ -1,0 +1,94 @@
+{
+  "report_type": "WORKSPACE_CLEANUP_AUDIT",
+  "timestamp_utc": "2026-10-30T19:48:30+00:00",
+  "reconciliation_summary": {
+    "final_total_items_processed": 66,
+    "pass_1_count_at_02_18_57_local": 65,
+    "pass_2_count_at_02_29_07_local": 1,
+    "discrepancy_explanation": "Pass 1 (Step 3446, 02:18:57+07:00) processed 65 items (62 obsolete/temporary files & directories deleted + 3 presentation items archived from reports/ to docs/archive/). Pass 2 (Step 3479, 02:29:07+07:00) deleted 1 additional MIMIC-IV-ED demo file (`input/cohort_manifest.json`) after confirming zero references across the repository. Final canonical count = 65 + 1 = 66 items (63 deleted + 3 archived). Zero git-tracked files were deleted.",
+    "deleted_items_count": 63,
+    "archived_items_count": 3,
+    "git_tracked_files_deleted": 0,
+    "dangling_references_after_cleanup": 0
+  },
+  "pass_1_items_65": {
+    "retired_mimic_and_physionet_artifacts_8": [
+      "data/mimic_cxr_jpg",
+      "data/mimic_iv_ed_demo",
+      "scripts/build_mimic_cxr_manifest.py",
+      "scripts/prepare_cxr_pilot_150.py",
+      "scripts/run_cxr_pilot_inference.py",
+      "scripts/build_medfusion_demo_cohort.py",
+      "tests/test_mimic_cxr_manifest.py",
+      "tests/fixtures"
+    ],
+    "temporary_runtime_and_test_clutter_29": [
+      "data/uploads",
+      "data/analysis",
+      "data/evaluation",
+      "data/synthetic",
+      "data/xai",
+      "checkpoints",
+      "full_test_results.txt",
+      "reports/create_pipeline_figures.py",
+      "reports/generate_pptx_slides.py",
+      "reports/generate_word_report.py",
+      ".pytest_cache",
+      "output/consultation_05b7b14dc5.json",
+      "output/consultation_2fb10a3ee1.json",
+      "output/consultation_46c475eea4.json",
+      "output/consultation_5fbe4929d4.json",
+      "output/consultation_756715c09d.json",
+      "output/consultation_75d4c26c8a.json",
+      "output/consultation_8d09d700ab.json",
+      "output/consultation_9f9908acb2.json",
+      "output/consultation_a32da7ff2e.json",
+      "output/consultation_a8dbd52636.json",
+      "output/consultation_b882781b30.json",
+      "output/consultation_b97b8376c1.json",
+      "output/consultation_c2abf79d32.json",
+      "output/consultation_c8e40de0e8.json",
+      "output/consultation_ca07af6a72.json",
+      "output/consultation_cb4db7e2b6.json",
+      "output/consultation_e1e5fcb39d.json",
+      "output/consultation_f53c1b32c4.json"
+    ],
+    "archived_documents_moved_from_reports_to_docs_archive_3": [
+      "reports/BAO_CAO_DU_AN_MEDICAL_AI_AGENT.docx -> docs/archive/BAO_CAO_DU_AN_MEDICAL_AI_AGENT.docx",
+      "reports/SLIDE_BAO_CAO_MEDICAL_AI_AGENT.pptx -> docs/archive/SLIDE_BAO_CAO_MEDICAL_AI_AGENT.pptx",
+      "reports/figures -> docs/archive/figures"
+    ],
+    "bytecode_caches_25": [
+      "scripts/__pycache__",
+      "src/agent/__pycache__",
+      "src/agents/__pycache__",
+      "src/api/__pycache__",
+      "src/assertion/__pycache__",
+      "src/dataset_generator/__pycache__",
+      "src/decision/__pycache__",
+      "src/evaluation/__pycache__",
+      "src/explainability/__pycache__",
+      "src/graph/__pycache__",
+      "src/inference/__pycache__",
+      "src/interop/__pycache__",
+      "src/knowledge/__pycache__",
+      "src/mlops/__pycache__",
+      "src/multimodal/__pycache__",
+      "src/privacy/__pycache__",
+      "src/rag/__pycache__",
+      "src/ranking/__pycache__",
+      "src/relation/__pycache__",
+      "src/services/__pycache__",
+      "src/training/__pycache__",
+      "src/utils/__pycache__",
+      "src/vision/__pycache__",
+      "src/wearable/__pycache__",
+      "tests/__pycache__"
+    ]
+  },
+  "pass_2_items_1": {
+    "retired_mimic_demo_manifest_1": [
+      "input/cohort_manifest.json"
+    ]
+  }
+}

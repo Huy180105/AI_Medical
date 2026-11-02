@@ -1,0 +1,287 @@
+{
+  "timestamp_utc": "2026-10-30T19:33:00.843097+00:00",
+  "dataset_name": "NIH ChestX-ray14 (Kaggle nih-chest-xrays/data)",
+  "kaggle_dataset_slug": "nih-chest-xrays/data",
+  "kaggle_url": "https://www.kaggle.com/datasets/nih-chest-xrays/data",
+  "license": "CC0-1.0",
+  "primary_citation": "Wang X, Peng Y, Lu L, Lu Z, Bagheri M, Summers RM. ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. IEEE CVPR 2017 (arXiv:1705.02315). Originating institution: NIH Clinical Center.",
+  "physionet_or_mimic_used": false,
+  "ingestion_mode": "shards",
+  "requested_shards": [
+    "images_001"
+  ],
+  "host_drives_audit": {
+    "A:\\": {
+      "total_gb": 406.55,
+      "used_gb": 375.8,
+      "free_gb": 30.75
+    },
+    "C:\\": {
+      "total_gb": 523.18,
+      "used_gb": 398.22,
+      "free_gb": 124.95
+    }
+  },
+  "disk_preflight": {
+    "drive": "C:",
+    "target_dir": "C:\\Users\\Quang Huy\\source\\repos\\Mediacal-AI-Agent\\data\\kaggle_nih",
+    "total_gb": 523.18,
+    "used_gb": 398.22,
+    "free_gb": 124.95,
+    "required_gb": 6.5,
+    "preflight_passed": true
+  },
+  "credentials_check": {
+    "auth_method": "kagglesdk_public_cc0_signed_gcs_stream",
+    "token_location": null,
+    "configured": true,
+    "remote_archive_bytes": 45096150231
+  },
+  "remote_kaggle_archive_inventory": {
+    "dataset_slug": "nih-chest-xrays/data",
+    "remote_archive_total_bytes": 45096150231,
+    "remote_archive_total_gb": 42.0,
+    "central_directory_probe_bytes_transferred": 25165824,
+    "total_archive_files": 112128,
+    "total_png_files_across_shards": 112120,
+    "top_level_metadata_and_docs": {
+      "ARXIV_V5_CHESTXRAY.pdf": {
+        "compressed_bytes": 8798358,
+        "uncompressed_bytes": 8963138,
+        "uncompressed_mb": 8.548,
+        "crc32_hex": "37981a99"
+      },
+      "BBox_List_2017.csv": {
+        "compressed_bytes": 22302,
+        "uncompressed_bytes": 92416,
+        "uncompressed_mb": 0.088,
+        "crc32_hex": "3397cfb2"
+      },
+      "Data_Entry_2017.csv": {
+        "compressed_bytes": 946211,
+        "uncompressed_bytes": 7861152,
+        "uncompressed_mb": 7.497,
+        "crc32_hex": "dfbf42c7"
+      },
+      "FAQ_CHESTXRAY.pdf": {
+        "compressed_bytes": 66874,
+        "uncompressed_bytes": 72223,
+        "uncompressed_mb": 0.069,
+        "crc32_hex": "dd299f2c"
+      },
+      "LOG_CHESTXRAY.pdf": {
+        "compressed_bytes": 2431,
+        "uncompressed_bytes": 3919,
+        "uncompressed_mb": 0.004,
+        "crc32_hex": "bc8fa262"
+      },
+      "README_CHESTXRAY.pdf": {
+        "compressed_bytes": 755651,
+        "uncompressed_bytes": 847223,
+        "uncompressed_mb": 0.808,
+        "crc32_hex": "edc3b1cd"
+      },
+      "test_list.txt": {
+        "compressed_bytes": 50231,
+        "uncompressed_bytes": 435131,
+        "uncompressed_mb": 0.415,
+        "crc32_hex": "67d36edc"
+      },
+      "train_val_list.txt": {
+        "compressed_bytes": 203905,
+        "uncompressed_bytes": 1470907,
+        "uncompressed_mb": 1.403,
+        "crc32_hex": "f434e2f4"
+      }
+    },
+    "shards": {
+      "images_001": {
+        "png_count": 4999,
+        "compressed_bytes": 2007748690,
+        "uncompressed_bytes": 2007961024,
+        "first_image": "00000001_000.png",
+        "last_image": "00001335_006.png",
+        "compressed_gb": 1.87,
+        "uncompressed_gb": 1.87
+      },
+      "images_002": {
+        "png_count": 10000,
+        "compressed_bytes": 3951197256,
+        "uncompressed_bytes": 3951069542,
+        "first_image": "00001336_000.png",
+        "last_image": "00003923_013.png",
+        "compressed_gb": 3.68,
+        "uncompressed_gb": 3.68
+      },
+      "images_003": {
+        "png_count": 10000,
+        "compressed_bytes": 3927785103,
+        "uncompressed_bytes": 3928657321,
+        "first_image": "00003923_014.png",
+        "last_image": "00006585_006.png",
+        "compressed_gb": 3.658,
+        "uncompressed_gb": 3.659
+      },
+      "images_004": {
+        "png_count": 10000,
+        "compressed_bytes": 3837488320,
+        "uncompressed_bytes": 3837267398,
+        "first_image": "00006585_007.png",
+        "last_image": "00009232_003.png",
+        "compressed_gb": 3.574,
+        "uncompressed_gb": 3.574
+      },
+      "images_005": {
+        "png_count": 10000,
+        "compressed_bytes": 3934068651,
+        "uncompressed_bytes": 3933273109,
+        "first_image": "00009232_004.png",
+        "last_image": "00011558_007.png",
+        "compressed_gb": 3.664,
+        "uncompressed_gb": 3.663
+      },
+      "images_006": {
+        "png_count": 10000,
+        "compressed_bytes": 3984863159,
+        "uncompressed_bytes": 3983895279,
+        "first_image": "00011558_008.png",
+        "last_image": "00013774_025.png",
+        "compressed_gb": 3.711,
+        "uncompressed_gb": 3.71
+      },
+      "images_007": {
+        "png_count": 10000,
+        "compressed_bytes": 4014893635,
+        "uncompressed_bytes": 4014137889,
+        "first_image": "00013774_026.png",
+        "last_image": "00016051_009.png",
+        "compressed_gb": 3.739,
+        "uncompressed_gb": 3.738
+      },
+      "images_008": {
+        "png_count": 10000,
+        "compressed_bytes": 4016919592,
+        "uncompressed_bytes": 4015949603,
+        "first_image": "00016051_010.png",
+        "last_image": "00018387_034.png",
+        "compressed_gb": 3.741,
+        "uncompressed_gb": 3.74
+      },
+      "images_009": {
+        "png_count": 10000,
+        "compressed_bytes": 4109912951,
+        "uncompressed_bytes": 4108933524,
+        "first_image": "00018387_035.png",
+        "last_image": "00020945_049.png",
+        "compressed_gb": 3.828,
+        "uncompressed_gb": 3.827
+      },
+      "images_010": {
+        "png_count": 10000,
+        "compressed_bytes": 4180149851,
+        "uncompressed_bytes": 4179144121,
+        "first_image": "00020945_050.png",
+        "last_image": "00024717_000.png",
+        "compressed_gb": 3.893,
+        "uncompressed_gb": 3.892
+      },
+      "images_011": {
+        "png_count": 10000,
+        "compressed_bytes": 4185666931,
+        "uncompressed_bytes": 4184608844,
+        "first_image": "00024718_000.png",
+        "last_image": "00028173_002.png",
+        "compressed_gb": 3.898,
+        "uncompressed_gb": 3.897
+      },
+      "images_012": {
+        "png_count": 7121,
+        "compressed_bytes": 2913167799,
+        "uncompressed_bytes": 2912543044,
+        "first_image": "00028173_003.png",
+        "last_image": "00030805_000.png",
+        "compressed_gb": 2.713,
+        "uncompressed_gb": 2.713
+      }
+    }
+  },
+  "staged_metadata": {
+    "Data_Entry_2017.csv": {
+      "path": "data\\kaggle_nih\\metadata\\Data_Entry_2017.csv",
+      "size_bytes": 7861152,
+      "sha256": "88f75094e25ccc0c6f1f9cdfd4b2f94f9379a0ae07d5ff4dcf94242707b07462"
+    },
+    "BBox_List_2017.csv": {
+      "path": "data\\kaggle_nih\\metadata\\BBox_List_2017.csv",
+      "size_bytes": 92416,
+      "sha256": "0bbfea9d4c4e9771481b3023b1bc9f0df9dea924453b12986beb29b0c4d0c95b"
+    },
+    "train_val_list.txt": {
+      "path": "data\\kaggle_nih\\metadata\\train_val_list.txt",
+      "size_bytes": 1470907,
+      "sha256": "61fbe896321c1c1c8b75f3e4f3a08e4fef6486d95ef8a667c31d4d60dca6cb81"
+    },
+    "test_list.txt": {
+      "path": "data\\kaggle_nih\\metadata\\test_list.txt",
+      "size_bytes": 435131,
+      "sha256": "38ca5ef7f756092946f57c1a59faca882ed589a1ab1f72590b45dc06c6d5e1cc"
+    }
+  },
+  "staged_documentation": {
+    "ARXIV_V5_CHESTXRAY.pdf": {
+      "path": "data\\kaggle_nih\\metadata\\docs\\ARXIV_V5_CHESTXRAY.pdf",
+      "size_bytes": 8963138,
+      "sha256": "1e133d688b85d4ce13e62fe0e3c77b218752d05ab05bd49d83ec61af9ff18f55"
+    },
+    "FAQ_CHESTXRAY.pdf": {
+      "path": "data\\kaggle_nih\\metadata\\docs\\FAQ_CHESTXRAY.pdf",
+      "size_bytes": 72223,
+      "sha256": "674665256e6a14c8ebaa93648f438c2b4ca21205167839559bab3ecc89b6b83a"
+    },
+    "LOG_CHESTXRAY.pdf": {
+      "path": "data\\kaggle_nih\\metadata\\docs\\LOG_CHESTXRAY.pdf",
+      "size_bytes": 3919,
+      "sha256": "93d2bb87a5f3493fa32ee3d9b37682b5b346ddc37945c1d7be888c4363697378"
+    },
+    "README_CHESTXRAY.pdf": {
+      "path": "data\\kaggle_nih\\metadata\\docs\\README_CHESTXRAY.pdf",
+      "size_bytes": 847223,
+      "sha256": "93d1614fa2ec27da98a8cef803ea8d39cc6132ad2ea1b57460e17b9887c2085d"
+    }
+  },
+  "extracted_shards_this_run": [
+    {
+      "shard_id": "images_001",
+      "expected_in_archive": 4999,
+      "newly_extracted": 4999,
+      "already_present_verified": 0,
+      "total_png_on_disk": 4999,
+      "uncompressed_bytes": 2007961024,
+      "Aggregate_sha256_manifest_digest": null,
+      "extracted_dir": "data\\kaggle_nih\\raw\\images_001",
+      "png_count": 4999,
+      "shard_tree_sha256": "2c776f12f88bfaa7ca6d6ed29ac52b0207b7125de0552533a94a1c8399569d2f"
+    }
+  ],
+  "network_transfer_telemetry": {
+    "http_range_requests": 62,
+    "bytes_downloaded": 2071986176,
+    "gigabytes_downloaded": 1.93,
+    "elapsed_seconds": 553.0
+  },
+  "on_disk_shard_png_inventory": {
+    "images_001": 4999,
+    "images_002": 0,
+    "images_003": 0,
+    "images_004": 0,
+    "images_005": 0,
+    "images_006": 0,
+    "images_007": 0,
+    "images_008": 0,
+    "images_009": 0,
+    "images_010": 0,
+    "images_011": 0,
+    "images_012": 0
+  },
+  "total_png_images_on_disk": 4999
+}

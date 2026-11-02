@@ -523,8 +523,8 @@
       "type": "related_to",
       "source": "Disease:acute_upper_respiratory_infection",
       "shared_symptoms": [
-        "Symptom:fever",
-        "Symptom:cough"
+        "Symptom:cough",
+        "Symptom:fever"
       ],
       "target": "Disease:pneumonia_unspecified",
       "key": 0
@@ -545,8 +545,8 @@
       "type": "related_to",
       "source": "Disease:pneumonia_unspecified",
       "shared_symptoms": [
-        "Symptom:fever",
-        "Symptom:cough"
+        "Symptom:cough",
+        "Symptom:fever"
       ],
       "target": "Disease:acute_upper_respiratory_infection",
       "key": 1

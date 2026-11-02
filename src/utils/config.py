@@ -65,6 +65,27 @@ class Config:
     # API Settings
     API_HOST = os.getenv("API_HOST", "0.0.0.0")
     API_PORT = int(os.getenv("API_PORT", 8000))
+
+    # Chest X-Ray (CXR) Vision Settings
+    XRAY_IMG_SIZE = int(os.getenv("XRAY_IMG_SIZE", 224))
+    XRAY_MODEL_BACKBONE = os.getenv("XRAY_MODEL_BACKBONE", "densenet121")
+    XRAY_LABELS = [
+        "Pneumonia",
+        "Pleural Effusion",
+        "Infiltration",
+        "Atelectasis",
+        "Cardiomegaly",
+        "Normal"
+    ]
+    XRAY_CHECKPOINT_PATH = os.getenv(
+        "XRAY_CHECKPOINT_PATH",
+        os.path.join(MODELS_DIR, "cxr_densenet121.pt")
+    )
+
+    # Privacy-Preserving Homomorphic Encryption (FHE) Settings
+    FHE_POLY_MODULUS_DEGREE = int(os.getenv("FHE_POLY_MODULUS_DEGREE", 8192))
+    FHE_COEFF_MOD_BIT_SIZES = [60, 40, 40, 60]
+    FHE_GLOBAL_SCALE = 2 ** 40
     
     @classmethod
     def print_config(cls):

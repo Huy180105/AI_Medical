@@ -1,0 +1,421 @@
+{
+  "report_type": "NIH_CHESTXRAY14_BATCH_002_004_AUDIT",
+  "timestamp_utc": "2026-10-30T21:09:57.985616+00:00",
+  "overall_status": "PASS",
+  "dataset_source": "Kaggle (nih-chest-xrays/data, CC0-1.0)",
+  "physionet_or_mimic_used": false,
+  "preflight_audit": {
+    "timestamp_utc": "2026-10-30T19:53:08.730650+00:00",
+    "existing_audit_read": "c:\\Users\\Quang Huy\\source\\repos\\Mediacal-AI-Agent\\reports\\nih_download_audit.json",
+    "existing_shard_1_tree_sha256": "2c776f12f88bfaa7ca6d6ed29ac52b0207b7125de0552533a94a1c8399569d2f",
+    "drives_before_download": {
+      "A:\\": {
+        "total_gb": 406.55,
+        "used_gb": 375.8,
+        "free_gb": 30.75
+      },
+      "C:\\": {
+        "total_gb": 523.18,
+        "used_gb": 400.92,
+        "free_gb": 122.26
+      }
+    },
+    "disk_preflight": {
+      "drive": "C:",
+      "target_dir": "C:\\Users\\Quang Huy\\source\\repos\\Mediacal-AI-Agent\\data\\kaggle_nih",
+      "total_gb": 523.18,
+      "used_gb": 400.92,
+      "free_gb": 122.26,
+      "required_gb": 15.5,
+      "preflight_passed": true
+    },
+    "footprint_estimate_002_004": {
+      "target_shards": [
+        "images_002",
+        "images_003",
+        "images_004"
+      ],
+      "expected_png_count": 30000,
+      "per_shard_expected": {
+        "images_002": {
+          "png_count": 10000,
+          "compressed_bytes": 3951197256,
+          "uncompressed_bytes": 3951069542,
+          "first_image": "00001336_000.png",
+          "last_image": "00003923_013.png",
+          "compressed_gb": 3.68,
+          "uncompressed_gb": 3.68
+        },
+        "images_003": {
+          "png_count": 10000,
+          "compressed_bytes": 3927785103,
+          "uncompressed_bytes": 3928657321,
+          "first_image": "00003923_014.png",
+          "last_image": "00006585_006.png",
+          "compressed_gb": 3.658,
+          "uncompressed_gb": 3.659
+        },
+        "images_004": {
+          "png_count": 10000,
+          "compressed_bytes": 3837488320,
+          "uncompressed_bytes": 3837267398,
+          "first_image": "00006585_007.png",
+          "last_image": "00009232_003.png",
+          "compressed_gb": 3.574,
+          "uncompressed_gb": 3.574
+        }
+      },
+      "combined_compressed_bytes": 11716470679,
+      "combined_compressed_gib": 10.912,
+      "combined_uncompressed_bytes": 11716994261,
+      "combined_uncompressed_gib": 10.912,
+      "temp_disk_overhead_note": "HTTP Range streaming decompresses directly via atomic .part per PNG (<2 MiB temp disk overhead; zero 42 GiB archive stored on disk).",
+      "conservative_required_free_gib": 15.5,
+      "free_gib_before_download": 122.26,
+      "estimated_free_gib_after_download": 111.35
+    },
+    "existing_shards_reusability_check": {
+      "images_001": {
+        "png_count": 4999,
+        "part_files_count": 0,
+        "total_bytes": 2007961024
+      },
+      "images_002": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_003": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_004": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_005": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_006": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_007": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_008": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_009": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_010": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_011": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      },
+      "images_012": {
+        "png_count": 0,
+        "part_files_count": 0,
+        "total_bytes": 0
+      }
+    },
+    "kaggle_auth_and_rate_limit_probe": {
+      "credentials_check": {
+        "auth_method": "kagglesdk_public_cc0_signed_gcs_stream",
+        "token_location": null,
+        "configured": true,
+        "remote_archive_bytes": 45096150231
+      },
+      "remote_archive_bytes": 45096150231,
+      "range_probe_http_status": 206,
+      "rate_limited_429": false,
+      "accept_ranges": "bytes",
+      "probe_latency_ms": 8790.2
+    },
+    "retry_and_resume_capabilities": {
+      "max_http_range_retries": 6,
+      "exponential_backoff_and_429_retry_after": true,
+      "automatic_signed_url_refresh_on_401_403": true,
+      "zip_crc32_decompression_verification": true,
+      "atomic_part_file_commit_and_cleanup": true,
+      "reuses_existing_size_matched_files_without_overwrite": true
+    },
+    "preflight_passed": true
+  },
+  "batch_network_transfer_telemetry": {
+    "http_range_requests": 351,
+    "bytes_downloaded": 11769217024,
+    "gigabytes_downloaded": 10.961,
+    "elapsed_seconds": 2962.16
+  },
+  "per_shard_validation": {
+    "images_001": {
+      "shard_id": "images_001",
+      "status": "PASS",
+      "expected_png_count": 4999,
+      "actual_png_count": 4999,
+      "valid_decoded_png_count": 4999,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00000001_000.png",
+      "last_image_expected": "00001335_006.png",
+      "first_image_actual": "00000001_000.png",
+      "last_image_actual": "00001335_006.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 4999,
+      "patient_id_filename_prefix_matches": 4999,
+      "unique_patients_in_shard": 1335,
+      "split_image_counts": {
+        "train": 3463,
+        "validate": 569,
+        "test": 967
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 4928,
+        "1024x1024:RGBA": 71
+      },
+      "remote_compressed_bytes": 2007748690,
+      "remote_compressed_gib": 1.87,
+      "actual_uncompressed_bytes": 2007961024,
+      "actual_uncompressed_gib": 1.87,
+      "shard_tree_sha256": "2c776f12f88bfaa7ca6d6ed29ac52b0207b7125de0552533a94a1c8399569d2f",
+      "audit_elapsed_seconds": 75.96
+    },
+    "images_002": {
+      "shard_id": "images_002",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00001336_000.png",
+      "last_image_expected": "00003923_013.png",
+      "first_image_actual": "00001336_000.png",
+      "last_image_actual": "00003923_013.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2588,
+      "split_image_counts": {
+        "train": 7378,
+        "validate": 1130,
+        "test": 1492
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9918,
+        "1024x1024:RGBA": 82
+      },
+      "remote_compressed_bytes": 3951197256,
+      "remote_compressed_gib": 3.68,
+      "actual_uncompressed_bytes": 3951069542,
+      "actual_uncompressed_gib": 3.68,
+      "shard_tree_sha256": "afc3742da9a23dabbe5f88a3add366ebe87d9c9779bb759e6197450e65f49f5d",
+      "audit_elapsed_seconds": 150.1
+    },
+    "images_003": {
+      "shard_id": "images_003",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00003923_014.png",
+      "last_image_expected": "00006585_006.png",
+      "first_image_actual": "00003923_014.png",
+      "last_image_actual": "00006585_006.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2663,
+      "split_image_counts": {
+        "train": 7002,
+        "validate": 1389,
+        "test": 1609
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9817,
+        "1024x1024:RGBA": 183
+      },
+      "remote_compressed_bytes": 3927785103,
+      "remote_compressed_gib": 3.658,
+      "actual_uncompressed_bytes": 3928657321,
+      "actual_uncompressed_gib": 3.659,
+      "shard_tree_sha256": "4c6f2d4ce61b9e9bb69676384ed7bcd06a1f1b3989f1c7e462ad363b86e79138",
+      "audit_elapsed_seconds": 163.79
+    },
+    "images_004": {
+      "shard_id": "images_004",
+      "status": "PASS",
+      "expected_png_count": 10000,
+      "actual_png_count": 10000,
+      "valid_decoded_png_count": 10000,
+      "corrupt_png_count": 0,
+      "corrupt_files": [],
+      "incomplete_part_files_count": 0,
+      "duplicate_filenames_count": 0,
+      "first_image_expected": "00006585_007.png",
+      "last_image_expected": "00009232_003.png",
+      "first_image_actual": "00006585_007.png",
+      "last_image_actual": "00009232_003.png",
+      "missing_from_manifest_range_count": 0,
+      "orphan_unindexed_count": 0,
+      "patient_id_metadata_exact_matches": 10000,
+      "patient_id_filename_prefix_matches": 10000,
+      "unique_patients_in_shard": 2648,
+      "split_image_counts": {
+        "train": 6978,
+        "validate": 1485,
+        "test": 1537
+      },
+      "dimensions_and_color_modes": {
+        "1024x1024:L": 9931,
+        "1024x1024:RGBA": 69
+      },
+      "remote_compressed_bytes": 3837488320,
+      "remote_compressed_gib": 3.574,
+      "actual_uncompressed_bytes": 3837267398,
+      "actual_uncompressed_gib": 3.574,
+      "shard_tree_sha256": "18ba3e408bf1f90009242338c0ce461860fff50b380c94ceecfc8e89d95c41d6",
+      "audit_elapsed_seconds": 160.45
+    }
+  },
+  "unrequested_shards_005_012_disk_counts": {
+    "images_005": 0,
+    "images_006": 0,
+    "images_007": 0,
+    "images_008": 0,
+    "images_009": 0,
+    "images_010": 0,
+    "images_011": 0,
+    "images_012": 0
+  },
+  "cross_shard_validation_001_004": {
+    "shards_covered": [
+      "images_001",
+      "images_002",
+      "images_003",
+      "images_004"
+    ],
+    "total_expected_images_001_004": 34999,
+    "total_verified_images_001_004": 34999,
+    "cross_shard_duplicate_image_index_count": 0,
+    "manifest_duplicate_image_index_count": 0,
+    "orphan_images_absent_from_manifest_count": 0,
+    "manifest_images_missing_from_001_004_count": 0,
+    "remaining_undownloaded_shards_005_012_expected_missing": 77121,
+    "manifest_global_status_counts": {
+      "VALID": 34999,
+      "MISSING": 77121,
+      "CORRUPT": 0
+    },
+    "shard_1_untouched_verified": true,
+    "shards_005_012_untouched_zero_files": true,
+    "official_test_membership_untouched": true,
+    "official_test_image_count": 25596,
+    "full_112120_patient_leakage_audit": {
+      "zero_patient_leakage_verified": true,
+      "train_unique_patients": 23807,
+      "validate_unique_patients": 4201,
+      "test_unique_patients": 2797,
+      "train_validate_overlap": 0,
+      "train_test_overlap": 0,
+      "validate_test_overlap": 0,
+      "max_splits_per_patient": 1
+    },
+    "downloaded_34999_patient_leakage_audit": {
+      "zero_patient_leakage_verified": true,
+      "train_unique_patients": 7532,
+      "validate_unique_patients": 1369,
+      "test_unique_patients": 331,
+      "train_validate_overlap": 0,
+      "train_test_overlap": 0,
+      "validate_test_overlap": 0,
+      "max_splits_per_patient": 1
+    },
+    "downloaded_34999_split_image_counts": {
+      "train": 24821,
+      "validate": 4573,
+      "test": 5605
+    },
+    "downloaded_34999_split_patient_counts": {
+      "train": 7532,
+      "validate": 1369,
+      "test": 331
+    }
+  },
+  "inference_validation_summary": {
+    "status": "PASS",
+    "device": "cpu",
+    "mini_batch_size": 16,
+    "total_images_inferred": 96,
+    "execution_wall_time_seconds": 53.498,
+    "nan_or_inf_detected": false,
+    "global_min_prob": 0.0,
+    "global_max_prob": 0.744738,
+    "threshold_invariant_to_test_label_inversion": true
+  },
+  "regression_test_results": {
+    "exit_code": 0,
+    "passed": 32,
+    "failed": 0,
+    "skipped": 0,
+    "elapsed_seconds": 72.37,
+    "suites": [
+      "tests/test_nih_cxr_manifest.py",
+      "tests/test_nih_patient_split.py",
+      "tests/test_nih_cxr_inference.py",
+      "tests/test_benchmark_fusion.py"
+    ]
+  },
+  "disk_capacity_post_batch": {
+    "drives": {
+      "A:\\": {
+        "total_gb": 406.55,
+        "used_gb": 375.81,
+        "free_gb": 30.74
+      },
+      "C:\\": {
+        "total_gb": 523.18,
+        "used_gb": 411.4,
+        "free_gb": 111.78
+      }
+    },
+    "c_drive_free_gib": 111.78,
+    "remaining_shards_005_012_count": 8,
+    "remaining_images_005_012_count": 77121,
+    "remaining_shards_compressed_gib": 29.187,
+    "remaining_shards_uncompressed_gib": 29.181,
+    "estimated_c_free_gib_after_full_12_shards": 82.6,
+    "sufficient_for_remaining_batches": true
+  },
+  "recommendation": "PROCEED_TO_NEXT_BATCH_ON_USER_APPROVAL",
+  "total_validation_elapsed_seconds": 628.22
+}

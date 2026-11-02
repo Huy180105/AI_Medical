@@ -10,6 +10,20 @@ from src.evaluation.ab_testing import ABTestingSimulator
 from src.evaluation.leaderboard import EvaluationLeaderboardManager
 from src.evaluation.report import EvaluationReportGenerator
 
+from src.evaluation.benchmark_fusion import (
+    BenchmarkFusionEvaluator,
+    EvaluationRecord,
+    UncertaintyPolicy,
+    ModalityType,
+    PatientLeakageError,
+    DuplicateRecordError,
+    UnverifiedLinkageError,
+    SyntheticDataQuarantineError,
+    InvalidLabelError,
+    MixedLabelSourceError,
+    ExpectedCalibrationErrorCalculator,
+)
+
 __all__ = [
     "EvaluationDatasetLoader",
     "ClinicalMetricsCalculator",
@@ -20,4 +34,16 @@ __all__ = [
     "ABTestingSimulator",
     "EvaluationLeaderboardManager",
     "EvaluationReportGenerator",
+    "BenchmarkFusionEvaluator",
+    "EvaluationRecord",
+    "UncertaintyPolicy",
+    "ModalityType",
+    "PatientLeakageError",
+    "DuplicateRecordError",
+    "UnverifiedLinkageError",
+    "SyntheticDataQuarantineError",
+    "InvalidLabelError",
+    "MixedLabelSourceError",
+    "ExpectedCalibrationErrorCalculator",
 ]
+

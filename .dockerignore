@@ -1,7 +1,36 @@
+# --- VCS / IDE / Python caches ---
 .git
+.gitignore
+.agents/
+.vscode/
+.idea/
+venv/
+.venv/
 __pycache__/
+**/__pycache__/
 *.pyc
+*.pyo
+*.pyd
 .pytest_cache/
+mlruns/
+wandb/
+
+# --- Heavy raw data (NIH ChestX-ray14 PNG shards ~30 GB) ---
+data/kaggle_nih/
+data/uploads/
+data/synthetic/
+input/
+
+# --- Model weights are bind-mounted at runtime (see docker-compose.yml) ---
+models/
+checkpoints/
+
+# --- Large / transient artifacts ---
+reports/nih_predictions*.csv
+output/
+scratch/
 logs/
 notebooks/
-models/**/checkpoint-*/
+experiments/
+*.zip
+*.log

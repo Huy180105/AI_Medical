@@ -1,0 +1,164 @@
+[
+  {
+    "filename": "pneumothorax_nih.png",
+    "image_id": "00000013_033.png",
+    "source_rel": "data/kaggle_nih/raw/images_001/images/00000013_033.png",
+    "pathology": "Pneumothorax",
+    "label": "Ca 5 · Tràn khí màng phổi cấp (Pneumothorax)",
+    "vitals": {
+      "age": 56,
+      "gender": "Nam (Male)",
+      "heart_rate": 118,
+      "sys_bp": 105,
+      "dia_bp": 70,
+      "spo2": 89.0,
+      "respiratory_rate": 28,
+      "temperature_c": 37.1,
+      "stress_score": 9,
+      "sleep_hours": 3.5,
+      "chronic_conditions": 1,
+      "symptoms_severity": 5
+    },
+    "labs": {
+      "wbc": 10.5,
+      "crp": 12.0,
+      "troponin": 0.01
+    },
+    "clinical_text": "Bệnh nhân nam 56 tuổi đột ngột đau nhói ngực phải dữ dội, khó thở tăng nhanh sau khi gắng sức. Thăm khám ghi nhận rì rào phế nang phổi phải giảm rõ rệt, gõ vang, SpO2 tụt xuống 89%, mạch nhanh 118 ck/phút. Cần can thiệp cấp cứu dẫn lưu màng phổi."
+  },
+  {
+    "filename": "atelectasis_nih.png",
+    "image_id": "00000150_003.png",
+    "source_rel": "data/kaggle_nih/raw/images_001/images/00000150_003.png",
+    "pathology": "Atelectasis",
+    "label": "Ca 6 · Xẹp phổi thùy (Atelectasis)",
+    "vitals": {
+      "age": 55,
+      "gender": "Nữ (Female)",
+      "heart_rate": 96,
+      "sys_bp": 130,
+      "dia_bp": 85,
+      "spo2": 92.5,
+      "respiratory_rate": 24,
+      "temperature_c": 37.8,
+      "stress_score": 7,
+      "sleep_hours": 5.0,
+      "chronic_conditions": 2,
+      "symptoms_severity": 4
+    },
+    "labs": {
+      "wbc": 11.2,
+      "crp": 25.0,
+      "troponin": 0.02
+    },
+    "clinical_text": "Bệnh nhân nữ 55 tuổi sau phẫu thuật ổ bụng ngày thứ 3 xuất hiện thở nông, ho đờm khó khạc, tức ngực bên trái. Nghe phổi có vùng giảm thông khí đáy phổi trái, sốt nhẹ 37.8C. Nghi ngờ xẹp phổi do tắc đờm sau mổ."
+  },
+  {
+    "filename": "mass_nodule_nih.png",
+    "image_id": "00011925_042.png",
+    "source_rel": "data/kaggle_nih/raw/images_006/images/00011925_042.png",
+    "pathology": "Mass",
+    "label": "Ca 7 · Khối u nhu mô phổi (Lung Mass / Nodule)",
+    "vitals": {
+      "age": 54,
+      "gender": "Nam (Male)",
+      "heart_rate": 84,
+      "sys_bp": 135,
+      "dia_bp": 85,
+      "spo2": 96.0,
+      "respiratory_rate": 18,
+      "temperature_c": 36.8,
+      "stress_score": 6,
+      "sleep_hours": 6.0,
+      "chronic_conditions": 1,
+      "symptoms_severity": 3
+    },
+    "labs": {
+      "wbc": 8.0,
+      "crp": 8.5,
+      "troponin": 0.01
+    },
+    "clinical_text": "Bệnh nhân nam 54 tuổi có tiền sử hút thuốc lá 30 bao-năm, đến khám vì ho khan kéo dài hơn 2 tháng, thỉnh thoảng khạc đờm có tia máu, gầy sút 4kg không rõ nguyên nhân. Thể trạng gầy, sinh hiệu ổn định, cần chụp CT ngực đối chiếu tổn thương dạng khối trên X-quang."
+  },
+  {
+    "filename": "edema_nih.png",
+    "image_id": "00029460_002.png",
+    "source_rel": "data/kaggle_nih/raw/images_012/images/00029460_002.png",
+    "pathology": "Edema",
+    "label": "Ca 8 · Phù phổi cấp do suy tim (Pulmonary Edema)",
+    "vitals": {
+      "age": 52,
+      "gender": "Nam (Male)",
+      "heart_rate": 122,
+      "sys_bp": 175,
+      "dia_bp": 105,
+      "spo2": 88.0,
+      "respiratory_rate": 30,
+      "temperature_c": 36.9,
+      "stress_score": 9,
+      "sleep_hours": 3.0,
+      "chronic_conditions": 3,
+      "symptoms_severity": 5
+    },
+    "labs": {
+      "wbc": 9.4,
+      "crp": 15.0,
+      "troponin": 0.08
+    },
+    "clinical_text": "Bệnh nhân nam 52 tuổi có tiền sử tăng huyết áp và bệnh tim thiếu máu cục bộ, nhập viện vì khó thở kịch phát về đêm, ho khạc bọt hồng, vã mồ hôi. Huyết áp vọt lên 175/105 mmHg, SpO2 88%, nghe phổi đầy rale ẩm rải rác từ đáy lên giữa 2 phế trường."
+  },
+  {
+    "filename": "infiltration_nih.png",
+    "image_id": "00029469_015.png",
+    "source_rel": "data/kaggle_nih/raw/images_012/images/00029469_015.png",
+    "pathology": "Infiltration",
+    "label": "Ca 9 · Thâm nhiễm nhu mô phổi lan tỏa (Infiltration / Pneumonitis)",
+    "vitals": {
+      "age": 59,
+      "gender": "Nam (Male)",
+      "heart_rate": 102,
+      "sys_bp": 125,
+      "dia_bp": 80,
+      "spo2": 91.0,
+      "respiratory_rate": 25,
+      "temperature_c": 38.6,
+      "stress_score": 8,
+      "sleep_hours": 4.0,
+      "chronic_conditions": 2,
+      "symptoms_severity": 4
+    },
+    "labs": {
+      "wbc": 14.8,
+      "crp": 55.0,
+      "troponin": 0.02
+    },
+    "clinical_text": "Bệnh nhân nam 59 tuổi sốt cao 38.6C kéo dài 4 ngày, ho khan nhiều, mệt mỏi li bì, cảm giác hụt hơi khi đi lại. Nghe phổi có rale nổ rải rác hai bên. X-quang ghi nhận tổn thương thâm nhiễm dạng lưới nốt lan tỏa nhu mô hai phổi."
+  },
+  {
+    "filename": "fibrosis_nih.png",
+    "image_id": "00030677_000.png",
+    "source_rel": "data/kaggle_nih/raw/images_012/images/00030677_000.png",
+    "pathology": "Fibrosis",
+    "label": "Ca 10 · Xơ hóa phổi & Dày dính màng phổi (Pulmonary Fibrosis)",
+    "vitals": {
+      "age": 50,
+      "gender": "Nữ (Female)",
+      "heart_rate": 88,
+      "sys_bp": 120,
+      "dia_bp": 80,
+      "spo2": 94.0,
+      "respiratory_rate": 20,
+      "temperature_c": 36.6,
+      "stress_score": 5,
+      "sleep_hours": 6.5,
+      "chronic_conditions": 2,
+      "symptoms_severity": 3
+    },
+    "labs": {
+      "wbc": 7.2,
+      "crp": 5.0,
+      "troponin": 0.01
+    },
+    "clinical_text": "Bệnh nhân nữ 50 tuổi có tiền sử lao phổi cũ đã điều trị khỏi 5 năm trước, nay đi khám vì khó thở tăng dần khi gắng sức, ho khan từng cơn, tức nặng ngực. Nghe phổi giảm rì rào phế nang vùng đỉnh và đáy hai bên, hình ảnh X-quang có các dải xơ co kéo và dày màng phổi."
+  }
+]

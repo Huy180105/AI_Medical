@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedFusion-CXR · Multimodal Multi-Agent Clinical Decision Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Ambient Lighting Blobs -->
+    <div class="ambient-canvas" aria-hidden="true">
+        <div class="ambient-blob blob-cyan"></div>
+        <div class="ambient-blob blob-blue"></div>
+        <div class="ambient-blob blob-emerald"></div>
+    </div>
+
+    <div class="app-shell">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" aria-label="Điều hướng hệ thống">
+            <div class="brand-card">
+                <div class="brand-logo" aria-hidden="true">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                    </svg>
+                </div>
+                <div class="brand-copy">
+                    <span class="brand-kicker">CDSS PLATFORM v2.2</span>
+                    <h2>MedFusion-CXR</h2>
+                    <p>DenseNet-121 · XGBoost · GMU</p>
+                </div>
+            </div>
+
+            <div class="nav-section-label">KHÔNG GIAN LÂM SÀNG</div>
+            <nav class="nav-menu">
+                <button type="button" class="nav-btn active" data-tab="multiagent-tab">
+                    <span class="nav-icon">⚡</span>
+                    <span class="nav-text">
+                        <strong>Hội chẩn Đa phương thức</strong>
+                        <small>X-Quang + Sinh hiệu + Fusion</small>
+                    </span>
+                </button>
+                <button type="button" class="nav-btn" data-tab="benchmark-tab">
+                    <span class="nav-icon">📊</span>
+                    <span class="nav-text">
+                        <strong>Thực nghiệm E1 &amp; E2</strong>
+                        <small>NIH-14 &amp; Clinical Benchmarks</small>
+                    </span>
+                </button>
+                <button type="button" class="nav-btn" data-tab="xai-tab">
+                    <span class="nav-icon">🧬</span>
+                    <span class="nav-text">
+                        <strong>Giải thích AI (TreeSHAP)</strong>
+                        <small>Đóng góp đặc trưng &amp; Gate</small>
+                    </span>
+                </button>
+                <button type="button" class="nav-btn" data-tab="arch-tab">
+                    <span class="nav-icon">🕸️</span>
+                    <span class="nav-text">
+                        <strong>Kiến trúc &amp; Pipeline</strong>
+                        <small>Dual-Branch · GMU · Agents</small>
+                    </span>
+                </button>
+                <button type="button" class="nav-btn" data-tab="nlp-tab">
+                    <span class="nav-icon">📝</span>
+                    <span class="nav-text">
+                        <strong>Clinical NLP (PhoBERT)</strong>
+                        <small>Bóc tách thực thể bệnh án</small>
+                    </span>
+                </button>
+            </nav>
+
+            <div class="governance-sidebar-box">
+                <div class="gov-header">
+                    <span class="status-dot online"></span>
+                    <span>Scientific Governance</span>
+                </div>
+                <p>Hai tập dữ liệu <strong>NIH-14</strong> và <strong>Clinical (1,600)</strong> được kiểm định độc lập, <code>0%</code> rò rỉ bệnh nhân.</p>
+                <div class="mono-pill">seed=42 · zero-leakage</div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Top Header HUD -->
+            <header class="top-header">
+                <div class="header-title">
+                    <div class="eyebrow-row">
+                        <span class="eyebrow-chip">MULTIMODAL MULTI-AGENT CDSS</span>
+                        <span class="eyebrow-mono" id="live-latency-pill">READY · API v2.2</span>
+                    </div>
+                    <h1 id="page-title">Hội chẩn Đa phương thức MedFusion-CXR</h1>
+                    <p id="page-subtitle">Tích hợp DenseNet-121 (NIH ChestX-ray14), XGBoost + TreeSHAP và Gated Feature Fusion trong kiến trúc Multi-Agent</p>
+                </div>
+                <div class="header-badges">
+                    <div class="model-chip">
+                        <span class="dot-cyan"></span>
+                        <div>
+                            <small>Vision Branch</small>
+                            <strong>DenseNet-121 (NIH-14)</strong>
+                        </div>
+                    </div>
+                    <div class="model-chip">
+                        <span class="dot-emerald"></span>
+                        <div>
+                            <small>Clinical Branch</small>
+                            <strong>XGBoost + TreeSHAP</strong>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- ========================================================= -->
+            <!-- TAB 1: MULTIMODAL CLINICAL CONSULTATION WORKSPACE         -->
+            <!-- ========================================================= -->
+            <section id="multiagent-tab" class="tab-content active">
+                <!-- Quick Clinical Case Presets -->
+                <div class="presets-bar glass-card">
+                    <div class="presets-label">
+                        <span class="preset-spark">✨</span>
+                        <div>
+                            <strong>Ca bệnh lâm sàng mẫu (Ảnh NIH ChestX-ray14 thật)</strong>
+                            <small>Chọn nhanh để nạp đồng bộ phim X-quang, sinh hiệu, xét nghiệm và bệnh sử</small>
+                        </div>
+                    </div>
+                    <div class="presets-actions">
+                        <button type="button" class="preset-chip active" data-preset="pneumonia">
+                            🫁 Ca 1: Viêm phổi cấp
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="cardiomegaly">
+                            ❤️ Ca 2: Tim to / Suy tim
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="effusion">
+                            💧 Ca 3: Tràn dịch màng phổi
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="normal">
+                            🛡️ Ca 4: Sàng lọc ổn định
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="pneumothorax">
+                            💨 Ca 5: Tràn khí màng phổi
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="atelectasis">
+                            🫁 Ca 6: Xẹp phổi
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="mass_nodule">
+                            🔬 Ca 7: Khối u / Nốt
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="edema">
+                            🌊 Ca 8: Phù phổi cấp
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="infiltration">
+                            🌫️ Ca 9: Thâm nhiễm lan tỏa
+                        </button>
+                        <button type="button" class="preset-chip" data-preset="fibrosis">
+                            🕸️ Ca 10: Xơ hóa phổi
+                        </button>
+                    </div>
+                </div>
+
+                <div class="workspace-bento">
+                    <!-- LEFT COLUMN: MULTIMODAL INPUT CONSOLE -->
+                    <div class="glass-card input-console">
+                        <div class="card-header">
+                            <div>
+                                <span class="section-tag">INPUT PIPELINE</span>
+                                <h3>Nhập Dữ liệu Đa phương thức</h3>
+                            </div>
+                            <span class="mono-tag">t₀ Guard Active</span>
+                        </div>
+
+                        <form id="multimodal-agent-form">
+                            <!-- 1. X-Ray Viewer & Upload -->
+                            <div class="subpanel">
+                                <div class="subpanel-header">
+                                    <label for="xray-file">🩻 1. Nhánh Hình ảnh · Phim X-Quang Ngực (CXR)</label>
+                                    <div class="viewer-controls">
+                                        <button type="button" id="btn-invert-xray" class="mini-btn" title="Đảo ngược âm bản phim X-quang">Invert X-Ray</button>
+                                        <button type="button" id="btn-clear-xray" class="mini-btn subtle" title="Chạy chế độ Clinical-only không có X-quang">Bỏ ảnh</button>
+                                    </div>
+                                </div>
+
+                                <div class="xray-stage" id="xray-dropzone">
+                                    <div class="xray-preview-box" id="xray-preview-box">
+                                        <img id="xray-preview-img" src="" alt="Xem trước phim X-quang ngực" class="hidden">
+                                        <div id="xray-empty-hint" class="xray-empty-hint">
+                                            <div class="xray-icon-ring">🩻</div>
+                                            <strong>Kéo thả hoặc tải lên phim X-quang (.png, .jpg)</strong>
+                                            <span>Hoặc bấm chọn 1 trong 4 ca bệnh NIH thật ở thanh phía trên</span>
+                                        </div>
+                                    </div>
+                                    <div class="xray-upload-meta">
+                                        <input type="file" id="xray-file" accept="image/*">
+                                        <div class="file-status-line">
+                                            <span class="mono-text" id="xray-filename-display">Chưa chọn ảnh (Hỗ trợ chế độ Clinical-only fallback)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 2. Clinical Notes -->
+                            <div class="subpanel">
+                                <label for="clinical-text" class="subpanel-title">📝 2. Bệnh sử &amp; Triệu chứng (TriageTimelineAgent · PhoBERT)</label>
+                                <textarea id="clinical-text" rows="3" placeholder="Nhập lý do vào viện, thời gian khởi phát triệu chứng, tiền sử bệnh nền..."></textarea>
+                            </div>
+
+                            <!-- 3. XGBoost 11 Clinical Features -->
+                            <div class="subpanel">
+                                <div class="subpanel-header">
+                                    <span class="subpanel-title">🩺 3. Nhánh Sinh hiệu &amp; Thể trạng (XGBoost · 11 đặc trưng)</span>
+                                    <span class="mono-badge-sm">StandardScaler → XGBoost</span>
+                                </div>
+
+                                <div class="form-grid-3">
+                                    <div class="form-field">
+                                        <label for="age">Tuổi (năm)</label>
+                                        <input type="number" id="age" value="62" min="0" max="120" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="gender">Giới tính</label>
+                                        <select id="gender">
+                                            <option value="Nam (Male)">Nam (Male)</option>
+                                            <option value="Nữ (Female)">Nữ (Female)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="spo2">SpO₂ (%)</label>
+                                        <input type="number" id="spo2" value="92.5" step="0.1" min="50" max="100" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="heart_rate">Nhịp tim (bpm)</label>
+                                        <input type="number" id="heart_rate" value="108" min="30" max="220" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="sys_bp">HA Tâm thu (mmHg)</label>
+                                        <input type="number" id="sys_bp" value="146" min="50" max="250" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="dia_bp">HA Tâm trương (mmHg)</label>
+                                        <input type="number" id="dia_bp" value="90" min="30" max="150" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="chronic_conditions">Số bệnh nền (0–10)</label>
+                                        <input type="number" id="chronic_conditions" value="2" min="0" max="10" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="symptoms_severity">Mức triệu chứng</label>
+                                        <select id="symptoms_severity">
+                                            <option value="1">1 · Rất nhẹ</option>
+                                            <option value="2">2 · Nhẹ</option>
+                                            <option value="3">3 · Vừa</option>
+                                            <option value="4" selected>4 · Nặng</option>
+                                            <option value="5">5 · Nguy kịch</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="stress_score">Điểm Stress (1–10)</label>
+                                        <input type="number" id="stress_score" value="8" min="1" max="10" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="sleep_hours">Giấc ngủ (giờ/ngày)</label>
+                                        <input type="number" id="sleep_hours" value="4.5" step="0.5" min="0" max="24" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="physical_activity_hrs">Vận động (giờ/tuần)</label>
+                                        <input type="number" id="physical_activity_hrs" value="1.0" step="0.5" min="0" max="24" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 4. Acute Physiology & Lab Panel -->
+                            <div class="subpanel">
+                                <div class="subpanel-header">
+                                    <span class="subpanel-title">🧪 4. Xét nghiệm &amp; Sinh lý Cấp cứu (VitalLabDynamicsAgent)</span>
+                                    <span class="mono-badge-sm">qSOFA · Shock Index</span>
+                                </div>
+                                <div class="form-grid-5">
+                                    <div class="form-field">
+                                        <label for="respiratory_rate">Nhịp thở (lần/p)</label>
+                                        <input type="number" id="respiratory_rate" value="24" min="4" max="70">
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="temperature_c">Nhiệt độ (°C)</label>
+                                        <input type="number" id="temperature_c" value="38.8" step="0.1" min="34" max="43">
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="wbc">WBC (G/L)</label>
+                                        <input type="number" id="wbc" value="15.8" step="0.1" min="0" max="100" placeholder="VD: 15.2">
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="crp">CRP (mg/L)</label>
+                                        <input type="number" id="crp" value="64.0" step="0.5" min="0" max="500" placeholder="VD: 48.0">
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="troponin">Troponin (ng/mL)</label>
+                                        <input type="number" id="troponin" value="0.02" step="0.01" min="0" max="50" placeholder="VD: 0.02">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" id="btn-submit-consult" class="btn-cta">
+                                <span class="cta-glow"></span>
+                                <span class="cta-label">⚡ CHẠY PHÂN TÍCH ĐA PHƯƠNG THỨC MEDFUSION-CXR</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- RIGHT COLUMN: LIVE TELEMETRY & CLINICAL DECISION OUTPUT -->
+                    <div class="glass-card output-console" id="multiagent-results-card">
+                        <div class="card-header">
+                            <div>
+                                <span class="section-tag">CLINICAL DECISION SUPPORT</span>
+                                <h3>Báo cáo Hợp nhất Đa phương thức</h3>
+                            </div>
+                            <span class="mono-tag" id="inference-time-badge">Chờ kích hoạt</span>
+                        </div>
+
+                        <!-- Empty State -->
+                        <div id="result-placeholder" class="empty-state">
+                            <div class="radar-orb" aria-hidden="true">
+                                <div class="radar-ring"></div>
+                                <span>🩺</span>
+                            </div>
+                            <h4>Sẵn sàng Phân tích Ca Bệnh Đa Phương Thức</h4>
+                            <p>Hệ thống tự động phân tích đồng thời <strong>Ảnh X-quang phổi</strong> (phát hiện 14 bệnh lý) và <strong>Dữ liệu lâm sàng</strong> (sinh hiệu, xét nghiệm), sau đó kết hợp thông minh qua <strong>Cơ chế Gated Fusion</strong> để đưa ra khuyến nghị điều trị toàn diện theo phác đồ Bệnh viện Bạch Mai.</p>
+                        </div>
+
+                        <!-- Live Output Content -->
+                        <div id="result-content" class="result-stack hidden">
+                            <!-- Hero Assessment Banner -->
+                            <div class="hero-decision-banner" id="pred-banner">
+                                <div class="banner-top">
+                                    <span class="risk-pill" id="risk-badge">HIGH RISK</span>
+                                    <span class="mono-model-id" id="champion-model-name">XGBoost Clinical Branch</span>
+                                </div>
+                                <h2 id="pred-title">CẦN CAN THIỆP &amp; THEO DÕI Y TẾ CHUYÊN KHOA</h2>
+                                <div class="banner-metrics">
+                                    <div class="metric-stat">
+                                        <small>Xác suất can thiệp (XGBoost)</small>
+                                        <strong id="pred-prob">86.4%</strong>
+                                    </div>
+                                    <div class="metric-stat">
+                                        <small>Chỉ số sốc (Shock Index)</small>
+                                        <strong id="stat-shock-index">0.74</strong>
+                                    </div>
+                                    <div class="metric-stat">
+                                        <small>Điểm qSOFA (Nhiễm trùng)</small>
+                                        <strong id="stat-qsofa">1 / 3</strong>
+                                    </div>
+                                    <div class="metric-stat">
+                                        <small>Tình trạng Oxy máu</small>
+                                        <strong id="stat-hypoxemia">Mild Hypoxemia</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Gated Fusion Telemetry Card (Usability & Clinical-Friendly Redesign) -->
+                            <div class="telemetry-card" id="multimodal-fusion-card">
+                                <div class="telemetry-header">
+                                    <div>
+                                        <div class="telemetry-title-row">
+                                            <span style="font-size:1.15rem">⚖️</span>
+                                            <h4>Tỷ Lệ Đóng Góp Thông Tin Đa Phương Thức</h4>
+                                        </div>
+                                        <p class="telemetry-sub" id="fusion-mode-desc">Hệ thống tự động cân đối mức độ ưu tiên giữa Phim X-Quang và Dữ liệu Sinh hiệu</p>
+                                    </div>
+                                    <span class="proto-badge" id="fusion-status-badge">HỢP NHẤT TỰ ĐỘNG</span>
+                                </div>
+
+                                <div class="gate-bar-container">
+                                    <div class="gate-labels">
+                                        <span class="gate-lbl-vision">
+                                            <strong>🩻 Phim X-Quang Ngực:</strong>
+                                            <strong id="gate-vision-pct" style="color:var(--cyan-bright);font-size:0.95rem">48.0%</strong>
+                                            <small class="gate-role-hint">(Hình thái tổn thương)</small>
+                                        </span>
+                                        <span class="gate-lbl-clinical">
+                                            <strong>🩺 Sinh Hiệu &amp; Xét Nghiệm:</strong>
+                                            <strong id="gate-clinical-pct" style="color:#34d399;font-size:0.95rem">52.0%</strong>
+                                            <small class="gate-role-hint">(Diễn tiến sinh lý cấp)</small>
+                                        </span>
+                                    </div>
+                                    <div class="gate-dual-bar">
+                                        <div class="gate-fill-vision" id="gate-bar-vision" style="width: 48%"></div>
+                                        <div class="gate-fill-clinical" id="gate-bar-clinical" style="width: 52%"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Human-Readable Clinical Insight Box (Easy to Understand) -->
+                                <div class="clinical-insight-card" id="fusion-clinical-insight">
+                                    <div class="insight-icon">💡</div>
+                                    <div class="insight-text" id="fusion-insight-text">
+                                        <strong>Nhận định lâm sàng:</strong> Hai nguồn thông tin đóng góp cân bằng (~50%). Bằng chứng tổn thương phổi trên phim X-quang được củng cố đồng thời bởi tình trạng sinh lý hiện tại (SpO₂ giảm, sốt cao), giúp tối ưu hóa độ tin cậy của chẩn đoán.
+                                    </div>
+                                </div>
+
+                                <!-- Collapsible Technical Math Details (For AI Engineers & Defense Committee) -->
+                                <details class="tech-accordion" id="tech-math-details">
+                                    <summary>
+                                        <span>🔬 Chi tiết công thức toán học GMU &amp; Vector đặc trưng (Dành cho Kỹ sư / Đồ án)</span>
+                                        <span style="font-size:0.75rem;opacity:0.7">Bấm để mở ▾</span>
+                                    </summary>
+                                    <div class="tech-accordion-body">
+                                        <div style="margin-bottom:0.35rem">
+                                            <strong>Công thức Cổng GMU:</strong>
+                                            <code>g = σ(W_g · [F̃_v ; F̃_c] + b_g)</code> | <code>F_fusion = g ⊙ F̃_v + (1 − g) ⊙ F̃_c</code>
+                                        </div>
+                                        <div style="margin-bottom:0.35rem" id="gate-norms-line">
+                                            <strong>Chuẩn Vector L2:</strong>
+                                            <code>‖F̃_v‖₂ = -- · ‖F̃_c‖₂ = -- · ‖F_fusion‖₂ = --</code>
+                                        </div>
+                                        <div style="margin-bottom:0.35rem">
+                                            <strong>Không gian biểu diễn (ℝ²⁵⁶):</strong>
+                                            <span>Vector ảnh F_v (ℝ¹⁰²⁴) và lâm sàng F_c (ℝ³²) được chiếu qua LayerNorm + GELU sang ℝ²⁵⁶ trước khi qua cổng thích ứng.</span>
+                                        </div>
+                                        <p class="governance-footnote" id="fusion-governance-note"></p>
+                                    </div>
+                                </details>
+                            </div>
+
+                            <!-- ========================================================= -->
+                            <!-- HERO: KẾT LUẬN HỘI CHẨN ĐA PHƯƠNG THỨC & CÁC BỆNH LÝ CÓ THỂ MẮC PHẢI -->
+                            <!-- ========================================================= -->
+                            <div class="analytic-box consensus-hero-card" id="multimodal-consensus-card">
+                                <div class="consensus-hero-header">
+                                    <div class="consensus-badge-row">
+                                        <span class="status-badge" id="consensus-acuity-badge">HỘI CHẨN ĐA PHƯƠNG THỨC</span>
+                                        <span class="confidence-pill" id="consensus-confidence-pill">Độ tin cậy: --%</span>
+                                        <span class="mono-chip-xs">DenseNet-121 (NIH-14) ⨁ PhoBERT NLP ⨁ Sinh hiệu</span>
+                                    </div>
+                                    <h3 class="consensus-primary-title" id="consensus-primary-title">
+                                        Đang tổng hợp kết luận chẩn đoán...
+                                    </h3>
+                                    <p class="consensus-summary-text" id="consensus-summary-desc">
+                                        Hệ thống sẽ đối chiếu chéo các tổn thương trên phim X-quang và triệu chứng lâm sàng để đưa ra kết luận chẩn đoán.
+                                    </p>
+                                </div>
+
+                                <!-- BẢNG CÁC BỆNH LÝ CÓ THỂ MẮC PHẢI & ĐỐI CHIẾU CHÉO 2 NGUỒN DỮ LIỆU -->
+                                <div class="consensus-differentials-box">
+                                    <div class="differentials-box-head">
+                                        <div>
+                                            <h5>🩺 Danh Sách Các Bệnh Lý Có Thể Mắc Phải (Chẩn đoán phân biệt &amp; Đối chiếu)</h5>
+                                            <small style="color:var(--text-muted);font-size:0.75rem">Xếp theo xác suất tổng hợp từ hình ảnh X-quang và triệu chứng bệnh án</small>
+                                        </div>
+                                        <span class="mono-chip-xs" id="differentials-count-chip">0 Bệnh lý</span>
+                                    </div>
+                                    <div class="differentials-cards-grid" id="consensus-differentials-cards"></div>
+                                </div>
+                            </div>
+
+                            <!-- Dual Column: 14-Label NIH CXR + Per-Patient TreeSHAP -->
+                            <div class="dual-analytic-grid">
+                                <!-- Vision Branch Output -->
+                                <div class="analytic-box" id="xray-findings-card">
+                                    <div class="analytic-box-head">
+                                        <h5>🩻 Tổn Thương Phổi (NIH-14)</h5>
+                                        <span class="mono-chip-xs" id="xray-sha-chip">AI Thị giác</span>
+                                    </div>
+                                    <div id="xray-findings-body"></div>
+                                </div>
+
+                                <!-- Clinical TreeSHAP Output -->
+                                <div class="analytic-box">
+                                    <div class="analytic-box-head">
+                                        <h5>🧬 Yếu Tố Nguy Cơ (TreeSHAP)</h5>
+                                        <span class="mono-chip-xs">Đóng góp cá thể</span>
+                                    </div>
+                                    <small style="font-size:0.72rem;color:var(--text-muted);display:block;margin-bottom:0.45rem">Thanh đỏ (+): Thúc đẩy nguy cơ · Thanh xanh (−): Yếu tố ổn định</small>
+                                    <div id="patient-shap-bars" class="mini-bars-list"></div>
+                                </div>
+                            </div>
+
+                            <!-- Extracted NLP Entities -->
+                            <div id="nlp-entities-card" class="analytic-box hidden">
+                                <div class="analytic-box-head">
+                                    <h5>📝 Thực thể Lâm sàng Bóc tách (PhoBERT NLP)</h5>
+                                    <span class="mono-chip-xs">NER + Lexicon</span>
+                                </div>
+                                <div id="nlp-entities-body" class="tags-wrapper"></div>
+                            </div>
+
+                            <!-- Bach Mai Protocols -->
+                            <div class="analytic-box">
+                                <div class="analytic-box-head">
+                                    <h5>🏥 Định hướng Bệnh lý &amp; Phác đồ Tham khảo (Bệnh viện Bạch Mai)</h5>
+                                    <span class="mono-chip-xs">Knowledge RAG</span>
+                                </div>
+                                <div class="diseases-list" id="predicted-diseases-list"></div>
+                            </div>
+
+
+                            <!-- Recommendations & Risk Alerts -->
+                            <div class="dual-analytic-grid">
+                                <div class="analytic-box">
+                                    <h5>⚠️ Yếu tố Nguy cơ &amp; Cảnh báo Sinh lý</h5>
+                                    <ul class="clean-list warning-accent" id="risk-factors-list"></ul>
+                                </div>
+                                <div class="analytic-box">
+                                    <h5>📋 Khuyến nghị Hỗ trợ Quyết định</h5>
+                                    <ul class="clean-list cyan-accent" id="recommendations-list"></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- TAB 2: DUAL INDEPENDENT EXPERIMENTS E1 & E2               -->
+            <!-- ========================================================= -->
+            <section id="benchmark-tab" class="tab-content">
+                <div class="method-callout glass-card">
+                    <div class="callout-badge">PHƯƠNG PHÁP LUẬN THỰC NGHIỆM</div>
+                    <p>Do <strong>NIH ChestX-ray14</strong> và <strong>Clinical Dataset (1,600 mẫu)</strong> chưa có liên kết theo cùng bệnh nhân, hệ thống tuyệt đối không ghép cặp giả tạo. Thực nghiệm được đánh giá độc lập qua <strong>E1 (Vision Baseline trên NIH-14)</strong> và <strong>E2 (Clinical Baseline trên tập lâm sàng chia Train/Val/Test 70/15/15)</strong>.</p>
+                </div>
+
+                <!-- E2: Clinical Tabular Benchmark -->
+                <div class="glass-card section-spacer">
+                    <div class="card-header">
+                        <div>
+                            <span class="section-tag">EXPERIMENT E2 · CLINICAL INTELLIGENCE</span>
+                            <h3>Đánh giá 6 Mô hình ML/DL trên Tập Dữ liệu Lâm sàng (1,600 mẫu · 11 đặc trưng)</h3>
+                            <p class="card-sub">Chia phân tầng không rò rỉ: Train = 1,120 (70%) · Validation = 240 (15%, chọn ngưỡng F1) · Held-out Test = 240 (15%)</p>
+                        </div>
+                        <div class="kpi-row" id="e2-kpi-row"></div>
+                    </div>
+
+                    <div class="chart-container">
+                        <canvas id="benchmarkChart"></canvas>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Hạng</th>
+                                    <th>Mô hình</th>
+                                    <th>Ngưỡng (Val)</th>
+                                    <th>Accuracy</th>
+                                    <th>Precision</th>
+                                    <th>Recall</th>
+                                    <th>F1-Score</th>
+                                    <th>AUROC</th>
+                                    <th>AUPRC</th>
+                                </tr>
+                            </thead>
+                            <tbody id="benchmark-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- E1: NIH ChestX-ray14 Vision Benchmark -->
+                <div class="glass-card section-spacer">
+                    <div class="card-header">
+                        <div>
+                            <span class="section-tag">EXPERIMENT E1 · VISION INTELLIGENCE</span>
+                            <h3>Đánh giá Pretrained DenseNet-121 trên NIH ChestX-ray14 (14 Nhãn Bệnh lý)</h3>
+                            <p class="card-sub" id="e1-cohort-subtitle">Đang tải báo cáo kiểm định phân tầng bệnh nhân (Zero Patient Leakage: train ∩ validate ∩ test = ∅)...</p>
+                        </div>
+                        <div class="kpi-row" id="e1-kpi-row"></div>
+                    </div>
+
+                    <div class="chart-container">
+                        <canvas id="nihBenchmarkChart"></canvas>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Nhãn Bệnh lý NIH-14</th>
+                                    <th>Test Pos / Total</th>
+                                    <th>Ngưỡng (Val)</th>
+                                    <th>AUROC (95% CI)</th>
+                                    <th>AUPRC (95% CI)</th>
+                                    <th>F1-Score</th>
+                                    <th>Brier</th>
+                                    <th>ECE</th>
+                                </tr>
+                            </thead>
+                            <tbody id="nih-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- TAB 3: EXPLAINABLE AI (TREESHAP & FEATURE ATTRIBUTION)    -->
+            <!-- ========================================================= -->
+            <section id="xai-tab" class="tab-content">
+                <div class="dual-bento-equal">
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <div>
+                                <span class="section-tag">EXPERIMENT E3 · GLOBAL TREESHAP</span>
+                                <h3>Mức đóng góp Toàn cục TreeSHAP (XGBoost Test Split)</h3>
+                                <p class="card-sub">Trung bình trị tuyệt đối <code>|ϕ_i|</code> tính chính xác trên cây quyết định (<code>pred_contribs=True</code>)</p>
+                            </div>
+                        </div>
+                        <div class="chart-container-tall">
+                            <canvas id="xaiChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <div>
+                                <span class="section-tag">REPRESENTATION BRIDGE</span>
+                                <h3>Cơ chế Mã hóa <code>F_c</code> từ XGBoost sang Gated Fusion</h3>
+                                <p class="card-sub">Giải quyết bài toán: Làm sao mô hình cây kết hợp với mạng nơ-ron DenseNet-121?</p>
+                            </div>
+                        </div>
+                        <div class="architecture-explain-steps">
+                            <div class="arch-step">
+                                <span class="step-num">01</span>
+                                <div>
+                                    <strong>Chuẩn hóa không rò rỉ (<code>X_scaled ∈ ℝ¹¹</code>)</strong>
+                                    <p><code>StandardScaler</code> chỉ học <code>μ, σ</code> trên tập Train (1,120 mẫu), chuẩn hóa 11 biến sinh hiệu &amp; bệnh nền mạn tính.</p>
+                                </div>
+                            </div>
+                            <div class="arch-step">
+                                <span class="step-num">02</span>
+                                <div>
+                                    <strong>Vector Biểu diễn XGBoost 24-d (<code>X_scaled ‖ TreeSHAP ϕ ‖ bias ‖ logit</code>)</strong>
+                                    <p>Thay vì chỉ xuất 1 con số xác suất, <code>XGBoost Booster</code> cung cấp vector đóng góp phi tuyến theo từng đặc trưng (<code>pred_contribs=True</code>), ghép cùng 11 biến đã chuẩn hóa, bias và logit.</p>
+                                </div>
+                            </div>
+                            <div class="arch-step">
+                                <span class="step-num">03</span>
+                                <div>
+                                    <strong>Ghép Sinh lý Cấp cứu &amp; Chiếu Không gian Chung (<code>ℝ³² → ℝ²⁵⁶</code>)</strong>
+                                    <p>Kết hợp thêm chỉ số <code>qSOFA, Shock Index, WBC, CRP, Troponin</code> tạo vector <code>F_c ∈ ℝ³²</code>, qua lớp <code>Linear + LayerNorm + GELU</code> về <code>ℝ²⁵⁶</code> cùng chiều với <code>F_v</code> từ DenseNet-121.</p>
+                                </div>
+                            </div>
+                            <div class="arch-step">
+                                <span class="step-num">04</span>
+                                <div>
+                                    <strong>Điều tiết qua Gated Multimodal Unit (<code>GMU</code>)</strong>
+                                    <p>Cổng Sigmoid <code>g = σ(W[F̃_v; F̃_c] + b)</code> cân bằng trọng số giữa dấu hiệu hình ảnh phổi và mức độ rối loạn huyết động/viêm toàn thân.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- TAB 4: SYSTEM ARCHITECTURE & 4-STAGE PIPELINE FLOW        -->
+            <!-- ========================================================= -->
+            <section id="arch-tab" class="tab-content">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <div>
+                            <span class="section-tag">MEDFUSION-CXR PIPELINE ARCHITECTURE</span>
+                            <h3>Sơ Đồ Pipeline &amp; Kiến Trúc 4 Giai Đoạn</h3>
+                            <p class="card-sub">Quy trình xử lý hoàn chỉnh: Thu thập dữ liệu ➔ Phân tích chuyên biệt ➔ Cân bằng thích ứng ➔ Hỗ trợ ra quyết định lâm sàng</p>
+                        </div>
+                    </div>
+
+                    <!-- 4-Stage Visual Pipeline Flow -->
+                    <div class="pipeline-4stages-grid">
+                        <!-- STAGE 1: DỮ LIỆU ĐẦU VÀO -->
+                        <div class="pipeline-stage-card cyan-theme">
+                            <div class="stage-badge">BƯỚC 1: DỮ LIỆU ĐẦU VÀO</div>
+                            <div class="stage-node-box">
+                                <h5>🩻 Phim X-Quang Ngực (CXR)</h5>
+                                <p class="stage-dataset-info">Tập NIH ChestX-ray14 · 112.120 ảnh</p>
+                                <ul class="stage-bullets">
+                                    <li><strong>Định dạng:</strong> Ảnh xám chuẩn hóa 224×224 pixels</li>
+                                    <li><strong>Ý nghĩa:</strong> Cung cấp bằng chứng hình thái tổn thương phổi thực thể</li>
+                                </ul>
+                            </div>
+                            <div class="stage-node-box">
+                                <h5>🩺 Sinh Hiệu &amp; Lâm Sàng</h5>
+                                <p class="stage-dataset-info">1.600 hồ sơ bệnh nhân dạng bảng</p>
+                                <ul class="stage-bullets">
+                                    <li><strong>11 Biến số:</strong> Mạch, Huyết áp, SpO₂, Nhịp thở, Sốt...</li>
+                                    <li><strong>Ý nghĩa:</strong> Cung cấp diễn tiến sinh lý cấp toàn thân</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- STAGE 2: PHÂN TÍCH CHUYÊN BIỆT -->
+                        <div class="pipeline-stage-card emerald-theme">
+                            <div class="stage-badge">BƯỚC 2: PHÂN TÍCH CHUYÊN SÂU</div>
+                            <div class="stage-node-box">
+                                <h5>🖼️ DenseNet-121 (Thị Giác)</h5>
+                                <p class="stage-dataset-info">Mạng nơ-ron tích chập 121 tầng</p>
+                                <ul class="stage-bullets">
+                                    <li><strong>Nhiệm vụ:</strong> Quét tổn thương phổi trên phim X-quang</li>
+                                    <li><strong>Phát hiện:</strong> 14 bệnh lý (Viêm phổi, Tràn dịch, Xẹp phổi...)</li>
+                                    <li><strong>Đầu ra:</strong> Vector đặc trưng ảnh + 14 xác suất</li>
+                                </ul>
+                            </div>
+                            <div class="stage-node-box">
+                                <h5>📊 XGBoost + TreeSHAP</h5>
+                                <p class="stage-dataset-info">Rừng 160 cây quyết định phân tầng</p>
+                                <ul class="stage-bullets">
+                                    <li><strong>Nhiệm vụ:</strong> Lượng giá nguy cơ cần can thiệp cấp cứu</li>
+                                    <li><strong>Động học:</strong> Điểm qSOFA, Shock Index, Hypoxemia</li>
+                                    <li><strong>Đầu ra:</strong> Vector lâm sàng + Đóng góp TreeSHAP</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- STAGE 3: CÂN BẰNG THÔNG MINH -->
+                        <div class="pipeline-stage-card amber-theme">
+                            <div class="stage-badge">BƯỚC 3: CÂN BẰNG THÔNG MINH</div>
+                            <div class="stage-node-box full-height">
+                                <h5>⚖️ Gated Fusion (GMU)</h5>
+                                <p class="stage-dataset-info">Cổng thích ứng trên không gian chung ℝ²⁵⁶</p>
+                                <ul class="stage-bullets">
+                                    <li><strong>Cổng thích ứng g:</strong> Tự cân bằng tỷ trọng 2 nguồn tin</li>
+                                    <li><strong>Tỷ lệ thực tế:</strong> 48% Phim X-quang · 52% Sinh hiệu</li>
+                                    <li><strong>Dung hòa thông tin:</strong> Tổn thương thâm nhiễm phổi củng cố song song cho sốt cao và tụt SpO₂</li>
+                                    <li><strong>Chế độ Fallback:</strong> Nếu thiếu ảnh CXR, tự động dựa 100% vào sinh hiệu, không gây gián đoạn</li>
+                                    <li><strong>Lợi ích:</strong> Tránh việc ảnh lấn át sinh lý hoặc ngược lại</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- STAGE 4: HỖ TRỢ RA QUYẾT ĐỊNH -->
+                        <div class="pipeline-stage-card blue-theme">
+                            <div class="stage-badge">BƯỚC 4: HỖ TRỢ LÂM SÀNG</div>
+                            <div class="stage-node-box full-height">
+                                <h5>🏥 Báo Cáo Hội Chẩn CDSS</h5>
+                                <p class="stage-dataset-info">5 Agent Chuyên khoa &amp; Phác đồ Bạch Mai</p>
+                                <ul class="stage-bullets">
+                                    <li><strong>Chống rò rỉ:</strong> TemporalGuard loại trừ dữ liệu sau t₀</li>
+                                    <li><strong>Phân tầng nguy cơ:</strong> Cảnh báo khẩn cấp (Critical) / Ổn định</li>
+                                    <li><strong>Phác đồ Bạch Mai:</strong> Hướng dẫn dùng thuốc + Mã ICD-10</li>
+                                    <li><strong>Giải thích TreeSHAP:</strong> Chỉ rõ các yếu tố thúc đẩy rủi ro</li>
+                                    <li><strong>Triển khai:</strong> Đóng gói trọn vẹn container Docker</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- High-res Architecture Graphic Preview -->
+                    <div style="margin-top:1.5rem">
+                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem">
+                            <h4 style="font-size:0.95rem;color:#f8fafc;margin:0">🖼️ Sơ Đồ Đồ Họa Pipeline Hoàn Chỉnh Toàn Hệ Thống</h4>
+                            <span class="mono-chip-xs" style="color:var(--cyan-bright)">Độ Phân Giải Cao 240 DPI</span>
+                        </div>
+                        <div style="border-radius:10px;overflow:hidden;border:1px solid rgba(59,130,246,0.3);box-shadow:0 6px 24px rgba(0,0,0,0.4)">
+                            <img src="/reports/presentation_assets/architecture_flowchart.png" alt="MedFusion-CXR Pipeline Flowchart" style="width:100%;height:auto;display:block">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ========================================================= -->
+            <!-- TAB 5: STANDALONE CLINICAL NLP (PHOBERT NER)              -->
+            <!-- ========================================================= -->
+            <section id="nlp-tab" class="tab-content">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <div>
+                            <span class="section-tag">VIETNAMESE CLINICAL NLP</span>
+                            <h3>Trích xuất Thực thể Y khoa từ Bệnh án Tự do (PhoBERT NER)</h3>
+                            <p class="card-sub">Nhận diện Chẩn đoán (DISEASE), Triệu chứng (SYMPTOM), Thuốc (MEDICINE) và Cận lâm sàng (TEST)</p>
+                        </div>
+                    </div>
+
+                    <div class="subpanel">
+                        <label for="nlp-text-input" class="subpanel-title">Văn bản bệnh án tiếng Việt:</label>
+                        <textarea id="nlp-text-input" rows="4">Bệnh nhân nam 62 tuổi tiền sử tăng huyết áp và đái tháo đường típ 2, nhập viện cấp cứu vì sốt cao 39 độ, ho đờm vàng và khó thở tăng dần 3 ngày nay. Bác sĩ chỉ định chụp X-quang ngực thẳng, xét nghiệm công thức máu, định lượng CRP và dùng Amlodipine 5mg.</textarea>
+                    </div>
+
+                    <button type="button" id="btn-analyze-nlp" class="btn-cta compact">
+                        <span class="cta-label">🔍 BÓC TÁCH THỰC THỂ VỚI PHOBERT</span>
+                    </button>
+
+                    <div id="nlp-results" class="nlp-results-box hidden">
+                        <div id="entities-container" class="entities-grid"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Floating Toast Notification -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -9,7 +9,7 @@ class GuidelineAgent(BaseAgent):
     relevant to the patient's symptoms and history.
     """
 
-    def __init__(self, rag_pipeline: Any) -> None:
+    def __init__(self, rag_pipeline: Any | None = None) -> None:
         self.rag_pipeline = rag_pipeline
         self.confidence = 0.88
 
@@ -29,11 +29,19 @@ class GuidelineAgent(BaseAgent):
         if not query:
             return context
 
-        # Retrieve guidelines
-        retrieved_guidelines = self.rag_pipeline.run(query)
-        context.guidelines = retrieved_guidelines
-        
-        # We also store it in the legacy context 'knowledge' field for compatibility
-        context.knowledge = retrieved_guidelines
-        
+        if self.rag_pipeline is None:
+            try:
+                from src.rag.pipeline import MedicalRAGPipeline
+                self.rag_pipeline = MedicalRAGPipeline()
+            except Exception:
+                self.rag_pipeline = False
+
+        if self.rag_pipeline and self.rag_pipeline is not False:
+            try:
+                retrieved_guidelines = self.rag_pipeline.run(query)
+                context.guidelines = retrieved_guidelines
+                context.knowledge = retrieved_guidelines
+            except Exception:
+                pass
+
         return context
